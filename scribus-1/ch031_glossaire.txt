@@ -1,0 +1,472 @@
+<html dir="None"><body><div id="main-content"><h1>Glossaire
+</h1>
+<p>Termes propres à Scribus et aux métiers de l'édition.
+</p>
+<h2>Album (dans Scribus)
+  <br></h2>
+<p>Scribus permet de stocker des ensembles d'objets arbitraires et de tous les types qu'il supporte dans une bibliothèque appelée Album, qui est enregistrable dans un fichier externe. C'est un complément pratique aux outils de Gabarits et Modèles de documents, à utiliser pour des objets éditables, des éléments récurrents dans la mise en page, ou pour préparer des blocs types, en quelque sorte des styles de blocs.
+</p>
+<h2>Analogique
+</h2>
+<p>La notion d'objet analogique est directement opposable à la notion d'objet numérique : il peut s'agir du même objet (par exemple un thermomètre), mais ils diffèrent radicalement par la façon dont ils représentent l'information.
+</p>
+<p>Un objet analogique représente l'information par la variation d'une mesure physique (du mercure, un signal électrique…) qui est continue, et n'a pas de plus petite unité, donc pas de résolution prédéfinie, donc potentiellement une très grande qualité. Tous les systèmes de captages d'éléments naturels sont analogiques.
+</p>
+<p>Le principal inconvénient est que dans tous les systèmes analogiques, plus une information est retransmise, plus les erreurs de transmission augmentent (distorsion, bruit de fond, pleurage, scintillement, poussière, etc.), et donc la qualité diminue. Le second inconvénient est que contrairement aux systèmes numériques, tout traitement ou retransmission de l'information doit utiliser des méthodes et des canaux spécifiques à l'information traitée.
+</p>
+<h2> Approche
+</h2>
+<p>Espace entre les caractères en typographie. L'approche est dite fixe dans les polices à chasse fixe (monochasse) comme Courrier, mais la plupart du temps les polices sont à largeur proportionnelle , c'est-à-dire que chaque caractère possède ses valeurs de chasse et d'approche, en pourcentage par rapport au cadratin. On distingue deux types d'approche : les approches de groupe, qui sont des règles générales pour l'ensemble des caractères de la police, et les approches de paires, aussi appelées crénage (ou kerning), qui sont des ajustements définis manuellement pour chaque paire de caractères, et ce dans les deux sens (par ab et ba). Si des lettres se touchent pour former un seul caractère, comme "oe", "tt", "ff" ou "fi", elles deviennent des ligatures.
+  <br></p>
+<h2>Avance
+</h2>
+<p>Voir Chasse
+</p>
+<h2>Bichromie
+</h2>
+<p>La bichromie et ses déclinaisons (monochromie, trichromie) consistent à limiter volontairement le nombre de couleurs dans le cadre d'une recherche graphique ou d'une économie de moyens
+</p>
+<p>
+</p>
+<p>La bichromie désigne donc généralement un procédé d'impression qui n'utilise que deux encres, dont en général l'encre noire. C'est un procédé moins coûteux que la quadrichromie, mais également moins répandu.
+</p>
+<p>
+</p>
+<h2> Bézier
+</h2>
+<p>Voir Courbe de Bézier
+</p>
+<h2> Cadratin
+</h2>
+<p> En typographie, le cadratin ou quadratin est une unité de mesure de longueur des espaces. Sa traduction anglaise em (de la lettre M) est utilisée comme symbole de l'unité. La règle veut que traditionnellement, dans le corps et la police utilisés, la largeur d'un cadratin soit équivalente à la chasse de la lettre M majuscule mais dans les faits ce dernier équivaut à la largeur des corps. Par exemple, dans un texte tapé en corps 11, un cadratin mesurera 11 points. L'espace entre les mots vaut généralement de 1/4 à 1/3 du cadratin en fonction de la fonte, et les différents caractères qui sont des tirets sont fixés en cadratins : le tiret long vaut un cadratin et le tiret demi-cadratin est utilisé dans les mots composés et comme symbole pour la soustraction.
+  <br></p>
+<h2>Cadre (bloc) dans Scribus
+  <br></h2>
+<p> Conteneurs génériques qui peuvent contenir n'importe quel type de contenu que Scribus supporte. On peut toujours convertir un cadre d'un type en un cadre d'un autre type à la condition d'en perdre les contenus.
+</p>
+<h2>Calque
+</h2>
+<p>Un calque est la transposition virtuelle de la feuille de calque transparent sur laquelle nous avons tous dessiné à l'école. C'est un concept commun à presque tous les logiciels d'Infographie. Un calque est une feuille insérée dans une pile de feuilles, qui en fonction de si elle est ou non transparente, laisse voir ou non les feuilles qui sont en dessous d'elle. Il peut contenir une image, un texte, ou n'importe quel objet, et permet donc de séparer, de regrouper et de trier des objets par plans (ex. : un décor en arrière-plan, un personnage au second plan, un détail au premier plan). Il y a trois choses importantes dans un calque : ce qu'il contient, ce qu'il laisse voir à travers lui par transparence, et comment il se mélange visuellement avec le(s) calque(s) qui le précèdent via son mode de fusion. Un calque peut la plupart du temps être caché, verrouillé, dupliqué, déplacé ou groupé, et parfois un masque et/ou un mode de fusion peut lui être appliqué. On se sert beaucoup plus intensivement des calques dans un logiciel de retouche bitmap comme Gimp car les objets bitmap n'ont pas d'ordre Z, au contraire des objets vectoriels.
+</p>
+<h2>Cercle Chromatique
+</h2> Scribus propose un générateur d'arrangement de couleur, Accessible via <em>Extra &gt; Cercle Chromatique</em>
+<p> Un logiciel générateur d'arrangement de couleur permet de répondre à la question "Quelle couleur va bien avec elle là ?" en proposant des arrangements de couleur sur la base des méthodes du cercle chromatique.
+</p>
+<p> <img alt="cercle_chromatique_scribus.png" src="_booki/scribus-1/static/Scribus_fr-Glossaire-cercle_chromatique_scribus-fr-old.png" height="660" width="610"></p>
+<p>Un cercle chromatique est une représentation circulaire des couleurs, qui a été mise au point par Issac Newton, puis améliorée par Goethe. Celles-ci sont ordonnées comme au sein d'un arc-en-ciel, la fermeture du cercle s'effectuant par une transition du rouge au violet via le magenta. Un cercle chromatique peut présenter les couleurs sous forme discrète (parts du cercle) ou en continu. Il arrive qu'on utilise tout le disque pour présenter les variantes soit en intensité, soit en saturation des couleurs. L'intérêt du cercle chromatique réside dans ses caractéristiques :
+</p>
+<ul><li> les couleurs primaires sont situées à 120° les unes des autres </li>
+  <li> les couleurs secondaires alternent avec les couleurs primaires et sont situées à 120° les unes des autres </li>
+  <li> la complémentaire d'une couleur lui est diamétralement opposé sur le cercle </li>
+  <li> les couleurs primaires impriment une rémanence rétinienne plus importante que les couleurs secondaires sur l'œil humain, d'où leur prépondérance dans le cercle chromatique </li>
+  <li> l'apparence du cercle dépend des couleurs primaires choisies </li>
+  <li> le cercle est indépendant du type de synthèse considéré (additive ou soustractive), seul le rôle des couleurs change </li>
+</ul> Un autre logiciel libre générateur d'arrangement de couleur indépendant, simple et bien fait est Agave.
+<p>
+</p>
+<h2>Chaînes éditoriales
+</h2>
+<p>Procédé technologique et méthodologique issu de la recherche en ingénierie documentaire qui consiste à réaliser un modèle de document, à assister les tâches de création du contenu et à automatiser leur mise en forme.En informatique, ce terme désigne un logiciel de production multimédia<strong></strong> qui facilite la tâche de création, automatise la mise en forme et permet de les publier sous différents formats en séparant le fond (le contenu) et la forme (la publication).
+</p>
+<h2>Chaîne graphique
+</h2>
+<p>Ensemble des professions ou des tâches qui interviennent de la conception à la finalisation d'un produit graphique qui sera réalisé à de multiples exemplaires par un procédé d'impression.
+  <br>Les trois principaux maillons de cette chaîne sont la création, le pré-presse et l'impression : qui procède à la production en série du produit.
+</p>
+<h2>Chapeau
+</h2>
+<p>Texte mis en avant et sorti du flux de texte dans une composition, souvent plus grand, par exemple une citation, ou un extrait sur lequel on veut insister.
+</p>
+<h2>Chasse
+</h2>
+<p>Aussi appelée Avance, elle désigne la largeur d’un caractère augmentée de ses approches. Dans une règle de police, cela correspond à la largeur type dédié à un caractère et à l'espace qui le sépare d'un autre caractère. Ainsi, on peut dire que la chasse donne le rythme au flux des caractères.
+  <br></p>
+<h2>Chasse proportionnelle
+</h2>
+<p>La chasse varie généralement selon la largeur du caractère (le "m" prend plus de place que le "i"). Il est possible de donner une règle qui contraint tout les caractères, mais ceux-ci prendront toujours une chasse qui leur est propre. Les variantes les plus courantes de chasse sont <em>condensé</em> (étroite), <em>régulier</em> (intermédiaire), <em>étendu</em> (large)
+</p>
+<h2>Chasse fixe (mono-chasse ou non proportionnelle)
+</h2>
+<p>Souvent appelé Mono (pour mon chasse), la chasse fixe renvoi à un système d'écriture qui aligne les caractères<a href="http://fr.wikipedia.org/wiki/Lettre_(typographie)" title="Lettre (typographie)" class="mw-redirect"></a> à la fois horizontalement et verticalement, selon une grille d'espace fixe, à la manière de l'alignement en rang d'une armée. Les lettres occupent alors un espace identique quelle que soit leur taille (<em>i</em> et <em>m</em> doivent prendre ici le même espace) et chaque ligne comprend un nombre constant de symboles, ce qui a pour conséquence qu'un mot peut se retrouver à cheval sur deux lignes.
+</p>
+<h2>CMJN
+</h2>
+<p>Le CMJN (Cyan, Magenta, Jaune, Noir) (en anglais <em>CMYK, Cyan, Magenta, Yellow, Black</em>) est un espace colorimétrique, et aussi un procédé d'imprimerie permettant de reproduire sur du papier ou de la toile un large spectre de couleurs à partir de trois encres de base (le cyan, le magenta et le jaune ou yellow en anglais) auxquelles on ajoute le noir (ou khol ou black). Le cyan, le magenta et le jaune, sont les trois couleurs primaires en synthèse soustractive. On obtient à partir de ces trois encres une très grande gamme de couleurs, mais il est à noter que les verts et les oranges vifs sont difficiles à reproduire, notamment en comparaison de la gamme RVB. En théorie, en mélangeant du cyan du magenta et du jaune on devrait pouvoir obtenir du noir, mais en pratique, on n'obtient qu'un marron sale, le noir est donc obtenu avec une encre supplémentaire. L'ajout du noir permet aussi de mieux contraster les images et de produire des textes plus nets. Le noir étant une couleur moins couteuse à fabriquer que les autres teintes, son utilité est non seulement d'ordre esthétique, mais aussi économique. Le CMJN est l'espace colorimétrique des imprimeurs par excellence.
+</p>
+<h2>Couler (un texte)
+</h2>
+<p>Importer et mettre en forme progressivement un texte dans une mise en page pour lui donner sa typographie définitive.
+  <br></p>
+<h2>Courbes de Bézier
+</h2>
+<p>En 1962, l'ingénieur français Pierre Bézier inventa les Courbes de Bézier pour pouvoir décrire des pièces d'automobile à l'aide d'ordinateurs. Depuis les courbes de Bézier sont devenues la méthode la plus précise et la plus puissante pour décrire des courbes de façon géométrique en Infographie, et toute l'illustration vectorielle est basée sur leur usage.
+</p>
+<p>Le principe est simple : une courbe est définie par au moins deux points par lesquels elle passe. chaque point possède zéro, un ou deux vecteurs. Chaque vecteur influence plus ou moins la courbe en fonction de sa direction et de sa longueur. Ainsi s'il n'y a pas de vecteur, l'influence est nulle et la courbe tend vers la ligne droite. S'il y a un vecteur très long, il a beaucoup d'influence. Enfin, la direction du vecteur influence la direction de la courbe.
+</p>
+<p> <img alt="Bezier.png" src="_booki/scribus-1/static/Scribus_fr-Glossaire-Bezier-fr-old.png" height="789" width="645"></p>
+<p>Cette somme d'influences (points et longueur et direction des vecteurs) permet de dessiner n'importe quelle forme géométrique, simple ou très complexe, avec plus ou moins de points.
+</p>
+<p>Si la courbe rejoint son point d'origine, alors on parle de tracé fermé (puisqu'il boucle sur lui même, et définit un espace clos), et l'on peut dessiner une surface de Bézier dans le tracé, appelé plus simplement "remplissage" dans les logiciels de dessin vectoriel.
+</p>
+<p>Un objet vectoriel est donc toujours représenté par un contour (qui est le tracé des courbes de Bézier lui-même), et éventuellement un remplissage (qui est la surface de Bézier obtenu à partir des courbes de Bézier), qui peuvent chacun recevoir leurs propres attributs (couleurs, dégradés, motif…).
+  <br></p>
+<p>
+</p>
+<h2>Corps
+</h2>
+<p>Taille d'une fonte de caractères, mesurée en points typographiques : par exemple un texte en corps 10 est un texte composé dans une police dont le corps est de 10 points.
+</p>
+<p>Le corps typographique définit la hauteur d'un caractère imprimé quelle que soit sa famille, sa fonte… Il s'exprime en points typographiques et comprend la hauteur totale du caractère, du pied du jambage jusqu'au haut de la hampe. C'est un des paramètres importants sur lequel on peut jouer quand on manque d'espace dans une mise en page.
+</p>
+<h2>Cotation
+</h2>
+<p>Mesure des photographies ou des illustrations pour déterminer dans quelles proportions il faut les agrandir ou les réduire aux fins de reproduction.
+</p>
+<h2>Encombrement
+</h2>
+<p>Dimension en hauteur d'un texte composé, et espace occupé par les sources dans une composition.
+</p>
+<p>
+</p>
+<h2>Empattements
+</h2>
+<p>Petites extensions qui forment la terminaison des caractères dans certaines polices d'écriture. Initialement, les empattements proviendraient de la trace laissée par l'outil (plume, pinceau, etc.) lorsque la main s'élève en achevant le geste d'écriture. Parallèlement, les romains sculptaient les lettres capitales lapidaires avec de légers empattements pour accentuer les jeux de lumière dans la gravure sur pierre en creux et augmenter la clarté des formes monumentales, lues et vues d'une grande distance.
+  <br></p>
+<h2>Épreuve et épreuvage
+</h2>
+<p>En imprimerie, ce terme désigne le texte imprimé tel qu'il sort de la composition. Les épreuves permettent de tester une mise en page et de contrôler la qualité du rendu avant de passer à l'impression proprement dite.
+  <br></p>
+<h2>Espace colorimétrique
+</h2>
+<p>Encore appelé <em>mode colorimétrique</em>, ou <em>espace de couleur, l'espace</em> associe des nombres aux couleurs visibles. Compte tenu des limites de la vision humaine, ces nombres se présentent généralement sous la forme de triplets. Chaque couleur de lumière peut donc être caractérisée par un point dans un espace à trois dimensions. Lors d'une impression, pour des raisons liées à la qualité des pigments, l'espace utilisé comporte alors généralement au moins quatre dimensions.
+</p>
+<h2>Façonnage
+</h2>
+<p>
+</p>
+<p>En imprimerie, le façonnage est l'étape finale en fin d'impression. C'est une série d'actions mécaniques ou manuelles qui vont donner à l'ouvrage son aspect final.
+</p>
+<p>Elle est composée d'étapes de pliure, de massicotage, d'assemblage, de reliure (grecquage) et collage. Les principales questions que résout le façonnage sont les questions de marges et de bords perdus (on recoupe les bords au massicot), et les questions de plis et de reliure : Où plier, comment gère-t-on le recto-verso, etc. Bien sûr ces questions doivent être résolues aux étapes de mise en page et l'imposition, avant l'impression, sous peine de ne tout simplement pas fonctionner, le façonnage n'étant que leur exécution.
+</p>
+<p>
+</p>
+<h2>Fond perdu
+</h2>
+<p> Quand on prépare un document pour l'impression, il faut tenir compte des marges de l'imprimante, mais aussi d'un éventuel bord ou fond perdu : il représente la partie de la feuille de papier qui est perdue au massicotage.
+</p>
+<p>La plupart des imprimantes ne pouvant pas imprimer sur l'ensemble du format, et ayant besoin de marges, utiliser un format plus grand que l'on recoupe ensuite permet d'imprimer des objets dans ce qui aurait été la marge, et donc de faire disparaître la contrainte des marges au prix de plus de papier. On utilise principalement cette méthode pour imprimer des éléments au bord de la feuille, et ainsi éviter l'apparition d'espaces ou de lignes blanches sur les bords, due aux marges d'impression.
+</p>
+<p>On note les fonds perdus avec des repères conventionnels, dits traits de coupes.
+</p>
+<h2>Format de papier
+</h2>
+<p>Il existe de nombreux formats de feuilles de papier. Ceux-ci ont évolué au cours du temps et des régions où ils étaient en vigueur, jusqu'à nos jours où les formats définis par la norme ISO 216 dominent, suivi par les formats régionaux.
+</p>
+<p>Dans le format international, développé en 1922 par l'ingénieur allemand Dr. Walter Porstmann, le rapport de la longueur à la largeur de la feuille vaut la racine carrée de deux (soit approximativement 1,414213). Ce rapport a la propriété de se conserver lorsqu'on plie ou coupe la feuille en deux dans sa grande dimension. En effet, on passe du format Ax au format Ax + 1 en pliant la feuille Ax dans la grande dimension. Cela permet de mettre à l'échelle des mises en page sans forcément la changer, donc de réduire ou d'agrandir le format facilement et rapidement. Les formats A sont les formats les plus utilisés, bien qu'il existe aussi toute sorte d'autres formats qui respectent les mêmes règles de construction, nommés B, C, D … 
+</p>
+<p> <img alt="A_size_illustration2_with_letter_and_legal.png" src="_booki/scribus-1/static/Scribus_fr-Glossaire-A_size_illustration2_with_letter_and_legal-fr-old.png" height="819" width="600"></p>
+<p>Des formats non normalisés, appelés souvent A+ ou SRA, sont utilisés pour produire des formats A avec du bord perdu. comme ces formats ne sont pas standardisés, il ne faut pas oublier les traits de coupes. Le format le plus utilisé (A4, 210x297 mm) dans son grammage le plus utilisé (80g/m2) correspond à une feuille d'une masse de 5 grammes, ce qui permet de calculer une estimation rapide du poids d'un document.
+</p>
+<p>Cette norme ISO est utilisée dans tous les pays du monde, sauf les États-Unis et le Canada, qui utilisent plutôt le format lettre (279 × 216 mm), pour des raisons historiques.
+</p>
+<h2>Graisse
+</h2>
+<p>La graisse est l'épaisseur d'un trait ou d'un caractère. En augmentant la graisse d'un caractère maigre, on obtient un caractère demi-gras, puis gras, et ainsi de suite. Ci-dessous un exemple avec la police Helvetica, d' « ultra-léger » à « noir ».
+</p>
+<h2>Gabarits
+</h2>
+<p>Le gabarit (aussi appelle<em> template</em> ou <em>layout</em>) est un document préformaté mis en page, mais vide de contenu, que l'on utilise de manière répétitive pour créer des documents présentant une même structure. Dans Scribus, le gabarit est un "arrière-plan" qu'on peut appliquer aux pages de vos documents. Typiquement, il contient des éléments graphiques, le titre du document ou le numéro de page.
+  <br></p>
+<h2>Gamut
+</h2>
+<p> Un <em>gamut</em> est un sous-ensemble de couleurs dans l'ensemble des couleurs que la physique décrit, lié aux contraintes d'un matériau. On peut citer par exemple l'ensemble de couleurs visibles par l'œil humain, ou le gamut d'une imprimante, c'est-à-dire l'ensemble des couleurs qu'une imprimante peut produire. Très souvent on associe un <em>gamut</em> à un espace colorimétrique, qui en est la transposition mathématique ou numérique. Ainsi une imprimante produit un <em>gamut</em> à partir d'encres cyan, magenta, jaune et noir, et on représente mathématiquement l'ensemble de ces nuances dans un espace numérique CMJN. Mais un <em>gamut</em> n'est pas forcement lié à un espace colorimétrique, il suffit que ce soit un ensemble de couleurs théoriques défini.
+</p>
+<h2>Gouttière 
+</h2>
+<p> Espace entre deux colonnes dans une mise en page en colonnes. La gouttière est souvent indispensable d'aérer la composition.
+  <br></p>
+<h2>Gris typographique
+</h2>
+<p> Le gris typographique est l'impression produite sur l'œil par la vision générale d'un texte ; on parle aussi de couleur du texte. Il ne s'agit pas de sa couleur au sens de la teinte des pigments colorant les caractères, mais au sens de la densité moyenne du gris, résultat optique de la juxtaposition de multiples caractères noirs sur fond blanc (le concept s'étend bien sûr à d'autres couleurs que le noir).
+</p>
+<p>Le gris typographique conditionne la première impression qu'un lecteur a d'un texte et surtout l'aisance avec laquelle ce lecteur pourra le lire ; il se doit donc d'être en accord avec les règles typographiques.
+</p>
+<p>Les différents facteurs qui influencent le gris typographique et son homogénéité sont la police, le corps, l'interlignage, la graisse, la casse, la chasse, la justification et l'approche. L'homogénéité du gris d'un bloc de texte est souvent appréciée en plissant les yeux pour "flouter" le texte et mieux percevoir les variations. S'il y a trop de taches sombres ou trop de taches claires dans l'image créée, c'est que le gris n'est pas harmonieux.
+</p>
+<h2>HSL ou HSV
+  <br></h2>
+<p> voir TSL
+  <br></p>
+<h2>Image bitmap ou matricielle ou encore raster
+</h2>
+<p>Il existe deux grands types d'images numériques en deux dimensions, à savoir les images bitmap (ou matricielles, ou encore raster), et les images vectorielles.
+</p>
+<p>Les images bitmap (littéralement carte de pixels en anglais) sont les plus répandues, car c'est le type qui est le plus simple à décrire et celui que l'on obtient le plus facilement par la numérisation d'information analogique (photo, dessin, film, etc.). Le principe est que l'on décrit l'image dans un tableau de coordonnés cartésiens (abscisse "x", ordonnée "y"), et pour chaque valeur (bit) ou cellule du tableau on associe une valeur colorimétrique.
+</p>
+<p>Ainsi, par exemple, on aura en x1, y1, un pixel noir (r0, v0, b0), puis en x2, y2, un pixel gris foncé (r30, v30, r30), etc. La principale conséquence, qui est propre au numérique, c'est que l'image ainsi décrite aura une résolution figée, qui ne doit pas être insuffisante (sous peine de voir se dessiner les pixels, c'est-à-dire de détruire l'illusion) ni trop grande si l'on veut pouvoir la transformer facilement (opérations de calculs trop longues).
+</p>
+<p>Gimp est fait pour traiter les images bitmap, même si Scribus les manipule aussi. Les formats d'images bitmap les plus répandus sont le JPEG, le PNG, le GIF et le TIFF.
+</p>
+<h2>Image vectorielle
+</h2>
+<p>Il existe deux grands types d'images numériques en deux dimensions, à savoir les images bitmap (ou matricielles, ou encore raster), et les images vectorielles.
+</p>
+<p>Les images vectorielles sont décrites de façon géométrique, et redessinées à chaque affichage (via des pixels) ou à chaque impression (via des points). Par exemple pour décrire un cercle, on utilise les coordonnées de son centre et la dimension de son rayon pour le dessiner.
+</p>
+<p>En dehors des formes géométriques classiques (appelées primitives), on utilise généralement des courbes de bézier pour décrire les objets (des alternatives, mais qui produisent seulement des courbes, sont les spiro splines et les NURBS).
+</p>
+<p>La principale et la plus heureuse conséquence est que les images décrites ainsi n'ont pas résolution figée, puisque la résolution est redessinée à la demande. On parle d'images indépendantes de la résolution : l'image agrandissable et modifiable à l'infini sans qu'elle "pixelise". Le principal défaut est qu'il est difficile d'obtenir des effets de matière (grain, texture, etc.) avec des images vectorielles autrement que via la répétition de motifs ou l'usage de dégradés, mais par contre des traits nets sont très faciles à obtenir. Inkscape est fait pour traiter les images vectorielles, et est conforme au standard SVG, même si Scribus est capable de les manipuler aussi
+</p>
+<p>Par nature, un dessin vectoriel est dessiné à nouveau à chaque visualisation, ce qui engendre des calculs sur la machine. L'inconvénient est que pour atteindre une qualité réaliste, il faut pouvoir disposer d'une puissance de calcul importante et de beaucoup de mémoire.
+  <br></p>
+<p>Les formats d'images vectorielles les plus répandus sont le SVG, le PostScript, l'EPS et l'AI.
+</p>
+<h2>Imposition
+</h2>
+<p>En imprimerie et en mise en page, l'imposition consiste à placer sur une grande feuille (la forme) les pages d'un ouvrage afin d'obtenir un cahier lors de son pliage, ou à organiser leur enchaînement en vue de l'impression et du façonnage. On appelle "chemin de fer" le plan d'enchaînement des pages dans l'imposition.
+</p>
+<p>Pour les livrets et les magazines, le nombre de pages est un multiple de 4, et les formes d'imposition se composent généralement de 4, 8, 16 ou 32 poses et sont gérées en signatures (recto et verso). Les pages sont alors gérées deux à deux. Pour un cahier de 16 pages, par exemple, on assemblera les pages 16 et 1 ensemble pour le recto, puis 2 et 15 pour le verso, et ainsi de suite. La méthode de reliure détermine le mode d'imposition (tête à tête, tête à pied).
+</p>
+<p>Pour faire une imposition, il faut :
+</p>
+<ul><li>connaître le format fini </li>
+  <li>connaître le format de la feuille d'impression </li>
+  <li>calculer l'empagement en tenant compte de la catégorie </li>
+  <li>connaître la machine à imprimer et sa prise de pinces
+  <br></li>
+  <li>prévoir la répartition des éléments à imposer
+  <br></li>
+  <li>et enfin prévoir les différents façonnages et finitions </li>
+</ul><p>Une technique pratique pour les documents dont les pages sont un multiple de 4 est d'écrire le chemin de fer sur un bout de papier en numérotant les pages en Zig-zag. Par exemple pour 16 pages :
+</p>
+<p>16 - 1
+  <br> 2 - 15
+  <br> 14 - 3
+  <br> 4 - 13
+  <br> 12 - 5
+  <br> 6 - 11
+  <br> 10 - 7
+  <br> 8 - 9
+  <br></p>
+<p> L'imposition est un exemple typique d'opération d'exécution technique en Infographie.
+  <br></p>
+<h2>Imprimerie
+  <br></h2>
+<p>L'imprimerie est un ensemble de technologies permettant de reproduire des écrits et des illustrations en grande quantité sur des supports plans, généralement du papier, et pouvoir ainsi les distribuer à grande échelle.
+</p>
+<p>Les techniques vont de la composition des textes au façonnage (reliure, pliure…) en passant par l'impression et la relecture. Dans la chaîne graphique, l'imprimeur a la charge de la mise en œuvre de la production en série du document et du contrôle qualité final.
+</p>
+<p>On attribue l'invention de l'imprimerie à Guttenberg, et cette invention a été une révolution technologique et culturelle majeure, comparable à celle de la roue, de l'électricité ou de l'informatique. L'histoire et la diversité des techniques d'imprimerie sont beaucoup trop vastes pour être traitée ici, et il est conseillé de se renseigner plus en détail sur les imprimantes que vous utilisez quotidiennement.
+</p>
+<p>Ce qu'il faut savoir est qu'il y a deux grands types d'imprimantes : celles qui ont une forme imprimante, c'est à dire où la mise en page est d'abord reproduite en négatif sur un support (caractères de métal, plaque de cuivre ou d'inox, caoutchouc, toile qui a reçu un filtre chimique, etc.) et celles qui n'ont pas de forme imprimante (la forme est obtenue numériquement et ensuite on jette de l'encre, on utilise un laser, ou encore des procédés thermiques, …).
+</p>
+<p>Parmi les procédés qui ont une forme imprimante on peut citer l'offset (qui produit le plus gros volume d'imprimés), l'héliogravure, la flexographie, la sérigraphie, la tampographie et le stencil.
+</p>
+<p>Parmi les procédés qui n'ont pas de forme imprimante on peut citer le jet d'encre (type d'imprimante que l'on retrouve le plus souvent en bureautique), l'éléctrophotographie (ou xérographie, autrement dit la photocopie !) et l'impression thermique.
+</p>
+<p>Il y a une autre chose qu'il faut savoir, quand vous voulez imprimer un document chez un professionnel de l'imprimerie, c'est qu'il y a deux grands groupes : les imprimeurs et les reprographes. Les imprimeurs utilisent des imprimantes avec des formes imprimantes sur beaucoup de supports différents, qui coûtent cher au départ, mais qui sont de bonne qualité, et dont le prix se réduit dès que l'on produit de grandes quantité (plus de 1000). Les reprographes utilisent des imprimantes sans formes imprimantes (en général la photocopie noir et blanc et couleur) uniquement sur support papier, sont peu chers à l'unité (donc à privilégiés pour les petites quantités), et s'adressent au grand public, donc ont en général moins de temps à consacrer à la qualité. Pour les opérations de façonnage, il vaut mieux s'adresser à un imprimeur, même si des opérations de façonnage simple (Massicotage, 1 pli) sont en général disponibles chez les reprographes.
+</p>
+<h2>Ligature
+</h2>
+<p> En typographie, il arrive que des difficultés de chasse ou d'approche soient difficiles à résoudre, et que certaines combinaisons de lettres se touchent comme "oe", "tt", "ff" ou "fi" en raison d'une graphie particulière. On résout cette difficulté en formant un seul caractère à partir de deux : ces caractères sont des ligatures.
+  <br></p>
+<h2> Modes colorimétriques
+</h2>
+<p>voir Espace Colorimétrique
+</p>
+<p>
+</p>
+<h2>Mono ou monochasse
+</h2>
+<p>Voir Chasse fixe
+</p>
+<h2>Monochromatique
+</h2>
+<p>Voir Bichromatique
+  <br></p>
+<h2>Norme ISO
+</h2>
+<p>Norme industrielle ou commerciale définie par l'Organisation internationale de la Normalisation (<span class="lang-en" lang="en">International Organization for Standardization).</span>
+</p>
+<h2>Numérique
+</h2>
+<p>
+</p>
+<p>La notion d'objet numérique est directement opposable à la notion d'objet analogique : il peut s'agir du même objet (par exemple un thermomètre), mais ils diffèrent radicalement par la façon dont ils représentent l'information.
+</p>
+<p>Un objet numérique représente l'information selon une échelle discrète et discontinue de valeurs abstraites et arbitraires (binaire, métrique, etc.), et a donc une plus petite unité au-delà de laquelle toute information est perdue.
+</p>
+<p>Cela aboutit directement à la notion de résolution, c'est-à-dire à l'échelle et à la quantité d'informations que contient un objet numérique. Énormément de systèmes d'information modernes ont adopté les systèmes numériques, principalement parce qu'une information numérique est facilement transmissible et convertible sans perte d'un système numérique à l'autre, quelle que soit leur unité.
+</p>
+<p>Le principal inconvénient est que toute perte de résolution est définitive à moins de pouvoir revenir à l'étape antérieure, le second étant que plus la résolution de l'information est grande, plus la puissance de calcul nécessaire à la traiter doit grandir.
+</p>
+<p>Pour l'Infographie, qui est née de cette révolution numérique, cela implique que toute image et toute opération sur une image sont descriptibles mathématiquement, avec les avantages (automatisation, virtualisation, etc.) et les inconvénients (pas d'accidents ou d'aléatoire qui ne soit prévu, disparition de la matière, etc..) que cela entraîne.
+</p>
+<p>
+</p>
+<h2>Numérisation
+</h2>
+<p>Action de numériser, c'est-à-dire de transformer une information analogique en information numérique en la discrétisant. Le scanner est un outil adapté à la numérisation de document.
+</p>
+<h2>Offset
+</h2>
+<p> L'offset (de l'anglais to set off, reporter) est un procédé d'impression qui est en fait une amélioration de son ancêtre, la lithographie, par le remplacement de la pierre lithographique par une plaque cintrable, adaptée à un cylindre, et l'ajout d'un blanchet entre le cylindre porte-plaque et le papier.
+</p>
+<p>Le procédé offset est actuellement le procédé majeur d'impression. Son succès est dû à sa souplesse et sa capacité à s'adapter à une large variété de produits. L'offset permet de couvrir une gamme de tirages relativement large. En effet, il est rentable jusqu'à quelques centaines de milliers d'exemplaires. Au-delà on lui préférera l'héliogravure.
+</p>
+<p>De plus, ce procédé d'impression fournit des produits de qualité, à un coût relativement faible. Parmi ses applications, on notera les publications de tous genres (presses quotidiennes et périodiques, publicité, livres, catalogues, brochures...), des emballages (cartons, étiquettes...). L'impression est également possible sur divers supports (papier et carton, polymère, métaux). (issu de l'article de Wikipédia).
+</p>
+<p>Voir aussi "Imprimerie".
+  <br></p>
+<h2>PAO
+</h2>
+<p>La Publication Assistée par Ordinateur désigne l'ensemble des procédés informatiques permettant de fabriquer des documents destinés à l'impression.
+</p>
+<h2>Police
+</h2>
+<p>Une police d'écriture ou de caractère est un ensemble coordonné de glyphes, c'est-à-dire de caractères typographiques d'une même famille, déclinés en tailles différentes et variantes stylistiques et qui forment un alphabet complet et cohérent. Ce terme à consonance juridique désignait à l'origine la règle qui définissait la logique d'écriture de tout un ensemble de caractère formant un alphabet. À l'époque de la typographie au plomb, l'ensemble des caractères formant tout un alphabet était rassemblé dans une casse typographique (un petit tiroir).
+</p>
+<h2>Pré-presse
+</h2>
+<p>Le pré-presse désigne en général la phase de "production" dans la chaîne graphique, où la création est finalisée par le maquettiste et où tous les problèmes techniques éventuels sont réglés en amont de l'impression, pour assurer la qualité du résultat final.
+</p>
+<h2>Profils ICC (profils colorimétriques)
+</h2>
+<p>Les profils ICC sont des fichiers numériques (formats .icc et .icm) décrivant la manière dont un périphérique informatique (moniteur, scanner, imprimante …) restitue les couleurs. Le projet, mené par l'International Color Consortium (ICC), a pour but de permettre aux professionnels de l'Infographie de maîtriser le rendu des couleurs tout au long de la chaîne graphique. Le principe est le suivant : on mesure le gamut de couleur d'un périphérique (on scanne une charte, on sonde un moniteur, on imprime une charte puis on l'analyse avec un spectrocolorimètre …), lié à un espace colorimétrique (RVB ou CMJN). Puis on stocke ces données de couleurs dans un profil ICC (donc c'est une liste de couleurs dans un espace colorimétrique RVB ou CMJN) qui sont mises en correspondance dans le fichier avec les mêmes couleurs dans un espace colorimétrique indépendant des périphériques (Lab ou TSL). Un profil ICC est donc une table de conversion des couleurs d'un périphérique vers des couleurs indépendantes des périphériques. Une fois les profils créés pour l'ensemble de la chaîne graphique (et ils ne sont pas vains qu'à cette condition), on peut donc convertir les couleurs assez fidèlement d'un périphérique à l'autre via un espace colorimétrique indépendant qui sert de référence. En théorie, cette méthode permet donc de contrôler la couleur à toutes les étapes de création et de production, et ainsi d'éviter de nombreuses surprises. Cependant dans les faits on se heurte à trois problèmes. La mesure des périphériques pour définir leur profil ICC est longue, complexe et coûteuse, malgré la mise en place de standards. Sauf en de rares exceptions, la chaîne graphique n'est pas connue de bout en bout (on change d'imprimeur, ou le graphiste n'est pas le même, ou encore on ne sait pas avec quel scanner ce document a été numérisé… et tout le travail est à refaire). Il y a des paramètres qui échappent aux profils ICC : la lumière ambiante modifie la perception que l'on a d'un écran, une même imprimante avec les mêmes encres et le même fichier n'imprime pas exactement la même couleur en fonction de la température des encres, le papier peut changer, etc. Dans les faits, les profils ICC sont donc généralement peu ou mal utilisés. La quête de la couleur n'est pas achevée.
+</p>
+<h2>RVB
+</h2>
+<p>Rouge, Vert, Bleu abrégé RVB ou RGB de l'anglais <em>Red Green Blue</em>, est un espace colorimétrique codant des couleurs, utilisé pour l'affichage sur écran, en vidéo, et en éclairage scénique. Dans cette méthode, on mélange de la lumière plutôt que des encres, pour obtenir un large spectre colorimétrique. Ces trois couleurs sont les couleurs primaires en synthèse additive. Elles correspondent en fait à peu près aux trois longueurs d'ondes auxquelles répondent les trois types de cônes de l'œil humain. L'addition des trois donne du blanc. C'est la méthode d'affichage de la couleur de tous les supports numériques. Néanmoins dans les logiciels d'Infographie, manipuler ces valeurs n'est pas forcement aisé, et on lui préfère en général des méthodes alternatives telles que la méthode TSL, plus facile à appréhender, même si le cœur du système est bien produit en RVB.
+</p>
+<h2>Repères
+</h2>
+<p>Les repères sont des lignes invisibles à l'impression qui vous aident à conférer un aspect ordonné et homogène à vos documents. Ceci vaut à l'intérieur du document et entre des documents "similaires" (placement de logos, etc.). Les repères sont un des éléments fondamentaux des gabarits et facilitent largement le placement du contenu par le metteur en page.
+</p>
+<h2>Résolution
+</h2>
+<p>La résolution d'une image est le rapport entre sa définition et sa surface, quel que soit le support utilisé. La définition est la quantité d'information découpée en unités élémentaires, généralement des pixels pour les écrans, et des points d'imprimante (dots) pour les supports imprimés.
+</p>
+<p>Tout le jeu de la résolution est d'être assez grande (c'est-à-dire avoir une définition suffisante dans une surface donnée) pour donner à l'œil humain l'illusion, à une distance du support donnée, de la continuité en lui cachant sa structure élémentaire (pixels ou points). Ainsi une image peut avoir une résolution très faible, mais si on en est suffisamment loin celle-ci pourra être suffisante (pas besoin d'imprimer une affiche AO à plus de 25 dpi, puisqu'elle est faite pour être vue à plus de 3 mètres).
+</p>
+<p>Il faut bien comprendre que la problématique de la résolution est fortement liée à celle du numérique, qui découpe l'information, et à des techniques d'impression qui utilisent des trames, c'est à dire de l'information binaire (tout ou rien). Comme dans les deux cas on a une unité extrêmement simple, on doit jouer sur sa quantité pour apporter de la finesse et du détail.
+</p>
+<p>Pour exprimer la résolution on utilise deux unités, qui sont dépendantes du support, et exprimées en unité par pouce (1 pouce = 2.54 cm) : le pixel per inch (ppi) pour les images numériques sur écran où l'unité élémentaire est le pixel, et le dot per inch(dpi) pour les images imprimées où l'unité élémentaire est le point d'imprimante. On utilise les termes anglais (ppi et dpi) plutôt que leur traduction en français (pixels par pouce et point par pouce) car celle-ci génère des confusions (ppp ≠ ppp).
+</p>
+<p>Pour convertir une image d'une unité à l'autre (et donc d'un support à l'autre), il faut tenir compte de deux problèmes potentiels : la résolution (c'est à dire la quantité d'information) et la structure de l'information (les pixels sont dans une grille bitmap, les points sont répartis dans une trame), en plus des éventuels problèmes de couleur. Pour contourner ces problèmes quant on imprime une image numérique, il faut que la grille de pixel soit au moins égale à la trame d'imprimante, ou à deux fois sa linéature. Si elle est inférieure, des pixels se dessineront à l'impression, ce qui arrive régulièrement quand on ne vérifie pas la résolution des images bitmaps trouvées sur Internet (qui sont pour la plupart à 72 ppi).
+</p>
+<p>Le tableau suivant donne une approximation et un résumé rapide, en fonction de la qualité que vous cherchez à obtenir, bien qu'en réalité tout dépende des périphériques utilisés :
+</p>
+<p>
+  </p><table border="1" cellpadding="1" cellspacing="1"><tbody><tr><td>Linéature (imprimante)</td>
+      <td> Dpi (résolution d'imprimante, ± 2x la linéature) </td>
+      <td>Ppi (résolution à l'écran)</td>
+      <td>Qualité de Rendu</td>
+    </tr><tr><td>60 lpi</td>
+      <td>±120 dpi </td>
+      <td>120 ppi </td>
+      <td>Bulletins</td>
+    </tr><tr><td>75 lpi</td>
+      <td>±150 dpi</td>
+      <td>150 ppi</td>
+      <td>Journaux </td>
+    </tr><tr><td>150 lpi</td>
+      <td>±300 dpi</td>
+      <td>300 ppi</td>
+      <td>Revues en quadrichromie</td>
+    </tr><tr><td>300 lpi</td>
+      <td>±600 dpi</td>
+      <td>600 ppi</td>
+      <td>Livres d'Art </td>
+    </tr><tr><td>600 lpi</td>
+      <td>±1200 dpi</td>
+      <td>1200 ppi</td>
+      <td>Inutile, sauf trait noir </td>
+    </tr></tbody></table> 
+Pour l'impression, il n'est en général pas nécessaire d'aller au-delà de 300 dpi, sauf si on veut faire ramer son ordinateur et son imprimante. Une résolution de plus de 600 dpi est complètement inutile, sauf éventuellement pour produire du trait noir très dense (sans nuances grises), par exemple pour de la bande dessinée.
+<p>
+</p>
+<h2>Séparation des couleurs
+</h2>
+<p>Procédé photographique et d'imprimerie utilisant des filtres pour permettant d'isoler les couleurs de base qui serviront à la reproduction. Par exemple séparer le Cyan, le Magenta, le Jaune et Noir d'une image pour préparer l'impression.
+</p>
+<h2>Scripts 
+</h2>
+<p> Un script<strong></strong> est un petit programme qui permet d'exécuter une tâche. Un script est en fait une série d’instructions inscrites dans un simple fichier texte. Le lancement du script déclenche des tâches automatiquement. Ces tâches pourraient être exécutées par l’utilisateur lui-même, mais qui sont soit une suite difficile à mémoriser soit des instructions pour réaliser une tâche répétitive, ce qui devient lassant à réaliser.
+</p>
+<h2>Serif
+</h2>Voir Empattements 
+<h2>Sla
+</h2>
+<p>Le <em>.sla</em> est le format de données source de Scribus. Spécification ouverte et basé sur une structure XML, il peut être ouvert et corrigé comme un simple fichier texte.
+</p>
+<h2>Sources
+</h2>
+<p> Ensemble des éléments iconographiques (photos, illustrations, graphiques, etc.) et textuels entrant dans la mise en page d'un document.
+</p>
+<h2>Tétradique
+</h2>
+<p>Dans le cercle chromatique, une tétradique est une complémentaire double, permettant d'obtenir 4 couleurs par paire de deux. Voir Cercle Chromatique.
+  <br></p>
+<h2>Tirage
+</h2>
+<p>Synonyme d'imprimer, ou d'un imprimé : en imprimerie le tirage désigne le fait d'imprimer sur papier un document ou le nombre de documents ainsi imprimés.
+</p>
+<h2>TSL
+</h2>
+<p>TSL (Teinte, Saturation, Luminosité) ou HSL (hue, saturation, light) ou HLS (hue, light, saturation) est un espace colorimétrique codant des couleurs.
+</p>
+<p> <img alt="HSL.png" src="_booki/scribus-1/static/Scribus_fr-Glossaire-HSL-fr-old.png" height="600" width="564"></p> <address>Source de l'image : Wikimedia Commons, par Wing, licence GFDL, <a href="http://commons.wikimedia.org/wiki/File:Color_cones.png">http://commons.wikimedia.org/wiki/File:Color_cones.png </a>
+<br></address>
+<p>Contrairement aux espaces RVB et CMJN, le système TSL est une représentation de la couleur indépendante du support, symbolisée par un cône avec trois axes (Teinte, Saturation, Luminosité). On code la teinte dans un axe circulaire suivant l'angle qui lui correspond sur le cercle des teintes, on code la saturation (qui est comparable à la densité de pigmentation) sur un axe horizontal (depuis le gris neutre jusqu'à la couleur "pure", vraiment "pétante"), et on code la luminosité sur un axe vertical (du noir, luminosité la plus faible, au blanc, luminosité maximale permise par le support). La teinte a pour correspondance physique la longueur d'onde de la couleur pure.
+</p>
+<p>On remarquera que dans cet espace, pour une saturation nulle, la teinte est indéfinie, ce qui permet de ne jouer que sur la luminosité pour choisir dans des gammes de gris. Une fois compris, ce système de présentation des couleurs s'avère très efficace pour choisir des couleurs selon des axes très pertinents.
+</p>
+<p>Finalement assez intuitif et proche des besoins pratiques, il est largement utilisé en Infographie.
+</p>
+<h2> Tons directs
+</h2>
+<p>Couleur "personnalisée", souvent matérialisée par une encre spéciale, qui d'imprimer une teinte directement sans passer par l'utilisation du spectre CMJN en imprimerie. Par exemple une couleur "dorée" est difficile à obtenir en CMJN, utiliser une encre séparée spécialement pour est en général une bonne solution.
+  <br></p>
+<p>Dans Scribus, on peut cocher [Ton direct] dans la boîte de dialogue d'[Édition des couleurs] lorsque l'on créé ou modifie une couleur, et lui donné un équivalent en CMJN pour la visualiser, et pour la remplacer si jamais l'encre spéciale n'était finalement pas disponible au moment du tirage.
+  <br></p>
+<h2>Typographie 
+</h2>
+<p>La typographie désigne les différents procédés de composition et d’impression utilisant des caractères et des formes en relief. La typographie est à l’origine l’art d’assembler des caractères mobiles afin de créer des mots et des phrases et de les imprimer. Cette technique a été mise au point vers 1440 par Gutenberg, qui n’a pas inventé l’imprimerie à caractères mobiles, mais un ensemble de techniques conjointes : les caractères mobiles en plomb et leur principe de fabrication, la presse typographique, et l’encre grasse nécessaire à cet usage.  (issu de l'article de Wikipédia
+</p>
+<p>
+</p>
+<br><p>
+</p>
+</div><ul Class="menu-goes-here"><li><a href="/scribus-1/index">Testi</a></li>
+<li><a href="/scribus-1/ch001_introduction">Introduction</a></li>
+<li><a href="/scribus-1/ch002_prerequis">Prérequis</a></li>
+<li><a href="/scribus-1/ch003_prise-en-main">Prise en main</a></li>
+<li><a href="/scribus-1/ch004_exemples-dutilisation">Exemples d'utilisation</a></li>
+<li><a href="/scribus-1/ch005_a-propos-de-ce-livre">À propos de ce livre</a></li>
+<li><a href="/scribus-1/ch006_creer">Creer</a></li>
+<li><a href="/scribus-1/ch007_commencer-par-la-fin">Commencer par la fin</a></li>
+<li><a href="/scribus-1/ch008_les-chaines-editoriale-et-graphique">Les Chaînes éditoriale et graphique</a></li>
+<li><a href="/scribus-1/ch009_preparer-les-sources">Préparer les sources</a></li>
+<li><a href="/scribus-1/ch010_format">Format</a></li>
+<li><a href="/scribus-1/ch011_choix-des-couleurs">Choix des couleurs</a></li>
+<li><a href="/scribus-1/ch012_choix-des-polices">Choix des polices</a></li>
+<li><a href="/scribus-1/ch013_organiser">Organiser</a></li>
+<li><a href="/scribus-1/ch014_organiser-ses-fichiers">Organiser ses fichiers</a></li>
+<li><a href="/scribus-1/ch015_gabarits">Gabarits</a></li>
+<li><a href="/scribus-1/ch016_composition">Composition</a></li>
+<li><a href="/scribus-1/ch017_feuilles-de-style">Feuilles de style</a></li>
+<li><a href="/scribus-1/ch018_les-scripts">Les scripts</a></li>
+<li><a href="/scribus-1/ch019_produire">Produire</a></li>
+<li><a href="/scribus-1/ch020_importer-texte-et-image">Importer Texte et Image</a></li>
+<li><a href="/scribus-1/ch021_typographie">Typographie</a></li>
+<li><a href="/scribus-1/ch022_habillage-et-typographie">Habillage et typographie</a></li>
+<li><a href="/scribus-1/ch023_gestion-des-couleurs">Gestion des couleurs</a></li>
+<li><a href="/scribus-1/ch024_le-controle-de-qualite">Le contrôle de qualité</a></li>
+<li><a href="/scribus-1/ch025_lassemblage-des-documents">L'assemblage des documents</a></li>
+<li><a href="/scribus-1/ch026_la-sortie-finale">La sortie finale</a></li>
+<li><a href="/scribus-1/ch027_annexe">Annexe</a></li>
+<li><a href="/scribus-1/ch028_problemes-recurrents">Problèmes récurrents</a></li>
+<li><a href="/scribus-1/ch029_installation">Installation</a></li>
+<li><a href="/scribus-1/ch030_kredits">Kredits</a></li>
+<li><a href="/scribus-1/ch031_glossaire">Glossaire</a></li>
+</ul>

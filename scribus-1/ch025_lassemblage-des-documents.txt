@@ -1,0 +1,70 @@
+<html dir="None"><body><div id="main-content"><h1>L'assemblage des documents
+</h1>
+<p>La mise en page est constituée de nombreuses sources, en particulier des images et des polices qui participent de la qualité du rendu final. S'il est important de bien organiser ces sources avant de commencer le travail, il est aussi important d'organiser l'archivage ou le transfert des fichiers. Quels sont les problèmes posés ?
+</p>
+<h2>Pourquoi un assemblage ?
+</h2>
+<p>Pour comprendre l'importance de l'assemblage, il est essentiel d'avoir en tête quelques détails :
+</p>
+<ul><li>Les images ne sont pas incorporées dans Scribus (sauf cas exceptionnels). Scribus mémorise seulement le chemin complet de l'image dossier+nom de fichier. Ce chemin est dit <strong>absolu</strong>, c'est-à-dire qu'il correspond uniquement à la position pour un ordinateur et utilisateur donné et comprend souvent des parties qui sont propres à ceux-ci : par exemple sous Linux, un utilisateur A et un utilisateur B auront leurs dossiers de base dans /home/A et /home/B si bien qu'une image image.jpg placée dans le dossier de A ne sera pas valable pour B. Le même problème se pose sous Windows (C:/users/documents and settings/A et C:/users/documents and settings/B ou équivalent selon version) et Mac OS X (/Users/A et /Users/B) ; </li>
+  <li>Les polices installées ne sont pas nécessairement les mêmes sur tous les ordinateurs. Ainsi, l'envoi du fichier Scribus à l'utilisateur A sous windows possédant un Arial à un autre utilisateur B n'ayant pas Arial (Linux, Unix, par exemple) fera que le texte ne pourra pas s'afficher correctement et ne pourra respecter le travail de composition typographique.</li>
+</ul><p>Il y a encore d'autres éléments qui peuvent intervenir comme les <strong>profils colorimétriques</strong>, mais ces deux-ci sont absolument essentiels, les profils n'agissant que sur un détail qualitatif.
+</p>
+<p>Durant l'assemblage, Scribus va aller chercher chaque ressource externe dont il a mémorisé le chemin d'accès et va les placer dans un seul et unique dossier avec des liens dits <strong>relatifs</strong>, qui fonctionnent de façon autonome dans ce dossier.
+</p>
+<h2>Dans quel contexte assembler ?
+</h2>
+<p>Ainsi, Assembler n'a que peu de choses à voir avec l'enregistrement (qui ne concerne que le fichier scribus lui-même), ou avec l'export qui modifie la nature du fichier d'un format à un autre.
+</p>
+<p>L'assemblage sera utile pour :
+</p>
+<ul><li>Conserver l'état complet du travail à un moment donné ; </li>
+  <li>Archiver le travail pour un usage ultérieur éventuel ; </li>
+  <li>Envoyer le document à une personne qui devrait le retoucher, mais travaillerait sur un autre ordinateur ; </li>
+  <li>Utiliser le document soi-même sur un autre ordinateur...</li>
+</ul><p>Bref, à chaque fois que l'environnement de travail n'est pas assuré d'être absolument identique d'une session de travail à une autre, l'assemblage est nécessaire.
+</p>
+<h2>Procéder à l'assemblage
+</h2>
+<p>L'assemblage est une étape simple qu'il faut simplement penser à réaliser au bon moment :
+</p>
+<ol><li>Créez un dossier réservé à l'assemblage ; </li>
+  <li>Dans Scribus, utilisez le menu <em>[Fichier &gt; Rassembler les éléments pour la sortie...</em>] ; </li>
+  <li>Dans la fenêtre, naviguez pour choisir le dossier en prenant bien le soin de rentrer dedans ; </li>
+  <li>Dans la même fenêtre, cochez la case [Inclure les polices] et éventuellement [Inclure les profils ICC].</li>
+  <li>Cliquez sur OK et Scribus va faire son travail et ajouter une copie de toutes les sources dans le dossier choisi.</li>
+  <li>Vous pouvez ensuite zipper ce dossier pour l'archiver ou l'envoyer à un collaborateur.</li>
+  <li>Lorsque celui-ci recevra et  décompressera l'archive, il pourra installer les polices sur son ordinateur, puis ouvrir le fichier scribus. </li>
+</ol></div><ul Class="menu-goes-here"><li><a href="/scribus-1/index">Testi</a></li>
+<li><a href="/scribus-1/ch001_introduction">Introduction</a></li>
+<li><a href="/scribus-1/ch002_prerequis">Prérequis</a></li>
+<li><a href="/scribus-1/ch003_prise-en-main">Prise en main</a></li>
+<li><a href="/scribus-1/ch004_exemples-dutilisation">Exemples d'utilisation</a></li>
+<li><a href="/scribus-1/ch005_a-propos-de-ce-livre">À propos de ce livre</a></li>
+<li><a href="/scribus-1/ch006_creer">Creer</a></li>
+<li><a href="/scribus-1/ch007_commencer-par-la-fin">Commencer par la fin</a></li>
+<li><a href="/scribus-1/ch008_les-chaines-editoriale-et-graphique">Les Chaînes éditoriale et graphique</a></li>
+<li><a href="/scribus-1/ch009_preparer-les-sources">Préparer les sources</a></li>
+<li><a href="/scribus-1/ch010_format">Format</a></li>
+<li><a href="/scribus-1/ch011_choix-des-couleurs">Choix des couleurs</a></li>
+<li><a href="/scribus-1/ch012_choix-des-polices">Choix des polices</a></li>
+<li><a href="/scribus-1/ch013_organiser">Organiser</a></li>
+<li><a href="/scribus-1/ch014_organiser-ses-fichiers">Organiser ses fichiers</a></li>
+<li><a href="/scribus-1/ch015_gabarits">Gabarits</a></li>
+<li><a href="/scribus-1/ch016_composition">Composition</a></li>
+<li><a href="/scribus-1/ch017_feuilles-de-style">Feuilles de style</a></li>
+<li><a href="/scribus-1/ch018_les-scripts">Les scripts</a></li>
+<li><a href="/scribus-1/ch019_produire">Produire</a></li>
+<li><a href="/scribus-1/ch020_importer-texte-et-image">Importer Texte et Image</a></li>
+<li><a href="/scribus-1/ch021_typographie">Typographie</a></li>
+<li><a href="/scribus-1/ch022_habillage-et-typographie">Habillage et typographie</a></li>
+<li><a href="/scribus-1/ch023_gestion-des-couleurs">Gestion des couleurs</a></li>
+<li><a href="/scribus-1/ch024_le-controle-de-qualite">Le contrôle de qualité</a></li>
+<li><a href="/scribus-1/ch025_lassemblage-des-documents">L'assemblage des documents</a></li>
+<li><a href="/scribus-1/ch026_la-sortie-finale">La sortie finale</a></li>
+<li><a href="/scribus-1/ch027_annexe">Annexe</a></li>
+<li><a href="/scribus-1/ch028_problemes-recurrents">Problèmes récurrents</a></li>
+<li><a href="/scribus-1/ch029_installation">Installation</a></li>
+<li><a href="/scribus-1/ch030_kredits">Kredits</a></li>
+<li><a href="/scribus-1/ch031_glossaire">Glossaire</a></li>
+</ul>

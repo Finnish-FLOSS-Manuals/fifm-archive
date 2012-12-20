@@ -1,0 +1,53 @@
+<html dir="None"><body><div id="main-content"><h1>My first edit </h1>
+<p>There are many different ways to add to OpenStreetMap, but a user account is required for all of them. In this chapter we will cover how to sign-up for an account and make your first edit. </p>
+<p>To create an account and begin editing, go to the OpenStreetMap website at <a href="http://www.openstreetmap.org/">http://www.openstreetmap.org/</a>.</p>
+<p><img src="_booki/openstreetmap/static/ScreenHunter_02%20Oct.%2018%2013.47.jpg" alt="" align="" width="600" height="355" class=""></p>
+<p>To sign up for a user account, click <strong>Sign Up</strong> in the upper right corner of the page. If you have already created an account, click <strong>Log In</strong> and continue to the portion of this chapter entitled "Making Your First Edit".
+</p>
+<p>You will see a <strong>Create a User Account</strong> form.</p>
+<p><img src="_booki/openstreetmap/static/ScreenHunter_04%20Oct.%2018%2013.58.jpg" alt="" align="" width="537" height="326" class=""></p>
+<p>Enter your <strong>Email address</strong> twice. Note that your email address will only be used to contact you with OpenStreetMap-related information and will not be displayed publicly. Next you can enter the <strong>Display name</strong> you wish to be identified by. Finally, you need to enter your <strong>Password </strong>twice. Click <strong>Continue</strong>.
+</p>
+<p>You will see the <strong>Contributor terms</strong> page:
+</p>
+<p><img src="_booki/openstreetmap/static/ScreenHunter_05%20Oct.%2018%2014.06.jpg" alt="" align="" width="397" height="462" class=""></p>
+<p>You can select your country of residence, if available, to see the contributor terms in your language. Read the contributor terms and you can also release your contributions to the Public Domain by checking the check box for "In addition to the above agreement, I consider my contributions to be in the Public Domain". This checkbox is optional and for more information you can read about it on the OpenStreetMap Foundation wiki (<a href="http://www.osmfoundation.org/wiki/License/Why_would_I_want_my_contributions_to_be_public_domain">http://www.osmfoundation.org/wiki/License/Why_would_I_want_my_contributions_to_be_public_domain</a>).
+</p>
+<p>Click <strong>Agree </strong>to continue with the registration process. Before you are allowed login you have to check your email account and follow the instructions in the confirmation email to enable your user account.
+</p>
+<p>If you already have an account, you can click on the <strong>Log in</strong> link in the upper right corner of the page. You will be taken to the login page.
+</p>
+<p><img src="_booki/openstreetmap/static/ScreenHunter_06%20Oct.%2018%2014.11_1.jpg" alt="" align="" width="595" height="294" class=""></p>
+<p>Enter your <strong>Email Address</strong> or <strong>Username</strong> and <strong>Password</strong>. Click <strong>Login</strong>. Now you are ready to make your first edit.
+</p>
+<h2>Making Your First Edit</h2><p>By default, OpenStreetMap uses an editor we developed called Potlatch 2 to manipulate the data. Click <strong>Edit</strong> and the loading screen below will appear. Once the Potlatch 2 editor has loaded, you will be ready to make your first edit.
+</p>
+<p><img src="_booki/openstreetmap/static/potlatch2_loading.png"></p>
+<p>There are virtually limitless things that can be mapped in OpenStreetMap. This variety can be a bit daunting when first getting started! Good things to edit in your first session might include be restaurants, schools or any incorrect road information you see. There is a page in the OpenStreetMap wiki that can be a good place to get ideas for what to map (<a href="http://wiki.openstreetmap.org/wiki/Map_Features">http://wiki.openstreetmap.org/wiki/Map_Features</a>). </p><p></p><blockquote>It's important when you're editing not to copy from copyrighted information. This includes other online maps such as Google Maps or Bing Maps. The information there is free to use, but the actual data is copyrighted and can't be copied. The easiest way to adhere to these rules is to use only your own personal knowledge and the resources available in the editors.
+</blockquote><p></p>
+<p>In this example we are going to add a guesthouse that is missing from the map. When the Potlatch 2 editor has loaded you will see the map information that already exists loaded in the right side of the window. Things you can add to the map will show up as icons on the left side. Click on the type of data you want to add and drag it to its proper position on the map on the right side of the browser window.
+</p>
+<p><img src="_booki/openstreetmap/static/initial_potlatch.png" alt="" align="" width="599" height="344" class=""></p>
+<p>Since I am adding a guesthouse I click on the guesthouse icon. If the icon definition isn't clear to you, hover over it to display a bit of text that tells you what the icon is. Hovering over the guesthouse icon, the tool tip says "Guesthouse (B&amp;B)".
+</p>
+<p><img src="_booki/openstreetmap/static/icon_tool_tip.png"></p><p>Once you position the icon in the right place the list of icons on the left will change to prompts for additional information about the place you just added. In the case of the guesthouse there is a single textbox to add a name.</p>
+<p><img src="_booki/openstreetmap/static/adding_guest_house.png"></p>
+<p>Once you have finished adding additional information to the feature that you've added it is important to save your work. This is how your changes get shared with the rest of the OpenStreetMap community. To do this, press the <strong>Save</strong> button and a "Save Changes" box will appear. Here you enter your comments about what you've changed or added to OpenStreetMap and then press <strong>Save</strong>. These comments are helpful to others in the community to understand your changes.</p>
+<p><img src="_booki/openstreetmap/static/adding_comment_upload.png"></p><p> </p><p>Another easy first edit is to add a road. One easy way to do that is to trace over the satellite imagery available from Bing Maps in the Potlatch 2 editor. To add a road that is connected to another road click on the road you want to connect it to in order to highlight it. Next click on the point for that road where you want to start your new road. </p><p><em>Note: if you can't click there, it means that you need to add a node to start the road. Push shift key and click on the road where you want to start the line. We will introduce the idea of a node in a later chapter.</em></p><p>Once you have clicked on your desired starting point you will see there is a line connected to your mouse cursor. For every bend you want to make in the line of your new road you need to click. When you are finished with your road double click in order to stop adding the road. </p><p>Now you need to define what type of road it is. On the left side of the editor it will say "No tags set".</p><p><img src="_booki/openstreetmap/static/ScreenHunter_04%20Oct.%2020%2011.53.jpg"><br></p><p>Click on the drop down below that and then select "Roads." You can now choose the type of road you have added. In this example it is a "Residential Road." </p><p><img src="_booki/openstreetmap/static/adding_road.png" alt="" align="" width="600" height="250" class=""></p><p>After you have defined the type of road it is possible to add other information.  A form will show that allows you to add the name of the road as well as additional speed limit and lane information.  If the road is one-way it is also possible to add that.</p><p> <img src="_booki/openstreetmap/static/jalan_info.png"></p><p>As you can see it is easy to get started adding to OpenStreetMap using satellite imagery and your personal knowledge.  Later on in the book you will learn how to map more types of information and how to actually go outside and collect information using GPS and paper maps called Walking Papers.</p></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/openstreetmap/index">Löydä yhteisöllinen kartoitus</a></li>
+<li><a href="/openstreetmap/ch002_welcome-to-openstreetmap">Tervetuloa OpenStreetMapin käyttäjäksi!</a></li>
+<li><a href="/openstreetmap/ch003_about-this-book">Tästä kirjasta</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/openstreetmap/ch005_my-first-edit">Ensimmäinen muokkauksesi</a></li>
+<li><a href="/openstreetmap/ch006_collecting-data">Tiedon kerääminen</a></li>
+<li><a href="/openstreetmap/ch007_sharing-your-maps">Kartan jakaminen</a></li>
+<li Class="booki-section">OpenStreetMapin editoiminen</li><li><a href="/openstreetmap/ch009_introduction-to-editing-in-openstreetmap">Johdanto editointiin OpenStreetMapissa</a></li>
+<li><a href="/openstreetmap/ch010_editing-with-the-online-editor-potlatch-2">Editointi Potlach 2 -verkkoeditorilla</a></li>
+<li><a href="/openstreetmap/ch011_editing-with-the-offline-editor-josm">Editointi työpöydällä JOSM-editorilla</a></li>
+<li><a href="/openstreetmap/ch012_editing-with-mobile-editors">Editointi mobiilieditoreilla</a></li>
+<li Class="booki-section">Tee kartasta omasi</li><li><a href="/openstreetmap/ch014_taking-openstreetmap-data-with-you">Ota OpenStreetMap mukaasi</a></li>
+<li><a href="/openstreetmap/ch015_customising-potlatch-2">Potlach 2:n kustomointi</a></li>
+<li><a href="/openstreetmap/ch016_understanding-the-openstreetmap-data-model">OpenStreetMapin tietomalli</a></li>
+<li><a href="/openstreetmap/ch017_providing-maps-for-your-web-site">Karttojen liittäminen verkkosivulle</a></li>
+<li Class="booki-section">Lisätietoa</li><li><a href="/openstreetmap/ch019_exploring-the-openstreetmap-community">Tutkimusmatka OpenStreetMap-yhteisöön</a></li>
+<li><a href="/openstreetmap/ch020_useful-websites-and-references">Hyödylliset verkkosivut ja lähteet</a></li>
+<li><a href="/openstreetmap/ch021_credits">Tekijät</a></li>
+</ul>

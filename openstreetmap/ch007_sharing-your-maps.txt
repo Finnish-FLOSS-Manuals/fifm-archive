@@ -1,0 +1,58 @@
+<html dir="None"><body><div id="main-content"><h1>Sharing maps
+</h1>
+<p>While you're making an effort to contribute some data to OpenSourceMap, you may also want to share the results of your efforts with others. If your data starts to form a interesting map, you may want to share with others. This chapter describes how you can offer your maps to other people or organizations.
+</p>
+<p> First you must know that the <a href="http://openstreetmap.org">openstreetmap.org</a> website offers permanent, unchanging links to a location with longitude and latitude values, using a neat trick in the URL itself to tell the site what location you want it to display. These links are easy to retrieve on a map. On the openstreetmap.org site, just click Permalink or Shortlink in the lower right area of a map when you're on the View tab.
+</p>
+<h2>Creating Permalinks
+</h2>
+<p>When you click Permalink in a map, this action populates your browser address bar with the permalink URL, which you can then share with others by copying and pasting into emails, online forums, blog comments, and so on. You must be on the View tab to see the Permalink option.
+</p>
+<p>Here's the anatomy of a Permalink with all the possible parameters you can use: 
+</p>
+<p> <tt>http://www.openstreetmap.org/index.html?lat=<em>[Latitude]</em>&amp;lon=<em>[Longitude]</em>&amp;zoom=<em>[Zoom Level]</em>&amp;layers=<em>[Layer code]</em></tt>
+</p>
+<p><strong>Location</strong> (<em>lat</em> and <em>lon</em>): Latitude and longitude are in<em> lat</em> and <em>lon</em> values, which are represented as <em>mlat</em> and <em>mlon</em> when you want to indicate a marker. You can enter up to six digits after the decimal point for these values.
+</p>
+<p><strong>Zoom</strong>: The zoom level is a value from 1, representing your map on the entire Earth, zoomed all the way out, to 18, which shows it a map within walking distance. To see your map or marker within a country, for example, try a zoom level of 6 or 8.
+</p>
+<p><strong>Layers</strong>: Layers are optional and the default is "Mapnik" or layers=M. Layers give you another "skin" on the map. You can use the default, or use O for an OpenStreetMap renderer, or use layers=C for a Cyclemap view.
+</p>
+<p>Layers are handy when you want to find safe bicycling routes, for example. You can also click the plus symbol to see a list of the layers and choose another layer, which then appears in the Permalink in the browser address bar. The differences mostly show in the colors and fonts displayed on the map.
+</p>
+<p><img src="_booki/openstreetmap/static/baselayer_1.jpg"><br></p>
+<h2>Creating Shortlinks
+</h2>
+<p>As you can see, the Permalink yields a rather long URL, since it contains all the data about the map you're viewing. If you prefer short URLs, you can right-click the Shortlink text in the lower right corner of the map and get the link through your browser's link properties or a Copy Link Location menu. Here is an example of a shortlink to Austin, Texas: <a href="http://osm.org/go/Ts0q_IBJ--">http://osm.org/go/Ts0q_IBJ--</a>. 
+</p>
+<p>If you double-click the map to center the where you want to highlight a location, your short link can go to a centered map with that marker icon in the middle if you add '<tt>?m</tt>' to the end of the URL. For example, this shortlink goes to the Austin Convention Center and has a marker at the corner of 4th and Trinity, <a href="http://osm.org/go/Ts0q7wU3?m">http://osm.org/go/Ts0q7wU3?m</a>.
+</p>
+<p>These shortlinks are great for sending IMs or text messages, or using Twitter or Facebook for encouraging click-throughs to your map.
+</p>
+<h2>Embedding a map on a web page
+</h2>
+<p> If you want to have a map for directing people to the trailhead for a bike ride or the starting point for a pub crawl, for example, you may want to get HTML to embed in a page. People can then refer to your map on their smart phone, or print it from your site. You can easily get the code to embed a map on a web page from OpenStreetMap. Here's how:  </p>
+<ol><li>On the View tab, find the address or location by zooming and dragging the map so that it looks the way you want it to.</li>
+  <li>Go to the Export tab and under the heading "Format to Export", choose "Embeddable HTML".</li>
+  <li>Optionally, add a marker to the map under Options by clicking "Add a marker to the map" and then double-clicking on the map to add the marker and center the map on that point.</li>
+  <li>Under "Output", copy the HTML code.</li>
+  <li>Paste the HTML code into the web page in which you want to embed the map.
+  <br></li>
+</ol></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/openstreetmap/index">Löydä yhteisöllinen kartoitus</a></li>
+<li><a href="/openstreetmap/ch002_welcome-to-openstreetmap">Tervetuloa OpenStreetMapin käyttäjäksi!</a></li>
+<li><a href="/openstreetmap/ch003_about-this-book">Tästä kirjasta</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/openstreetmap/ch005_my-first-edit">Ensimmäinen muokkauksesi</a></li>
+<li><a href="/openstreetmap/ch006_collecting-data">Tiedon kerääminen</a></li>
+<li><a href="/openstreetmap/ch007_sharing-your-maps">Kartan jakaminen</a></li>
+<li Class="booki-section">OpenStreetMapin editoiminen</li><li><a href="/openstreetmap/ch009_introduction-to-editing-in-openstreetmap">Johdanto editointiin OpenStreetMapissa</a></li>
+<li><a href="/openstreetmap/ch010_editing-with-the-online-editor-potlatch-2">Editointi Potlach 2 -verkkoeditorilla</a></li>
+<li><a href="/openstreetmap/ch011_editing-with-the-offline-editor-josm">Editointi työpöydällä JOSM-editorilla</a></li>
+<li><a href="/openstreetmap/ch012_editing-with-mobile-editors">Editointi mobiilieditoreilla</a></li>
+<li Class="booki-section">Tee kartasta omasi</li><li><a href="/openstreetmap/ch014_taking-openstreetmap-data-with-you">Ota OpenStreetMap mukaasi</a></li>
+<li><a href="/openstreetmap/ch015_customising-potlatch-2">Potlach 2:n kustomointi</a></li>
+<li><a href="/openstreetmap/ch016_understanding-the-openstreetmap-data-model">OpenStreetMapin tietomalli</a></li>
+<li><a href="/openstreetmap/ch017_providing-maps-for-your-web-site">Karttojen liittäminen verkkosivulle</a></li>
+<li Class="booki-section">Lisätietoa</li><li><a href="/openstreetmap/ch019_exploring-the-openstreetmap-community">Tutkimusmatka OpenStreetMap-yhteisöön</a></li>
+<li><a href="/openstreetmap/ch020_useful-websites-and-references">Hyödylliset verkkosivut ja lähteet</a></li>
+<li><a href="/openstreetmap/ch021_credits">Tekijät</a></li>
+</ul>

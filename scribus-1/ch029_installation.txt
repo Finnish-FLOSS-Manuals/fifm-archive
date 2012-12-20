@@ -1,0 +1,80 @@
+<html dir="None"><body><div id="main-content"><h1>Installation
+</h1>
+<p><img src="http://fr-old.flossmanuals.net/floss_fr/pub/Scribus_fr/PriseEnMain/" height="0" width="0"><img src="http://fr-old.flossmanuals.net/floss_fr/pub/Scribus_fr/PriseEnMain/" height="0" width="0">Pourquoi traiter de l'installation en fin d'ouvrage ? L'installation est certes l'étape indispensable avant la mise en route et la pratique du logiciel, mais elle ne fait pas partie du fonctionnement du logiciel à proprement parler. Cet ouvrage s'est focalisé dès le départ sur les bonnes pratiques du design graphique à associer aux fonctions de Scribus, et de fait les auteurs ont choisi de placer les procédures d'installation en marge de l'utilisation proprement dite du logiciel.
+</p>
+<p>Le site scribus.net répertorie l'ensemble des paquets et quelques procédures d'installation.
+</p>
+<h2>Versionnage
+</h2>
+<p>Avant d'installer Scribus, il convient de comprendre son principe de versionnage. En effet, les logiciels libres ont souvent une procédure de nomination numérique particulière, adaptée au rythme de leur développement.
+</p>
+<p>Dans le cas de Scribus et à l'heure où nous rédigeons cet ouvrage, la version stable officielle est la version 1.4. Elle est devancée par une version de développement, la version 1.5 (Trunk), non recommandée dans le cadre d'une utilisation professionnelle, mais accessible malgré tout, et pouvant cohabiter avec une version stable. Le cycle de développement fait que lorsque la version 1.5 sera stabilisée, elle prendra la dénomination numérique 1.6.
+</p>
+<p>Pour l'heure,utilisez donc la version 1.4, qui est stable pour être téléchargée, installée et exploitée au quotidien quel que soit le système d'exploitation.
+  <br></p>
+<h2>Pour Linux
+</h2>
+<p>De par son statut de logiciel libre, Scribus est disponible sur toutes les distributions Linux. Certaines disposent d'un paquet d'installation, d'autres font directement appel aux sources du logiciel.
+</p>
+<p><strong>Les paquets</strong>
+</p>
+<p>Scribus est disponible en paquet RPM pour les distributions dérivées de Red Hat, comprenant donc celle-ci, mais aussi Suse ou Mandriva. Il arrivera fréquemment que le paquet d'un logiciel souvent exploité soit installé avec la distribution. C'est le cas de Mandriva, dans laquelle il est accessible via le menu [Application &gt; Bureautique].
+</p>
+<p><strong>Le gestionnaire d'installation</strong>
+</p>
+<p>Linux bénéficie d'une procédure d'installation automatisée et adaptée à l'architecture du système, autant en profiter. La plupart des distributions Linux disposent d'une interface graphique qui évite même à l'utilisateur d'entrer une commande pour cette installation : drakrpm pour Mandriva, YaST pour Suse, Synaptic pour Ubuntu, etc.
+</p>
+<p>Il sera parfois nécessaire de paramétrer le gestionnaire d'installation pour qu'il puisse installer les paquets depuis une source tierce, comme en témoigne la procédure d'installation pour les paquets Debian et Ubuntu proposée sur le site scribus.net : <a href="http://wiki.scribus.net/canvas/Debian" target="_top">http://wiki.scribus.net/canvas/Debian</a>.
+</p>
+<p><img alt="install_synaptic.png" src="_booki/scribus-1/static/Scribus_fr-installation-install_synaptic-fr-old.png" height="380" width="600"> 
+</p>
+<h3>Les sources
+</h3>
+<p> Comme tout logiciel libre, Scribus met ses sources à disposition. Compiler les sources d'un logiciel n'est pas recommandé aux utilisateurs non avertis (ou qui n'aiment pas l'aventure) et les auteurs de cet ouvrage vous renvoient donc à la documentation officielle de votre distribution.
+</p>
+<p>L'intérêt d'une installation à partir des sources reste que généralement, vous disposez de la version la plus récente du logiciel et que vous bénéficiez des dernières améliorations.
+  <br></p>
+<h2>Pour Windows
+</h2>
+<p>Ici, l'installation est des plus basiques puisqu'il suffit de télécharger l'installateur sous la forme d'un exécutable, directement dans l'espace <em>Download</em> de scribus.net.
+</p>
+<p><img alt="site_scribus.png" src="_booki/scribus-1/static/Scribus_fr-installation-site_scribus-fr-old.png" height="337" width="600"> 
+</p> <address>Le site officiel de Scribus.</address>
+<h2>Mac OS X
+</h2>
+<p>Comme pour Windows, Mac OS X dispose d'un installateur. Le paquet DMG se trouve lui aussi dans l'espace <em>Download</em> de scribus.net, mais n'est accessible que pour la version 1.4. La précédente version 1.3 requérant l'installation d'un serveur graphique baptisé X11 et le tout manquant de stabilité et de lisibilité, cette procédure n'est recommandée ni sur le site officiel ni par les auteurs de cet ouvrage.
+  <br></p>
+
+</div><ul Class="menu-goes-here"><li><a href="/scribus-1/index">Testi</a></li>
+<li><a href="/scribus-1/ch001_introduction">Introduction</a></li>
+<li><a href="/scribus-1/ch002_prerequis">Prérequis</a></li>
+<li><a href="/scribus-1/ch003_prise-en-main">Prise en main</a></li>
+<li><a href="/scribus-1/ch004_exemples-dutilisation">Exemples d'utilisation</a></li>
+<li><a href="/scribus-1/ch005_a-propos-de-ce-livre">À propos de ce livre</a></li>
+<li><a href="/scribus-1/ch006_creer">Creer</a></li>
+<li><a href="/scribus-1/ch007_commencer-par-la-fin">Commencer par la fin</a></li>
+<li><a href="/scribus-1/ch008_les-chaines-editoriale-et-graphique">Les Chaînes éditoriale et graphique</a></li>
+<li><a href="/scribus-1/ch009_preparer-les-sources">Préparer les sources</a></li>
+<li><a href="/scribus-1/ch010_format">Format</a></li>
+<li><a href="/scribus-1/ch011_choix-des-couleurs">Choix des couleurs</a></li>
+<li><a href="/scribus-1/ch012_choix-des-polices">Choix des polices</a></li>
+<li><a href="/scribus-1/ch013_organiser">Organiser</a></li>
+<li><a href="/scribus-1/ch014_organiser-ses-fichiers">Organiser ses fichiers</a></li>
+<li><a href="/scribus-1/ch015_gabarits">Gabarits</a></li>
+<li><a href="/scribus-1/ch016_composition">Composition</a></li>
+<li><a href="/scribus-1/ch017_feuilles-de-style">Feuilles de style</a></li>
+<li><a href="/scribus-1/ch018_les-scripts">Les scripts</a></li>
+<li><a href="/scribus-1/ch019_produire">Produire</a></li>
+<li><a href="/scribus-1/ch020_importer-texte-et-image">Importer Texte et Image</a></li>
+<li><a href="/scribus-1/ch021_typographie">Typographie</a></li>
+<li><a href="/scribus-1/ch022_habillage-et-typographie">Habillage et typographie</a></li>
+<li><a href="/scribus-1/ch023_gestion-des-couleurs">Gestion des couleurs</a></li>
+<li><a href="/scribus-1/ch024_le-controle-de-qualite">Le contrôle de qualité</a></li>
+<li><a href="/scribus-1/ch025_lassemblage-des-documents">L'assemblage des documents</a></li>
+<li><a href="/scribus-1/ch026_la-sortie-finale">La sortie finale</a></li>
+<li><a href="/scribus-1/ch027_annexe">Annexe</a></li>
+<li><a href="/scribus-1/ch028_problemes-recurrents">Problèmes récurrents</a></li>
+<li><a href="/scribus-1/ch029_installation">Installation</a></li>
+<li><a href="/scribus-1/ch030_kredits">Kredits</a></li>
+<li><a href="/scribus-1/ch031_glossaire">Glossaire</a></li>
+</ul>

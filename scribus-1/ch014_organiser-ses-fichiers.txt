@@ -1,0 +1,56 @@
+<html dir="None"><body><div id="main-content"><h1>Organiser ses fichiers
+</h1>
+<p>Tout au long de votre travail de mise en page, vous manipulerez un nombre croissant de fichiers. D’abord, vos sources : textes et images. Ensuite, le fichier Scribus lui-même, les épreuves PDF, les notes de production et autres communications, les retours d’épreuves annotées par les correcteurs et les demandes de modifications ou d’ajouts. Votre pratique de la mise en page vous amènera à traiter des dossiers de même nature, par exemple les parutions successives d’un périodique, auxquelles vous souhaiterez vous référer, voire à partir desquelles vous construirez la mise en page du numéro suivant. Ces fichiers, au départ peu nombreux, ne pourront demeurer pêle-mêle sur votre disque dur sous peine de ne plus vous y retrouver.
+</p>
+<p>Créer un <strong>dossier général</strong> pour votre projet est donc la première étape. Nommez-le de façon à vous y retrouver aisément. Ce sera encore plus important dans le cas où vous traiteriez plusieurs dossiers de front. Si vous prévoyez de travailler sur un nombre important de projets, il peut se révéler judicieux de procéder à un <strong>classement numérique</strong> (comme 0001, 0002, 0003, etc. en préfixe des noms de fichier) ou à une <strong>nomenclature</strong> adaptée à votre flux de travail. Cette nomenclature peut indiquer la date, le nom du projet et apporter quelques informations concernant votre fichier et son utilisation. Une nomenclature de type aaaammjj_nom-du-projet_nom-du-fichier_dimensions_espace-colorimétrique_résolution.extension donnera par exemple 20110710_leaflet-A4-floss-manuals_150x125mm_CMJN_300dpi.tif. Le nombre d'occurrences peut sembler long, mais sera très utile à gérer une grande quantité de fichiers et facilitera la recherche par mots clés le cas échéant.
+</p>
+<p>À l’intérieur de ce dossier, l’arborescence se déclinera comme suit : au premier niveau, le fichier Scribus (.sla), puis un <strong>sous-dossier</strong> pour chaque grande catégorie de contenu. Dans des dossiers spécifiques, les textes, les images (certains utilisateurs vont jusqu’à distinguer les originaux des fichiers traités, ce qui peut s’avérer utile dans le cas de projets auxquels participent de nombreux intervenants), les épreuves et — particularité de la PAO — le dossier qui contiendra au final les « infos pour la sortie » (voir le chapitre consacré à ce sujet). Rien n’empêche d’ajouter des dossiers selon les contenus spécifiques. Si votre projet comporte un grand nombre de pages, vous aurez intérêt à le diviser en plusieurs sections. Vous établirez la hiérarchie interne de votre dossier principal en tenant compte des particularités de votre projet.
+</p>
+<h2>Les images sont liées et non incorporées
+</h2>
+<p>A la différence des logiciels de traitement de texte, dans Scribus et la PAO en général, les fichiers images qui font partie de la mise en page ne sont en fait que des liens vers ces images. Scribus ne<strong> stocke pas</strong> les images — à l’exception des éléments vectoriels importés qui deviennent dès lors des objets de Scribus (voir le chapitre consacré aux images pour plus de détails). On comprend mieux pourquoi il importe de rassembler ces images au sein d’un même dossier.
+</p>
+<h2>Le cas des épreuves
+</h2>
+<p>Un dossier réservé aux épreuves PDF vous sera utile pour le suivi et le contrôle de la qualité. N’oubliez pas de numéroter vos épreuves.
+</p>
+<h2>Le conseil de l'habitué : créez-vous un dossier de base
+</h2>
+<p>Un moyen facile de régler une fois pour toutes, le cas de l'organisation de ce fameux dossier général est d’en constituer un complet avec ses sous-dossiers — tous sans contenu — et de copier intégralement le tout au moment de démarrer un nouveau projet. Vous n’avez qu’à renommer le dossier principal et le tour est joué. Une fois que vous commencez à <strong>lier </strong>des images à votre fichier Scribus (.<em>sla</em>), ne changez plus la place de votre dossier ni l'organisation de son architecture interne. Les chemins d'accès aux images ne doivent plus bouger.
+</p> <address>   Organisation du dossier de base  -  Exemple d'organisation de fichiers pour un projet sur les Yourtes</address>
+<p><img alt="OrgaFichTypesEtYourte.png" src="_booki/scribus-1/static/Scribus_fr-OrganiserSesFichiers-OrgaFichTypesEtYourte-fr-old.png" height="658" width="656"> 
+</p>
+
+</div><ul Class="menu-goes-here"><li><a href="/scribus-1/index">Testi</a></li>
+<li><a href="/scribus-1/ch001_introduction">Introduction</a></li>
+<li><a href="/scribus-1/ch002_prerequis">Prérequis</a></li>
+<li><a href="/scribus-1/ch003_prise-en-main">Prise en main</a></li>
+<li><a href="/scribus-1/ch004_exemples-dutilisation">Exemples d'utilisation</a></li>
+<li><a href="/scribus-1/ch005_a-propos-de-ce-livre">À propos de ce livre</a></li>
+<li><a href="/scribus-1/ch006_creer">Creer</a></li>
+<li><a href="/scribus-1/ch007_commencer-par-la-fin">Commencer par la fin</a></li>
+<li><a href="/scribus-1/ch008_les-chaines-editoriale-et-graphique">Les Chaînes éditoriale et graphique</a></li>
+<li><a href="/scribus-1/ch009_preparer-les-sources">Préparer les sources</a></li>
+<li><a href="/scribus-1/ch010_format">Format</a></li>
+<li><a href="/scribus-1/ch011_choix-des-couleurs">Choix des couleurs</a></li>
+<li><a href="/scribus-1/ch012_choix-des-polices">Choix des polices</a></li>
+<li><a href="/scribus-1/ch013_organiser">Organiser</a></li>
+<li><a href="/scribus-1/ch014_organiser-ses-fichiers">Organiser ses fichiers</a></li>
+<li><a href="/scribus-1/ch015_gabarits">Gabarits</a></li>
+<li><a href="/scribus-1/ch016_composition">Composition</a></li>
+<li><a href="/scribus-1/ch017_feuilles-de-style">Feuilles de style</a></li>
+<li><a href="/scribus-1/ch018_les-scripts">Les scripts</a></li>
+<li><a href="/scribus-1/ch019_produire">Produire</a></li>
+<li><a href="/scribus-1/ch020_importer-texte-et-image">Importer Texte et Image</a></li>
+<li><a href="/scribus-1/ch021_typographie">Typographie</a></li>
+<li><a href="/scribus-1/ch022_habillage-et-typographie">Habillage et typographie</a></li>
+<li><a href="/scribus-1/ch023_gestion-des-couleurs">Gestion des couleurs</a></li>
+<li><a href="/scribus-1/ch024_le-controle-de-qualite">Le contrôle de qualité</a></li>
+<li><a href="/scribus-1/ch025_lassemblage-des-documents">L'assemblage des documents</a></li>
+<li><a href="/scribus-1/ch026_la-sortie-finale">La sortie finale</a></li>
+<li><a href="/scribus-1/ch027_annexe">Annexe</a></li>
+<li><a href="/scribus-1/ch028_problemes-recurrents">Problèmes récurrents</a></li>
+<li><a href="/scribus-1/ch029_installation">Installation</a></li>
+<li><a href="/scribus-1/ch030_kredits">Kredits</a></li>
+<li><a href="/scribus-1/ch031_glossaire">Glossaire</a></li>
+</ul>

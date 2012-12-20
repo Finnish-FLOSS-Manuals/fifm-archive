@@ -1,0 +1,77 @@
+<div id="main-content"><h1><span id="result_box"><span>Vieminen</span></span>
+</h1>
+<h2><span id="result_box"><span></span></span>
+</h2>
+<p><span id="result_box"><span>Toistaiseksi olemme työskennelleet ainoastaan Processing-ympäristössä. Ajamme koodirivejä ja suoritamme ohjelmat käyttöliittymän <strong>Run</strong>-nappulasta. Näemme, että Processingilla on kaksi tapaa viedä ohjelmat jaettavaksi. Yksi on animaatio, joka voidaan näyttää verkkoselaimessa, toinen luo ohjelman, joka voidaan ajaa Windowsissa, Macissa tai Linuxissa. Joka tapauksessa julkaisijan täytyy ajaa ohjelmasi. </span><span></span><span></span></span>
+</p>
+<h2>Vieminen verkkoon
+  <br></h2>
+<p><span id="result_box"><span></span></span><span id="result_box"><span></span><span>Kun ohjelmasi toimii ja olet tyytyväinen, voit luoda sovelman, joka laitetaan verkkosivulle ja on selaimesi luettavissa. Tehdäksesi tämän voit painaa <strong>Export</strong>-nappia. </span><span></span></span>
+</p>
+<p><img title="05_Exporter_Applet_Menu_02" alt="05_Exporter_Applet_Menu_02" src="_booki/processing/static/05_Exporter_Applet_Menu_02-fi.png" height="33" width="459"><br><br></p>
+<p><span id="result_box"><span>Tämä toimenpide avaa automaattisesti sovelman kansion. Siinä on monta tiedostoa. </span></span>
+  <br><br></p>
+<p><img title="03_Exporter_Applet_1" alt="03_Exporter_Applet_1" src="_booki/processing/static/03_Exporter_Applet_1-fi.png" height="223" width="272"><br><br></p>
+<ul><li><span id="result_box"><span><strong>Index.html</strong> on verkkosivu, joka on tehty Processingilla. Kaksoisnapsautuksella selaimesi laukaisee ja näyttää animaation, jonka olet juuri vienyt. </span><span></span></span></li>
+  <li><span id="result_box"><span></span><span><strong>Loading.gif</strong> on ikoni, jota käytetään ladattaessa sovelmaa verkkosivulle. </span></span><span id="result_box"><span></span></span></li>
+  <li><span id="result_box"><span></span><span><strong>(ohjelman nimi).jar.</strong> Jar on sovelma. Tämä on ohjelmasi versio, joka on muutettu Javaksi ja tallennettu kaiken tiedon kanssa. </span><span>
+  <br></span></span></li>
+  <li><span id="result_box"><span></span><span><strong>(ohjelman nimi).java.</strong> Java on ohjelmasi Java-versio.
+  <br></span></span></li>
+  <li><span id="result_box"><span></span><span><strong>(ohjelman nimi).pde.</strong> Pde on lähdekoodi, jonka kirjoitit editoriin. </span></span></li>
+</ul><p><span id="result_box"><span>
+  <br><strong>Varoitus! </strong>Jokainen Processingin vienti ylikirjoittaa tiedostoja. Jos teet muutoksia tiedostoon, joudut nimeämään tiedoston (ohjelman nimi).html. 
+  <br></span><span></span><span>
+  <br>Jos sinulla on tilaa verkossa ja tunnet FTP:n käytön, voit ladata sovelman (nimeämällä sen uudestaan) verkkotilaasi ja katsoa ohjelmiasi verkossa. </span><span>
+  <br></span></span>
+</p>
+<h2>Ohjelmien vieminen<span id="result_box"><span></span></span>
+</h2>Ohjelmasi voidaan myös viedä Windowsiin, Macciin tai GNU/Linuxiin. Nyt voit kaksoisnapsauttaa laukaistaksesi ohjelman. Tehdäksesi tämän, napsauta valikkoa <strong>File</strong> &gt;<strong> Export Application</strong>. <span id="result_box"><span></span></span>
+<p>
+  <br><img src="_booki/processing/static/01_Exporter_Application_02-fi_1.png"><br></p>
+<p><span id="result_box" class="short_text"><span>Seuraavaksi aukeaa <strong>Export Options </strong>-ikkuna.</span></span>
+  <br></p>
+<p><img title="01_Exporter_Application_1" alt="01_Exporter_Application_1" src="_booki/processing/static/01_Exporter_Application_1-fi.png" height="269" width="360"><br><br></p>
+<ul><li><span id="result_box"><span>Kohdassa <strong>Platforms</strong> voit valita alustan ohjelmalle: Windows, Mac OS X tai Linux. </span><span></span></span></li>
+  <li><span id="result_box"><span></span><span><strong>Full Screen (Present method)</strong> avaa ohjelman koko ruudun kokoisena, kun kaksoisnapsautat sitä. </span></span></li>
+  <li><span id="result_box"><span></span><span><strong>Show a Stop button</strong> laittaa kokoruututilassa näkyville nappulan, joka lopettaa ohjelman ajamisen.  </span></span></li>
+</ul><p><span id="result_box"><span>
+  <br></span><span>Seuraavaksi ohjelma ilmestyy näkyville jokaisen käyttöjärjestelmän mukaisissa kansioissa. Ohjelma on kansion sisällä, se on valmis ajettavaksi koneeltasi. </span><span></span></span>
+</p> <img src="_booki/processing/static/02_Exporter_Application_Dossier_1-fi_1.png"></div><ul Class="menu-goes-here"><li Class="booki-section">Esittely</li><li><a href="/processing/index">Johdanto</a></li>
+<li><a href="/processing/ch002_esimerkkeja">Esimerkkejä</a></li>
+<li><a href="/processing/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Perusteet</li><li><a href="/processing/ch005_perusteet">Perusteet</a></li>
+<li Class="booki-section">Suunnittelu</li><li><a href="/processing/ch007_suunnittelutila">Suunnittelutila</a></li>
+<li><a href="/processing/ch008_muodot">Muodot</a></li>
+<li><a href="/processing/ch009_varit">Värit</a></li>
+<li Class="booki-section">Interaktiivisuus</li><li><a href="/processing/ch011_video">Video</a></li>
+<li><a href="/processing/ch012_videon-tuominen">Videon tuominen</a></li>
+<li><a href="/processing/ch013_mikrofoni">Mikrofoni</a></li>
+<li><a href="/processing/ch014_hiiri">Hiiri</a></li>
+<li><a href="/processing/ch015_nappaimisto">Näppäimistö</a></li>
+<li><a href="/processing/ch016_tulostaminen">Tulostaminen</a></li>
+<li><a href="/processing/ch017_verkkoon-vieminen">Verkkoon vieminen</a></li>
+<li Class="booki-section">Vienti</li><li><a href="/processing/ch019_aanet">Äänet</a></li>
+<li><a href="/processing/ch020_monien-objektien-animointi">Monien objektien animointi</a></li>
+<li><a href="/processing/ch021_objektien-animointi">Objektien animointi</a></li>
+<li><a href="/processing/ch022_aikajana">Aikajana</a></li>
+<li><a href="/processing/ch023_draw-metodi">Draw-metodi</a></li>
+<li Class="booki-section">Animaatio</li><li><a href="/processing/ch025_kommentit">Kommentit</a></li>
+<li><a href="/processing/ch026_objektit">Objektit</a></li>
+<li><a href="/processing/ch027_metodit">Metodit</a></li>
+<li><a href="/processing/ch028_listat">Listat</a></li>
+<li><a href="/processing/ch029_toistaminen">Toistaminen</a></li>
+<li><a href="/processing/ch030_ehdot">Ehdot</a></li>
+<li><a href="/processing/ch031_muuttujat">Muuttujat</a></li>
+<li Class="booki-section">Ohjelmointi</li><li><a href="/processing/ch033_muutokset">Muutokset</a></li>
+<li><a href="/processing/ch034_rajat">Rajat</a></li>
+<li><a href="/processing/ch035_kuvat">Kuvat</a></li>
+<li Class="booki-section">Kehittyneempi suunnittelu</li><li><a href="/processing/ch037_tekstit">Tekstit</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/processing/ch039_vinkkeja">Vinkkejä</a></li>
+<li><a href="/processing/ch040_yleisia-virheita">Yleisiä virheitä</a></li>
+<li><a href="/processing/ch041_ulkoiset-kirjastot">Ulkoiset kirjastot</a></li>
+<li><a href="/processing/ch042_dokumentaatio">Dokumentaatio</a></li>
+<li><a href="/processing/ch043_arduino">Arduino</a></li>
+<li><a href="/processing/ch044_tasta-oppaasta">Tästä oppaasta</a></li>
+<li><a href="/processing/ch045_tekijat">Tekijät</a></li>
+</ul>

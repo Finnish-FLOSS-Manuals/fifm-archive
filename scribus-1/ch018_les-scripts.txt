@@ -1,0 +1,137 @@
+<html dir="None"><body><div id="main-content"><h1>Les scripts et l’automatisation des tâches
+</h1>
+<p>Cette section concerne un usage un peu spécialisé de Scribus. Si vous débutez avec Scribus, vous n'en aurez pas besoin tout de suite, mais il est néanmoins intéressant de lire ce chapitre pour comprendre les possibilités d'utilisation du logiciel.
+</p>
+<p>Un <strong>script</strong> est un petit programme qui permet d'exécuter une tâche. Un script est en fait une série d’instructions écrites dans un simple fichier texte. Le lancement du script déclenche des tâches automatiques. Ces tâches pourraient être exécutées par l’utilisateur lui-même, mais qui sont soit une suite difficile à mémoriser soit des instructions pour réaliser une tâche répétitive, ce qui devient lassant à réaliser. Les scripts permettent même d’étendre les fonctionnalités du logiciel sans qu’on doive intervenir dans le code source. C’est un avantage non négligeable, car créer un script est beaucoup plus simple que de programmer le logiciel lui-même.
+</p>
+<p>Les scripts permettent donc à chaque utilisateur d'adapter Scribus à ses propres besoins. Ils permettent aussi à la communauté de partager des fonctionnalités qui ne sont pas encore incluses dans Scribus. Tout nouveau script peut être téléversé (<em>upload</em>) sur le wiki de Scribus. Il suffit ensuite de copier le script de son choix et de le coller dans un éditeur de texte puis de le sauvegarder sur son ordinateur. Vous pourrez ensuite le charger dans Scribus en allant au menu <em>Script &gt; Démarrer un script...</em>
+</p>
+<p>Les scripts pour Scribus sont écrits avec le langage de programmation <strong>Python</strong> qui est réputé pour sa simplicité et avec lequel vous ne risquez pas d'endommager votre ordinateur ni d’affecter le logiciel. Le dernier paragraphe vous donnera plusieurs ressources pour trouver de l'aide au sujet de Python.
+</p>
+<h2>Lancer un script
+</h2>
+<p>Lorsque vous avez installé Scribus, neuf scripts ont été automatiquement installés que vous pouvez lancer par le menu [<em>Script &gt; Scripts Scribus</em>]  :
+</p>
+<ul><li>Autoquote: ce script convertit des guillemets et apostrophes en leurs versions typographiques. </li>
+  <li>CalendarWizard: crée un calendrier. </li>
+  <li>Color2csv : enregistre dans un fichier la liste des couleurs utilisées dans le fichier courant. </li>
+  <li>ColorChart : ce script produit un nuancier à partir des couleurs du document courant. </li>
+  <li>Csv2color : importe les couleurs d'un fichier créé par color2csv. </li>
+  <li>DirectImageImport : crée un cadre d’image et importe une image dedans. </li>
+  <li>FontSample : crée la liste des polices installées dans le système avec des exemples de texte. </li>
+  <li>Importcsv2table : importe des valeurs dans un tableau. </li>
+  <li>InfoBox : ajoute un petit cadre au dessus d'un cadre de texte courant.</li>
+</ul><p>Il est possible d'adapter un script à vos besoins. Pour ce faire, vous pouvez le copier de son emplacement par défaut :
+</p>
+<p>Sous Linux<em> /usr/share/scribus/scripts/</em>
+</p>
+<p>Sous Mac OS X /utilisateurs/nom_utilisateur/scribus/trunk/scribus/scribus/plugins/scriptplugin/scripts/
+</p>
+<p>Sous Windows 7 C:\Program Files\Scribus1.4\share\scripts</p>
+<p>Vous pouvez placer les copies dans un dossier de Scripts dans vos documents. Vous pouvez ensuite modifier le script avec un logiciel de traitement de texte comme expliqué dans la section suivante et le lancer avec [ <em>Script &gt; Démarrer un script...</em> ].
+</p>
+<h2>Ajouter des scripts
+</h2>
+<p>La meilleure source pour trouver des scripts est le wiki de Scribus. Si vous vous rendez à la page <a href="http://wiki.scribus.net">wiki.scribus.net</a> (<a href="http://wiki.scribus.net" target="_top">http://wiki.scribus.net</a>) et cliquez sur la catégorie <a href="http://wiki.scribus.net/canvas/Category:Scripts">"Scripts"</a> (<a href="http://wiki.scribus.net/canvas/Category:Scripts" target="_top">http://wiki.scribus.net/canvas/Category:Scripts</a>) dans le menu de gauche, vous y trouverez les liens vers des douzaines de Scripts que vous pouvez copier sur votre ordinateur.
+</p>
+<p>Par exemple, pour copier le script appelé « Adding 'DRAFT' to a document » qui insère le mot « DRAFT » (brouillon en anglais) sur la page courante il faut :
+</p>
+<ul><li>Ouvrir un éditeur de texte. Si vous n'avez aucun éditeur de texte installé — ou si vous ne savez pas ce qu’est un éditeur de texte — nous vous conseillons d’installer Gedit (<a href="http://www.gedit.org">www.gedit.org</a>) (<a href="http://www.gedit.org" target="_top">http://www.gedit.org</a>). </li>
+  <li>Dans le wiki, cliquez sur le lien <a href="http://wiki.scribus.net/canvas/Adding_'DRAFT'_to_a_document">Adding 'DRAFT' to a document</a> (<a href="http://wiki.scribus.net/canvas/Adding_'DRAFT'_to_a_document" target="_top">http://wiki.scribus.net/canvas/Adding_'DRAFT'_to_a_document</a>), descendez jusqu'au cadre contenant le code et copiez tout son contenu. </li>
+  <li>Ouvrez votre éditeur de texte Gedit, collez le contenu du presse-papier dans un nouveau document. </li>
+  <li>Enregistrez ce fichier avec le nom « draft.py » sur votre bureau. </li>
+</ul><p>Vous êtes prêt à lancer le script dans Scribus :
+</p>
+<ul><li>Assurez-vous qu'un document est ouvert </li>
+  <li>Allez dans <em>Script &gt; Démarrer un script... </em>et cherchez le script « draft.py » sur votre bureau et ouvrez-le. </li>
+  <li>Dès que vous aurez cliqué sur <em>OK</em> le mot <em>DRAFT</em> apparaîtra sur la page courante. </li>
+</ul><h2>Créer des scripts
+</h2>
+<p>Si vous avez besoin d’un script qui réponde aux fonctionnalités dont vous avez besoin, mais qui n'existe pas sur le wiki, vous pouvez toujours le créer vous même ou encore recourir aux services d’un programmeur de votre entourage pour qu’il l’écrive pour vous.
+</p>
+<p>Ceci est d'autant plus simple que, le plus souvent, vous n'allez pas devoir créer vos scripts de zéro, mais vous allez pouvoir bâtir votre script à partir d’un des scripts que vous trouverez sur le wiki.
+</p>
+<p>Revenons à notre exemple et imaginons que vous vouliez qu'apparaisse le mot BROUILLON plutôt que le mot DRAFT. Examinez le script que nous avons collé dans l’éditeur de texte.
+</p>
+<ul><li>À la ligne 25 se trouvent les mots « draft  = "DRAFT" ». </li>
+  <li>Ajouter le caractère "#" au début de cette ligne : cette ligne va désormais être ignorée par python. </li>
+  <li>Aller à la ligne 27 où se trouve le mot « BROUILLON » et enlever le symbole « # » au début de la ligne.</li>
+  <li>Enregistrer le fichier et exécutez-le à nouveau dans Scribus.</li>
+</ul><h2>Pour trouver de l'aide ou en savoir plus
+</h2>
+<p>Cette section contient seulement un bref survol sur les scripts. Si vous souhaitez continuer l'exploration des possibilités offertes par les scripts, nous vous proposons quelques liens et ressources qui vous pourront être très utiles.
+</p>
+<h3>Introduction à la syntaxe Python
+</h3>
+<p>Python étant un langage facile et couramment utilisé, il y a beaucoup de moyens d'accéder à de l'information à son sujet. Voici quelques références:
+</p>
+<p><a href="http://docs.scribus.net/index.php?lang=fr&amp;%E2%81%9E%E2%81%9E%u205Epage=scripter-faq">La foire aux questions (FAQ) de Scribus au sujet de Python</a><em> </em>
+</p>
+<p><a href="http://www.framasoft.net/article1971.html">Apprendre à programmer avec Python (Framasoft.org)</a>
+</p>
+<p><a href="http://wiki.python.org/moin/FrenchLanguage">Les ressources en français du site officiel de Python</a>
+</p>
+<p><a href="http://fr.wikipedia.org/wiki/Python_(langage)">Python sur Wikipedia</a>
+</p>
+<h3>Les commandes Python propres à Scribus
+</h3>
+<p>Une liste des commandes python propres à Scribus est accessible dans [ <em>Aide &gt; Manuel de Scribus</em> ] à la section "À l'intention des développeurs &gt; API de Scripter"
+</p>
+<h3>Des êtres humains peuvent aussi vous aider !
+</h3>
+<p>Vous avez des questions brûlantes à propos de scripts sur Scribus ? Il y a de très bonnes chances de trouver quelqu’un qui pourra vous aider à écrire votre script (voire avec un peu de chance, qui l’écrira pour vous !)
+</p>
+<p>Pour parler à la communauté des utilisateurs et développeurs de Scribus, vous pouvez écrire à la liste de diffusion (<em>mailing list</em>) de scribus, rendez-vous à cette page d’abonnement <a href="http://lists.scribus.info/mailman/listinfo/scribus">http://lists.scribus.info/mailman/listinfo/scribus</a> et écrivez à cette adresse : <a href="mailto:scribus@lists.scribus.net">scribus@lists.scribus.net</a>.
+</p>
+<p>Pour contacter des utilisateurs en direct, vous pouvez les rejoindre sur le canal de <em>chat</em> de Scribus sur freenode. Si vous n'avez pas de logiciel de chat irc, ou si vous ne savez pas ce dont il s'agit, vous pouvez aussi vous connecter à la communauté chat via cette plate-forme en ligne :<a href="http://fr.irc2go.com/webchat/?net=freenode&amp;room=scribus-team"></a> <a title="Scribus IRC" href="http://wiki.scribus.net/canvas/Special:WebChat">http://wiki.scribus.net/canvas/Special:WebChat</a>
+</p>
+<p>Notez que ces canaux de discussions ont l'air de fonctionner tout en anglais, mais n’hésitez pas à poser vos questions en français, il se trouvera toujours quelqu’un pour vous répondre.
+</p>
+<h2>Les possibilités du fichier source .sla
+</h2>
+<p>Pour compléter ce tour d’horizon des possibilités plus spécialisées de Scribus, nous parlerons maintenant du format du fichier source de Scribus et ce qu’il permet de faire. En tout premier lieu, gardons à l’esprit que nous sommes dans l’univers du logiciel libre et que de ce fait les formats sont ouverts. Dans le cas de Scribus cela signifie concrètement que l’utilisateur a accès à son fichier source même si Scribus n’est pas présent sur son poste de travail. En effet, il ne faut qu’un simple éditeur de texte pour ouvrir en mode texte un fichier Scribus qui se présentera sous une forme lisible à l’écran et compréhensible à l’utilisateur. Il ne faut qu’un peu de pratique et un examen soutenu pour découvrir la structure de ce document. De là à exploiter cette possibilité, il n’y a qu’un pas !
+</p>
+<h3>Un format éditable
+</h3>
+<p>L’extension .sla est accolée à la fin de tous les noms des fichiers Scribus. Il est facile de repérer ce fichier dans votre dossier de production. À l’aide d’un simple éditeur de texte, ouvrez un fichier .sla de votre choix et examinez-le. De prime abord, cela peut rebuter un peu, mais après le premier mouvement de surprise vous découvrirez bien vite tout le parti qu’on peut tirer d’un tel fichier. Avec de simples commandes de Recherches &amp; Remplacement, ou... des scripts, on peut modifier ce fichier sans avoir à ouvrir l’interface de Scribus. Bien sûr, cela ne signifie pas que vous pourrez monter un fichier Scribus entièrement sans passer par l’interface. Mais si vous devez effectuer des modifications un peu plus complexes, le recours à l’éditeur de texte s’imposera comme la solution la plus efficace.
+</p>
+<p>Dans l’exemple ci-dessous, on aperçoit une partie du code. C’est parfaitement ordonné et clair. N’importe qui peut lire ce code et avec un minimum d’effort, le comprendre. Ici on a la liste complète des couleurs utilisées dans le document. On constate qu’il y a deux tons directs nommés « Pantone 541C » et « Pantone 541C PALE ». Ceci résultera en deux plaques différentes au lieu d’une seule et ce n’est pas ce qu’on veut. En réalité, la couleur dite « PALE » est la même, mais avec une teinte de 50 %. Il est impossible de résoudre ce problème dans l’interface de Scribus mais il est très facile de le résoudre en agissant directement dans le fichier source (le .sla).
+</p><img alt="sla_tondirect.png" src="_booki/scribus-1/static/Scribus_fr-Scripts-sla_tondirect-fr-old.png" height="184" width="572"><p>Dans cette seconde vue des deux lignes de code qui concernent la couleur « Pantone 541C » on voit ce qui s’est produit après intervention dans le fichier. On a ajouté un attribut « SHADE » à la couleur, ce qui résout le problème. La couleur « PALE » est devenue « PANTONE 541C » et elle a une teinte de 50 %.
+</p>
+<p> <img alt="sla_tondirect2.png" src="_booki/scribus-1/static/Scribus_fr-Scripts-sla_tondirect2-fr-old.png" height="116" width="545"></p>
+<p> Enfin, le fichier .sla peut être très utile si Scribus renvoie un message d’erreur disant qu’il ne peut lire tel ou tel fichier, car il est corrompu. La situation n’est pas sans issue. En effet, il sera la plupart du temps possible aux développeurs de corriger ce fichier avec un éditeur de texte. Car si Scribus ne peut pas l’ouvrir, le fichier en question demeure un fichier texte, et donc éditable.
+</p>
+
+</div><ul Class="menu-goes-here"><li><a href="/scribus-1/index">Testi</a></li>
+<li><a href="/scribus-1/ch001_introduction">Introduction</a></li>
+<li><a href="/scribus-1/ch002_prerequis">Prérequis</a></li>
+<li><a href="/scribus-1/ch003_prise-en-main">Prise en main</a></li>
+<li><a href="/scribus-1/ch004_exemples-dutilisation">Exemples d'utilisation</a></li>
+<li><a href="/scribus-1/ch005_a-propos-de-ce-livre">À propos de ce livre</a></li>
+<li><a href="/scribus-1/ch006_creer">Creer</a></li>
+<li><a href="/scribus-1/ch007_commencer-par-la-fin">Commencer par la fin</a></li>
+<li><a href="/scribus-1/ch008_les-chaines-editoriale-et-graphique">Les Chaînes éditoriale et graphique</a></li>
+<li><a href="/scribus-1/ch009_preparer-les-sources">Préparer les sources</a></li>
+<li><a href="/scribus-1/ch010_format">Format</a></li>
+<li><a href="/scribus-1/ch011_choix-des-couleurs">Choix des couleurs</a></li>
+<li><a href="/scribus-1/ch012_choix-des-polices">Choix des polices</a></li>
+<li><a href="/scribus-1/ch013_organiser">Organiser</a></li>
+<li><a href="/scribus-1/ch014_organiser-ses-fichiers">Organiser ses fichiers</a></li>
+<li><a href="/scribus-1/ch015_gabarits">Gabarits</a></li>
+<li><a href="/scribus-1/ch016_composition">Composition</a></li>
+<li><a href="/scribus-1/ch017_feuilles-de-style">Feuilles de style</a></li>
+<li><a href="/scribus-1/ch018_les-scripts">Les scripts</a></li>
+<li><a href="/scribus-1/ch019_produire">Produire</a></li>
+<li><a href="/scribus-1/ch020_importer-texte-et-image">Importer Texte et Image</a></li>
+<li><a href="/scribus-1/ch021_typographie">Typographie</a></li>
+<li><a href="/scribus-1/ch022_habillage-et-typographie">Habillage et typographie</a></li>
+<li><a href="/scribus-1/ch023_gestion-des-couleurs">Gestion des couleurs</a></li>
+<li><a href="/scribus-1/ch024_le-controle-de-qualite">Le contrôle de qualité</a></li>
+<li><a href="/scribus-1/ch025_lassemblage-des-documents">L'assemblage des documents</a></li>
+<li><a href="/scribus-1/ch026_la-sortie-finale">La sortie finale</a></li>
+<li><a href="/scribus-1/ch027_annexe">Annexe</a></li>
+<li><a href="/scribus-1/ch028_problemes-recurrents">Problèmes récurrents</a></li>
+<li><a href="/scribus-1/ch029_installation">Installation</a></li>
+<li><a href="/scribus-1/ch030_kredits">Kredits</a></li>
+<li><a href="/scribus-1/ch031_glossaire">Glossaire</a></li>
+</ul>

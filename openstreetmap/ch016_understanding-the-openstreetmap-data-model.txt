@@ -1,0 +1,50 @@
+<html dir="None"><body><div id="main-content"><h1>The OpenStreetMap data model</h1>
+
+<p>The OpenStreetMap data model is a powerful yet simple way to represent geographic information. Understanding the data model enables you to interact with OpenStreetMap data in its raw form so that you can manipulate it into formats that are more useful for what you're trying to do. You'll want to understand the data model if you are interested in writing a map editor, converting the raw OpenStreetMap data into a format for use in an application, or if any of the existing software tools don't provide functionality that you want.</p>
+
+<p>In traditional GIS the map data is represented in three different ways: a <strong>point</strong> is a single location in space defined by coordinates, a <strong>linestring</strong> is a linear feature representing a road or a border, and a <strong>polygon</strong> is an enclosed area. Data describing these geographical features is usually attached as an afterthought in a secondary database. In OpenStreetMap, these three concepts are distilled down into <strong>nodes</strong>, <strong>ways</strong>, and <strong>relations</strong> with <strong>tags</strong> being a way to describe each feature. This chapter discusses these core OpenStreetMap concepts in more detail.</p>
+
+<p>This is an advanced topic that will help you if you decide to delve deeper into working with OpenStreetMap data, perhaps to implement something interesting that does not already exist, or improve a current tool. It will help you if the task requires low level control of map data, either when working with static datasets or interacting with an OpenStreetMap API, such as the live REST API used to edit the OSM data. To learn more about the REST API, visit the wiki page at <a href="http://wiki.openstreetmap.org/wiki/API_v0.6">http://wiki.openstreetmap.org/wiki/API_v0.6</a>.</p>
+
+<h2>Tags</h2>
+
+<p><strong>Tags</strong> are "key-value" pairs of strings optionally attached to each geographic element in OpenStreetMap. These tags describe the feature they are attached to, and can be any pair of strings up to a maximum of 255 characters in length (including spaces), with the only restriction that keys be unique inside one element. If there are no tags associated with a feature, most renderings of the data won't display that feature. </p>
+
+<h2>Nodes</h2>
+
+<p>Points on Earth are called <strong>nodes</strong> and are represented by a latitude, longitude and as many tags as may be appropriate. For example, nodes are used to represent shops, bus stops, benches, and post boxes. A node without any tags will always be a subelement of another element.</p>
+
+<h2>Ways</h2>
+
+<p>An ordered list of nodes is called a <strong>way</strong>. A way has a maximum of 2000 nodes to ensure that tools and users are not overwhelmed with very large structures that are difficult to manipulate. They are used for representing linear features like footpaths, roads, rail lines, and power lines.</p>
+
+<p>Areas do not have a specific data type, and are simply a kind of closed way where the first node is the same as the last node. They are used to represent building outlines, parks, and landuse.</p>
+
+<h2>Relations</h2>
+
+<p><strong>Relations</strong> are ordered lists of nodes, ways or relations. Each <em>member</em> of a relation has an optional <em>role</em> that gives an additional piece of information about that subelement. These roles are strings up to 255 characters long, like tag values. Relations can represent road or bicycle routes, turn restrictions, and administrative boundaries, again depending on the set of tags attached.</p>
+
+<p>You should remember that relations are not categories and should not be used solely to group things together. You should probably use a tag to group things together instead. For more information about this topic, visit <a href="http://wiki.osm.org/wiki/Relations/Relations_are_not_Categories">http://wiki.osm.org/wiki/Relations/Relations_are_not_Categories</a>.</p><h2>Identifiers</h2><p>Any element in an OpenStreetMap dataset, of any of the three types above, is identified by a unique numerical id. These numbers have no other purpose than to allow referencing of individual features, and have no special meaning. A relation or a way uses these identifiers to reference its subelements. Two ways are said to meet only if they reference the same node identifier, rather than two nodes with identical coordinates. Closed ways representing areas need to reference the same node Id twice.</p>
+
+<h2>OpenStreetMap file formats</h2>
+
+<p>OpenStreetMap data files are traditionally distributed in an XML format representing the node, way, and relation concepts using a simple schema. Without compression, this XML format can be extremely large, so it is usually distributed using an efficient compression algorithm like gzip or bz2. Most of the tools designed to work with the OSM XML data format can also handle the compressed XML.</p>
+
+<p>To solve the size and XML parse speed problem of XML, a separate format using Google's Protocol Buffers project was created to pack as much OSM data into a binary file as possible. The <em>PBF</em> format allows the data to be compressed even further than gzip and bz2 and allows much faster processing than compressed XML. There are libraries for several languages to help read this file format.</p></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/openstreetmap/index">Löydä yhteisöllinen kartoitus</a></li>
+<li><a href="/openstreetmap/ch002_welcome-to-openstreetmap">Tervetuloa OpenStreetMapin käyttäjäksi!</a></li>
+<li><a href="/openstreetmap/ch003_about-this-book">Tästä kirjasta</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/openstreetmap/ch005_my-first-edit">Ensimmäinen muokkauksesi</a></li>
+<li><a href="/openstreetmap/ch006_collecting-data">Tiedon kerääminen</a></li>
+<li><a href="/openstreetmap/ch007_sharing-your-maps">Kartan jakaminen</a></li>
+<li Class="booki-section">OpenStreetMapin editoiminen</li><li><a href="/openstreetmap/ch009_introduction-to-editing-in-openstreetmap">Johdanto editointiin OpenStreetMapissa</a></li>
+<li><a href="/openstreetmap/ch010_editing-with-the-online-editor-potlatch-2">Editointi Potlach 2 -verkkoeditorilla</a></li>
+<li><a href="/openstreetmap/ch011_editing-with-the-offline-editor-josm">Editointi työpöydällä JOSM-editorilla</a></li>
+<li><a href="/openstreetmap/ch012_editing-with-mobile-editors">Editointi mobiilieditoreilla</a></li>
+<li Class="booki-section">Tee kartasta omasi</li><li><a href="/openstreetmap/ch014_taking-openstreetmap-data-with-you">Ota OpenStreetMap mukaasi</a></li>
+<li><a href="/openstreetmap/ch015_customising-potlatch-2">Potlach 2:n kustomointi</a></li>
+<li><a href="/openstreetmap/ch016_understanding-the-openstreetmap-data-model">OpenStreetMapin tietomalli</a></li>
+<li><a href="/openstreetmap/ch017_providing-maps-for-your-web-site">Karttojen liittäminen verkkosivulle</a></li>
+<li Class="booki-section">Lisätietoa</li><li><a href="/openstreetmap/ch019_exploring-the-openstreetmap-community">Tutkimusmatka OpenStreetMap-yhteisöön</a></li>
+<li><a href="/openstreetmap/ch020_useful-websites-and-references">Hyödylliset verkkosivut ja lähteet</a></li>
+<li><a href="/openstreetmap/ch021_credits">Tekijät</a></li>
+</ul>

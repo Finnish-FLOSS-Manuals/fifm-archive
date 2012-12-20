@@ -1,0 +1,197 @@
+<html dir="None"><body><div id="main-content"><h1>Importer textes et images
+</h1>
+<p>Scribus est un logiciel de mise en page, mais pas un logiciel de traitement de texte ou de traitement d'image. S'il est possible d'écrire, de modifier du texte dans Scribus, voire de dessiner et de faire de la retouche photo, il est loin d'être aussi pratique, complet et performant que des logiciels dédiés à ces tâches. Aussi, la chaîne éditoriale optimale exigera que le contenu textuel et visuel soit préparé séparément et importé dans Scribus une fois parfaitement établi. En outre, cette méthode permet de préserver la source originale en cas de perte ou destruction du fichier de mise en page suite à une panne matérielle ou logicielle.
+</p>
+<h2>Importer les textes
+</h2>
+<p>Les textes seront en général écrits par des auteurs n'ayant pas ou peu de connaissance de la mise en page. Il est impensable de demander à un auteur scientifique, de fiction, d'article de presse ou un journaliste-reporter de penser à la façon dont le contenu sera présenté au final. Au moment de l'écriture, seule la qualité du contenu doit compter, fût-elle contrainte par un nombre de signes. Il appartient ensuite à l'équipe de rédaction de vérifier sa pertinence et sa conformité avant que la mise en page soit abordée.
+</p>
+<p>Le graphiste a pour rôle de transformer un texte brut ou partiellement organisé en un texte mis en page.
+</p>
+<p>Celui-ci peut travailler à partir de textes issus d'un logiciel de traitement de texte (MS Word, OpenOffice.org Writer, LibreOffice, Kword, Abiword...) qui permettra à l'auteur de jouer partiellement sur l'aspect du texte. Cela facilite la communication entre l'auteur (responsable de l'écriture) et le graphiste (responsable de la mise en page) en particulier concernant la structure sémantique du contenu, mais complexifie le travail de mise en page.
+</p>
+<p>Le graphiste peut aussi obtenir un texte écrit dans un éditeur de texte (MS Bloc-note, TextEdit, Gedit, Kate, vi...) qui préservera le texte seul, sans mise en forme. Cette méthode confère à l'auteur une écriture simplifiée et accorde au graphiste une totale liberté d'utilisation du texte dans Scribus.
+</p>
+<h3>Comment procéder ?
+</h3>
+<p>Il faut toujours commencer par créer un <em>cadre de texte</em> dans Scribus avant de réaliser l'importation.
+</p>
+<p>Pour importer un texte :
+</p>
+<ol><li>Créez au moins un cadre de texte. Si plusieurs cadres sont créés, vous pouvez les lier dans le cas où vous souhaitez voir le texte couler de l'un à l'autre ;</li>
+  <li>Sélectionner le cadre dans lequel le texte doit commencer ;</li>
+  <li>Utilisez le menu <em>Fichier &gt; Importer &gt; Importer un texte</em> ;</li>
+  <li>Scribus affichera la fenêtre d'importation qui permet de naviguer dans vos dossiers pour chercher le fichier contenant le texte à importer. Il offre alors plusieurs options de formats que nous allons présenter <strong></strong>ci-dessous. Seuls les fichiers dont les noms correspondent à l'extension sélectionnée dans la liste <em>[Files of Type</em>] seront affichés. Si votre fichier n'apparaît pas, choisissez simplement [Tous les fichiers (*)].</li>
+</ol><em>Attention, une fois le bouton [OK] de cette fenêtre cliqué, le contenu est importé et les options d'importation ne sont plus modifiables. En cas d'erreur, il faudra recommencer l'importation avec les paramètres corrects. </em>
+<p>La commande <em>Ajouter un texte</em> du menu <em>Fichier &gt; Importer</em> fonctionnera de la même façon, mais produit un résultat différent :
+</p>
+<ul><li>Importer un texte : </li>
+</ul>Si le cadre contient un texte, le contenu existant est effacé pour être remplacé par le nouveau contenu. Scribus demande au passage une confirmation [Effacer l'intégralité du texte] pour éviter toute erreur. Si vous choisissez [Oui], le texte est remplacé même s'il se continue sur plusieurs cadres ; sinon l'importation est simplement annulée.
+<ul><li>Ajouter un texte :</li>
+</ul>Si le cadre contient du texte, le nouveau contenu sera ajouté à la suite du texte existant dans le cadre.
+<p>Si le texte importé est plus long que ce que le cadre ne peut accepter, Scribus ne crée ni de nouveau cadre, ni de nouvelles pages. Scribus affiche un petit carré en bas à droite du cadre pour rendre visible le problème, mais il appartient à l'utilisateur de définir ce que doit devenir ce texte. Le cas courant est de faire continuer ce texte dans un cadre suivant, sur la même par ou sur une autre.
+</p>
+<ol><li>Créez un autre cadre ;</li>
+  <li>Retournez dans le cadre qui contient le texte ;</li>
+  <li>Activez l'outil Liaison (Lier les cadres de texte) puis allez cliquer sur le nouveau cadre. Le texte doit se poursuivre de l'un à l'autre.</li>
+  <li>Vous pouvez répéter la liaison sur d'autres cadres jusqu'à ce que tout le texte soit visible.</li>
+  <li>En cas d'erreur l'outil suivant permet de délier les cadres. Cliquez simplement sur un cadre avec cet autre outil pour vider le cadre de son texte celui-ci étant reporté dans le cadre précédent même s'il n'est pas visible. </li>
+</ol><img alt="texte_chaine.png" src="_booki/scribus-1/static/Scribus_fr-ImporterTexteEtImages-texte_chaine-fr-old.png" height="149" width="600"><br><p><em>Attention, il n'est possible de lier que vers un cadre qui ne contient pas déjà du texte. D'un autre côté, si l'option [Cadres de texte automatiques] a été activée au moment de la création du document ou dans le [Réglages du document], toute nouvelle page contiendra un cadre qui sera lié automatiquement au cadre de la page précédente et suivante.</em>
+</p>
+<h3>Texte brut
+</h3>
+<p>Le texte brut écrit dans des éditeurs de texte ou traitements de texte sera en général enregistré avec une extension <em>.txt</em>, si elle existe. Mais du texte brut peut être enregistré avec des nombreuses autres extensions courantes. Il appartient au secrétariat de rédaction de mettre en place une stratégie d'échange entre les différents acteurs du document si nécessaire.
+</p>
+<p>Le paramètre important lors de l'importation d'un fichier texte est l'encodage. L'encodage correspond à une caractéristique technique du texte invisible à l'œil nu sauf en cas d'erreur puisque dans ce cas, certains caractères, en particulier les caractères accentués apparaîtront mal. L'encodage est utilisé par les systèmes d'exploitation ou les logiciels pour spécifier sur quelle base linguistique le document est écrit. Il existe historiquement plusieurs encodages reconnus et fréquemment utilisés. Chaque document importé peut posséder un encodage différent selon le logiciel sur lequel il a été écrit.
+</p> <dl><dt>System</dt> <dd>System sera la valeur à choisir si vous ne connaissez pas l'encodage source. Lorsque vous écrivez vous-même le texte il est le plus simple, car laisse Scribus s'adapter seul aux paramètres de votre ordinateur. Aussi, si le texte vous est fourni par un auteur qui travaille sur une configuration similaire à la vôtre, ce choix peut s'avérer le plus simple.</dd> <dt>UTF-8 et UTF-16</dt> <dd>Les normes UTF8 et UTF16 sont les normes les plus complètes et les plus universelles. Elles sont recommandées dès que possible.</dd> <dt>ISO-8859-1</dt> <dd>Les normes ISO correspondent à des extensions permettant la saisie du texte dans certaines langues spécifiques. ISO-8859-1 est typiquement celui qui peut être utilisé pour une exploitation spécifique des caractères accentués du français.</dd> <dt>Apple Roman</dt> <dd>Correspond à une norme propre à certains logiciels fonctionnant sous Mac OS</dd> </dl><h3> Le format HTML
+</h3>
+<p>Le format HTML est à présent très répandu au vu de son usage sur internet. Il s'agit d'une recommandation du <a title="Accéder au site du W3C" href="http://www.w3.org/">World Wide Web Consortium</a> implémentée dans de nombreux logiciels y compris traitements de textes qui peuvent enregistrer dans ce format. La différence entre un fichier texte brut et un fichier HTML tient dans le fait que du code dans le texte va permettre de spécifier ou mémoriser l'aspect que doit avoir le texte. L'utilisation du HTML pour Scribus est une première voie ouverte à un échange plus riche entre auteur et graphiste.
+</p>
+<p>Il est important de noter qu'il existe plusieurs variantes du HTML. Scribus n'est compatible en totalité avec aucune de ces variantes. L'importation se fera très bien sur des balises simples telles que H1, H2..., P, I, B, mais peinera sur des balises plus complexes telles que FONT, par ailleurs dépréciées. Si des feuilles de styles CSS sont associées à la page HTML, elles ne sont pas interprétées. Dans tous les cas, une structure HTML rigoureuse facilite le travail de Scribus et la qualité de l'importation de manière à limiter les retouches après l'importation.
+</p>
+<p>Lors de l'import, Scribus réagit de la façon suivante :
+</p>
+<ul><li>Il importe tout le contenu textuel trouvé dans la page. Ainsi les menus, news et autres informations d'une page de site web enregistrée se retrouveront dans la mise en page. Dans ce cas, il peut être nécessaire de passer par un éditeur HTML de manière à ne conserver que la zone utile ;</li>
+  <li>Il crée un style de paragraphe pour chaque élément H trouvé. Scribus ajoute le préfixe [html_] de manière à ne pas écraser d'éventuels styles déjà créés par l'utilisateur. En revanche l'aspect des styles n'est pas préservé et devra être redéfini dans l'éditeur de styles de Scribus. </li>
+</ul><p> <img alt="import_html_1.png" src="_booki/scribus-1/static/Scribus_fr-ImporterTexteEtImages-import_html_1-fr-old.png" height="283" width="600"></p>
+<p>Il sera très souvent nécessaire de vérifier ces éléments et de faire des adaptations immédiatement.
+</p>
+<h3>Le format ODT
+</h3>
+<p>OpenDocument Text est le format utilisé par OpenOffice, Koffice et d'autres suites bureautiques pour enregistrer les documents textes dans le but de conserver toutes les informations de mise en forme ainsi que les images ajoutées. Le format ODT est une norme ISO parfaitement reconnue à l'inverse du DOC dont nous parlerons après. C'est donc le format de traitement de texte préféré de Scribus.
+</p>
+<p>Lors de l'import, Scribus propose de définir son comportement quant à l'importation des styles utilisés dans le document ODT :
+</p>
+<ul><li> [Écraser les styles de paragraphe] : au cas où un style du fichier ODT porte le même nom qu'un style présent dans Scribus, les propriétés définies dans celui d'OpenOffice remplaceront celles définies dans Scribus. Cette case n'est pas nécessairement conseillée si vous avez déjà commencé votre travail de mise en page et d'organisation ; </li>
+  <li>[Fusionner les styles de paragraphe] : si des styles de paragraphes dans le document ODT ont des propriétés identiques, Scribus ne gardera qu'un seul style et les appliquera au texte. Cette option est pratique si vous n'êtes pas sûr des compétences des auteurs du texte sur ces fonctions. En revanche, il peut avoir un sens que des styles d'aspect identiques soient appliqués. Dans ce cas, les différences, en général de raison sémantique, seront perdues ; </li>
+  <li>[Utiliser le nom du document comme préfixe pour les styles de paragraphe] : en important, Scribus rajoute le nom du document au début du nom du style importé. Cela permet d'éviter de perdre des styles qui auraient déjà été créés dans Scribus, ou qui seraient issus de l'importation d'un précédent document. </li>
+</ul><p>Lorsque le texte est importé, les styles de paragraphes trouvés sont ajoutés dans l'éditeur et sont appliqués au texte. Pour les styles de caractère, Scribus n'applique pour l'instant aucun comportement particulier. En revanche, les propriétés qui sont appliquées à partir de la barre de formatage d'OpenOffice sont conservées et appliquées comme formatage manuel dans Scribus. Il n'est d'ailleurs pas rare que la surcharge de propriété soit trop importante et qu'il soit nécessaire d'utiliser le bouton de suppression des formatages manuels de la fenêtre [Propriétés &gt; Texte &gt; Paramètres de styles] pour y voir plus clair et s'assurer que les modifications de styles dans Scribus seront bien visibles.
+</p>
+<p>Il est à l'heure actuelle difficile de donner un conseil étant donné la perfectibilité du système actuel. Nous pouvons cependant mentionner quelques avis fréquents :
+</p>
+<ul><li>Il est inutile que l'auteur perde son temps à travailler sur l'aspect du texte dans son traitement de texte. Ces styles de paragraphes seront conservés et ces formatages manuels, pas ses styles de caractères. Conservez une version imprimée du document à importer pour bien voir où appliquer les styles dans Scribus si besoin ;</li>
+  <li>Certaines personnes préfèrent, importer le texte sans sa mise en forme et ses styles, de manière à repartir d'un fichier sans mauvaise surprise. La case [Importer le texte seul] du de la fenêtre de sélection de fichiers à importer est prévue à cet effet. </li>
+</ul><h3>Le format DOC
+</h3>
+<p>DOC étant un format propriétaire, nul ne peut construire d'application sans une autorisation légale de son créateur, en l'occurrence Microsoft. Scribus n'est pas lui-même capable d'importer des fichiers enregistrer dans le format Word. En revanche, il exploite un petit logiciel nommé AntiWord qui permet de le faire. Si vous êtes sous Windows, AntiWord est automatiquement installé par Scribus mais pas sur les autres systèmes d'exploitation. Si vous souhaitez importer directement de tels fichiers, veuillez donc installer au préalable ce logiciel.
+</p>
+<p>L'importation d'un fichier DOC dans Scribus permet d'importer l'ensemble du texte, mais aucun style ni aucune mise en forme. Le texte lui-même aura besoin d'être vérifié : des lignes vides peuvent avoir été inséré et par endroits de chiffres correspondant à des numérotations de titres.
+</p>
+<p>Une méthode plus fiable est d'ouvrir le fichier DOC dans Word ou OpenOffice, et de l'enregistrer dans un format mieux supporté par Scribus, et surtout dont l'avenir est assuré (comme ODT ou HTML, voire encore TXT).
+</p>
+<p>Notez que les fichiers DOCX ne sont pas pris en charge.
+</p>
+<h2>Importer des images
+</h2>
+<p>L'importation des images est une constante des mises en pages. Il existe de nombreux types de documents qui n'y ont pas recours en particulier presque tout ce qui est relatif à l'édition littéraire, dans une moindre mesure, scientifique. Mais dans la majorité des cas, vous souhaiterez certainement utiliser des éléments graphiques, photos ou vectoriels.
+</p>
+<h3>Photos
+</h3>
+<p>Scribus peut importer un grand nombre de formats photographiques différents. La plupart d'entre eux sont là pour des raisons pratiques et faciliter l'échange avec certains logiciels, mais ne sont pas reconnus comme des formats de qualité conseillés pour l'impression. La liste des formats importants a déjà étaient mentionnée dans Préparer vos sources. Nous traiterons ici des spécificités de chacun d'entre eux pour vous aider à choisir de façon éclairer en fonction de vos besoins de mises en page.
+</p>
+<p>L'importation se fait dans un cadre d'image ou dans une forme convertie en cadre d'image <em>[Objet &gt; Convertir en &gt; Cadre d'image</em>], puis en passant par le menu [<em>Fichier &gt; Importer &gt; Importer une image</em>]. Évitez absolument de copier-coller les images !!
+</p>
+<p>L'onglet [Image] de la fenêtre [Propriétés] permet de spécifier la taille de l'image importée, en particulier de la mettre automatiquement à la taille du cadre ou de gérer librement sa dimension à l'intérieur du cadre à l'aide de [Mettre l'image aux dimensions du cadre] et [Mise à l'échelle libre].
+</p>
+<p> <img alt="scribus_pp_image.png" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-scribus_pp_image-fr-old.png" height="501" width="393"></p>
+<h4>JPEG
+</h4>
+<p>La plupart des documents que vous aurez seront certainement au format JPEG dont l'extension peut être indifféremment <em>.jpg</em> ou <em>.jpeg</em>. Les appareils photo numériques enregistrent tous dans ce format même si certains peuvent vous donner d'autres possibilités. Le choix des fabricants s'est porté vers JPEG parce qu'il permet d'obtenir une image très légère ce qui permet de mettre plus de photos sur une carte mémoire et facilite l'archivage. Sa légèreté en fait aussi le format de choix sur internet pour accroître la rapidité de chargement des pages.
+</p>
+<p>Malheureusement, cette légèreté est dû à une réduction de la diversité des détails dans l'image. L'enregistrement en JPEG repose sur un principe destructif selon un réglage de qualité ou de compression. Plus la compression est élevée, plus la qualité sera faible.
+</p>
+<p>En ce qui concerne l'importation de votre image dans Scribus, JPEG ne pose pas de problème : assurez vous que votre image est correcte et qu'elle ne contient pas d'artefact. L'enregistrer dans un autre format n'améliorera pas son aspect.
+</p>
+<h4>PNG
+</h4>
+<p>PNG est de tous les formats celui qui constitue l'un des meilleurs compromis. Il n'altère pas l'image, reste assez léger comparé au TIFF ou PSD même s'il est généralement plus lourd que JPEG. Hormis sa capacité à conserver la qualité, PNG accepte un canal alpha, ce qui permet de rendre l'image transparente ou de jouer sur des transparences par endroits, faire des fondus progressifs sur les bords de l'image...
+</p>
+<p>Tous les logiciels de retouche photo sont compatibles avec le PNG, peuvent l'ouvrir et l'enregistrer. Gimp est capable de traiter la transparence, les fondus, etc. dont nous avons parlé.
+</p>
+<h4>TIFF
+</h4>
+<p>TIFF ou TIF est un format relativement ancien énormément utilisé dans la production de document imprimé. Il préserve parfaitement les images. Cependant, il produit des images très volumineuses, comparé au PNG pour un gain en qualité inexistant. 
+</p>
+<p> De par son usage historique, une fonction intéressante y a été adjointe et que le PNG ne peut gérer : les chemins de détourage. Ces chemins sont des tracés vectoriels créés à partir d'un logiciel de retouche photo comme Gimp à l'aide d'un outil de courbe de Bézier ou par conversion d'un détourage. L'utilisation du chemin de détourage est décrite dans le chapitre Habillage.
+</p>
+<h4>PSD
+</h4>
+<p>PSD est le format natif du logiciel Photoshop. Ce format est la propriété d'Adobe et cette entreprise garde secrètes les spécifications de ce format depuis  la version 7. Scribus peut donc importer des images au format Photoshop, mais ne prendra pas en charge les fonctions ultérieures à la version mentionnée. Ceci étant dit, Scribus est capable de récupérer les calques des fichiers Photoshop et d'agir sur leur visibilité, transparence et modes de fusion. Cela s'avère pratique pour modifier l'intensité d'une ombre par exemple ou cacher certains éléments dans la mise en page.
+</p>
+<p>Les calques sont accessibles une fois l'image importée, dans les [Propriétés étendues de l'image], de [Propriétés &gt; Image].
+</p>
+<h3>Les formats SVG, EPS et AI
+</h3>
+<p>Les graphiques vectoriels seront issus de logiciels tels que Illustrator ou Inkscape. Ces graphiques sont créés de toutes pièces par des dessinateurs et offrent l'avantage de rester de qualité identique quelque soit l'échelle de reproduction.
+</p>
+<p>Pour importer un dessin vectoriel, il n'est pas nécessaire de créer un cadre :
+</p>
+<ol><li>Cliquez sur la page pour tout désélectionner ;</li>
+  <li>Allez dans le menu [<em>Fichier &gt; Importer &gt; Importer un fichier vectoriel</em>] ;</li>
+  <li>Scribus vous informe éventuellement qu'il ne prendra pas en charge toutes les fonctionnalités ;</li>
+  <li>La souris se transforme en petit journal avec une croix. Cliquez à l'endroit  de la page où vous souhaitez placer le dessin ;</li>
+  <li>Vous pouvez ensuite le redimensionner en utilisant les poignées du cadre de sélection. Pour garder les proportions, appuyez sur Ctrl pendant le redimensionnement.</li>
+</ol><p>Le dessin importé est un groupe de vecteurs. S'il est composé de plusieurs formes, l'utilisation de [<em>Objet &gt; Dégrouper</em>], éventuellement plusieurs fois, permet de pouvoir agir sur le dessin lui-même au dernier moment si besoin ou pour l'adapter à la mise en page.
+</p>
+<p>Les couleurs du dessin sont automatiquement ajoutées au nuancier pour pouvoir être réutilisées sur d'autres éléments comme des cadres ou du texte. Mais ces couleurs peuvent aussi être supprimées ou remplacées à l'aide de la fenêtre [<em>Édition &gt; Couleurs</em>].
+</p>
+<h4>SVG
+</h4>
+<p>Le format SVG est une recommandation proposée par Adobe au sein du W3C. De nombreux logiciels sont compatibles avec lui et Illustrator et Inkscape peuvent tous deux enregistrer dans ce format puissant. On lui reproche souvent de ne pas être quadrichromique. Cet argument ne tient pas lorsqu'on travaille avec Scribus qui se charge seul de la conversion de toutes les couleurs en quadrichromie selon les profils colorimétriques activés, peut simuler les couleurs imprimées à l'écran et enfin permet de remplacer les couleurs par des couleurs quadri ou tons directs.
+</p>
+<p>En important des fichiers SVG, veuillez vectoriser les polices dans le logiciel source avant enregistrement de manière à éviter tout problème de rendu du texte.
+</p>
+<h4> EPS
+</h4>
+<p>EPS est le prédécesseur du PDF dans le monde de l'impression. S'il est de bonne facture, il n'a pas évolué depuis 2001 et est explicitement sur une phase d'abandon. Ne jetez pas vos fichiers EPS puisque Scribus peut les importer. De nombreux logos que vos collaborateurs vous transmettront seront en EPS et cela est bon. Cependant, pour vos fichiers source, gardez une version SVG ou AI est une sécurité sur le long terme.
+</p>
+<h4>AI
+</h4>
+<p>AI est le format natif d'Illustrator. Il s'agit d'un bon format largement utilisé, mais qui a l'inconvénient d'être la propriété d'Adobe et qui rend difficile la prise en charge. Scribus peut cependant les supporter partiellement. Si vous avez des documents de ce type, il peut être intéressant d'essayer de l'importer tel quel avant de songer à le convertir en SVG.
+</p>
+<h2>Le cas des tableaux !
+</h2>
+<p>Les tableaux sont un cas spécial d'import de texte. Il s'agit d'un texte organisé et structuré sous une forme graphique particulière en colonnes et lignes, ayant éventuellement des propriétés graphiques. Le tableau est une version évoluée de la liste puis des tabulations. Scribus ne peut à l'heure actuelle importer ni les tableaux d'Excel ni les ceux de Calc. Il peut à l'aide d'un script importer des données au format CSV qui peuvent être remises en forme dans des cadres ou dans l'outil tableau de Scribus. Mais cet outil est relativement basique et même s'il permet de faire des choses intéressantes, il est peu pratique à utiliser.
+</p>
+<p>Même si c'est un peu abusif, nous allons le considérer comme tableau comme du texte mis en forme graphiquement. Nous allons proposer une méthode simple qui nécessite pourtant quelques étapes.
+</p>
+<ol><li>Créez votre tableau dans Calc. S'il s'agit d'un fichier Excel, ouvrez-le dans Calc ;</li>
+  <li>Sélectionnez la partie du tableau qui vous intéresse et copiez-la ;</li>
+  <li>Dans Calc, allez dans [<em>Fichier &gt; Nouveau &gt; Dessin</em>] ;</li>
+  <li>Dans la fenêtre de dessin, allez dans [<em>Édition &gt; Collage Spécial...</em>] et choisissez l'option qui commence par calc dans la fenêtre qui apparaît ; </li>
+  <li>Gardez la portion de dessin sélectionnée puis utilisez [<em>Fichier &gt; Exporter...</em>] ;</li>
+  <li>Choisissez le format EPS puis cochez la case [<em>Sélection</em>].</li>
+  <li>Importez alors le graphique EPS dans Scribus. </li>
+</ol></div><ul Class="menu-goes-here"><li><a href="/scribus-1/index">Testi</a></li>
+<li><a href="/scribus-1/ch001_introduction">Introduction</a></li>
+<li><a href="/scribus-1/ch002_prerequis">Prérequis</a></li>
+<li><a href="/scribus-1/ch003_prise-en-main">Prise en main</a></li>
+<li><a href="/scribus-1/ch004_exemples-dutilisation">Exemples d'utilisation</a></li>
+<li><a href="/scribus-1/ch005_a-propos-de-ce-livre">À propos de ce livre</a></li>
+<li><a href="/scribus-1/ch006_creer">Creer</a></li>
+<li><a href="/scribus-1/ch007_commencer-par-la-fin">Commencer par la fin</a></li>
+<li><a href="/scribus-1/ch008_les-chaines-editoriale-et-graphique">Les Chaînes éditoriale et graphique</a></li>
+<li><a href="/scribus-1/ch009_preparer-les-sources">Préparer les sources</a></li>
+<li><a href="/scribus-1/ch010_format">Format</a></li>
+<li><a href="/scribus-1/ch011_choix-des-couleurs">Choix des couleurs</a></li>
+<li><a href="/scribus-1/ch012_choix-des-polices">Choix des polices</a></li>
+<li><a href="/scribus-1/ch013_organiser">Organiser</a></li>
+<li><a href="/scribus-1/ch014_organiser-ses-fichiers">Organiser ses fichiers</a></li>
+<li><a href="/scribus-1/ch015_gabarits">Gabarits</a></li>
+<li><a href="/scribus-1/ch016_composition">Composition</a></li>
+<li><a href="/scribus-1/ch017_feuilles-de-style">Feuilles de style</a></li>
+<li><a href="/scribus-1/ch018_les-scripts">Les scripts</a></li>
+<li><a href="/scribus-1/ch019_produire">Produire</a></li>
+<li><a href="/scribus-1/ch020_importer-texte-et-image">Importer Texte et Image</a></li>
+<li><a href="/scribus-1/ch021_typographie">Typographie</a></li>
+<li><a href="/scribus-1/ch022_habillage-et-typographie">Habillage et typographie</a></li>
+<li><a href="/scribus-1/ch023_gestion-des-couleurs">Gestion des couleurs</a></li>
+<li><a href="/scribus-1/ch024_le-controle-de-qualite">Le contrôle de qualité</a></li>
+<li><a href="/scribus-1/ch025_lassemblage-des-documents">L'assemblage des documents</a></li>
+<li><a href="/scribus-1/ch026_la-sortie-finale">La sortie finale</a></li>
+<li><a href="/scribus-1/ch027_annexe">Annexe</a></li>
+<li><a href="/scribus-1/ch028_problemes-recurrents">Problèmes récurrents</a></li>
+<li><a href="/scribus-1/ch029_installation">Installation</a></li>
+<li><a href="/scribus-1/ch030_kredits">Kredits</a></li>
+<li><a href="/scribus-1/ch031_glossaire">Glossaire</a></li>
+</ul>

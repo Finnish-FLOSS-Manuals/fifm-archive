@@ -1,0 +1,153 @@
+<html dir="None"><body><div id="main-content"><h1>La composition
+</h1>
+<p>Maintenant que vos gabarits et vos repères sont en place, et que vous avez bien préparé votre canevas de travail sur toutes vos pages, il est temps de passer à l'action et de commencer à disposer vos éléments graphiques et typographiques dans vos pages.
+</p>
+<h2>Les cadres
+</h2>
+<p>Comme vous l'avez découvert dans le chapitre « Prise en main », tout le contenu de votre document va être placé dans des cadres, que vous connaissez peut-être aussi sous le nom de « blocs » dans d'autres programmes.
+</p>
+<p>Ces cadres sont des <strong>conteneurs génériques</strong> : ils peuvent contenir n'importe quel type de contenu que Scribus supporte, et on peut toujours convertir un cadre d'un type en un cadre d'un autre type à la condition d'en perdre le contenu : clic droit sur le cadre sélectionné (ou menu [Objet]) &gt; [Convertir en] &gt; Type de cadre.
+</p>
+<p>Pour le détail des opérations à réaliser pour chaque type de contenu (texte et image surtout), vous pouvez vous référer au chapitre « Importer texte et image » dans la section « Produire ».
+</p>
+<p>Une bonne manière de commencer votre composition est donc de disposer des cadres vides dans votre document : ils seront <strong>magnétisés</strong> à vos repères, et vous aurez ainsi mis en place une trame vide de votre future mise en page, où l'emplacement des textes, des images, des fonds colorés, des formes géométriques, des tableaux, etc. sera défini.
+</p>
+<p>Pour magnetisé les repères de votre document, allez dans le menu [Page] et cochez ensuite [Repères magnétiques].
+  <br></p>
+<h3>Couleurs, motifs et dégradés dans les cadres
+</h3>
+<p>Vous pouvez simplement donner des couleurs à n'importe quel type de cadre en vous rendant dans la fenêtre des <em>[Propriétés] &gt; [Couleurs]</em>, et en sélectionnant une des couleurs par défaut, ou une de celles que vous avez préparées dans la bibliothèque des couleurs.
+</p>
+<p> <img alt="application_couleur.png" src="_booki/scribus-1/static/Scribus_fr-Composition-application_couleur-fr-old.png" height="783" width="569"></p>
+<p>Un cadre est un objet vectoriel (voir Image vectorielle dans le glossaire), et peut recevoir une couleur de remplissage et/ou de contour : choisissez soit l'icône de pot de peinture pour le remplissage en haut à gauche de la fenêtre des couleurs, soit l'icône du pinceau pour le contour.
+</p>
+<p>Vous avez aussi la possibilité d'appliquer un dégradé à un cadre à la place d'une couleur : pour cela, cliquez sur la liste déroulante en dessous des icônes de contour et de remplissage, et sélectionnez le type de dégradé de votre choix.
+</p>
+<p><img alt="application_degrade.png" src="_booki/scribus-1/static/Scribus_fr-Composition-application_degrade-fr-old.png" height="787" width="575"></p>
+<p>Vous pouvez ensuite modifier votre dégradé en sélectionnant un des triangles dans l'espace d'aperçu du dégradé, puis en sélectionnant une des couleurs de votre bibliothèque. Ces triangles sont parfois appelés « stops » ou « marqueurs » car ils marquent des étapes dans le dégradé.
+</p>
+<p>Pour ajouter un marqueur au dégradé, passez votre souris juste en dessous de l'aperçu du dégradé : le curseur de votre souris doit afficher un [+]. Cliquez pour ajouter le nouveau marqueur, et éventuellement changer sa couleur, puis replacez-le en le faisant cliquer-glisser.
+</p>
+<p>Si vous avez ajouté un marqueur de dégradé sans le vouloir, vous pouvez le supprimer à condition que ça ne soit ni le premier ni le dernier en le faisant cliqué-glissé vers le haut ou le bas en dehors de la fenêtre d'aperçu : le curseur de votre souris doit afficher un [-].
+</p>
+<p>Comme nous l'avons appris dans le chapitre « Choix des couleurs » de la section « Créer », des motifs peuvent également être créés à partir d'une forme vectorielle : pour les appliquer, choisissez donc <em>[Motif]</em> dans la liste déroulante, puis sélectionnez un des motifs que vous avez préparé au préalable.
+</p>
+<p><img alt="creation_motif.png" src="_booki/scribus-1/static/Scribus_fr-Composition-creation_motif-fr-old.png" height="784" width="562"></p>
+<p><em>Si l'option motif n’apparaît pas dans la liste déroulante, il n'y a pas de motifs disponibles, il faut en créer un auparavant.</em>
+</p>
+<p>Enfin, vous pouvez bien sûr combiner les effets en créant un motif qui possède un dégradé !
+</p>
+<h2>Rudiments de design
+</h2>
+<p>Toujours sans avoir importé aucun contenu, vous pouvez commencer à jouer avec la <strong>disposition</strong> des cadres, et leur taille : par exemple si vous avez une mise en page en 4 colonnes, disposer une image sur 3 colonnes en fera un élément important de votre composition.
+</p>
+<p>Il n'y a pas de règles définitives en mise en page, au sens où elles sont faites pour être détournées, mais certaines choses sont à garder en tête :
+</p>
+<ul><li>Choisissez <strong>deux ou trois</strong> éléments de base (deux ou trois couleurs de référence par exemple), et construisez à partir de ceux-là, plutôt que d'en avoir trop (on appelle ça une « mise en page pizza » !) : votre palette de possibilité est déjà très grande avec ce nombre restreint d'éléments.</li>
+  <li><strong>Hiérarchisez</strong> l'information : au premier coup d'œil, voire en plissant les yeux, on doit distinguer les titres du texte courant, les éléments principaux des éléments secondaires, et la hiérarchie doit rester claire, en peu de niveaux (pas plus de trois si possible).</li>
+  <li>Dans les langues latines, on lit <strong>du coin supérieur à gauche au coin inférieur à droite</strong>, en Z. Cette habitude influence donc notre lecture de tous les documents, et les éléments placés en haut à gauche vont donc être lus en premier et les éléments en bas à droite en dernier. Prendre le contrepoint de cette règle introduit une autre façon de hiérarchiser l'information, qui peut être complémentaire ou contradictoire avec la hiérarchie du texte.</li>
+  <li>La <strong>typographie</strong> est l'élément central de votre composition : il ne peut y avoir de bonne mise en page sans un texte bien coulé. </li>
+  <li>Utilisez l'espace, et <strong>aérez</strong> votre composition : cela facilitera la lecture et mettra en valeur vos éléments graphiques et typographiques. Les espaces autour des cadres, appelés <strong>blancs tournants</strong>, sont des éléments essentiels à une bonne composition, presque aussi importants que la typographie. Si vous souhaitez renforcer une séparation entre deux zones, pensez aux filets (lignes et traits). </li>
+  <li>Jouez sur les <strong>contrastes</strong> ou les <strong>palettes de tons</strong> (camaïeux) : grand et petit, ombre et lumière, Serif et Sans serif, pleins et vides, proximité et distance, équilibre et déséquilibre, couleur et gris... Sachez créer des <strong>ruptures exceptionnelles</strong> dans la belle cohérence de vos colonnes, pour mettre l'emphase sur un élément en particulier.</li>
+  <li>Restez <strong>simple</strong>, et privilégiez la <strong>lisibilité</strong> et la cohérence à l'effet : les motifs, les dégradés existent, mais ils resteront des éléments de détails, pour ne pas alourdir la composition et gêner la visibilité des éléments principaux. </li>
+</ul><h2>Le chaînage
+</h2>
+<p>Vous avez maintenant une <strong>trame</strong> a priori pertinente, que vous allez constamment améliorer au fur et à mesure que vous créez, importez, placez et réglez tous vos éléments. Mais il y a encore un élément important à connaître pour faire fonctionner votre composition : le chaînage, qui définit le <strong>flux du texte</strong> dans le document.
+</p>
+<p>Si le texte est plus long que ce que le cadre ne peut accepter, Scribus ne créera pas de lui-même un nouveau cadre ou une nouvelle page.
+</p>
+<p>C'est l'outil [Lier les cadres de texte], présent dans la barre d'outils, qui vous permet de réaliser le chaînage.
+</p>
+<p><img alt="chainage.png" src="_booki/scribus-1/static/Scribus_fr-Composition-chainage-fr-old.png" height="432" width="600"></p>
+<p>Scribus affiche un petit carré en bas à droite du cadre pour rendre visible le problème, mais il appartient à <strong>l'utilisateur</strong> de définir ce que doit devenir ce texte. La pratique usuelle consiste à prolonger le texte <strong>dans le cadre suivant</strong>, sur la même page ou sur une autre.
+</p>
+<ol><li>Créez un autre cadre ;</li>
+  <li>Retournez dans le cadre qui contient le texte ;</li>
+  <li>Activez l'outil Liaison (Lier les cadres de texte) puis allez cliquer sur le nouveau cadre. Le texte doit se poursuivre de l'un à l'autre.</li>
+  <li>Vous pouvez répéter la liaison sur d'autres cadres jusqu'à ce que tout le texte soit visible.</li>
+  <li>En cas d'erreur l'action suivante permet de délier les cadres. Cliquez simplement sur un cadre avec cet autre outil pour vider le cadre de son texte celui-ci étant reporté dans le cadre précédent même s'il n'est pas visible. </li>
+</ol><p><em>Attention, il n'est possible de lier que vers un cadre qui ne contient pas déjà du texte. D'un autre côté, si l'option [Cadres de texte automatiques] a été activée au moment de la création du document ou dans le [Réglages du document], toute nouvelle page contiendra un cadre qui sera lié automatiquement au cadre de la page précédente et suivante.</em>
+</p>
+<p>Si vous voulez voir le flux du texte, Scribus peut vous le montrer sous forme de flèches : pour cela, allez dans le menu [Affichage], et cochez [Afficher les liens entre cadres].
+</p>
+<h2>Le faux texte
+</h2>
+<p>Si vous voulez tester le flux du texte avant d'importer votre texte définitif, vous pouvez utiliser du faux texte, ce qui vous permettra de remplir des pages temporairement afin d'en calibrer le contenu, et d'avoir un premier aperçu du rendu typographique.
+</p>
+<p> Le faux texte le plus connu est le « Lorem Ipsum » : <span class="lang-la" lang="la"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi...</em></span><em> </em>Il s'agit de faux latin, qui ne veut rien dire.
+</p>
+<p>Pour insérer un faux texte, sélectionnez un cadre de texte, puis rendez-vous dans le menu [Insérer], et sélectionnez [Insérez un faux texte]. Une boîte de dialogue apparaît, et vous propose d'insérer un faux texte de la longueur que vous souhaitez dans la langue de votre choix : choisissez a priori un faux texte dans la langue du document, vous aurez un meilleur aperçu du futur gris typographique.
+</p>
+<h2>Le gris typographique
+</h2>
+<p> Le gris typographique est l'impression produite sur l'œil par la vision générale d'un texte ; on parle aussi de couleur du texte. Il ne s'agit pas de sa couleur au sens de la teinte des pigments colorant les caractères, mais au sens de la densité moyenne du gris, résultat optique de la juxtaposition de multiples caractères noirs sur fond blanc (le concept s'étend bien sûr à d'autres couleurs que le noir).
+</p>
+<p>Comme nous l'avons expliqué précédemment, c'est un élément déterminant de la composition en mise en page. Le gris typographique conditionne la première impression qu'un lecteur a d'un texte et surtout l'aisance avec laquelle ce lecteur pourra le lire ; il se doit donc d'être en accord avec les règles typographiques.
+</p>
+<p>Les différents facteurs qui influencent le gris typographique et son homogénéité sont la police, le corps, l'interlignage, la graisse, la casse, la chasse, la justification et l'approche. L'homogénéité du gris d'un bloc de texte est souvent appréciée en plissant les yeux pour "flouter" le texte et mieux percevoir les variations. S'il y a trop de taches sombres ou trop de taches claires dans l'image créée, c'est que le gris n'est pas harmonieux.
+</p>
+<p>Nous reviendrons sur tous les détails de la typographie dans le chapitre « Typographie » de la section « Produire ».
+</p>
+<p>L’image ci-dessous montre le même texte composé en Liberation Sans 11 pts avec successivement un interlignage de 3, 6, 9, 12 et 15 pts. On passe du noir au gris par un exemple choc ! Les paramètres sur lesquels on peut agir pour régler le gris typographique sont plus nombreux que le seul interlignage mais l’exemple est éloquent !
+</p>
+<p> <img alt="gristypo.png" src="_booki/scribus-1/static/Scribus_fr-Composition-gristypo-fr-old.png" height="370" width="522"></p>
+<h2>La pile des objets et les calques
+</h2>
+<p>Un dernier point important pour bien gérer votre composition est de savoir comment disposer les éléments les uns par rapport aux autres dans la pile des objets : en effet certains objets passe devant ou derrière d'autres objets, sur un l'axe de notre regard (appelé axe Z, car c'est une propriété de positionnement supplémentaire en plus de l'abscisse X et de l'ordonnée Y).
+</p>
+<p>Scribus l'appelle la « disposition » : on peut y accéder en faisant un clic droit sur un cadre que l'on a sélectionné, puis en allant sur [Disposition] et en choisissant le déplacement que l'on souhaite effectué. On peut ainsi choisir de déplacer le cadre d'un cran vers le haut ou le bas, ou de le mettre au plus haut ou au plus bas. On peut également accéder au réglage de la disposition dans la fenêtre [Propriétés] &gt; [X,Y,Z].
+</p>
+<p>Ainsi, tous les cadres dans notre document ont une position dans l'axe Z, et les nouveaux cadres se placent au plus haut.
+</p>
+<p>Pour allez plus loin avec la disposition des objets, on peut utiliser les calques, qui permettent de créer des étages personnalisés dans la pile : appelez la fenêtre des Calques par le menu [Fenêtres] &gt; [Calques].
+</p>
+<p><img alt="Calques.png" src="_booki/scribus-1/static/Scribus_fr-Composition-Calques-fr-old.png" height="272" width="383"> 
+</p>
+<p>Par défaut il y a un seul calque appelé « Fond de page ». Vous pouvez créer de nouveaux calques en cliquant sur [+], puis déplacer des cadres vers un nouveau calque en faisant un clic droit sur un cadre que l'on a sélectionné, puis en allant sur [Mettre sur le calque] et en choisissant le calque de destination.
+</p>
+<p>Si vous utilisez des calques, prenez l'habitude de bien les nommer, pour que leur nom reste pertinent.
+</p>
+<p> Vous pouvez maintenant cacher, rendre imprimable, verrouiller, activer l'habillage ou passez en mode contour pour tous les objets présents sur le calque en même temps : cela permet de vous organiser facilement. Attention, les calques s'appliquent sur l'ensemble du document, pas sur une page seulement.
+</p>
+<p>Enfin, vous pouvez régler l'opacité du calque, elle affectera tous les objets du calque globalement, ainsi que le mode de fusion de façon similaire.
+</p>
+<p>Le mode de fusion permet de créer un effet de mélange du calque en question avec le(s) calque(s) précédent(s), via un calcul qui joue par multiplication, division, addition ou soustraction sur les variables en rapport avec la teinte, la saturation ou la luminosité des couleurs. Le résultat est donc un mélange visuel (appelé fusion ou fondu) de couleur entre les calques. Un mode de fusion ne joue pas sur la transparence de l'objet. Son intérêt par rapport à d'autres types d'effet, c'est qu'il est temporaire, facilement activable ou désactivable, et qu'il permet de réaliser des incrustations d'images dans d'autres rapidement.
+</p>
+<p>Vous avez maintenant toutes les clés pour réaliser une bonne composition : après l'avoir préparée, vous pouvez passer à une autre phase très importante, préparer vos styles de texte !
+</p>
+<p>
+</p>
+
+</div><ul Class="menu-goes-here"><li><a href="/scribus-1/index">Testi</a></li>
+<li><a href="/scribus-1/ch001_introduction">Introduction</a></li>
+<li><a href="/scribus-1/ch002_prerequis">Prérequis</a></li>
+<li><a href="/scribus-1/ch003_prise-en-main">Prise en main</a></li>
+<li><a href="/scribus-1/ch004_exemples-dutilisation">Exemples d'utilisation</a></li>
+<li><a href="/scribus-1/ch005_a-propos-de-ce-livre">À propos de ce livre</a></li>
+<li><a href="/scribus-1/ch006_creer">Creer</a></li>
+<li><a href="/scribus-1/ch007_commencer-par-la-fin">Commencer par la fin</a></li>
+<li><a href="/scribus-1/ch008_les-chaines-editoriale-et-graphique">Les Chaînes éditoriale et graphique</a></li>
+<li><a href="/scribus-1/ch009_preparer-les-sources">Préparer les sources</a></li>
+<li><a href="/scribus-1/ch010_format">Format</a></li>
+<li><a href="/scribus-1/ch011_choix-des-couleurs">Choix des couleurs</a></li>
+<li><a href="/scribus-1/ch012_choix-des-polices">Choix des polices</a></li>
+<li><a href="/scribus-1/ch013_organiser">Organiser</a></li>
+<li><a href="/scribus-1/ch014_organiser-ses-fichiers">Organiser ses fichiers</a></li>
+<li><a href="/scribus-1/ch015_gabarits">Gabarits</a></li>
+<li><a href="/scribus-1/ch016_composition">Composition</a></li>
+<li><a href="/scribus-1/ch017_feuilles-de-style">Feuilles de style</a></li>
+<li><a href="/scribus-1/ch018_les-scripts">Les scripts</a></li>
+<li><a href="/scribus-1/ch019_produire">Produire</a></li>
+<li><a href="/scribus-1/ch020_importer-texte-et-image">Importer Texte et Image</a></li>
+<li><a href="/scribus-1/ch021_typographie">Typographie</a></li>
+<li><a href="/scribus-1/ch022_habillage-et-typographie">Habillage et typographie</a></li>
+<li><a href="/scribus-1/ch023_gestion-des-couleurs">Gestion des couleurs</a></li>
+<li><a href="/scribus-1/ch024_le-controle-de-qualite">Le contrôle de qualité</a></li>
+<li><a href="/scribus-1/ch025_lassemblage-des-documents">L'assemblage des documents</a></li>
+<li><a href="/scribus-1/ch026_la-sortie-finale">La sortie finale</a></li>
+<li><a href="/scribus-1/ch027_annexe">Annexe</a></li>
+<li><a href="/scribus-1/ch028_problemes-recurrents">Problèmes récurrents</a></li>
+<li><a href="/scribus-1/ch029_installation">Installation</a></li>
+<li><a href="/scribus-1/ch030_kredits">Kredits</a></li>
+<li><a href="/scribus-1/ch031_glossaire">Glossaire</a></li>
+</ul>

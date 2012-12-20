@@ -1,0 +1,140 @@
+<html dir="None"><body><div id="main-content"><h1>Gestion des couleurs
+</h1>
+<p>Tout acteur de la chaîne graphique doit, à un moment ou à un autre, se sentir préoccupé par le rendu des couleurs du document une fois publié. Il s'agit avant tout de savoir anticiper les contraintes liées au support sur lequel sera diffusé le document, et les différences plus ou moins notables qui seront révélées au moment de la publication. Pour minimiser ces disparités colorimétriques, il est recommandé d'appliquer une <strong>gestion des couleurs</strong>. Une telle gestion implique plusieurs étapes, toutes dédiées à l'anticipation des contraintes liées au support, qu'il est donc important de connaître en amont. Au cœur de la gestion des couleurs, on trouve les profils colorimétriques, communément appelés <strong>profils ICC</strong>, dont l'objectif est d'agir comme des passerelles entre deux espaces de couleurs.
+</p>
+<p>Dans Scribus, la gestion des couleurs est accessible via<em> Fichiers &gt; Préférences &gt; Gestion des couleurs</em> pour une application globale à l'application, et<em> Fichiers &gt; Préférences &gt; Réglages du document</em> pour en limiter l'application au seul document en cours.
+</p>
+<p><img alt="gestion-couleurs01_1.png" src="_booki/scribus-1/static/Scribus_fr-GestionDesCouleurs-gestion-couleurs01_1-fr-old.png" height="366" width="600"> 
+</p>
+<h2>Le profil d'acquisition
+</h2>
+<p>En début de chaîne, le profil d'acquisition rassemble les données couleur d'une ressource bitmap ou vectorielle au moment où celle-ci est créée. S'il s'agit d'une prise de vue, c'est l'appareil photo qui se charge d'embarquer le profil dans l'image. S'il s'agit d'une image scannée, c'est le scanner qui lui appliquera un profil. S'il s'agit d'une image vectorielle, c'est le logiciel de création qui incorporera le profil. Ces trois exemples démontrent la complexité d'une gestion correcte des couleurs, un profil étant capable d'en écraser un autre, comme dans le cas d'une photographie (premier profil), imprimée (deuxième profil) puis scannée (troisième profil). Conserver le profil d'acquisition relève généralement d'une démarche volontaire de préserver les couleurs du document original.
+</p>
+<h3>Indispensable RVB
+</h3>
+<p>Le profil d'acquisition est le plus souvent en RVB puisque le gamut beaucoup plus large de cet espace colorimétrique permet une correction plus fine. Il peut cependant être directement en CMJN lorsqu'il s'agit d'une création dont on sait qu'elle sera intégrée à un document destiné à l'impression.
+</p>
+<p>Il est possible, notamment dans le cas d'un scanner, de créer son propre profil d'acquisition. Cette pratique est une garantie supplémentaire d'anticipation des contraintes liées à la publication. Elle implique une méthodologie particulière, une certaine expertise et le matériel adéquat (logiciel et mire).
+</p>
+<h3>Les profils dans Scribus
+</h3>
+<p>Dans Scribus, le profil d'une<strong> </strong>image RVB se gère dans la fenêtre des Préférences, sous l'onglet Gestion des couleurs. Le menu déroulant [Images RVB] dispose d'un panel de profils standards efficaces et certifiés qui seront appliqués à toutes les images RVB qui n'embarquent pas de profil. Scribus gère les profils CMJN de la même façon, en proposant, dans le menu déroulant [Images CMJN] d'appliquer des profils standards faisant l'objet d'une<strong> norme ISO</strong>, ou d'en installer d'autres plus spécifiques ou personnalisés.
+</p>
+<p>Il reste possible d'ajouter ses propres profils ou des profils particuliers en les enregistrant dans les répertoires adéquats qui dépendent du système d'exploitation. Avec Windows, ce répertoire se trouve dans \Windows\system32\spool\drivers\color. Les utilisateurs de Mac pourront utiliser au choix le répertoire de partage /Library/ColorSync/Profiles ou, pour ceux qui n'ont pas les droits administrateurs, le répertoire /Users/&lt;username&gt;/Library/ColorSync/Profiles. Sur les distributions Linux, le dossier renfermant les profils se trouve soit, pour un partage entre utilisateurs, au bout de /usr/share/color/icc, soit, pour un utilisateur sans droits d'administrateur, dans /home/&lt;username&gt;/.color/icc. Les profils copiés dans ces répertoires seront <strong>automatiquement chargés</strong> au lancement de Scribus.
+</p>
+<p><img alt="rep_icc.png" src="_booki/scribus-1/static/Scribus_fr-GestionDesCouleurs-rep_icc-fr-old.png" height="391" width="600"></p>
+<h2>Le profil moniteur
+</h2>
+<p>Travailler sur écran implique de calibrer correctement l'affichage du document sous sa forme numérique. L'espace RVB se révèle indispensable dans un premier temps puisque l'écran lui-même s'appuie sur cet espace. L'intérêt d'un profil d'acquisition en RVB pour les images constituées de pixels en est par conséquent d'autant plus pertinent.
+</p>
+<p>Un moniteur est calibré à partir d'une sonde et avec un logiciel spécifique. Cette action génère un profil qui tient compte des qualités d'affichage de l'écran, de ses réglages et de son environnement (notamment la luminosité de l'espace de travail). Ce profil est ensuite appliqué à l'écran pour optimiser l'affichage des documents. Scribus offre la possibilité de charger, comme expliqué précédemment, un <strong>profil moniteur</strong> dans son espace de gestion des couleurs, à la mention [Écran]. Par défaut, c'est le profil du constructeur qui est appliqué.
+</p>
+<p><img alt="profil_ecran.png" src="_booki/scribus-1/static/Scribus_fr-GestionDesCouleurs-profil_ecran-fr-old.png" height="366" width="600"></p>
+<h3>L'action du profil
+</h3>
+<p>Le profil d'un écran n'a pas pour vocation d'écraser le profil intégré à une image, mais de lui offrir les meilleures conditions d'affichage en se rapprochant autant que possible des <strong>couleurs réelles</strong>. Le blanc numérique est en effet absent de la réalité car trop lumineux. Les couleurs qui nous entourent sont en relation étroite avec l'environnement et sa température, de froide (un ciel gris, par exemple) à chaude (un après-midi ensoleillé). Disposer d'un environnement de travail neutre permet de mieux contrôler le rendu des couleurs, a fortiori si le document est destiné à l'impression.
+</p>
+<h2>Le profil des couleurs
+</h2>
+<p>Scribus a fait le choix de distinguer les profils applicables aux images des profils applicables aux couleurs. Il est ainsi possible d'appliquer des profils RVB plus ambitieux pour les images bitmap (présentant un gamut plus large) tout en autorisant l'utilisateur à privilégier un profil différent et mieux adapté aux couleurs RVB présentes dans la mise en page (texte, formes, etc.).
+</p>
+<p>En parallèle des deux menus déroulants dédiés aux images, il existe donc deux menus déroulants dédiés aux couleurs, l'un pour le RVB, l'autre pour le CMJN. Le premier, [Couleurs RVB], sera réservé aux documents destinés à une diffusion sur <strong>support numérique</strong>, comme d'autres écrans, par exemple via le Web, puisqu'il ne saurait être question d'appliquer dans Scribus des couleurs de remplissage RVB à un document destiné à l'impression.
+</p>
+<h2>Le rendu
+</h2>
+<p>Les profils ne serviraient à rien sans une simulation du document tel qu'il apparaîtra dans son support de publication. Les actions de rendu permettent de <strong>prévisualiser</strong> le travail de conversion et de limitation des profils et de <strong>corriger</strong> les problèmes éventuels.
+</p>
+<h3>Simuler la conversion
+</h3>
+<p>Les profils servent à <strong>contenir des informations de couleur</strong>. Ces informations sont importantes parce qu'elles caractérisent l'origine de l'image et permettront, par la suite, de préparer la conversion des images et couleurs dans l'espace colorimétrique du support.
+</p>
+<p>Une conversion entre profils ne s'effectue pas directement, même entre deux profils appartenant au même espace colorimétrique. La conversion implique nécessairement un espace de transition, le plus large possible : le mode<strong> L*a*b</strong>. Par conséquent, une image dans un profil RVB sera d'abord convertie en L*a*b avant d'accueillir un nouveau profil RVB ou CMJN. La raison en est que les profils ne recouvrent pas les mêmes valeurs colorimétriques. Utiliser un espace de transition plus large permet de réduire considérablement les erreurs de conversion entre deux valeurs proches, mais non identiques.
+</p>
+<p><img alt="profils.png" src="_booki/scribus-1/static/Scribus_fr-GestionDesCouleurs-profils-fr-old.png" height="300" width="600"></p>
+<h3>Simuler le taux d'encrage maximal
+</h3>
+<p>Un profil peut également être utilisé pour limiter les conséquences analogiques d'une valeur numérique. Par exemple, un noir intense à l'écran n'aura pas d'effet sur son affichage. En revanche, dès lors qu'il sera imprimé, le document contenant ce noir intense sera converti en une correspondance de valeurs CMJN, qui se traduiront elles-mêmes en couches d'encre superposées. Un mélange intense pourra être composé de 75% de cyan, 65% de magenta, 85% de jaune et 90% de noir, et sera susceptible de générer une superposition trop abondante et un maculage.
+</p>
+<p>Pour éviter le maculage, les profils proposent de limiter le taux d'encrage maximal (ou TAC, pour <em>total area coverage</em> en anglais) que peut accueillir une feuille de papier. Pour certains profils matériels, cela peut descendre à 240% d'encrage maximal. Les profils standard européens, eux, limitent à 320 ou 300%.
+</p>
+<h3>Les intentions de rendu
+</h3>
+<p>Il existe plusieurs modes de rendu adaptés aux supports de publication. Ici encore, et en adéquation avec sa gestion des profils, Scribus distingue les images des couleurs. Cette démarche complète la capacité, introduite plus haut, d'utiliser par exemple un profil mieux adapté aux aplats l'accompagnant d'un mode de rendu qui lui aussi mieux adapté aux aplats.
+</p>
+<p>Les modes de rendu permettent de prévisualiser à l'écran la conversion des couleurs à venir. Ils sont au nombre de quatre.
+</p>
+<ul><li>[<em>Perceptible</em>] adapte la conversion entre profils de façon à ce qu'elle préserve les relations entre couleurs similaires et évite les effets de bandes tonales. Il est recommandé pour la publication imprimée. </li>
+  <li>[<em>Colorimétrie relative</em>] se focalise davantage sur la correspondance entre couleurs, privilégiant le respect des couleurs originales tout en calibrant son point blanc sur le papier de sortie. Il reste donc lui aussi adapté aux publications imprimées. </li>
+  <li>[<em>Colorimétrie absolue</em>] procède comme le mode Colorimétrie relative, sauf qu'il ne calibre pas son point blanc sur le blanc papier, et privilégiera la correspondance absolue des couleurs. Il est adapté aux couleurs d'accompagnement, mais surtout pas aux images. </li>
+  <li>[<em>Saturation</em>], comme son nom l'indique, impose un respect absolu de la couleur, au détriment du respect des transitions. Comme le mode Colorimétrie absolue, il est à réserver aux couleurs d'accompagnement, ou aux logos et pictogrammes.</li>
+</ul><img alt="rendu.png" src="_booki/scribus-1/static/Scribus_fr-GestionDesCouleurs-rendu-fr-old.png" height="366" width="600"><h3>Personnaliser la simulation
+</h3>
+<p>Les intentions ou modes de rendu permettent d'afficher à l'écran une prévisualisation de ce qui sera effectivement publié sur le support, et notamment sur du matériel d'impression. Il est possible de personnaliser cette simulation numérique en forçant les couleurs à correspondre à celles comprises dans l'espace colorimétrique de l'imprimante de sortie. C'est l'action de l'option [Convertir toutes les couleurs vers l'espace de couleurs de l'imprimante].
+</p>
+<p> L'action [Identifier les couleurs hors gamme] permet de visualiser les couleurs qui seraient susceptibles de ne pas s'imprimer correctement, généralement parce qu'elles n'existent pas dans l'espace colorimétrique de destination.
+</p>
+<p>L'option [Équilibrer le point noir] est une opération visant à rééquilibrer le contraste d'une image tout en compensant le mélange des encres. Dans une photographie, par exemple, le mélange de noir correspondant à la valeur la plus sombre de l'image sera automatiquement rehaussé par le profil CMJN, pour que le mélange ne soit pas riche au point d'additionner les couches d'encre lors de l'impression.
+</p>
+<h2>Appliquer la gestion des couleurs
+</h2>
+<p>La gestion des couleurs doit être présente dès l'acquisition ou la création des éléments de composition, mais c'est dans le <strong>logiciel de mise en page</strong> qu'elle est la plus essentielle, puisqu'elle décide des profils couleur qui seront finalement appliqués.
+</p>
+<h3>Préférences et réglages
+</h3>
+<p>Par défaut, la gestion des couleurs s'active à partir de <em>Fichier &gt; <strong>Préférences</strong> &gt; Gestion des couleurs</em>. Les paramètres qui sont entrés ici se verront appliqués à tous les documents ouverts ou créés avec Scribus.
+</p>
+<p>Il arrive cependant que des réglages particuliers soient nécessaires pour un document. Dans ce cas, il est possible de privilégier <em>Fichier &gt; <strong>Réglage du document</strong> &gt; Gestion des couleurs</em> pour appliquer des paramètres particuliers à un fichier.
+</p>
+<p>Les réglages de couleur sont également accessibles directement depuis la fenêtre de travail de Scribus, dans la barre d'options inférieure. Une icône déroulante permet non seulement d'activer, mais aussi de personnaliser la gestion des couleurs via la commande [Configurer le CMS].
+</p>
+<p>Il est possible de choisir de ne pas appliquer du tout de gestion des couleurs, mais ce choix peut occasionner des différences notables entre l'affichage du document à l'écran et son impression.
+</p>
+<h3>Quels profils de sortie choisir?
+</h3>
+<p>Les profils sont aussi variés que les types de matériel. Les imprimeurs, par exemple, créent parfois leurs propres profils adaptés à leur flux de travail et leur infrastructure, ou peuvent faire appel à des spécialistes pour les générer pour eux.
+</p>
+<p> Les constructeurs fournissent souvent un profil avec le périphérique qu'ils produisent. Il est d'ailleurs recommandé d'utiliser en priorité les profils du fabricant, qui seront généralement les mieux adaptés, mais qui, dans un flux parfait, ne sauront rester valables dans la durée. Les écrans en particulier voient leurs couleurs et leur luminosité se modifier au cours d'une journée de travail (chauffe des composants) et au fil des mois (usure). Les personnes exigeantes produisent donc régulièrement des profils à l'aide de sondes pour prendre en compte ces évolutions. Certaines sondes modernes s'adaptent en temps réel aux modifications du matériel grâce aux logiciels avec lesquels elles sont livrées. Le logiciel libre Argyll et ses dérivés comme dispcalgui permettent de créer des profils.
+</p>
+<p>Il existe aussi des profils standards qui servent de référence globale en cas d'absence de profils particuliers. Ces profils sont généralement produits par des consortiums, des groupes de personnes faisant autorité et déterminant, en fonction du matériel et des encres proposés dans les régions du monde, des profils génériques à partir des spécifications émises par l'<strong>ICC</strong> (International Color Consortium). Pour l'Europe, l'<strong>ECI</strong> (European Color Initiative - eci.org) publie des profils colorimétriques RVB et CMJN adaptés au flux de travail européen parce que s'appuyant sur les spécificités du <strong>Fogra</strong> et les normes <strong>ISO</strong> liées à la couleur. Les profils fournis par l'ECI existent d'ailleurs dans une version limitant le taux d'encrage maximal à 300%. Ces profils tentent surtout de normaliser les procédures d'impression et peuvent constituer une base relativement fiable de travail en l'absence d'information de la part de l'imprimeur.
+</p>
+<p><img alt="profils_eci.png" src="_booki/scribus-1/static/Scribus_fr-GestionDesCouleurs-profils_eci-fr-old.png" height="441" width="600"></p> <address>L'ECI met à disposition des profils pour les presses offset européennes.</address>
+<h3>De la difficulté de la publication multimédia
+</h3>
+<p>Un document destiné à être diffusé sur le Web est beaucoup plus difficile à profiler qu'un document destiné à l'impression. Autant il est aisé et même fortement recommandé de prévisualiser un rendu papier grâce à des profils colorimétriques correspondant à un matériel d'impression, autant il est impossible d'anticiper sur son propre écran le rendu d'un document destiné à être lu sur d'autres écrans, multiples, et eux-mêmes souvent sont caractérisés.
+</p>
+<p>La raison en est que le marché des écrans est inondé de périphériques de lecture numériques aux qualités, constructeurs et calibrages (quand ce calibrage existe) variés. En produisant un document PDF depuis Scribus, et malgré une gestion des couleurs optimisée pour un affichage écran, il est donc plus que probable que les couleurs du document en question soient légèrement différentes sur l'écran du lecteur. Dans ce cas, il est recommandé de s'appuyer sur les profils RVB les plus répandus sur les périphériques de lecture numériques : <strong>sRGB</strong> et <strong>Adobe RGB</strong>.
+</p>
+
+</div><ul Class="menu-goes-here"><li><a href="/scribus-1/index">Testi</a></li>
+<li><a href="/scribus-1/ch001_introduction">Introduction</a></li>
+<li><a href="/scribus-1/ch002_prerequis">Prérequis</a></li>
+<li><a href="/scribus-1/ch003_prise-en-main">Prise en main</a></li>
+<li><a href="/scribus-1/ch004_exemples-dutilisation">Exemples d'utilisation</a></li>
+<li><a href="/scribus-1/ch005_a-propos-de-ce-livre">À propos de ce livre</a></li>
+<li><a href="/scribus-1/ch006_creer">Creer</a></li>
+<li><a href="/scribus-1/ch007_commencer-par-la-fin">Commencer par la fin</a></li>
+<li><a href="/scribus-1/ch008_les-chaines-editoriale-et-graphique">Les Chaînes éditoriale et graphique</a></li>
+<li><a href="/scribus-1/ch009_preparer-les-sources">Préparer les sources</a></li>
+<li><a href="/scribus-1/ch010_format">Format</a></li>
+<li><a href="/scribus-1/ch011_choix-des-couleurs">Choix des couleurs</a></li>
+<li><a href="/scribus-1/ch012_choix-des-polices">Choix des polices</a></li>
+<li><a href="/scribus-1/ch013_organiser">Organiser</a></li>
+<li><a href="/scribus-1/ch014_organiser-ses-fichiers">Organiser ses fichiers</a></li>
+<li><a href="/scribus-1/ch015_gabarits">Gabarits</a></li>
+<li><a href="/scribus-1/ch016_composition">Composition</a></li>
+<li><a href="/scribus-1/ch017_feuilles-de-style">Feuilles de style</a></li>
+<li><a href="/scribus-1/ch018_les-scripts">Les scripts</a></li>
+<li><a href="/scribus-1/ch019_produire">Produire</a></li>
+<li><a href="/scribus-1/ch020_importer-texte-et-image">Importer Texte et Image</a></li>
+<li><a href="/scribus-1/ch021_typographie">Typographie</a></li>
+<li><a href="/scribus-1/ch022_habillage-et-typographie">Habillage et typographie</a></li>
+<li><a href="/scribus-1/ch023_gestion-des-couleurs">Gestion des couleurs</a></li>
+<li><a href="/scribus-1/ch024_le-controle-de-qualite">Le contrôle de qualité</a></li>
+<li><a href="/scribus-1/ch025_lassemblage-des-documents">L'assemblage des documents</a></li>
+<li><a href="/scribus-1/ch026_la-sortie-finale">La sortie finale</a></li>
+<li><a href="/scribus-1/ch027_annexe">Annexe</a></li>
+<li><a href="/scribus-1/ch028_problemes-recurrents">Problèmes récurrents</a></li>
+<li><a href="/scribus-1/ch029_installation">Installation</a></li>
+<li><a href="/scribus-1/ch030_kredits">Kredits</a></li>
+<li><a href="/scribus-1/ch031_glossaire">Glossaire</a></li>
+</ul>

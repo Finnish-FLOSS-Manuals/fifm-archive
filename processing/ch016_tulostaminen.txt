@@ -1,0 +1,156 @@
+<div id="main-content"><h1>Tulostaminen<span id="result_box"><span></span></span>
+</h1>
+<h2><span id="result_box"><span></span></span>
+</h2>
+<p><span id="result_box"><span>
+  <br></span><span>Tähän asti olemme työskennelleet ruudulla luoden kuvia ja animaatioita. Nyt keskustelemme tulostamisesta: teemme PDF-tiedoston, jonka tulostamme paperille. </span><span></span></span>
+</p>
+<h2>Suora tila
+  <br></h2>
+<p><span id="result_box"><span></span></span><span id="result_box"><span></span><span>Tässä esimerkissä luomme 500 satunnaista ympyrää ja piirrämme ne PDF-dokumenttiin, joka tallennetaan työkansioomme. </span></span>
+</p>
+<p>
+</p>
+<p><img title="01_PDF_1" alt="01_PDF_1" src="_booki/processing/static/01_PDF_1-fi.png" height="485" width="396"></p>
+<pre>import processing.pdf.*;
+size(400, 400, PDF, "Pallot.pdf");
+for (int i = 0; i &lt; 500; i++)
+   ellipse(random(width),random(height), 50, 50);
+exit();</pre><span id="result_box"><span>Tässä esimerkissä aloitamme tuomalla kaikki luokat kirjastosta processing.pdf. Käytämme metodia size (), joka ottaa neljä parametriä. Huomaat varmaan tässä avainsanan, joka kertoo Processingille, että piirrämme dokumentin "Pallot.pdf", joka on metodin neljäs parametri. </span><span>
+<br><br></span><span>Tällä metodilla emme tarvitse ikkunoita, koska voimme piirtää suoraan dokumenttiin emmekä ruudulle. Tämä ohjelma päättyy komennolla exit(), joka käskee Processingin lopettaa ohjelma itsekseen, kunhan olemme painaneet käyttöliittymän <strong>Stop</strong>-nappia. </span><span>
+<br><br></span><span>Luotu dokumentti on ohjelmasi hakemistossa. Voit avata sen kaksoisnapsauttamalla. </span><span></span></span>
+<p><img title="02_PDF_Fichier_export_1" alt="02_PDF_Fichier_export_1" src="_booki/processing/static/02_PDF_Fichier_export_1-fi.png" height="220" width="266"></p>
+<h2>Nauhoitustila<span id="result_box"><span></span></span>
+</h2>
+<p>Voimme nyt nähdä, kuinka voit piirtää sekä ruudulle että tiedostoon. PDF-tiedostoon piirretään komennoilla <span id="result_box"><span></span><span>beginRecord() ja endRecord(). </span><span>Molemmat menetelmät antavat meidän aloittaa ja lopettaa grafiikkakomentojen piirtäminen PDF-tiedostoon. </span></span><span id="result_box"><span></span></span>
+</p>
+<p><span id="result_box"><span>Kuten aiemminkin, tuloksena oleva tiedosto on tallennettu ohjelman kansioon.
+  <br></span><span>
+  <br> Seuraavassa esimerkissä luomme graafisen työkalun, jonka siveltimen koko riippuu hiiren nopeudesta. Ohjelman käynnistyessä metodi setup() aloittaa nauhoittamisen komennosta beginRecord(), joka ottaa ensimmäisenä parametrinä viennin tyypin ja tiedostonimen toisena parametrinä. Kun painat VÄLILYÖNTIÄ, nauhoitus loppuu ja ohjelma pysähtyy. Kuten aiemminkin, tiedosto tallennetaan ohjelman kansioon.
+  <br><br></span></span>
+</p>
+<p><img src="_booki/processing/static/03_PDF_Detail-fi_1.png"></p>
+<pre>import processing.pdf.*;
+boolean drag = false;
+
+void setup()
+{
+  size(400, 400);
+  smooth();
+  beginRecord(PDF, "Pallot.pdf");
+}
+
+void draw() {
+  if (drag)
+  {
+    float r = dist(pmouseX, pmouseY, mouseX, mouseY) + 5;
+    ellipse(mouseX, mouseY, r, r);
+  }
+}
+
+void mouseDragged() {
+  drag = true;
+}
+
+void mouseReleased() {
+  drag = false;
+}
+
+void keyPressed() {
+    endRecord();
+    exit();
+}
+</pre>Seuraava rivi: 
+<pre>float r = dist(pmouseX, pmouseY, mouseX, mouseY) + 5;
+</pre>
+<p><span id="result_box"><span>... voi laskea hiiren nopeuden käyttäen metodia dist ja muuttujia pmouseX, mouseX, mouseY ja pmouseY. </span><span>Voimme lisätä 5, jotta meillä ei ole läpimitan 0 ympyröitä ruudulla.
+  <br><br></span><span>Voimme käyttää muuttujaa drag ja piirtää käyttäjän tekemät ympyrät komennolla draw(). </span></span>
+</p>
+<h2>Kirjageneraattori
+</h2>
+<p><span id="result_box"><span></span></span><span id="result_box"><span></span><span>Sen sijaan että loisimme yhden dokumentin, luomme monisivuisen kirjan. Luomme dynaamisesti käännettävät sivut </span><span><a href="http://fr.wikipedia.org/wiki/Folioscope).">(</a><a href="http://fr.wikipedia.org/wiki/Folioscope" target="_top">http://fr.wikipedia.org/wiki/Folioscope</a>).  Jokainen sivu näyttää kuvan animaation. Me käytämme metodia nextPage(), joka luo tyhjän sivun joka kerta kun metodia kutsutaan nauhoituksen aikana.  </span><span></span></span>
+</p>
+<p><img title="04_PDF_Folioscope_2" alt="04_PDF_Folioscope_2" src="_booki/processing/static/04_PDF_Folioscope_2-fi.png" height="172" width="400"></p>
+<pre>import processing.pdf.*;
+
+PGraphicsPDF pdf;
+float x = 0;
+float y = 75;
+
+void setup() {
+  size(400, 150);
+  smooth();
+  pdf = (PGraphicsPDF) beginRecord(PDF, "Luoti.pdf");
+}
+
+void draw() {
+  background(255);
+  fill(0);
+  ellipse(x, y, 30, 30);
+
+  x = x + random(5);
+  y = y + random(-5, 5);
+
+  if (x - 30 &gt; width) {
+    endRecord();
+    exit();
+  }
+  pdf.nextPage();
+}</pre>
+<p><span id="result_box" class="long_text"><span>Olemme esitelleet muuttujan, joka varastoi pdf-dokumentin, jonka luomme. Kun olemme lopettaneet kuvan piirtämisen draw() -komennolla, siirrymme seuraavaan kuvaan metodilla pdf.nextPage(). Ohjelma pysäytetään ja voimme avata hakemistosta tiedoston Luoti.pdf. </span><span></span></span>
+</p>
+<h2><span id="result_box" class="long_text"><span>Pikseli vastaan vektori</span></span>
+</h2>
+<p><span id="result_box" class="long_text"><span></span></span><span></span><span>Kun piirrämme esimerkiksi neliön ruudulle, täytämme ruudun alueen pikselit tietyllä värillä. Jos tallennamme kuvan, voimme tallentaa jokaisen yksittäisen pikselin tietyssä kuvaformaatissa</span><span> (JPEG, GIF, TIFF, jne.). Jos tahdomme laajentaa kuvan, tietokone ei kykene luomaan uusia pikseleitä vanhojen pikselien väliin ja lisäämään yksityiskohtia, koska se ei tallenna tätä tietoa tiedostoon. </span><span id="result_box" class="long_text"><span></span></span>
+</p>
+<p><span id="result_box" class="long_text"><span>Jos tallennamme saman kuvan vektoriformaatissa, Processing ei enää tallenna jokaista pikseliä erikseen, vaan pikemminkin jokaisen piirretyn muodon ominaisuudet: sen muodon, sijainnin ja värin. Joten kun laajennamme kuvaa, tietokone piirtää tarkasti kuvan ominaisuudet, joita ei olisi voitu laajentaa pikselöidystä kuvasta. </span><span>
+  <br></span><span></span></span>
+</p>
+<h2>Tuo PDF-ominaisuudet
+  <br></h2>
+<p><span id="result_box" class="long_text"><span></span></span><span id="result_box" class="long_text"><span></span><span>Edellisessä esimerkissä käytimme kirjastoa processing.pdf .*, joka voi tuoda PDF-dokumentin luomiseen tarkoitetun kirjaston. Kirjasto on joukko ominaisuuksia, jotka laajentavat Processingin mahdollisuuksia aina käyttäessämme PDF-tiedostoja ohjelmassamme, jolloin käytämme <strong>Import</strong>-komentoa. </span><span></span></span>
+</p>
+<p>
+</p>
+<p><img title="01_PDF_import_statement" alt="01_PDF_import_statement" src="_booki/processing/static/01_PDF_import_statement-fi.png" height="115" width="353"></p>
+<p>
+</p><span id="result_box" class="long_text"><span>Jos yrität joskus käyttää PDF-viennin ominaisuuksia tuomatta kirjastoa, törmäät virheilmoituksiin, jotka ilmestyvät konsoliohjelmaan. Koodin kirjoittamisen lisäksi voit myös käyttää valikkoa <strong>Sketch</strong> &gt; <strong>Import Library</strong> &gt; <strong>PDF Export</strong>. </span><span></span></span>
+<p>
+</p></div><ul Class="menu-goes-here"><li Class="booki-section">Esittely</li><li><a href="/processing/index">Johdanto</a></li>
+<li><a href="/processing/ch002_esimerkkeja">Esimerkkejä</a></li>
+<li><a href="/processing/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Perusteet</li><li><a href="/processing/ch005_perusteet">Perusteet</a></li>
+<li Class="booki-section">Suunnittelu</li><li><a href="/processing/ch007_suunnittelutila">Suunnittelutila</a></li>
+<li><a href="/processing/ch008_muodot">Muodot</a></li>
+<li><a href="/processing/ch009_varit">Värit</a></li>
+<li Class="booki-section">Interaktiivisuus</li><li><a href="/processing/ch011_video">Video</a></li>
+<li><a href="/processing/ch012_videon-tuominen">Videon tuominen</a></li>
+<li><a href="/processing/ch013_mikrofoni">Mikrofoni</a></li>
+<li><a href="/processing/ch014_hiiri">Hiiri</a></li>
+<li><a href="/processing/ch015_nappaimisto">Näppäimistö</a></li>
+<li><a href="/processing/ch016_tulostaminen">Tulostaminen</a></li>
+<li><a href="/processing/ch017_verkkoon-vieminen">Verkkoon vieminen</a></li>
+<li Class="booki-section">Vienti</li><li><a href="/processing/ch019_aanet">Äänet</a></li>
+<li><a href="/processing/ch020_monien-objektien-animointi">Monien objektien animointi</a></li>
+<li><a href="/processing/ch021_objektien-animointi">Objektien animointi</a></li>
+<li><a href="/processing/ch022_aikajana">Aikajana</a></li>
+<li><a href="/processing/ch023_draw-metodi">Draw-metodi</a></li>
+<li Class="booki-section">Animaatio</li><li><a href="/processing/ch025_kommentit">Kommentit</a></li>
+<li><a href="/processing/ch026_objektit">Objektit</a></li>
+<li><a href="/processing/ch027_metodit">Metodit</a></li>
+<li><a href="/processing/ch028_listat">Listat</a></li>
+<li><a href="/processing/ch029_toistaminen">Toistaminen</a></li>
+<li><a href="/processing/ch030_ehdot">Ehdot</a></li>
+<li><a href="/processing/ch031_muuttujat">Muuttujat</a></li>
+<li Class="booki-section">Ohjelmointi</li><li><a href="/processing/ch033_muutokset">Muutokset</a></li>
+<li><a href="/processing/ch034_rajat">Rajat</a></li>
+<li><a href="/processing/ch035_kuvat">Kuvat</a></li>
+<li Class="booki-section">Kehittyneempi suunnittelu</li><li><a href="/processing/ch037_tekstit">Tekstit</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/processing/ch039_vinkkeja">Vinkkejä</a></li>
+<li><a href="/processing/ch040_yleisia-virheita">Yleisiä virheitä</a></li>
+<li><a href="/processing/ch041_ulkoiset-kirjastot">Ulkoiset kirjastot</a></li>
+<li><a href="/processing/ch042_dokumentaatio">Dokumentaatio</a></li>
+<li><a href="/processing/ch043_arduino">Arduino</a></li>
+<li><a href="/processing/ch044_tasta-oppaasta">Tästä oppaasta</a></li>
+<li><a href="/processing/ch045_tekijat">Tekijät</a></li>
+</ul>

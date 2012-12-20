@@ -1,0 +1,111 @@
+<div id="main-content"><h1>Ehdot<span id="result_box" class="long_text"><span></span></span>
+</h1><span id="result_box" class="long_text"><span></span><span>Ehtojen avulla tietokone voi tehdä päätöksiä. Se voi muuttaa ohjelmaa riippuen asettamistasi ehdoista. Jos tahdot esimerkiksi muuttaa ohjelmasi ulkoasua ajan kuluessa, voit laittaa mustan taustan ehdoksi kellonajan 10-18 ja valkoisen taustan ehdoksi muut kellonajat. Tämä kysely "paljonko kello on" on ehto. </span><span></span></span>
+<h2>Vertailu
+  <br></h2>
+<p><span id="result_box" class="long_text"><span>
+  <br></span><span>Perusehto on vertailu. Ennen kuin voit käyttää vertailua, meidän täytyy tehdä Processingissa kysymys. Tämä kysymys on melkein aina vertailu. </span><span></span></span>
+</p>
+<p><img title="illustration_comparaison_chat_chien" alt="illustration_comparaison_chat_chien" src="_booki/processing/static/illustration_comparaison_chat_chien-fi.png" height="360" width="400"><br></p>
+<p><span id="result_box" class="long_text"><span>Jos kyselyn tulos on "tosi", Processing ajaa komennon. Jos kyselyn tulos on "epätosi", se suorittaa toisen komennon. Englanniksi tosi on "true" ja epätosi on "false".  </span><span>
+  <br><br></span><span>Ehdon syntaksi on if(TESTI) {}. TESTI on operaatio, joka vertailee kahta arvoa, ja päättelee onko tulos tosi vai epätosi. Jos tulos on tosi, Processing tekee aaltosulkujen välillä olevat komennot. Komento else voi käsitellä myös tilanteen, jossa ehto ei ole tosi eikä epätosi. Sen toiminnot ovat myös sulkujen sisällä. Voit laittaa näiden sulkujen sisälle niin monta komentoa kuin tahdot. </span></span><span id="result_box" class="long_text"><span>
+  <br></span></span>
+</p>
+<h2><span>
+  <p>Samanarvoisuus
+  </p></span>
+</h2>
+<p><span></span>Käytämme kaavaa if (arvo1==arvo2) tarkastamaan kahden muuttujan samanarvoisuuden. Seuraava esimerkki merkitsee "Sano että on keskipäivä, jos metodi hour() antaa arvon 12."
+  <br></p>
+<pre>if (hour() == 12) {
+  println("On keskipäivä!");
+} else {
+  println("Ei ole keskipäivä!");
+}</pre>
+<p>Tulos on muulloin kuin kello 12:00 ja 12:59 välillä:
+</p>
+<p><img src="_booki/processing/static/ScreenHunter_05_Feb-_09_16-47-fi_1.gif"> 
+</p>
+<h2>Pienempi kuin ja suurempi kuin<span id="result_box" class="long_text"><span></span></span>
+</h2><span id="result_box" class="long_text"><span></span><span>Voimme tarkastaa että arvo on pienempi tai suurempi kuin toinen arvo käyttäen operaattoreita &lt; ja &gt;. Seuraavassa esimerkissä kirjoitamme ulostuloon onko aamu vai eikö. </span><span></span></span>
+<pre>if (hour() &lt; 12) {
+  println("On aamu!");
+} else {
+  println("Ei ole aamu!");
+}
+</pre>
+<p><span id="result_box" class="long_text short_text"><span>Ohjelman tulos kello 12:59 jälkeen:
+  <br></span></span>
+</p>
+<p><img title="ScreenHunter_06_Feb._09_16.49" alt="ScreenHunter_06_Feb._09_16.49" src="_booki/processing/static/ScreenHunter_06_Feb-_09_16-49-fi.gif" height="21" width="89"> 
+  <br></p>
+<h2>Päätöksen yhdistelmä
+  <br></h2>
+<p>Komennot <code>if</code> ja <code>else</code> voidaan yhdistää useampien tapausten käsittelemiseksi.
+  <br></p>
+<pre>if (hour() &lt; 12) {
+  println("On aamu!");
+} else if (hour() == 12) {
+  println("On keskipäivä!");
+} else {
+  println("Ei ole aamu!");
+}
+</pre>
+<p>Tämän ohjelman tulos kello 12:59 jälkeen on:
+  <br></p>
+<p><img src="_booki/processing/static/ScreenHunter_07_Feb-_09_16-50-fi_1.gif"> 
+</p>
+<h2>Testien yhdistäminen
+  <br></h2>
+<p><span id="result_box" class="long_text"><span>Monta testiä voidaan yhdistää samaan päätökseen, jotta valinnasta tulee tarkempi. Operaattorit &amp;&amp; (ja) sekä || (tai) voivat yhdistää testejä. Jos esimerkiksi tahdomme tietää onko yö vai päivä, voimme erottaa myöhäisen yön ja aikaisen aamun tunnit loppupäivästä: </span><span></span></span>
+</p>
+<pre>if (hour() &lt; 6 &amp;&amp; hour() &gt; 20) {
+  println("On yö!");
+} else {
+  println("Ei ole yö!");
+}
+</pre>
+<p>
+</p>
+<p>Ohjelman tulos kello 16:50 on: 
+  <br></p>
+<p><img src="_booki/processing/static/ScreenHunter_08_Feb-_09_16-52-fi_1.gif"> 
+</p>
+<p>
+</p> <a href="http://piwik.org/" title="Web analytics"> <img src="http://adam.engagetv.com/piwik/piwik.php?url=http://fr.flossmanuals.net/Processing/Lesconditions&amp;action_name=&amp;idsite=1&amp;res=1024x768&amp;col=24&amp;h=14&amp;m=53&amp;s=9&amp;fla=1&amp;dir=0&amp;qt=0&amp;realp=0&amp;pdf=1&amp;wma=1&amp;java=1&amp;cookie=1&amp;title=Processing%20(fr)&amp;urlref=http://fr.flossmanuals.net/Processing/Lesvariablesetlesmethodes" alt="Piwik"></a></div><ul Class="menu-goes-here"><li Class="booki-section">Esittely</li><li><a href="/processing/index">Johdanto</a></li>
+<li><a href="/processing/ch002_esimerkkeja">Esimerkkejä</a></li>
+<li><a href="/processing/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Perusteet</li><li><a href="/processing/ch005_perusteet">Perusteet</a></li>
+<li Class="booki-section">Suunnittelu</li><li><a href="/processing/ch007_suunnittelutila">Suunnittelutila</a></li>
+<li><a href="/processing/ch008_muodot">Muodot</a></li>
+<li><a href="/processing/ch009_varit">Värit</a></li>
+<li Class="booki-section">Interaktiivisuus</li><li><a href="/processing/ch011_video">Video</a></li>
+<li><a href="/processing/ch012_videon-tuominen">Videon tuominen</a></li>
+<li><a href="/processing/ch013_mikrofoni">Mikrofoni</a></li>
+<li><a href="/processing/ch014_hiiri">Hiiri</a></li>
+<li><a href="/processing/ch015_nappaimisto">Näppäimistö</a></li>
+<li><a href="/processing/ch016_tulostaminen">Tulostaminen</a></li>
+<li><a href="/processing/ch017_verkkoon-vieminen">Verkkoon vieminen</a></li>
+<li Class="booki-section">Vienti</li><li><a href="/processing/ch019_aanet">Äänet</a></li>
+<li><a href="/processing/ch020_monien-objektien-animointi">Monien objektien animointi</a></li>
+<li><a href="/processing/ch021_objektien-animointi">Objektien animointi</a></li>
+<li><a href="/processing/ch022_aikajana">Aikajana</a></li>
+<li><a href="/processing/ch023_draw-metodi">Draw-metodi</a></li>
+<li Class="booki-section">Animaatio</li><li><a href="/processing/ch025_kommentit">Kommentit</a></li>
+<li><a href="/processing/ch026_objektit">Objektit</a></li>
+<li><a href="/processing/ch027_metodit">Metodit</a></li>
+<li><a href="/processing/ch028_listat">Listat</a></li>
+<li><a href="/processing/ch029_toistaminen">Toistaminen</a></li>
+<li><a href="/processing/ch030_ehdot">Ehdot</a></li>
+<li><a href="/processing/ch031_muuttujat">Muuttujat</a></li>
+<li Class="booki-section">Ohjelmointi</li><li><a href="/processing/ch033_muutokset">Muutokset</a></li>
+<li><a href="/processing/ch034_rajat">Rajat</a></li>
+<li><a href="/processing/ch035_kuvat">Kuvat</a></li>
+<li Class="booki-section">Kehittyneempi suunnittelu</li><li><a href="/processing/ch037_tekstit">Tekstit</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/processing/ch039_vinkkeja">Vinkkejä</a></li>
+<li><a href="/processing/ch040_yleisia-virheita">Yleisiä virheitä</a></li>
+<li><a href="/processing/ch041_ulkoiset-kirjastot">Ulkoiset kirjastot</a></li>
+<li><a href="/processing/ch042_dokumentaatio">Dokumentaatio</a></li>
+<li><a href="/processing/ch043_arduino">Arduino</a></li>
+<li><a href="/processing/ch044_tasta-oppaasta">Tästä oppaasta</a></li>
+<li><a href="/processing/ch045_tekijat">Tekijät</a></li>
+</ul>

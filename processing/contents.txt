@@ -1,0 +1,38 @@
+<div Class="content-goes-here" id="main-content"><h1>Processing</h1><h2>Esittely</h2><div><a href="/processing/index">Johdanto</a></div><div><a href="/processing/ch002_esimerkkeja">Esimerkkejä</a></div><div><a href="/processing/ch003_asennus">Asennus</a></div><h2>Perusteet</h2><div><a href="/processing/ch005_perusteet">Perusteet</a></div><h2>Suunnittelu</h2><div><a href="/processing/ch007_suunnittelutila">Suunnittelutila</a></div><div><a href="/processing/ch008_muodot">Muodot</a></div><div><a href="/processing/ch009_varit">Värit</a></div><h2>Interaktiivisuus</h2><div><a href="/processing/ch011_video">Video</a></div><div><a href="/processing/ch012_videon-tuominen">Videon tuominen</a></div><div><a href="/processing/ch013_mikrofoni">Mikrofoni</a></div><div><a href="/processing/ch014_hiiri">Hiiri</a></div><div><a href="/processing/ch015_nappaimisto">Näppäimistö</a></div><div><a href="/processing/ch016_tulostaminen">Tulostaminen</a></div><div><a href="/processing/ch017_verkkoon-vieminen">Verkkoon vieminen</a></div><h2>Vienti</h2><div><a href="/processing/ch019_aanet">Äänet</a></div><div><a href="/processing/ch020_monien-objektien-animointi">Monien objektien animointi</a></div><div><a href="/processing/ch021_objektien-animointi">Objektien animointi</a></div><div><a href="/processing/ch022_aikajana">Aikajana</a></div><div><a href="/processing/ch023_draw-metodi">Draw-metodi</a></div><h2>Animaatio</h2><div><a href="/processing/ch025_kommentit">Kommentit</a></div><div><a href="/processing/ch026_objektit">Objektit</a></div><div><a href="/processing/ch027_metodit">Metodit</a></div><div><a href="/processing/ch028_listat">Listat</a></div><div><a href="/processing/ch029_toistaminen">Toistaminen</a></div><div><a href="/processing/ch030_ehdot">Ehdot</a></div><div><a href="/processing/ch031_muuttujat">Muuttujat</a></div><h2>Ohjelmointi</h2><div><a href="/processing/ch033_muutokset">Muutokset</a></div><div><a href="/processing/ch034_rajat">Rajat</a></div><div><a href="/processing/ch035_kuvat">Kuvat</a></div><h2>Kehittyneempi suunnittelu</h2><div><a href="/processing/ch037_tekstit">Tekstit</a></div><h2>Liitteet</h2><div><a href="/processing/ch039_vinkkeja">Vinkkejä</a></div><div><a href="/processing/ch040_yleisia-virheita">Yleisiä virheitä</a></div><div><a href="/processing/ch041_ulkoiset-kirjastot">Ulkoiset kirjastot</a></div><div><a href="/processing/ch042_dokumentaatio">Dokumentaatio</a></div><div><a href="/processing/ch043_arduino">Arduino</a></div><div><a href="/processing/ch044_tasta-oppaasta">Tästä oppaasta</a></div><div><a href="/processing/ch045_tekijat">Tekijät</a></div></div><ul Class="menu-goes-here"><li Class="booki-section">Esittely</li><li><a href="/processing/index">Johdanto</a></li>
+<li><a href="/processing/ch002_esimerkkeja">Esimerkkejä</a></li>
+<li><a href="/processing/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Perusteet</li><li><a href="/processing/ch005_perusteet">Perusteet</a></li>
+<li Class="booki-section">Suunnittelu</li><li><a href="/processing/ch007_suunnittelutila">Suunnittelutila</a></li>
+<li><a href="/processing/ch008_muodot">Muodot</a></li>
+<li><a href="/processing/ch009_varit">Värit</a></li>
+<li Class="booki-section">Interaktiivisuus</li><li><a href="/processing/ch011_video">Video</a></li>
+<li><a href="/processing/ch012_videon-tuominen">Videon tuominen</a></li>
+<li><a href="/processing/ch013_mikrofoni">Mikrofoni</a></li>
+<li><a href="/processing/ch014_hiiri">Hiiri</a></li>
+<li><a href="/processing/ch015_nappaimisto">Näppäimistö</a></li>
+<li><a href="/processing/ch016_tulostaminen">Tulostaminen</a></li>
+<li><a href="/processing/ch017_verkkoon-vieminen">Verkkoon vieminen</a></li>
+<li Class="booki-section">Vienti</li><li><a href="/processing/ch019_aanet">Äänet</a></li>
+<li><a href="/processing/ch020_monien-objektien-animointi">Monien objektien animointi</a></li>
+<li><a href="/processing/ch021_objektien-animointi">Objektien animointi</a></li>
+<li><a href="/processing/ch022_aikajana">Aikajana</a></li>
+<li><a href="/processing/ch023_draw-metodi">Draw-metodi</a></li>
+<li Class="booki-section">Animaatio</li><li><a href="/processing/ch025_kommentit">Kommentit</a></li>
+<li><a href="/processing/ch026_objektit">Objektit</a></li>
+<li><a href="/processing/ch027_metodit">Metodit</a></li>
+<li><a href="/processing/ch028_listat">Listat</a></li>
+<li><a href="/processing/ch029_toistaminen">Toistaminen</a></li>
+<li><a href="/processing/ch030_ehdot">Ehdot</a></li>
+<li><a href="/processing/ch031_muuttujat">Muuttujat</a></li>
+<li Class="booki-section">Ohjelmointi</li><li><a href="/processing/ch033_muutokset">Muutokset</a></li>
+<li><a href="/processing/ch034_rajat">Rajat</a></li>
+<li><a href="/processing/ch035_kuvat">Kuvat</a></li>
+<li Class="booki-section">Kehittyneempi suunnittelu</li><li><a href="/processing/ch037_tekstit">Tekstit</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/processing/ch039_vinkkeja">Vinkkejä</a></li>
+<li><a href="/processing/ch040_yleisia-virheita">Yleisiä virheitä</a></li>
+<li><a href="/processing/ch041_ulkoiset-kirjastot">Ulkoiset kirjastot</a></li>
+<li><a href="/processing/ch042_dokumentaatio">Dokumentaatio</a></li>
+<li><a href="/processing/ch043_arduino">Arduino</a></li>
+<li><a href="/processing/ch044_tasta-oppaasta">Tästä oppaasta</a></li>
+<li><a href="/processing/ch045_tekijat">Tekijät</a></li>
+</ul>

@@ -1,0 +1,44 @@
+<html dir="None"><body><div id="main-content"><h1>Websites and references</h1>
+<p>This book has been inspired by existing documentation, and among them, some very good blogs and websites. We also highly recommand you get in contact with members of the OpenStreetMap community, to get some support, inspiration, solutions and ideas.
+  <br></p>
+<h2>Blogs and wikis
+</h2>
+<p><a href="http://www.learnosm.org/">http://www.learnosm.org/</a> provides a simple-to-use, step by step approach to learning how to make maps with OpenStreetMap. We used content from this fine reference for chapters in this book.
+</p>
+<p><a href="http://egsc.usgs.gov/isb/pubs/gis_poster/">http://egsc.usgs.gov/isb/pubs/gis_poster/</a> is a poster provided by the United States Geological Survey that is useful for the background and history of Geographic Information Systems and examples of GIS technology in use.
+</p>
+<p><a href="http://blog.osmfoundation.org">http://blog.osmfoundation.org/</a> is the blog for the OpenStreetMap Foundation, the non-profit organization based in the United Kingdom that supports the OpenStreetMap Project.</p>
+<p><a href="http://blogs.openstreetmap.org">http://blogs.openstreetmap.org/</a> collects blog entries from multiple community members and displays journal entries from OpenStreetMap users.
+</p>
+<p><a href="http://wiki.openstreetmap.org/wiki/Video_tutorials">http://wiki.openstreetmap.org/wiki/Video_tutorials</a> contain links to various tutorials in video format for learning more about editing or mapping concepts.</p>
+<p><a href="http://hot.openstreetmap.org/weblog/">http://hot.openstreetmap.org/weblog/</a> is the blog of the Humanitarian OpenStreetMap Team, a group within OpenStreetMap that uses the data in OpenStreetMap to assist in disaster response. </p>
+<h2>Questions and communications</h2><p>The OpenStreetMap community has many mailing lists. To find more information about these lists, see <a href="https://wiki.osm.org/wiki/Mailing_lists">https://wiki.osm.org/wiki/Mailing_lists</a>. </p>
+<p><a href="http://help.osm.org/">http://help.openstreetmap.org/</a> provides a Q&amp;A forum, specifically for asking and answering questions related to OpenStreetMap.</p>
+<p><a href="http://help.osm.org/"></a><a href="http://forum.openstreetmap.org/">http://forum.openstreetmap.org/</a> is a general discussion forum for OpenStreetMap. It requires registration and is somewhat less active than the mailing lists.
+</p>
+<p>IRC channel for OpenStreetMap is #osm on oftc.net. There are other IRC channels available for different languages and topics. You can see a list of all different IRC channels in <a href="http://wiki.openstreetmap.org/wiki/IRC">http://wiki.openstreetmap.org/wiki/IRC</a>.</p><p>See the previous chapter on "Exploring the OpenStreetMap Community for more information about these resources.</p>
+<h2>Additional books</h2>
+<p><em>OpenStreetMap </em>by Jonathan Bennet (September 22, 2010): <a href="http://www.packtpub.com/openstreetmap/book">http://www.packtpub.com/openstreetmap/book</a><em>.</em></p><p><em>OpenStreetMap: Using and Enhancing the Free Map of the World</em> by Frederik Ramm, Jochen Topf and Steve Chilton (September 1, 2010): <a href="http://openstreetmap.info/">http://openstreetmap.info/</a>.</p>
+<h2>For developers
+</h2>
+<p><a href="http://trac.openstreetmap.org/">http://trac.openstreetmap.org/</a> is for reporting bugs. 
+</p>
+<p>
+  <a href="http://wiki.openstreetmap.org/wiki/Develop">http://wiki.openstreetmap.org/wiki/Develop</a> has information about developing various things around the OSM ecosystem. There is a lot of information on the OSM wiki and various other sites.</p></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/openstreetmap/index">Löydä yhteisöllinen kartoitus</a></li>
+<li><a href="/openstreetmap/ch002_welcome-to-openstreetmap">Tervetuloa OpenStreetMapin käyttäjäksi!</a></li>
+<li><a href="/openstreetmap/ch003_about-this-book">Tästä kirjasta</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/openstreetmap/ch005_my-first-edit">Ensimmäinen muokkauksesi</a></li>
+<li><a href="/openstreetmap/ch006_collecting-data">Tiedon kerääminen</a></li>
+<li><a href="/openstreetmap/ch007_sharing-your-maps">Kartan jakaminen</a></li>
+<li Class="booki-section">OpenStreetMapin editoiminen</li><li><a href="/openstreetmap/ch009_introduction-to-editing-in-openstreetmap">Johdanto editointiin OpenStreetMapissa</a></li>
+<li><a href="/openstreetmap/ch010_editing-with-the-online-editor-potlatch-2">Editointi Potlach 2 -verkkoeditorilla</a></li>
+<li><a href="/openstreetmap/ch011_editing-with-the-offline-editor-josm">Editointi työpöydällä JOSM-editorilla</a></li>
+<li><a href="/openstreetmap/ch012_editing-with-mobile-editors">Editointi mobiilieditoreilla</a></li>
+<li Class="booki-section">Tee kartasta omasi</li><li><a href="/openstreetmap/ch014_taking-openstreetmap-data-with-you">Ota OpenStreetMap mukaasi</a></li>
+<li><a href="/openstreetmap/ch015_customising-potlatch-2">Potlach 2:n kustomointi</a></li>
+<li><a href="/openstreetmap/ch016_understanding-the-openstreetmap-data-model">OpenStreetMapin tietomalli</a></li>
+<li><a href="/openstreetmap/ch017_providing-maps-for-your-web-site">Karttojen liittäminen verkkosivulle</a></li>
+<li Class="booki-section">Lisätietoa</li><li><a href="/openstreetmap/ch019_exploring-the-openstreetmap-community">Tutkimusmatka OpenStreetMap-yhteisöön</a></li>
+<li><a href="/openstreetmap/ch020_useful-websites-and-references">Hyödylliset verkkosivut ja lähteet</a></li>
+<li><a href="/openstreetmap/ch021_credits">Tekijät</a></li>
+</ul>

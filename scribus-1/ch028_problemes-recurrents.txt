@@ -1,0 +1,67 @@
+<html dir="None"><body><div id="main-content"><h1>Problèmes récurrents
+</h1>
+<p>« Ça ne marche pas ! » est le cri du cœur que l'on pousse parfois en pleine mise en page, parce que quelque chose ne répond pas à nos attentes, voire même contredit directement ce que l'on souhaite obtenir !
+</p>
+<p>La première chose à faire est peut-être de relire la section de ce manuel correspondant à ce que vous êtes en train de faire, pour bien en comprendre tous les enjeux et détails de votre action.
+</p>
+<p>Ensuite, réfléchissez à votre problème, et vérifiez si vous n'avez pas émis à différents endroits de votre mise en page des <strong>règles qui entrent en conflit </strong>et vont à l'encontre de ce que vous cherchez à faire, comme par exemple, essayer de déplacer une image que vous auriez verrouillée au préalable.
+</p>
+<h2>Quelle méthode pour s'y retrouver ?
+</h2>
+<p>Certains détails peuvent devenir vraiment bloquants quand on n'arrive pas à situer la source du problème. Dans ces cas-là, il est bon d'avoir en tête la <strong>hiérarchie</strong> des règles d'application dans Scribus : en effet, le résultat vu à l'écran est conditionné par la somme des réglages que l'on a définis au fur et à mesure de notre travail.
+</p>
+<p>Plus le réglage est à un niveau élevé (par exemple dans les [Réglages du document]), plus il va s'appliquer globalement, mais plus il va être contredit par les réglages des niveaux inférieurs (par exemple ceux des [Propriétés de la page]), qui introduisent des exceptions. Ce système nous permet d'avoir une page plus grande et repliée dans un livre, pour y inclure une carte par exemple.
+</p>
+<p>Connaître ce mécanisme va en fait nous permettre de résoudre de nombreux problèmes, car la plupart des erreurs sont liées à une mauvaise interprétation de cette hiérarchie des réglages : se situer dans cette hiérarchie permet de situer notre problème, et donc de le résoudre !
+</p>
+<p>Voici donc un schéma théorique simplifié de la hiérarchie des réglages, du plus haut niveau au plus bas :
+</p>
+<p> <img alt="hierarchie-reglages_2.png" src="_booki/scribus-1/static/Scribus_fr-ProblemesRecurrents-hierarchie-reglages_2-fr-old.png" height="566" width="400"></p>
+<p>Il suffit ensuite d'agir au bon niveau pour régler instantanément le problème.
+  <br></p>
+<h2>Je suis bloqué avec un outil !
+  <br></h2>
+<p>Après avoir dessiné un cadre par exemple, Scribus repasse automatiquement sur l'outil de sélection (la flèche blanche), qui vous permet de vous déplacer et de sélectionner. Si vous avez l'impression d'être bloqué avec un outil, vous pouvez toujours revenir à la flèche blanche, soit en la sélectionnant dans la barre d'outils, soit en appuyant sur la touche [Échap] (ou [Esc]).
+  <br></p>
+<h2>Mes cadres de textes sautent et bougent
+</h2>
+<p> À la souris ou au stylet pour les heureux possesseurs de tablettes graphiques, il se peut que la sélection des cadres textes (le clic) les déplace de quelques pixels. Un réglage dans les Préférences du logiciel atténue nettement ce comportement. Lancez [<em>Fichier &gt; Préférences</em>] et examinez les réglages s'affichant dans l'onglet Général. Par défaut, le délai avant le début de déplacement ou d'un redimensionnement est défini à 150 ms. Augmentez-le à 300 si vous en ressentez la nécessité.
+</p>
+<p><img title="preferences1" alt="preferences1" src="_booki/scribus-1/static/Scribus_fr-ProblemesRecurrents-preferences1-fr-old.png" height="269" width="600"></p>
+<p>
+  <br> 
+</p>
+
+</div><ul Class="menu-goes-here"><li><a href="/scribus-1/index">Testi</a></li>
+<li><a href="/scribus-1/ch001_introduction">Introduction</a></li>
+<li><a href="/scribus-1/ch002_prerequis">Prérequis</a></li>
+<li><a href="/scribus-1/ch003_prise-en-main">Prise en main</a></li>
+<li><a href="/scribus-1/ch004_exemples-dutilisation">Exemples d'utilisation</a></li>
+<li><a href="/scribus-1/ch005_a-propos-de-ce-livre">À propos de ce livre</a></li>
+<li><a href="/scribus-1/ch006_creer">Creer</a></li>
+<li><a href="/scribus-1/ch007_commencer-par-la-fin">Commencer par la fin</a></li>
+<li><a href="/scribus-1/ch008_les-chaines-editoriale-et-graphique">Les Chaînes éditoriale et graphique</a></li>
+<li><a href="/scribus-1/ch009_preparer-les-sources">Préparer les sources</a></li>
+<li><a href="/scribus-1/ch010_format">Format</a></li>
+<li><a href="/scribus-1/ch011_choix-des-couleurs">Choix des couleurs</a></li>
+<li><a href="/scribus-1/ch012_choix-des-polices">Choix des polices</a></li>
+<li><a href="/scribus-1/ch013_organiser">Organiser</a></li>
+<li><a href="/scribus-1/ch014_organiser-ses-fichiers">Organiser ses fichiers</a></li>
+<li><a href="/scribus-1/ch015_gabarits">Gabarits</a></li>
+<li><a href="/scribus-1/ch016_composition">Composition</a></li>
+<li><a href="/scribus-1/ch017_feuilles-de-style">Feuilles de style</a></li>
+<li><a href="/scribus-1/ch018_les-scripts">Les scripts</a></li>
+<li><a href="/scribus-1/ch019_produire">Produire</a></li>
+<li><a href="/scribus-1/ch020_importer-texte-et-image">Importer Texte et Image</a></li>
+<li><a href="/scribus-1/ch021_typographie">Typographie</a></li>
+<li><a href="/scribus-1/ch022_habillage-et-typographie">Habillage et typographie</a></li>
+<li><a href="/scribus-1/ch023_gestion-des-couleurs">Gestion des couleurs</a></li>
+<li><a href="/scribus-1/ch024_le-controle-de-qualite">Le contrôle de qualité</a></li>
+<li><a href="/scribus-1/ch025_lassemblage-des-documents">L'assemblage des documents</a></li>
+<li><a href="/scribus-1/ch026_la-sortie-finale">La sortie finale</a></li>
+<li><a href="/scribus-1/ch027_annexe">Annexe</a></li>
+<li><a href="/scribus-1/ch028_problemes-recurrents">Problèmes récurrents</a></li>
+<li><a href="/scribus-1/ch029_installation">Installation</a></li>
+<li><a href="/scribus-1/ch030_kredits">Kredits</a></li>
+<li><a href="/scribus-1/ch031_glossaire">Glossaire</a></li>
+</ul>

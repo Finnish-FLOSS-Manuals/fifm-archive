@@ -1,0 +1,209 @@
+<html dir="None"><body><div id="main-content"><h1>Prise en main
+</h1>
+<p>Dans cette section nous allons vous conduire dans une brève visite guidée de Scribus. En sept étapes vous allez apprendre comment créer un dépliant à trois volets en plis roulés, qui se replie en escargot.
+</p>
+<h2>Esquissez votre document
+</h2>
+<p>La première étape se passe avec l'ordinateur éteint : en effet, un travail de mise en page se termine le plus souvent avec un résultat sur papier mais il commence aussi par un travail de préparation sur papier.
+</p>
+<p>Pour esquisser votre dépliant prenez une feuille de papier blanc bureautique (format A4) et pliez là en trois, de façon à obtenir trois volets. Lors de la mise en page vous allez devoir vous assurer que le dernier feuillet (le rabat, volet le plus à gauche) soit légèrement moins large que les autres afin de pouvoir le plier sous celui tout à droite, qui sert de couverture (par souci de simplicité, dans cette introduction nous allons ignorer cette exigence).
+</p>
+<p>Essayez d'esquisser une image sur le volet de droite et regardez le résultat: 
+</p>
+<p><img alt="DSC_9514_s.JPG" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-DSC_9514_s-fr-old.JPG" height="402" width="600"></p>
+<p>Quelques remarques :
+</p>
+<ul><li>Au début, n'hésitez pas à faire de nombreux brouillons, même avec des bouts de papier pour tester le fonctionnement des plis.</li>
+  <li>Travaillez avec un crayon à papier et une gomme : c'est un brouillon, pas une œuvre d'art, ça doit être rapide pour être utile !</li>
+  <li>N'hésitez pas à recommencer à zéro.</li>
+</ul><p>Une fois que vous avez compris le fonctionnement des plis, vous pouvez commencer à réfléchir à comment vous allez distribuer le contenu dans les volets.
+</p>
+<p>En règle générale, il est conseillé d'utiliser les trois volets à l'intérieur du dépliant pour le contenu principal   ces volets peuvent être mis en page comme trois pages successives.
+</p>
+<p>Pour les trois autres volets (ceux à l’extérieur), c'est leur position lorsque le dépliant est fermé qui influence le type de contenu qui s'y adapte le mieux :
+</p>
+<ul><li>Le volet de droite est la couverture et va contenir une grande image, un titre et une très brève explication du contenu </li>
+  <li>Le volet du milieu est le verso du dépliant : le plus souvent il sera utilisé pour les informations de contact</li>
+  <li>Le volet de gauche est la première chose que le lecteur voit en ouvrant le dépliant : il devrait contenir un résumé du contenu, ou une information transversale au contenu. </li>
+</ul><p>Dans les images ci-dessous vous voyez que nous avons dessiné des cadres pour marquer l'emplacement du texte et des images :
+</p>
+<ul><li>Nous avons dessiné des lignes dans les cadres texte. Vous pouvez aussi y écrire par dessus le type de contenu que vous souhaitez y placer.</li>
+  <li>Les cadres pour les images contiennent une croix ou, dans le cas où nous avons estimé important une esquisse de l'image.</li>
+</ul><p><img alt="DSC_9509_s.JPG" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-DSC_9509_s-fr-old.JPG" height="402" width="600"></p>
+<p><img alt="DSC_9510_s.JPG" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-DSC_9510_s-fr-old.JPG" height="402" width="600"></p>
+<p>Pour cette visite guidée de Scribus nous vous proposons de créer un dépliant sur Gutenberg et les premiers pas qui ont conduit à la découverte de l'imprimerie. Nous allons utiliser des images et du texte de Wikipédia sous licence Creative Commons, qui peuvent être réutilisée sous certaines conditions.
+</p>
+<h2>Créer un nouveau document
+</h2>
+<p>Lors du démarrage, Scribus va présenter un dialogue pour la création du document. Si vous l'avez déjà fermé, vous pouvez le lancer par le menu [Fichier] &gt; [Nouveau].
+</p>
+<p><img alt="Nouveaudoc.png" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-Nouveaudoc-fr-old.png" height="401" width="587"></p>
+<p>Le document que vous allez créer aura les caractéristiques suivantes :
+</p>
+<ol><li>La disposition est [Page simple]; </li>
+  <li>La taille du document est [A4]...</li>
+  <li>... orienté [à l'italienne];</li>
+  <li>Assurez vous que l'unité par défaut soient les millimètres, sinon référez-vous au point suivant ; </li>
+  <li>Créez deux pages, une par côté de la feuille A4 ;</li>
+  <li>Vous allez choisir une marge de 1 cm de tous les côtés pour vous assurez que vous allez pouvoir imprimer le dépliant sur n'importe quelle imprimante.</li>
+</ol><p>Vous pouvez laisser les autres valeurs à leur défaut.
+</p>
+<p>Cliquez sur [OK] pour terminer la création du document.
+</p>
+<p>Voici comment l'interface se présente à vous, la première fois que vous entrez dans Scribus :
+</p>
+<p><img alt="scribus_espace_travail_05.png" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-scribus_espace_travail_05-fr-old.png" height="506" width="600"></p>
+<p>C'est une bonne idée d'enregistrer votre fichier de travail maintenant : créez un nouveau dossier de travail « Scribus_Gutenberg » dans vos « Documents » et enregistrez-y le document.
+</p>
+<h2>Définir les repères
+</h2>
+<p>Vous allez utiliser des repères pour vous aider à reproduire les plis dans la mise en page. Dans le menu [Page] lancez la [Gestion des repères].
+</p>
+<p><img alt="reperes.png" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-reperes-fr-old.png" height="392" width="478"></p>
+<p>Dans le deuxième onglet [Colonne/ligne] vous définissez deux repères verticaux avec un espace entre les colonnes (la gouttière) de 2 cm. La valeur de la gouttière est le double de la marge, de façon à avoir des marges équilibrées dans les volets.
+</p>
+<p>Il vous faudra encore définir que l'origine des colonnes est calculée par rapport aux marges du document et non pas de la page.
+</p>
+<p> Enfin, cliquer sur [Appliquer à toutes les pages] et fermez le gestionnaire des repères.
+</p>
+<p><img alt="scribus_espace_travail_guides_1.png" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-scribus_espace_travail_guides_1-fr-old.png" height="453" width="602"></p>
+<p>Enfin, assurez-vous que dans les menus les options [Page] &gt; [Repères magnétiques] et [Affichage]<em> &gt; </em>[Afficher les repères] soient activées.
+</p>
+<h2>Écrire du texte
+</h2>
+<p>Dans Scribus, on ne peut pas écrire directement sur la page : il faut tout d'abord créer des cadres qui vont contenir nos textes et tous nos éléments graphiques en général. Ce fonctionnement va nous permettre de disposer librement tous nos objets graphiques dans les pages.
+</p>
+<p>Placez vous sur la première page, dans le volet de droite et utilisez la loupe que vous trouvez dans la barre d'état pour ajuster la page par rapport à la taille de votre fenêtre. Vous pouvez aussi zoomer et dézoomer en maintenant la touche [Ctrl] enfoncée pendant que vous faites rouler la molette de votre souris vers l'avant et vers l'arrière : c'est beaucoup plus rapide que de changer d'outil !
+</p>
+<p>Pour vous déplacer de droite à gauche et de haut en bas dans l'espace de travail, maintenez enfoncé le clic du milieu de la souris, puis déplacez votre curseur dans la direction souhaitée.
+</p>
+<p>Activez l'outil texte par le menu [Insérer] &gt; [Insérer un cadre de texte] ou par l'icône [Insérer un cadre de texte] à côté de la flèche blanche dans la barre d'outils, et dessinez un cadre de texte sur la page par un cliquer-glisser.
+</p>
+<p><img alt="scribus_cadre_texte.png" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-scribus_cadre_texte-fr-old.png" height="453" width="600"></p>
+<p>Par un cliquer-glisser sur le petit carré rouge dans le coin inférieur à droite, vous pouvez redimensionner le cadre pour que sa taille soit suffisante pour contenir deux lignes avec le texte « Johannes Gutenberg ».
+</p>
+<p>Après avoir dessiné le cadre de texte, Scribus repasse automatiquement sur l'outil de sélection (la flèche blanche), qui vous permet de vous déplacer et de sélectionner :²nbsp;si vous avez l'impression d'être bloqué dans un outil, vous pouvez toujours revenir à la flèche blanche, soit en la sélectionnant dans la barre d'outils, soit en appuyant sur la touche [Échap] (ou [Esc]).
+</p>
+<p>Double-cliquez sur le cadre, les carrés de redimensionnement disparaissent et vous pouvez taper le nom de Gutenberg dans le cadre&amp;nbs:
+</p>
+<p><img alt="scribus_cadre_texte_02.png" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-scribus_cadre_texte_02-fr-old.png" height="454" width="602"></p>
+<p>Le texte est très petit ! Pour en changer la taille, sélectionnez tout le texte (pendant que vous êtes en mode édition [Édition] &gt; [Tout sélectionner]), affichez la palette des propriétés ([Fenêtre] &gt; [Propriétés]), activez l'onglet [Texte] et faites quelques tests avec la police, sa variante et la taille des caractères (le corps).
+</p>
+<p>Si les lignes se superposent un peu, vous pouvez augmenter l'interlignage, autrement dit l'espace entre les lignes. Il est en général d'une valeur 20% supérieure à celle du corps de texte.
+</p>
+<p><img alt="scribus_pp_texte.png" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-scribus_pp_texte-fr-old.png" height="498" width="394"></p>
+<p>Vous pouvez quitter le mode édition en cliquant sur le fond de la page ou en appuyant sur la touche [Échap] (ou [Esc]), et bien évidemment vous pouvez à tout moment revenir au mode édition avec un double clic sur un des cadres de texte existant.
+</p>
+<h2>Ajouter une image
+</h2>
+<p>Vous allez insérer une photo de la statue de Gutenberg dans la couverture. Téléchargez l'image de <em>Wikimedia commons</em> à l'adresse suivante :
+</p>
+<p><a href="http://commons.wikimedia.org/wiki/File:Statue_de_Gutenberg_%E0_Strasbourg.jpg%20">http://commons.wikimedia.org/wiki/File:Statue_de_Gutenberg_à_Strasbourg.jpg </a>
+</p>
+<p>Créez un dossier « Images » dans votre dossier « Scribus_Gutenberg » et téléchargez-y la version en résolution maximale de l'image (la plus grande taille).
+</p>
+<p>Activez l'outil image par le menu [Insérer] &gt; [Insérer un cadre d'image] ou par l'icône [Insérer un cadre d'image] dans la barre d'outil et par un cliquer-glisser dessinez un cadre d'image sur la page.
+</p>
+<p><img alt="scribus_cadre_image_1.png" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-scribus_cadre_image_1-fr-old.png" height="453" width="600"></p>
+<p>Assurez-vous que le cadre soit sélectionné et chargez la photo de la statue (qui se trouve dans le dossier « Images » de votre dossier de travail) en utilisant la commande [Ficher] <em>&gt; </em>[Importer] &gt; [Importer une image].
+</p>
+<p>Il est probable que l'image reste blanche : pas de panique, ce que vous voyez c'est l'arrière-plan blanc de la photo ! Activez la palette des propriétés ([Fenêtre] &gt; [Propriétés]), activez l'onglet [Image] et activez les options [Mettre l'image aux dimensions du cadre] et [Proportionnel].
+</p>
+<p><img alt="scribus_pp_image.png" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-scribus_pp_image-fr-old.png" height="501" width="393"></p>
+<p>Scribus importe en fait l'image dans la résolution définit dans le fichier image. Ne connaissant pas la qualité de reproduction dont vous aurez besoin, Scribus charge l'image dans sa taille en pixel maximale selon sa résolution interne.
+  <br></p>
+<p>Une méthode alternative plus rapide pour cette opération est de faire un clic droit sur le cadre de l'image et de sélectionner <em> </em>[Ajuster l'image au cadre].
+</p>
+<p>Vous pouvez maintenant passer à l'opération suivante : recadrer la photo avec la commande [Objet] <em>&gt; </em>[Adapter le cadre à l'image], disponible également via un clic droit, et la placer sur la gauche du volet :
+  <br></p>
+<p><img alt="scribus_cadre_image_place_1.png" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-scribus_cadre_image_place_1-fr-old.png" height="454" width="601"></p>
+<p>
+</p>
+<p>Par un cliquer-glisser sur le petit carré rouge dans le coin inférieur à droite, vous pouvez redimensionner le cadre pour qu'il « remplisse » la colonne
+</p>
+<h2>Importer du texte
+</h2>
+<p>Comme vous allez l'apprendre dans ce manuel, Scribus n'est pas l'outil le plus adapté pour concevoir vos textes. Aussi, la plupart du temps vous serez chargés de mettre en page des textes écrits par des tiers, ou des textes que vous avez écrit vous même dans un traitement de texte auparavant.
+</p>
+<p>Pour simuler cette situation utilisez un navigateur web aller à la page Wikipédia sur Gutenberg : <a href="http://fr.wikipedia.org/wiki/Johannes_Gutenberg">http://fr.wikipedia.org/wiki/Johannes_Gutenberg</a>, copiez la section « Formation », ouvrez un éditeur de texte, créez un nouveau fichier et collez le texte copié de Wikipédia. Enregistrez le fichier dans un nouveau dossier « Texte » dans votre dossier de travail.
+</p>
+<p>Créez un cadre texte dans le volet de rabat et agrandissez-le de façon a remplir le volet. Assurez-vous que le cadre est sélectionné et utilisez [Fichier] &gt; [Importer] &gt; [Importer un texte] pour importer le texte que vous venez de télécharger.
+</p>
+<p>Les indications à la section « Écrire du texte » ci-dessus vous seront utiles pour augmenter la taille du titre à partir de la fenêtre [Propriétés]. 
+</p>
+<p><img alt="scribus_cadre_texte_charger.png" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-scribus_cadre_texte_charger-fr-old.png" height="458" width="606"> Dans le volet de rabat et agrandissez-le de façon à remplir le volet. Assurez-vous que le cadre est sélectionné et utilisez [Fichier] &gt; [Importer] &gt; [Importer un texte] pour importer le texte que vous venez de télécharger.
+</p>
+<h2>Lier les cadres de texte
+  <br></h2>
+<p>Sur la deuxième page du dépliant vous allez enfin ajouter un texte qui s'enchaîne sur les trois volets.
+</p>
+<p>Tout d'abord une petite astuce : après avoir activé l'outil texte ([Insérer] &gt; [Insérer un cadre de texte ]) vous pouvez garder enfoncée la touche majuscule et cliquez sur la surface de travail : cela va créer un cadre qui rempli la surface délimitée par les repères. Essayez-le avec les trois volets de la deuxième page (si vous n'y arrivez pas, créez les cadres comme nous avons vu précédemment : les repères magnétiques vont vous aider à en définir correctement la taille).
+</p>
+<p>Lors de la mise en page, il vous arrivera de ne pas encore avoir tous les textes. Dans ce cas on peut insérer un faux texte en attendant : sélectionnez le cadre du premier volet, lancez [Insérer] &gt; [Insérer un faux texte] et choisissez l'option [Faux texte standard].
+  <br></p>
+<p>
+</p>
+<p><img alt="scribus_cadre_texte_ipsum.png" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-scribus_cadre_texte_ipsum-fr-old.png" height="452" width="601"></p>
+<p>Dans le coin en bas à droite apparaîtra une petite case rouge : elle est l'indicateur que le texte dépasse le cadre. Assurez-vous que le cadre avec le « Lorem Ipsum » soit sélectionné, activez [Objet] &gt; [Lier les cadres de texte] et cliquez sur le deuxième cadre : vous verrez que le texte coule d'un cadre à l'autre. Répétez la tâche en sélectionnant le deuxième cadre, en activant l'outil de liaison et, enfin, en cliquant sur le troisième cadre.
+</p>
+<p>
+</p> <img alt="scribus_cadre_texte_chaine_1.png" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-scribus_cadre_texte_chaine_1-fr-old.png" height="452" width="603"><p>N'oubliez pas, d'enregistrer souvent votre travail !
+</p>
+<h2>Principaux outils dans Scribus
+</h2>
+<p>Une fois votre page affichée, pensez à découvrir les différents outils de Scribus. Les principaux qui entrent dans la composition d'un document courant sont :
+</p>
+<p>
+</p>
+<ul><li><span><span><span></span></span></span>l’outil de sélection : vous permet de sélectionner et de déplacer un cadre image, texte, filet, etc. </li>
+  <li><span><span></span></span>l’outil insérer cadre texte : pour écrire ou importer du text </li>
+  <li><span><span></span></span>l’outil insérer forme : il permet de créer des formes à partir du menu déroulant accessible en pointant sur le bout de flèche juste à droite </li>
+  <li><span><span><span> </span></span></span>l’outil insérer polygone (même caractéristiques que l’outil formes) </li>
+  <li><span><span></span></span>l’outil insérer filet : vous permet de tracer votre filet droit ou oblique </li>
+  <li><span><span></span></span>l’outil rotation : il permet de faire la rotation de n’importe qu’il objet </li>
+  <li><span><span><span> </span></span></span>l’outil loupe (zoom) : agrandit ou réduit votre zone de travail</li>
+  <li><span><span></span></span>l’outil éditeur de texte : vous permet d’écrire dans le cadre d’insertion de texte </li>
+  <li><span><span></span></span>les outils lier et délier les cadres de texte : permettent de lier ou délier les cadre de texte. </li>
+</ul><p><img alt="palettedoutils.png" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-palettedoutils-fr-old.png" height="481" width="502"></p>
+<p><img alt="Page_vierge_10_07_11.PNG" src="_booki/scribus-1/static/Scribus_fr-PriseEnMain-Page_vierge_10_07_11-fr-old.PNG" height="724" width="573"><br></p>
+<h2>Bravo !
+  <br></h2>
+<p>Ça y est, vous avez réalisé une première mise en page : ce n'est sûrement pas encore parfait, mais c'est un bon début !
+</p>
+<p>Quand vous aurez fini votre premier travail, vous pourrez l'exporter au format PDF pour l'imprimer et diffuser, mais c'est un peu complexe pour l'instant. Beaucoup de lecture vous attends encore pour apprendre toutes les subtilités de la mise en page !
+  <br></p>
+<p>
+</p>
+</div><ul Class="menu-goes-here"><li><a href="/scribus-1/index">Testi</a></li>
+<li><a href="/scribus-1/ch001_introduction">Introduction</a></li>
+<li><a href="/scribus-1/ch002_prerequis">Prérequis</a></li>
+<li><a href="/scribus-1/ch003_prise-en-main">Prise en main</a></li>
+<li><a href="/scribus-1/ch004_exemples-dutilisation">Exemples d'utilisation</a></li>
+<li><a href="/scribus-1/ch005_a-propos-de-ce-livre">À propos de ce livre</a></li>
+<li><a href="/scribus-1/ch006_creer">Creer</a></li>
+<li><a href="/scribus-1/ch007_commencer-par-la-fin">Commencer par la fin</a></li>
+<li><a href="/scribus-1/ch008_les-chaines-editoriale-et-graphique">Les Chaînes éditoriale et graphique</a></li>
+<li><a href="/scribus-1/ch009_preparer-les-sources">Préparer les sources</a></li>
+<li><a href="/scribus-1/ch010_format">Format</a></li>
+<li><a href="/scribus-1/ch011_choix-des-couleurs">Choix des couleurs</a></li>
+<li><a href="/scribus-1/ch012_choix-des-polices">Choix des polices</a></li>
+<li><a href="/scribus-1/ch013_organiser">Organiser</a></li>
+<li><a href="/scribus-1/ch014_organiser-ses-fichiers">Organiser ses fichiers</a></li>
+<li><a href="/scribus-1/ch015_gabarits">Gabarits</a></li>
+<li><a href="/scribus-1/ch016_composition">Composition</a></li>
+<li><a href="/scribus-1/ch017_feuilles-de-style">Feuilles de style</a></li>
+<li><a href="/scribus-1/ch018_les-scripts">Les scripts</a></li>
+<li><a href="/scribus-1/ch019_produire">Produire</a></li>
+<li><a href="/scribus-1/ch020_importer-texte-et-image">Importer Texte et Image</a></li>
+<li><a href="/scribus-1/ch021_typographie">Typographie</a></li>
+<li><a href="/scribus-1/ch022_habillage-et-typographie">Habillage et typographie</a></li>
+<li><a href="/scribus-1/ch023_gestion-des-couleurs">Gestion des couleurs</a></li>
+<li><a href="/scribus-1/ch024_le-controle-de-qualite">Le contrôle de qualité</a></li>
+<li><a href="/scribus-1/ch025_lassemblage-des-documents">L'assemblage des documents</a></li>
+<li><a href="/scribus-1/ch026_la-sortie-finale">La sortie finale</a></li>
+<li><a href="/scribus-1/ch027_annexe">Annexe</a></li>
+<li><a href="/scribus-1/ch028_problemes-recurrents">Problèmes récurrents</a></li>
+<li><a href="/scribus-1/ch029_installation">Installation</a></li>
+<li><a href="/scribus-1/ch030_kredits">Kredits</a></li>
+<li><a href="/scribus-1/ch031_glossaire">Glossaire</a></li>
+</ul>

@@ -1,0 +1,95 @@
+<div id="main-content"><h1>Äänen nauhoittaminen</h1>
+<p><strong>Ohjelman nimi : </strong>Audacity</p>
+<p><strong><br>Ohjelman versio :</strong> 1.2 </p>
+<p> </p>
+<p>Äänen nauhoittaminen Audacityllä on hyvin suoraviivaista. Tarvitset tietokoneen, jossa on äänikortti, <strong>mikrofoni </strong>tai <strong>line </strong>-sisääntulo.</p>
+<h2>Aloittaminen</h2>
+<p>Ennen kuin aloitat nauhoittamisen, varmista että äänilähde, josta tahdot nauhoittaa, on yhdistetty äänikorttisi <strong>audiosisääntuloon.</strong> Tehtyäsi tämän voit käynnistää Audacityn.</p>
+<h3>Windows ja Linux</h3>
+<p>Windows ja Linux käyttävät samanlaisia säätimiä. Ensin tulee valita sisääntulo. Mikserityökalupalkissa on kolme säädintä, joilla säädetään äänilaitteesi äänenvoimakkuus ja valitaan sisääntulolaite.</p>
+<p> </p>
+<p><img src="http://en.flossmanuals.net/audacity/recording/_booki/audacity/static/Audacity-Audacity_menu_prefs_01-en.jpg" alt="toolbar_mixer.png" width="600" height="450"></p>
+<p> </p>
+<p>Vasemmanpuoleinen liukusädin hallitsee ulostulon voimakkuutta, toinen liukusäädin tallennuksen äänenvoimakkuutta, oikealla olevasta valikosta valitaan sisääntulon lähde ("Microphone", "Line In", "Audio CD", jne.). Voit valita mikrofonin tai sisääntulolinjan yhdeksi sisääntuloista. Jos käytät mikrofonia, valitse "Mic". Jos käytät jotain muuta äänilaitetta (CD-soitin, Mini disc), valitse sisääntulolinja. </p>
+<h2>Äänen tason testaus</h2>
+<p>Kun kaikki asetukset ovat kohdallaan nauhoitus voi alkaa. </p>
+<p> </p>
+<p> </p>
+<p>Ennen nauhoituksen tekemistä on tärkeää tarkastaa etukäteen äänilähteen voimakkain kohta, jotta nauhoitukseesi ei tule säröä.</p>
+<p> </p>
+<p>Käännä ensin <strong>sisääntulomittari</strong> päälle. Tämä voidaan asettaa pääkäyttöliittymässä:</p>
+<p> </p>
+<p> </p>
+<p><img src="http://en.flossmanuals.net/audacity/recording/_booki/audacity/static/Audacity-Audacity_prefs_audio_io_01_1-en.jpg" alt="input_level_meter_02.jpg" width="600" height="492"></p>
+<p> </p>
+<p>Klikkaa mikrofonisymbolin päällä olevia palkkeja tai klikkaa mikrofonisymbolin vieressä olevaa nuolta ja valitse "tarkkaile sisääntuloa":</p>
+<p> </p>
+<p> </p>
+<p><img src="http://en.flossmanuals.net/audacity/recording/_booki/audacity/static/Audacity-Audacity_prefs_audio_io_playdev-en.jpg" alt="monitor_input_01.jpg" width="600" height="492"></p>
+<p> </p>
+<p>Soita nyt äänen voimakkain osa. Katso sisääntulon voimakkuuden mittaria:</p>
+<p> </p>
+<p> </p>
+<p><img src="http://en.flossmanuals.net/audacity/recording/_booki/audacity/static/Audacity-Audacity_prefs_audio_io_recdev-en.jpg" alt="input_level_meter_01.jpg" width="600" height="492"></p>
+<p> </p>
+<p>Äänekkäimmässä kohdassa punaisten palkkien tulisi olla suunnilleen kohdassa <em>-12</em>. Voit säätää sisääntulon tasoa siirtämällä mikrofonisymbolin vieressä olevaa liukusäädintä.</p>
+<p> </p>
+<p> </p>
+<p><img src="http://en.flossmanuals.net/audacity/recording/_booki/audacity/static/Audacity-Audacity_prefs_audio_io_01_1_1-en.jpg" alt="input_volume_01.jpg" width="325" height="72"></p>
+<p> </p>
+<p>Jatka äänekkäimmän kohdan soittamista ja säädä sisääntulon tasoa, kunnes ääni on voimakkaimmillaan noin -12. Paina sitten "stop" -nappulaa:</p>
+<p> </p>
+<p><img src="http://en.flossmanuals.net/audacity/recording/_booki/audacity/static/Audacity-Audacity_prefs_quality_01-en.jpg" alt="stop_button_01.jpg" width="600" height="492"></p>
+<p> </p>
+<h2>Äänitys</h2>
+<p>Nyt voit äänittää.</p>
+<p><br>Paika "äänitä"-nappulaa,</p>
+<p> </p>
+<p><img src="http://en.flossmanuals.net/audacity/recording/_booki/audacity/static/Audacity-recording-toolbar_mixer-en.png" alt="record_button_01.jpg" width="450" height="27"></p>
+<p> </p>
+<p>ja soita ääni, jonka tahdot nauhoittaa. Kun äänilähde on loppunut, paina "stop"-nappulaa.</p>
+<p> </p>
+<p>Nauhoituksesi on nyt valmis, tallenna se välittömästi valitsemalla "Tallenna projekti" "Tiedosto"-valikosta.</p>
+<p> </p>
+<p><img src="http://en.flossmanuals.net/audacity/recording/_booki/audacity/static/Audacity-input_level_meter_02-en.jpg" alt="Audacity_file_save_01.jpg" width="291" height="129"></p>
+<p> </p>
+<p>Siinäpä se! Nauhoitus on valmis ja tallennett. Voit soittaa se klikkaamalla "Soita"-nappulaa.</p>
+<p> </p>
+<p> </p>
+<p><img src="http://en.flossmanuals.net/audacity/recording/_booki/audacity/static/Audacity-play_button_01-en.jpg" alt="play_button_01.jpg" width="52" height="50"></p>
+<p> </p>
+<h2>Viankorjaus Linuxissa</h2>
+<p> </p>
+<h3>Linux :: Host Error?</h3>
+<p>Jos käytät Audacityä Linuxissa, voit nähdä tämän kaltaisen virheviestin:  "Error Initializing Audio: There was an error initializing the audio i/o layer. You will not be able to play or record audio. Error: Host error." Voit yrittää korjata vian seuraavilla komennoilla:</p>
+<p><strong>Kill esd </strong></p>
+<p>Voi olla, että <strong>esd</strong> -äänipalvelin ei anna Audacityn käyttää äänikorttia. Voit yrittää tätä komentoa terminaalissa:</p>
+<pre>ps ax | grep esd</pre>
+<p>Jos näet tällaisen viestin:</p>
+<pre>5164 ?        Ss     0:00 /usr/bin/esd -terminate -nobeeps -as 1 -spawnfd 18<br>10352 pts/1    R+     0:00 grep esd</pre>
+<p>Voit nähdä ensimmäisestä rivistä, että esd toimii ("/usr/bin/esd"). Tappaaksesi esd-äänipalvelimen joudut kirjoittamaan tämän terminaaliin (sinulla täytyy olla oikeudet <strong><em>sudo</em></strong> -komennon käyttöön):</p>
+<pre>sudo killall esd</pre>
+<p>Sinulta kysytään salasanaa, kirjoita oma salasanasi eikä pääkäyttäjän salasanaa (tunnetaan myös "root" tai "admin" -salasanana). Yritä käynnistää Audacity uudestaan, toivottavasti et saa tätä virheviestiä.</p>
+<p> </p>
+<p><strong>Aloita aRts-äänipalvelimella</strong></p>
+<p> </p>
+<p>Voit myös yrittää ajaa Audacityn <strong>aRts</strong> -äänipalvelimella ("<strong>a</strong>nalog <strong>R</strong>eal <strong>t</strong>ime <strong>s</strong>ynthesizer").  Sinun täytyy poistua Audacitystä, jos olet jo avannut sen, ja käynnistä se tällä komennolla terminaalissa:</p>
+<pre>artsdsp audacity</pre>
+<p> </p>
+<p><strong>Tapa aRts</strong></p>
+<p>Viimeisenä vaihtoehtona on Audacityn käynnistäminen aRts-äänipalvelimen tappamisen jälkeen. Voit yrittää tätä:</p>
+<pre>sudo killall artsd</pre>
+<p>Yritä käynnistää Audacity uudelleen.</p></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto Audacityyn</li><li><a href="/audacity-opas/index">Mikä Audacity on?</a></li>
+<li><a href="/audacity-opas/ch002_mita-aani-on">Mitä ääni on?</a></li>
+<li Class="booki-section">Asentaminen</li><li><a href="/audacity-opas/ch004_audacityn-asentaminen-windowsissa">Windows</a></li>
+<li Class="booki-section">Käyttöliittymä</li><li><a href="/audacity-opas/ch006_raitanaytto">Raitanäyttö</a></li>
+<li><a href="/audacity-opas/ch007_valikkopalkki">Valikkopalkki</a></li>
+<li><a href="/audacity-opas/ch008_tyokalupalkki">Työkalupalkki</a></li>
+<li Class="booki-section">Audacityn käyttöohje</li><li><a href="/audacity-opas/ch010_audacityn-kayttoohje">MP3 -tiedoston avaaminen</a></li>
+<li><a href="/audacity-opas/ch011_nauhoittaminen">Nauhoittaminen</a></li>
+<li><a href="/audacity-opas/ch012_lisaa-aanitiedosto">Lisää äänitiedosto</a></li>
+<li><a href="/audacity-opas/ch013_aanen-editointi">Äänen editointi</a></li>
+<li><a href="/audacity-opas/ch014_tiedoston-vieminen">Tiedoston vieminen</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/audacity-opas/ch016_tasta-oppaasta">Tästä oppaasta</a></li>
+<li><a href="/audacity-opas/ch017_lisenssi">Lisenssi</a></li>
+</ul>

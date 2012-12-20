@@ -1,0 +1,120 @@
+<div id="main-content"><h1>Esimerkkejä
+  <br></h1>
+<h2><span id="result_box" class="long_text"><span></span></span>
+</h2>
+<p><span id="result_box" class="long_text"><span> </span><span>Multimedian luomiseen sopiva ohjelmointikieli Processing mahdollistaa piirtämisen, kaksi- ja kolmiulotteisten animaatioiden tekemisen, taiteilun äänellä, sekä ympäristön kanssa vuorovaikuttavien elektronisten laitteiden suunnittelemisen. Kymmenet tuhannet taiteilijat, suunnittelijat, arkkitehdit, tutkijat ja yritykset käyttävät sitä luomaan hämmästyttäviä projekteja monilla alueilla: </span><span>
+  <br><br></span></span>
+</p>
+<ul><li><span id="result_box" class="long_text"><span>Processingia on käytetty mainontaan, elokuvien alkuteksteihin, videoihin ja sarjakuviin. </span></span></li>
+  <li><span id="result_box" class="long_text"><span> </span><span>Processingia on käytetty tieteellisen tiedon visualisointiin monilla monimutkaista tietoa vaativilla alueilla, kuten ympäristön, liikenteen, talouden ja humanististen tieteiden tutkimuksessa. </span></span></li>
+  <li><span id="result_box" class="long_text"><span> </span><span>Processingia on käytetty luomaan musiikkia ja muuttamaan ääniä.</span></span><span id="result_box" class="long_text"><span></span></span></li>
+  <li><span id="result_box" class="long_text"><span> </span><span>On mahdollista laittaa Processing tuottamaan äänitehosteita tanssijoiden liikkeisiin perustuen. </span></span></li>
+  <li><span id="result_box" class="long_text"><span></span><span> </span><span>Arkkitehtuurin alueella Processing mahdollistaa tilan esittämisen, sitä käytetään arkkitehtuuriprojekteissa automatisoimaan rakennusten suunnittelu kahdessa tai kolmessa ulottuvuudessa. </span></span></li>
+</ul><p>
+</p>
+<p>
+</p>
+<p><span id="result_box" class="long_text"><span>Tässä luvussa esitellään joitain esimerkkejä Processingin käytöstä eri ympäristöissä.
+  <br></span><span>
+  <br></span></span>
+</p>
+<h2>Mycelium
+</h2>
+<p><img src="_booki/processing/static/Processing-mycelium_600-fi_1.jpg"></p>
+<p><span id="result_box" class="long_text"><span>Piirteitä ilmestyy ruudulle. Niistä muodostuu vähitellen kasvot. Tämä animaatio simuloi sienten ja bakteerien rihmamaisten osien kehitystä.</span><span>
+  <br><br></span><span>Ryan Alexanderin luomus vuodelta 2010: <a href="http://onecm.com/projects/mycelium/%20">http://onecm.com/projects/mycelium/</a></span></span>
+  <br></p>
+<h2>NYTimes 365/360
+</h2>
+<p><img src="_booki/processing/static/Processing-ny-fi_1.jpg"><br></p><span id="result_box" class="long_text"><span>NY Times visualisoi New York Timesin verkkosivujen informaatiota. Ohjelma käyttää verkkosivun tietoa ja visualisoi tiedon tärkeyden ja suhteen muuhun tietoon. Lopulta ilmestyy korkean tarkkuuden kuva, joka on valmis tulostettavaksi. </span><span>
+<br><br></span><span>Jer Thropen luomus vuodelta 2009: <a href="http://blog.blprnt.com/blog/blprnt/7-days-of-source-day-2-nytimes-36536">http://blog.blprnt.com/blog/blprnt/7-days-of-source-day-2-nytimes-36536</a></span></span>
+<h2>Shadow Monsters
+</h2> <img title="shadowMonster" alt="shadowMonster" src="_booki/processing/static/Processing-shadowMonster-fi.jpg" width="600" height="400"><p><span id="result_box" class="long_text"><span>Shadow Monster on interaktiivinen installaatio, joka toimii varjojen avulla. Yleisö näkee varjojensa muuttuvan hirviöiksi ja oudoiksi olennoiksi. </span><span></span></span>
+</p>
+<p>Philip Worthingtonin luomus vuodelta 2005: <a href="http://worthersoriginal.com/viki/#page=shadowmonsters">http://worthersoriginal.com/viki/#page=shadowmonsters</a>
+</p>
+<h2>Platonic Solids
+  <br></h2>
+<p><img src="_booki/processing/static/Processing-platonic_solids_600-fi_1.jpg"><br></p>
+<p><span id="result_box" class="long_text"><span>Ernst Haeckel kirjoitti 1800-luvulla kirjan luonnossa esiintyvistä taiteellisista muodoista. Tämä ohjelma luo geometrisiä muotoja tuon kirjan inspiroimana.
+  <br></span></span>
+</p>
+<p>Michael Hansmeyerin teos: <a href="http://www.michael-hansmeyer.com/html/solids/p0s.html">http://www.michael-hansmeyer.com/html/solids/p0s.html </a>
+  <br></p>
+<h2> Champ d'Ozone
+</h2>
+<p><img title="ozone_DSCN8135" alt="ozone_DSCN8135" src="_booki/processing/static/Processing-ozone_DSCN8135-fi.jpg" width="600" height="450"> 
+</p>
+<p><span id="result_box" class="long_text"><span>Champ d'Ozone on installaatio, joka esiteltiin Pariisissa vuonna 2007 osana Pariisin ilmastoa esittelevää näyttelyä. Se tehtiin yhteistyössä </span><span>Airparifin kanssa. Se on holograafinen projektio virtuaalisista pilvistä, joiden väri muuttuu jatkuvasti riippuen Pariisin ilmanlaadusta. </span><span></span></span>
+</p>
+<p>HeHen teos vuodelta 2007: <a href="http://hehe.org.free.fr/hehe/champsdozone/">http://hehe.org.free.fr/hehe/champsdozone/</a><a href="http://vimeo.com/10154340"> </a>
+</p>
+<h2>COP15 Generative Identity 
+</h2>
+<p><img title="img_6" alt="img_6" src="_booki/processing/static/Processing-img_6-fi.jpg" width="600" height="338"> 
+</p>
+<p><span id="result_box" class="long_text"><span>Yhdistyneiden Kansakuntien ilmastokonferenssin logo suunniteltiin lontoolaisessa studiossa Processingilla. He kehittivät logon perustuen vuorovaikutusvoimiin. Logo ilmentää konferenssin keskusteluiden monimutkaisuutta. </span><span></span></span>
+</p>
+<p>Lontoon studio okdeluxen luomus vuodelta 2009: <a href="http://www.okdeluxe.co.uk/cop15/">http://www.okdeluxe.co.uk/cop15/</a>
+</p>
+<h2>Body navigation
+</h2> <img src="_booki/processing/static/2536772735_aa5fc2436a_o-fi_1.jpg"><br><p>Body navigation on performanssilava. Se luotiin yhteistyönä koreografi Tina Tarpgaardin ja kehittäjä Jonas Jongejanin välillä. Tanssijoita kuvataan infrapunakameralla, joka seuraa heidän liikkeitään, ja Processing kehittää heti kuvat heidän ympärilleen. <span id="result_box" class="long_text"><span></span><span></span></span>
+</p>
+<p class="blank">Jonas Jongejanin ja Ole Kristensenin luomus vuodelta 2008: <a href="http://3xw.ole.kristensen.name/works/body-navigation/">http://3xw.ole.kristensen.name/works/body-navigation/</a>
+</p>
+<h2> Flight 404
+</h2>
+<p><img title="flight404_butterflies" alt="flight404_butterflies" src="_booki/processing/static/Processing-flight404_butterflies-fi.png" width="600" height="450"> 
+  <br> 
+</p>
+<p><span id="result_box" class="long_text"><span>Robert Hodgin tutkii koodin ilmaisumahdollisuuksia, joihin sisältyvät usein algoritmi ja hän itse. Ohjelma luo monia elokuvia, jotka se jakelee nettiin. Nämä esimerkit kierrätetään sitten monella eri tavalla, kuten iTunesissa olevalla katseluohjelmalla ja Voronoi-diagrammeilla luotuina perhosina.  </span><span></span></span>
+</p>
+<p class="blank"> Robert Hodginin luomus vuodelta 2007: <a target="_blank" href="http://flight404.com/vj/exhibit.html">http://flight404.com/</a>
+</p>
+<h2> <strong>The Sheep Market</strong>
+</h2>
+<p> <img title="the_sheep_market_600" alt="the_sheep_market_600" src="_booki/processing/static/Processing-the_sheep_market_600-fi.jpg" width="600" height="415"></p>
+<p><span id="result_box" class="long_text"><span>Tämän taideprojektin osana nuoret ja vanhat käyttäjät kutsuttiin piirtämään lammasta. Lampaista tulee jotenkin mieleen Antoine de Saint-Exuperyn teos Pikku prinssi. Nämä piirrokset on jaettu suureen tietokantaan, joka on saatavilla verkossa. Processing voi lukea kaikki 10 000 piirrosta ja visualisoida kynän reitin. </span><span></span></span>
+</p>
+<p>Aaron Koblinin luomus vuodelta 2008:  <a href="http://www.thesheepmarket.com/">http://www.thesheepmarket.com </a>
+</p>
+<p><span id="result_box" class="long_text"><span title="Les images présentées dans ce chapitre sont la propriété de leurs auteurs respectifs.">Tämän luvun kuvien tekijänoikeudet kuuluvat teosten tekijölle.</span></span>
+  <br></p>
+<br><br><br></div><ul Class="menu-goes-here"><li Class="booki-section">Esittely</li><li><a href="/processing/index">Johdanto</a></li>
+<li><a href="/processing/ch002_esimerkkeja">Esimerkkejä</a></li>
+<li><a href="/processing/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Perusteet</li><li><a href="/processing/ch005_perusteet">Perusteet</a></li>
+<li Class="booki-section">Suunnittelu</li><li><a href="/processing/ch007_suunnittelutila">Suunnittelutila</a></li>
+<li><a href="/processing/ch008_muodot">Muodot</a></li>
+<li><a href="/processing/ch009_varit">Värit</a></li>
+<li Class="booki-section">Interaktiivisuus</li><li><a href="/processing/ch011_video">Video</a></li>
+<li><a href="/processing/ch012_videon-tuominen">Videon tuominen</a></li>
+<li><a href="/processing/ch013_mikrofoni">Mikrofoni</a></li>
+<li><a href="/processing/ch014_hiiri">Hiiri</a></li>
+<li><a href="/processing/ch015_nappaimisto">Näppäimistö</a></li>
+<li><a href="/processing/ch016_tulostaminen">Tulostaminen</a></li>
+<li><a href="/processing/ch017_verkkoon-vieminen">Verkkoon vieminen</a></li>
+<li Class="booki-section">Vienti</li><li><a href="/processing/ch019_aanet">Äänet</a></li>
+<li><a href="/processing/ch020_monien-objektien-animointi">Monien objektien animointi</a></li>
+<li><a href="/processing/ch021_objektien-animointi">Objektien animointi</a></li>
+<li><a href="/processing/ch022_aikajana">Aikajana</a></li>
+<li><a href="/processing/ch023_draw-metodi">Draw-metodi</a></li>
+<li Class="booki-section">Animaatio</li><li><a href="/processing/ch025_kommentit">Kommentit</a></li>
+<li><a href="/processing/ch026_objektit">Objektit</a></li>
+<li><a href="/processing/ch027_metodit">Metodit</a></li>
+<li><a href="/processing/ch028_listat">Listat</a></li>
+<li><a href="/processing/ch029_toistaminen">Toistaminen</a></li>
+<li><a href="/processing/ch030_ehdot">Ehdot</a></li>
+<li><a href="/processing/ch031_muuttujat">Muuttujat</a></li>
+<li Class="booki-section">Ohjelmointi</li><li><a href="/processing/ch033_muutokset">Muutokset</a></li>
+<li><a href="/processing/ch034_rajat">Rajat</a></li>
+<li><a href="/processing/ch035_kuvat">Kuvat</a></li>
+<li Class="booki-section">Kehittyneempi suunnittelu</li><li><a href="/processing/ch037_tekstit">Tekstit</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/processing/ch039_vinkkeja">Vinkkejä</a></li>
+<li><a href="/processing/ch040_yleisia-virheita">Yleisiä virheitä</a></li>
+<li><a href="/processing/ch041_ulkoiset-kirjastot">Ulkoiset kirjastot</a></li>
+<li><a href="/processing/ch042_dokumentaatio">Dokumentaatio</a></li>
+<li><a href="/processing/ch043_arduino">Arduino</a></li>
+<li><a href="/processing/ch044_tasta-oppaasta">Tästä oppaasta</a></li>
+<li><a href="/processing/ch045_tekijat">Tekijät</a></li>
+</ul>

@@ -1,0 +1,191 @@
+<div id="main-content"><p>
+</p>
+<h1>Hiiren tapahtumat<span id="result_box" class="long_text"><span></span></span>
+</h1>
+<h2><span id="result_box" class="long_text"><span></span></span>
+</h2>
+<p><span id="result_box" class="long_text"><span>
+  <br></span><span>Tässä luvussa näemme ohjelman vuorovaikutuksen hiiren kanssa. Processing kerää hiireltä tietoja, kuten hiiren sijainnin ja napsautukset. Luomme pienen ohjelman, joka perustuu ympyröihin, jolla esittelemme satunnaiset liikkeet.</span><span></span></span>
+</p>
+<h2><span id="result_box" class="long_text"><span>Hiiren sijainti</span><span></span></span>
+</h2>
+<p><span id="result_box" class="long_text"><span></span></span><span id="result_box" class="long_text"><span></span><span>Hiiren koordinaatit ikkunassa nähdään kahdella muuttujalla: mouseX ja mouseY. Niillä voimme tietää hiiren sijainnin suhteessa piirrosikkunaamme, alkaen ikkunan vasemmasta yläkulmasta. Seuraavassa esimerkissä luomme ohjelman, joka piirtää ympyrän hiiren sijaintiin. </span><span></span></span>
+</p>
+<p><span id="result_box" class="long_text"><span></span></span><img src="_booki/processing/static/01_Souris_Cercles-fi_1.png"></p>
+<pre>void setup() {
+  size(200,200);
+  smooth();
+}
+
+void draw() {
+  ellipse(mouseX,mouseY,15,15);
+}</pre>
+<p> <span id="result_box" class="long_text"><span>Muutamme edellisen esimerkin muuttamalla dynaamisesti ympyrän läpimittaa. Se valitaan satunnaisesti metodilla random(), joka luo satunnaisen numeron tietyllä arvovälillä. Kun Processing tekee komennon execute(), muuttuja r täytetään satunnaisella numerolla väliltä 3-30: 12, 25, 23, 11, 22, 4, 10, 11, 25... Ympyrän läpimitan muutos johtaa ympyrän välkkymiseen hiiren kursorin ympärillä. </span><span></span></span>
+</p>
+<p>
+</p>
+<p><img title="02_Souris_Cercles_Random" alt="02_Souris_Cercles_Random" src="_booki/processing/static/02_Souris_Cercles_Random-fi.png" height="302" width="280"></p>
+<pre>void setup() {
+  size(300,300);
+  smooth();
+}
+
+void draw() {
+  <span>float</span><strong> r = random(3,30);</strong>
+  ellipse(mouseX,mouseY,<strong>r</strong>,<strong>r</strong>);
+}</pre>
+<p><span id="result_box" class="long_text"><span>Kun hiiri lähtee ikkunasta, hiiren sijaintia ei enää välitetä ohjelmallemme. Ympyrät piirretään ja ne kerääntyvät hiiren viimeiseen sijaintiin. </span><span></span></span>
+</p>
+<h2><span id="result_box" class="long_text"><span>Napsautukset</span></span>
+</h2>
+<p><span id="result_box" class="long_text"><span></span></span><span></span>Voimme vastaanottaa hiiren napsautuksia käyttäen metodeita mousePressed() ja mouseReleased(). <span id="result_box" class="long_text"><span></span></span>
+</p>
+<p><span id="result_box" class="long_text"><span>Molemmat metodit sallivat meidän tietää koska hiiren nappia painetaan ja koska se on vapaana. Edellisen esimerkin mukaan voimme muuttaa ympyrän täyttöväriä sen mukaan painaako käyttäjä hiiren nappia. Valitsemme harmaan sävyn satunnaisesti komennolla fill(), kun hiiren nappia painetaan.
+  <br></span></span>
+</p>
+<p><img title="03_Souris_Cercles_Random_Gris_02" alt="03_Souris_Cercles_Random_Gris_02" src="_booki/processing/static/03_Souris_Cercles_Random_Gris_02-fi.png" height="302" width="280"> 
+</p>
+<pre>float ton_de_gris = 255;
+
+void setup() {
+  size(300, 300);
+  smooth();
+}
+
+void draw() {
+  float r = random(10, 80);
+  fill(grey);
+  ellipse(mouseX, mouseY, r, r);
+}
+
+void mousePressed() {
+  grey = random(255);
+}
+</pre>
+<p><span id="result_box" class="long_text"><span>Processingin avulla voimme tietää mitä hiiren nappia painetttiin. Tähän käytämme muuttujaa MouseButtons, joka tunnistaa painetaanko vasenta, oikeaa tai keskimmäistä hiiren nappia (LEFT, RIGHT, CENTER). Käytä tätä muuttujaa piirtääksesi ympyrän, joka vaihtaa väriä riippuen siitä mitä hiiren nappia painetaan. </span><span></span></span>
+</p>
+<p><img title="07_Souris_Composition_2" alt="07_Souris_Composition_2" src="_booki/processing/static/07_Souris_Composition_2-fi.png" height="219" width="600"></p>
+<pre>void setup() {
+  size(200,200);
+  smooth();
+}
+
+void draw() {
+  background(255);
+  ellipse(100,100,200,200);
+}
+
+void mousePressed() {
+  if (mouseButton == LEFT)   fill(0);
+  if (mouseButton == RIGHT)  fill(255);
+  if (mouseButton == CENTER) fill(128);
+}
+</pre>
+<h2>Muut tapahtumat<span id="result_box" class="long_text"><span></span></span>
+</h2>
+<p>Processing kaappaa kaksi muuta hiiren tapahtumaa täsmälleen sen sijainnissa ikkunan yläpuolella.
+</p>
+<p>mouseMoved() havaitsee hiiren liikkeen kun se liikkuu piirrosikkunan yläpuolella. Jos hiiren osoitin poistuu ikkunan alueelta tai lopettaa liikkeen tämä metodi ei toimi.
+  <br></p>
+<p>mouseDragged() kutsutaan, kun käyttäjä napsauttaa nappia ja liikuttaa hiirtä ikkunan päällä. Sen ominaisuuksiin kuuluu hiiren vetämisen hallinta. mouseDragged() toimii, vaikka hiiren osoitin lähtisi ulos ikkunasta. <span id="result_box" class="long_text"><span>
+  <br></span></span>
+</p>
+<p><span id="result_box" class="long_text"><span>Seuraavassa esimerkissä käytämme näitä metodeja. Kun mouseMoved() kutsutaan, muutetaan ympyrän täyttöväriä, ja kun mouseDragged kutsutaan, muutetaan ympyrän kokoa.
+  <br></span><span></span><span></span></span><img title="04_Souris_Dragged" alt="04_Souris_Dragged" src="_booki/processing/static/04_Souris_Dragged-fi.png" height="302" width="280"></p>
+<pre>int r = 100;
+int c = 100;
+
+void setup() {
+  size(255, 255);
+  smooth();
+}
+
+void draw() {
+  background(255);
+  fill(c);
+  ellipse(width/2, height/2, r, r);
+}
+
+void mouseMoved() {
+    c = mouseY;
+}
+
+void mouseDragged() {
+  r = mouseX;
+}
+</pre>
+<h2>
+</h2>
+<h2>Kohdistin<span id="result_box" class="long_text"><span></span></span>
+</h2><span id="result_box" class="long_text"><span></span><span>Joskus on hyvä kätkeä hiiren kohdistin. Tässä on käsky kohdistimen piilottamiseksi:  </span><span></span></span>
+<pre>noCursor();</pre>
+<p><span id="result_box" class="long_text"><span>On myös mahdollista muuttaa kursorin muotoa osoittamaan eri tapahtumia käyttäjälle. Tähän käytetään komentoa cursor() parametreillä ARROW, CROSS, HAND, MOVE, TEXT, WAIT. </span><span></span></span>
+</p>
+<p><img src="_booki/processing/static/Screen_shot_2010_09_09_at_23-28-56-fi_1.png"></p>
+<pre>void setup() { 
+   fill(255);
+   rect(10, 10, 20, 80);
+   fill(175);
+   rect(40, 10, 20, 80);
+   fill(100);
+   rect(70, 10, 20, 80);
+}
+
+void draw() <span id="result_box"><span></span></span>
+<span id="result_box"><span>   // Katsomme voitko lennättää yhtä kolmesta neliöstä
+   </span>// Ja muutamme kursoria vastaavasti </span>
+<span id="result_box"><span></span></span>   if (mouseX &gt; 10 &amp;&amp; mouseX &lt; 30 &amp;&amp; mouseY &gt; 10 &amp;&amp; mouseY &lt; 90) {
+      <strong>cursor(HAND);</strong> // Näyttää käden
+   }
+   else
+   if (mouseX &gt; 40 &amp;&amp; mouseX &lt; 60 &amp;&amp; mouseY &gt; 10 &amp;&amp; mouseY &lt; 90) {
+      <strong>cursor(ARROW);</strong> // Näyttää nuolen
+   }
+   else
+   if (mouseX &gt; 70 &amp;&amp; mouseX &lt; 90 &amp;&amp; mouseY &gt; 10 &amp;&amp; mouseY &lt; 90) {
+      <strong>cursor(WAIT);</strong> // Näyttää tiimalasin
+  }
+  else {
+     <strong>cursor(CROSS);</strong> // Näyttää ristin jos emme tee mitään
+  }
+}
+</pre>
+<p>
+</p></div><ul Class="menu-goes-here"><li Class="booki-section">Esittely</li><li><a href="/processing/index">Johdanto</a></li>
+<li><a href="/processing/ch002_esimerkkeja">Esimerkkejä</a></li>
+<li><a href="/processing/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Perusteet</li><li><a href="/processing/ch005_perusteet">Perusteet</a></li>
+<li Class="booki-section">Suunnittelu</li><li><a href="/processing/ch007_suunnittelutila">Suunnittelutila</a></li>
+<li><a href="/processing/ch008_muodot">Muodot</a></li>
+<li><a href="/processing/ch009_varit">Värit</a></li>
+<li Class="booki-section">Interaktiivisuus</li><li><a href="/processing/ch011_video">Video</a></li>
+<li><a href="/processing/ch012_videon-tuominen">Videon tuominen</a></li>
+<li><a href="/processing/ch013_mikrofoni">Mikrofoni</a></li>
+<li><a href="/processing/ch014_hiiri">Hiiri</a></li>
+<li><a href="/processing/ch015_nappaimisto">Näppäimistö</a></li>
+<li><a href="/processing/ch016_tulostaminen">Tulostaminen</a></li>
+<li><a href="/processing/ch017_verkkoon-vieminen">Verkkoon vieminen</a></li>
+<li Class="booki-section">Vienti</li><li><a href="/processing/ch019_aanet">Äänet</a></li>
+<li><a href="/processing/ch020_monien-objektien-animointi">Monien objektien animointi</a></li>
+<li><a href="/processing/ch021_objektien-animointi">Objektien animointi</a></li>
+<li><a href="/processing/ch022_aikajana">Aikajana</a></li>
+<li><a href="/processing/ch023_draw-metodi">Draw-metodi</a></li>
+<li Class="booki-section">Animaatio</li><li><a href="/processing/ch025_kommentit">Kommentit</a></li>
+<li><a href="/processing/ch026_objektit">Objektit</a></li>
+<li><a href="/processing/ch027_metodit">Metodit</a></li>
+<li><a href="/processing/ch028_listat">Listat</a></li>
+<li><a href="/processing/ch029_toistaminen">Toistaminen</a></li>
+<li><a href="/processing/ch030_ehdot">Ehdot</a></li>
+<li><a href="/processing/ch031_muuttujat">Muuttujat</a></li>
+<li Class="booki-section">Ohjelmointi</li><li><a href="/processing/ch033_muutokset">Muutokset</a></li>
+<li><a href="/processing/ch034_rajat">Rajat</a></li>
+<li><a href="/processing/ch035_kuvat">Kuvat</a></li>
+<li Class="booki-section">Kehittyneempi suunnittelu</li><li><a href="/processing/ch037_tekstit">Tekstit</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/processing/ch039_vinkkeja">Vinkkejä</a></li>
+<li><a href="/processing/ch040_yleisia-virheita">Yleisiä virheitä</a></li>
+<li><a href="/processing/ch041_ulkoiset-kirjastot">Ulkoiset kirjastot</a></li>
+<li><a href="/processing/ch042_dokumentaatio">Dokumentaatio</a></li>
+<li><a href="/processing/ch043_arduino">Arduino</a></li>
+<li><a href="/processing/ch044_tasta-oppaasta">Tästä oppaasta</a></li>
+<li><a href="/processing/ch045_tekijat">Tekijät</a></li>
+</ul>

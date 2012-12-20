@@ -1,0 +1,195 @@
+<html dir="None"><body><div id="main-content"><h1>Editing with JOSM
+</h1>
+<p>JOSM is the Java OpenStreetMap editor. It is used for editing the OpenStreetMap data on a desktop computer. This means you don't have to be online to edit data. JOSM requires the Java Runtime Environment--if it is not yet installed on your computer, you can download it from <a href="http://www.java.com/en/download/">http://www.java.com/en/download/</a> .</p>
+<p>This chapter explains how to download and install JOSM, step by step. We will also cover changing some of the settings in JOSM to make it easier to use! Then we will open a sample map and learn about some of the basic operations of the software.</p>
+<h2>Downloading JOSM</h2>
+<p>Go to the JOSM website at: <a href="http://josm.openstreetmap.de">josm.openstreetmap.de</a>. You can also find this website by searching for “JOSM”.</p>
+<p>The website looks something like this:
+</p><p>
+<a href="http://www.learnosm.org/beginners-guide/chapter-3-getting-started-with-josm/1-2/" rel="attachment wp-att-82"><img src="_booki/openstreetmap/static/1-520x292.png"></a></p><p><a href="http://www.learnosm.org/beginners-guide/chapter-3-getting-started-with-josm/1-2/" rel="attachment wp-att-82"></a><em>The JOSM Website</em>
+
+</p>If you have Windows installed on your computer, click “Windows JOSM Installer” to download JOSM. If you have a different operating system, click on the link for your system. Your download should begin.
+<p>Note that in general, JOSM works the same on all operating systems, except for some installation steps. When required, we will specify the appropriate steps for your system.</p>
+<h2>Installing JOSM</h2>
+<p>Find the JOSM install file on your computer. Double-click it to begin setup.</p><p><em>Note: You must have at least version 1.6 of Java installed on your system for JOSM to work.</em></p>
+<p>On Windows the installer first asks you to choose a language. Then you get a welcome screen click 'Next’. Click ‘I Agree’ to accept the license. Then you can choose the components you want (the defaults are usually fine). Finally choose the install location and click ‘Install’. When the installation is complete, click 'Next' and then ‘Finish’ to launch JOSM for the first time. Later, when you want to start JOSM, you can do so by clicking on the Start Menu in the lower left corner of your computer, and clicking the JOSM icon.</p><p>On Mac OS X, double-click the compressed file to open it and then double-click the Application file to launch JOSM.</p>
+<p> You may see a window pop up that asks if you want to update the software. You don’t need to update it since it is new. Press the button that says “Cancel.” If you don’t ever want to see this message again, check the box at the bottom before pressing “Cancel.”
+</p>
+<p>When JOSM starts, it looks like this:
+</p><p>
+<a href="http://www.learnosm.org/beginners-guide/chapter-3-getting-started-with-josm/2-2/" rel="attachment wp-att-83"><img class="size-large wp-image-83" title="JOSM when it opens" src="http://www.learnosm.org/wp-content/uploads/2011/08/2-520x292.png" alt="JOSM when it opens" height="292" width="520"></a></p><p><a href="http://www.learnosm.org/beginners-guide/chapter-3-getting-started-with-josm/2-2/" rel="attachment wp-att-83"></a><em>The initial JOSM screen</em></p><h2> Learning Basic Drawing with JOSM
+  </h2>
+  <p> Now let’s open up a sample OSM file to learn the basic ways to draw maps with JOSM. Note that this map is not real, in that it is not a real map of a real place, so we will not save it on OpenStreetMap.
+  </p>
+  <p>Go to address<a href="http://www.learnosm.org/files/sample.osm">http://www.learnosm.org/files/sample.osm</a> and click “Save File As…” Choose a location on your computer to save the file.
+  </p>
+  <p>Now open the sample map file in JOSM. Open JOSM. Click the “Open” button in the upper left.
+  </p>
+  <p><a href="http://www.learnosm.org/beginners-guide/chapter-3-getting-started-with-josm/attachment/10/" rel="attachment wp-att-96"><img src="_booki/openstreetmap/static/10.png"></a>
+  </p>
+  <p>Find the file sample.osm. Click on it, and then click “Open”.
+  </p>
+  <p>You should now see a sample map, similar to this:
+  </p>
+  <a href="http://www.learnosm.org/beginners-guide/chapter-3-getting-started-with-josm/attachment/11/" rel="attachment wp-att-97"><img class="size-large wp-image-97" title="Sample OpenStreetMap File" src="http://www.learnosm.org/wp-content/uploads/2011/08/11-520x292.png" alt="Sample OpenStreetMap File" height="292" width="520"></a>
+    <p class="wp-caption-text"><em>Sample OpenStreetMap File </em>
+    </p>
+    <h3>Basic Operations</h3>
+    <p>To move the map left or right, up or down, hold your right mouse button down, and move your mouse.
+    </p>
+    <p>There are several ways to zoom in and out of the map. If you have a mouse, you can use your scroll wheel to zoom in and out. If you are using a laptop and don’t have a mouse, you can zoom in and out using the scale bar in the upper left of the map window. Drag the bar left and right by holding your left mouse down and moving the bar left or right with your mouse.
+    </p>
+    <p><a href="http://www.learnosm.org/beginners-guide/chapter-3-getting-started-with-josm/attachment/12/" rel="attachment wp-att-98"><img class="aligncenter size-full wp-image-98" title="JOSM Scale Bar" src="http://www.learnosm.org/wp-content/uploads/2011/08/12.png" alt="JOSM Scale Bar" height="55" width="136"></a>
+    </p>Look at the sample map. There a few different types of objects here. There is a river, a forest, some buildings, several roads, and a couple of shops. To select an object, click on it with your left mouse button.
+    <h3>Points, Lines, and Shapes</h3>
+    <p>As you click on different objects on the sample map, notice that there are three different types of object on the map. There are points, lines, and shapes.
+    </p>
+    <p>Points are a single location, represented by symbols. On this sample map, there are two points, a clothing shop and a market. The clothing shop is represented by a shirt symbol, and the market is represented by a shopping cart.
+    </p>
+    <p><img src="_booki/openstreetmap/static/ScreenHunter_39%20Oct.%2018%2017.36.jpg"></p>
+    <p>There are several lines on the map as well, which represent roads. If you look closely you will see that within the lines, there are points as well. These points do not have any symbols or other information associated with them, but they help to define where the line is located.
+    </p>
+    <p><img src="_booki/openstreetmap/static/ScreenHunter_41%20Oct.%2018%2017.38.jpg"> 
+    </p>
+    <p>Lastly, there are numerous shapes on the sample map, representing different places – a forest, a river, and buildings. A shape generally represents an area, like a field or a building. A shape is exactly like a line – the only difference is that the line begins at the same point where it ends.
+    </p>
+    <p><img src="_booki/openstreetmap/static/ScreenHunter_42%20Oct.%2018%2017.40.jpg"> 
+    </p>
+    <p>You may notice that when you select an object, a list appears to the right of the map in a window called “Properties”. The items in this list are known as tags. Tags are information that is tied to a point, line or shape that describes what it is. For now all you need to know is that this information helps describe whether our object is a forest, a river, a building, or something else.
+    </p>
+    <p>Think about drawing a map by hand, and how you are also drawing points, lines, and shapes. What other places are best represented by points? Lines? Shapes?
+    </p>
+    <h3>Changing Objects</h3>
+    <p>Select the forest on the left side of the map. Be sure to click on the line around the forest, not one of the points on the line. Now hold your left mouse button down and drag your mouse. You should be able to move the forest to a new location on the map.
+    </p>
+    <p>Click on on of the points on the line around the forest. Hold your left mouse button down and drag your mouse. You should be able to move the point. This is how you can change the shape of an object, or move a point.
+    </p>
+    <h3>Drawing</h3>
+    <p>On the left side of a JOSM is a column of buttons. Many of these button open new windows on the right side that provide more information about the map. However, the most often used buttons are at the top of this column. These buttons change what you can do with your mouse.
+    </p>
+    <p>The top four buttons in this column are the most important. They allow you to:
+    </p>
+    <ul><li>Select</li>
+      <li>Draw</li>
+      <li>Zoom in</li>
+      <li>Delete</li>
+    </ul><p>Until now, you have been using the Select tool, which looks like this:
+    </p>
+    <p><a href="http://www.learnosm.org/beginners-guide/chapter-3-getting-started-with-josm/attachment/13/" rel="attachment wp-att-99"><img class="aligncenter size-full wp-image-99" title="Select Tool" src="http://www.learnosm.org/wp-content/uploads/2011/08/13.png" alt="Select Tool" height="36" width="36"></a>
+    </p>
+    <p>Before you draw, you need to make sure that nothing is selected. Click in the black space on the map, where it is empty, to make sure nothing is selected.
+    </p>
+    <p>Click on the second button, the Draw tool.
+    </p>
+    <div><a href="http://www.learnosm.org/beginners-guide/chapter-3-getting-started-with-josm/attachment/14/" rel="attachment wp-att-100"><img class="aligncenter size-full wp-image-100" title="Draw Tool" src="http://www.learnosm.org/wp-content/uploads/2011/08/14.png" alt="Draw Tool" height="36" width="36"></a>
+      <p>Find an empty area on the map, and double-click with your mouse. This will draw a single point.
+      </p>
+      <p>To draw a line, single-click with your mouse. Move your mouse and click again. Continue until you are happy with your line. To end the line, double-click your mouse.
+      </p>
+      <p>Draw a shape the same way that you draw a line, but finish the shape by double-clicking on the point where you started the line.
+      </p>
+      <h3>Add Presets</h3>
+      <p>Now we know how to draw points, lines and shapes, but we still haven’t defined what they represent. We want to be able to say that our points are shops, schools, or something else, and whether our shapes are fields, buildings, or something else.
+      </p>
+      <p>Click on the Select tool, in the column of buttons on the left.
+      </p>
+      <p><a href="http://www.learnosm.org/beginners-guide/chapter-3-getting-started-with-josm/attachment/13/" rel="attachment wp-att-99"><img class="aligncenter size-full wp-image-99" title="Select Tool" src="http://www.learnosm.org/wp-content/uploads/2011/08/13.png" alt="Select Tool" height="36" width="36"></a>
+      </p>
+      <p>Select one of the objects that you drew with the Draw tool. On the top menu, click “Presets”. Move your mouse through the sub-menu to the type of location you would like to define.
+      </p>
+      <p>When you click on a preset, a form will pop up asking you for more information. You do not have to fill in every field, but you may wish to add some of the important fields, such as the name of the object.
+      </p>
+      <p>When you are finished entering the information, click “Apply Preset”. If everything went well, your point, line, or shape should change colors or show a symbol. This is because you have defined what it is.
+      </p>
+      <h3>Draw Your Own Map</h3>
+      <p>Drag the map away from the sample map. Hold the right mouse button and drag your mouse, until you have a nice empty area to draw on.
+      </p>
+      <p>Use the Draw tool to create points, lines, and shapes. Describe what your objects are by selecting from the Presets menu.
+      </p>
+      <p>When you are finished, you should have your own map, similar to the sample map that we opened in sample.osm.
+      </p>
+      <h2>Editing OpenStreetMap</h2>
+<p>In this chapter we will learn how to edit the map on OpenStreetMap and add our improvements. We’ll learn the basic cycle of mapping on OSM. </p>
+<p><strong>Step 1</strong>: <strong>Download</strong> <br>Get the current map data from OSM.</p>
+<p><strong>Step 2</strong>: <strong>Edit</strong> <br>Modify the map using GPS, Walking Papers, and notes as a guide.</p><p><strong>Step 3</strong>: <strong>Save</strong> <br>Save changes to OpenStreetMap.</p>
+<h3><strong>Before you begin: prepare JOSM</strong></h3>
+<p>
+To start JOSM on Windows, click on the Start Menu in the lower left corner of your computer, and find the program JOSM. On Mac, double-click the JOSM application to start it.</p><p>Next, load your gpx file and your Walking Paper. You don’t need to open both, but you can if you want.</p>
+
+<p><a href="http://www.learnosm.org/beginners-guide/chapter-6-editing-openstreetmap-with-josm/01-2/" rel="attachment wp-att-279"><img class="aligncenter size-large wp-image-279" title="Prepare JOSM" src="http://www.learnosm.org/wp-content/uploads/2011/09/01-520x292.png" alt="Prepare JOSM" height="292" width="520"></a>
+</p>
+<h3><strong>Download OSM Data</strong></h3><p>Before we can edit the map, we must download the existing OSM data in our area. To download the data, we need to be connected to the internet, because we are in fact downloading the data from OpenStreetMap.</p><p>When you open your gpx track or Walking Paper, the map window will show what you have opened, and will automatically move to the correct coordinates. After you open your files, look in the bottom left corner of JOSM. You can see the latitude and longitude (coordinates) of your mouse cursor.<br></p>
+<p><a href="http://www.learnosm.org/beginners-guide/chapter-6-editing-openstreetmap-with-josm/02-2/" rel="attachment wp-att-280"><img class="aligncenter size-full wp-image-280" title="JOSM lat lon" src="http://www.learnosm.org/wp-content/uploads/2011/09/02.png" alt="JOSM lat lon" height="84" width="280"></a>
+</p>
+<p>Because our map window is already showing the area that we want to edit, it is easy to download the OpenStreetMap data for this area. Click on “File” in the top left corner of JOSM and click “Download from OSM”. This will open up the download window. You can access this window more simply by clicking on the download button, shown here:</p><p><a href="http://www.learnosm.org/beginners-guide/chapter-6-editing-openstreetmap-with-josm/03-2/" rel="attachment wp-att-281"><img class="aligncenter size-full wp-image-281" title="JOSM Download" src="http://www.learnosm.org/wp-content/uploads/2011/09/03.png" alt="JOSM Download" height="38" width="37"></a>
+</p>
+<p>
+When the download window opens, you should see a map with a pink box drawn on it. If you don’t see the map, click on the tab marked “Slippy map”.</p>
+<p><a href="http://www.learnosm.org/beginners-guide/chapter-6-editing-openstreetmap-with-josm/04-2/" rel="attachment wp-att-282"><img class="aligncenter size-large wp-image-282" title="JOSM Slippy Map" src="http://www.learnosm.org/wp-content/uploads/2011/09/04-520x292.png" alt="JOSM Slippy Map" height="292" width="520"></a>
+</p><p>
+The pink box represents the area of the map that we would like to download for editing. Unless you have moved the map window since you opened your GPS file or Walking Papers, the box should be drawn around the correct area. However if you would like to download a larger area, you can draw a new box. To draw a new box, click on the map, hold your left mouse button down, and drag your mouse to create a box. Release the mouse button to finish drawing the box.</p>
+<p>When you are satisfied with the size and location of the box, click “Download” at the bottom of the window. JOSM will get the data for this area from OpenStreetMap and open it in your map window for editing.</p>
+<h3><strong>Edit</strong></h3><p>
+The next step is to edit the map and add new items. This is not always easy at first, but with practice you will get better and better.</p><p>If you want to move a point, line, or shape, use the <strong>select tool</strong>. Click on an object and drag it where it should be. This can be used to correct the location of items that have been put in the wrong place.</p>
+<p><a href="http://www.learnosm.org/beginners-guide/chapter-6-editing-openstreetmap-with-josm/05-2/" rel="attachment wp-att-283"><img class="aligncenter size-full wp-image-283" title="JOSM Select Button" src="http://www.learnosm.org/wp-content/uploads/2011/09/05.png" alt="JOSM Select Button" height="36" width="36"></a>
+</p><p>
+Use the <strong>draw tool</strong> to draw new points, lines, and shapes. Describe these objects by selecting from the Presets menu.</p><p>Remember that your GPS points and your Walking Papers don’t automatically go into OpenStreetMap. You need to add them to the OSM map digitally, using the draw tool. But your points, tracks, and Walking Papers can be seen in the background as a guide.</p><p>Let’s assume that you saved a waypoint on your GPS named 030, and you wrote in your notebook that 030 is a school. To add this point into OpenStreetMap, you should select the draw tool, and double-click on top of point 030 in your map window. This will create a point. Then go to the Presets menu, and find the preset for school. Enter the name of the school and click “Apply Preset”. Do the same to add lines and shapes.<br></p><ul></ul><p><a href="http://www.learnosm.org/beginners-guide/chapter-6-editing-openstreetmap-with-josm/06-2/" rel="attachment wp-att-284"><img class="aligncenter size-medium wp-image-284" title="JOSM Tracing GPS Points" src="http://www.learnosm.org/wp-content/uploads/2011/09/06-350x247.png" alt="JOSM Tracing GPS Points" height="247" width="350"></a>
+</p>
+<h3><strong>Upload Changes</strong></h3><p>
+After you have made a couple of changes to improve the map, let’s save those changes to OpenStreetMap.</p><p>Click “File” on the top menu, and then click “Upload Data”. This will open up the upload window. You can access this window more simply by clicking on the upload button, shown here:</p>
+<p><a href="http://www.learnosm.org/beginners-guide/chapter-6-editing-openstreetmap-with-josm/07-2/" rel="attachment wp-att-285"><img class="aligncenter size-full wp-image-285" title="JOSM Upload Button" src="http://www.learnosm.org/wp-content/uploads/2011/09/07.png" alt="JOSM Upload Button" height="38" width="37"></a>
+</p>
+The window that appears shows a list of the objects that you are adding and the objects you are modifying or deleting. In the box at the bottom you are asked to provide a comment about the changes that you are making. Type in here a description of your edits.<br><p><a href="http://www.learnosm.org/beginners-guide/chapter-6-editing-openstreetmap-with-josm/08-2/" rel="attachment wp-att-286"><img class="aligncenter size-large wp-image-286" title="Upload Comments" src="http://www.learnosm.org/wp-content/uploads/2011/09/08-520x326.png" alt="Upload Comments" height="326" width="520"></a>
+</p><p>
+Click “Upload Changes”.</p><p>If this is your first time saving changes to OpenStreetMap, you will be asked for the username and password that you created in Chapter 2. Enter them in the window that appears. If you check the box in this window, your username and password will be saved and you won’t need to enter them again in the future. Click “Authenticate”.<br></p><ul></ul><p><a href="http://www.learnosm.org/beginners-guide/chapter-6-editing-openstreetmap-with-josm/09-2/" rel="attachment wp-att-287"><img class="aligncenter size-medium wp-image-287" title="JOSM Authentication" src="http://www.learnosm.org/wp-content/uploads/2011/09/09-350x271.png" alt="JOSM Authentication" height="271" width="350"></a>
+</p>
+<p>You will need to wait a few seconds for your changes to be uploaded, and then you are done! You have made your first edits to OpenStreetMap. You may continue editing to add all your points if you wish. Always be sure to upload your changes before you close JOSM.</p>
+<h3><strong>See Your Changes on the Map</strong></h3>
+Open your internet browser and go to <a href="http://www.openstreetmap.org">openstreetmap.org</a>. Move the map to the area that you edited.<br>
+You should see your changes now appearing on the map! If you don’t, try pressing CTRL+R to refresh the web page. Sometimes the map doesn’t update properly and needs to be reloaded.<br>
+What if you don’t see your changes? Don’t worry – it may take a few minutes for the changes to be shown on the map. Also, check your additions in JOSM to make sure that you added them correctly. A good general rule is, if your point has an icon in JOSM, then it should be seen on the main map at the OpenStreetMap website.<br><h2>More JOSM
+</h2>
+<p>Now you have learned how to draw points, lines, and shapes in JOSM, how to open your GPS waypoints and tracks in JOSM, and how to download, edit, and upload your changes on OpenStreetMap. Now we will describe in more detail some of the features of JOSM, so that you can beyond the simple editing tools and have a better understanding of the software.</p>
+<h3><strong>Useful Features of JOSM</strong></h3>
+<p><a href="http://www.learnosm.org/beginners-guide/chapter-7-advanced-editing/01-3/" rel="attachment wp-att-295"><img class="aligncenter size-large wp-image-295" title="JOSM Overview" src="http://www.learnosm.org/wp-content/uploads/2011/09/011-520x292.png" alt="JOSM Overview" height="292" width="520"></a>
+</p><p>
+JOSM has many different features. The main window in JOSM you are already familiar with – this is the map window, and it is where most of the action takes place. Here you view, edit, and add to the OpenStreetMap data.</p><p>To the right of the map window are a series of panels, which each do something different. Typically when you first install JOSM several panels are shown by default, such as Layers, Properties, and Selection. When you select a point, line, or shape in the map window, it will be shown in the Selection panel. Information about the object will be shown in the Properties panel, and the username of the author of that object will be shown in the Authors panel.</p><p>On the left side of JOSM, there are several toolbars, which consist of many buttons. At the top of this bar are different buttons which change what you can do with your mouse. You are already familiar with the first two, the Select tool and the Draw tool. The other tools make it easier to zoom in, delete an object, draw a shape, or create a line that is parallel to another line.</p><p>Below these tools are many more buttons. These buttons control what you see on the right side of JOSM. Using these buttons you can open and close the boxes on the right, such as properties, selection, and author.</p>
+<h3>JOSM Layers</h3>
+Open your GPS file and download data from OpenStreetMap, if you haven’t already. You may notice that when you open a file, or add Walking Papers, or download from OpenStreetMap, another item is added to the Layers panel on the right side of JOSM. Your Layers panel may look something like this:<br><p><a href="http://www.learnosm.org/beginners-guide/chapter-7-advanced-editing/02-3/" rel="attachment wp-att-296"><img class="aligncenter size-full wp-image-296" title="JOSM Layers" src="http://www.learnosm.org/wp-content/uploads/2011/09/021.png" alt="JOSM Layers" height="132" width="318"></a>
+</p>
+Each item in this list represents a different source of data that I have open in my map window. In the example above, “Data Layer 2” is the OpenStreetMap data that I want to edit. “Markers” are the waypoints from the GPS, and “30 Juni 2011.gpx” is the track from the GPS. Finally, “Walking Papers” is the layer created when I added my Walking Paper into JOSM. I can add the Bing imagery layer, which shows satellite imagery, by clicking “Imagery” on the top menu of JOSM and selecting “Bing Sat.”<br>To hide one of these layers you have displayed, select one of them with your mouse and click the Show/Hide button that looks like this:<br><p><a href="http://www.learnosm.org/beginners-guide/chapter-7-advanced-editing/03-3/" rel="attachment wp-att-297"><img class="aligncenter size-full wp-image-297" title="Show/Hide Button" src="http://www.learnosm.org/wp-content/uploads/2011/09/031.png" alt="Show/Hide Button" height="28" width="38"></a>
+</p>
+You should see the layer that you selected disappear in the map window. Click Show/Hide again, and it will reappear.<br>You can close a layer by selecting it and using the delete button:<br><p><a href="http://www.learnosm.org/beginners-guide/chapter-7-advanced-editing/04-3/" rel="attachment wp-att-298"><img class="aligncenter size-full wp-image-298" title="Delete Button" src="http://www.learnosm.org/wp-content/uploads/2011/09/041.png" alt="Delete Button" height="25" width="38"></a>
+</p>
+Lastly, it’s important to know that you can only edit the layer that is considered active by JOSM. If you are unable to edit the map in your map window, it’s probably because you don’t have the correct layer set as active. Most layers, such as GPS points, Walking Papers, and satellite imagery, can’t be edited. The only layers that can be edited are data layers from OpenStreetMap, which are usually called “Data Layer 1”.<br>To make a layer active, select it in the Layers panel, and click on the Activate button:<br><p><a href="http://www.learnosm.org/beginners-guide/chapter-7-advanced-editing/05-3/" rel="attachment wp-att-299"><img class="aligncenter size-full wp-image-299" title="Activate Button" src="http://www.learnosm.org/wp-content/uploads/2011/09/051.png" alt="Activate Button" height="29" width="40"></a>
+</p>
+<h3><strong>Saving OSM files</strong></h3>
+Sometimes after you download some OSM data, you may wish to save it so that you can edit it offline, and then upload it later when you have internet access again.<br>To save an OSM file, make sure that it is the active layer in the the Layers panel. Click “File” on the top menu, and click “Save”. Choose a location for the file and give it a name. You can also save by clicking this button:<br><p><a href="http://www.learnosm.org/beginners-guide/chapter-7-advanced-editing/06-3/" rel="attachment wp-att-300"><img class="aligncenter size-full wp-image-300" title="Save Button" src="http://www.learnosm.org/wp-content/uploads/2011/09/061.png" alt="Save Button" height="35" width="36"></a>
+</p>
+You can now close JOSM and your data will be saved. When you want to open the file again, simply open JOSM, go to the “File” menu, and click “Open…”<br><h3><strong>Additional Drawing Tools</strong></h3>
+JOSM has some additional tools to make it easier to draw lines and shapes. These tools are found in the “Tools” menu at the top of JOSM.<br><p><a href="http://www.learnosm.org/beginners-guide/chapter-7-advanced-editing/10-4/" rel="attachment wp-att-301"><img class="aligncenter size-full wp-image-301" title="Tools Menu" src="http://www.learnosm.org/wp-content/uploads/2011/09/10.png" alt="Tools Menu" height="21" width="110"></a>
+</p>
+In order to apply the functions in this menu, you must first select a point, line or shape in the map window. Some of the most useful functions are described here:<br><ul><li><strong>Split Way</strong> – This allows you to divide a line into two separate lines. This is useful if you want to add different attributes to different parts of a road. To use this function, select a point in the middle of the line that you want to split, Select Split Way from the Tools menu, and your line should be split in two.</li><li><strong>Combine Way</strong> – This does the opposite of Split Way. To combine two lines into a single line, they must share a single point. To use this function, select both lines that you want to combine. You can select more than one object by holding the SHIFT key on your keyboard and clicking on each line. When you have selected both lines, select Combine Way from the Tools menu.</li><li><strong>Reverse Way</strong> – This will change the direction of the line. If your line represents a road that is one way, you may want to change its direction. In other cases, direction doesn’t matter.</li><li><strong>Simplify Way</strong> – If your line has too many points in it and you’d like to make it simpler, this will remove some of the points from a line.</li><li><strong>Align Nodes in Circle</strong> – If you are trying to make a circular shape, draw the circle as best you can and then select this function. It will help arrange your points in a circle.</li><li><strong>Align Nodes in Line</strong> – This function will align a series of points into a straight line.</li><li><strong>Orthogonalize Shape</strong> – This function is very useful for drawing buildings. After you draw a building, this function will reshape it to have square corners.</li>
+</ul><h3><strong>Tags</strong></h3><p>
+When you draw a point, line, or shape, it is create with a location, but no information about what it is. In other words, we know <strong>where</strong> it is, but not <strong>what</strong> it is. Before now, we have been using items from the Presets menu to define what it is.</p><p>The way OpenStreetMap knows what an object is is by using <strong>tags</strong>. A tag is like a label that you can put on something. For example, if I draw a square, it’s only a square. But then I add multiple tags to it that describe what it is:<br></p><ul><li>this square is a building</li><li>the name of the building is “Menara Thamrin”</li><li>the building is 16 levels high</li>
+  </ul>You can add as many tags as you want to an object. Tags are saved as pairs of text, called <strong>keys</strong> and <strong>values</strong>. In OpenStreetMap, the information written above would be tagged as:<br><ul><li>building = yes</li><li>name = Menara Thamrin</li><li>building:levels = 16</li><ul></ul></ul>If you select an object in JOSM, you can see all the tags that are attached to it in the Properties panel on the right.<br><p><a href="http://www.learnosm.org/beginners-guide/chapter-7-advanced-editing/07-3/" rel="attachment wp-att-302"><img class="aligncenter size-full wp-image-302" title="Properties Panel" src="http://www.learnosm.org/wp-content/uploads/2011/09/071.png" alt="Properties Panel" height="171" width="315"></a>
+</p>
+You can add, edit, and delete these tags from this panel. The tags are traditionally in English however, so it is often better to use the Presets menu.<br><h3><strong>Keyboard Shortcuts</strong></h3>
+Sometimes it can be annoying to click over and over to select different options and menus in JOSM. Luckily there are shortcut keys on the keyboard that allow you to do many common tasks. Here is a list of some of the most commonly used shortcut keys, along with what they do:<br><ul><li><strong>s</strong> – Choose the Select tool</li><li><strong>a</strong> – Choose the Draw tool</li><li><strong>z</strong> – Choose the Zoom tool</li><li><strong>+</strong> (plus) – Zoom in</li><li><strong>-</strong> (minus) – Zoom out</li><li><strong>p</strong> – Split way</li><li><strong>c</strong> – Combine way</li><li><strong>o</strong> – Align in circle</li><li><strong>l</strong> – Align in line</li><li><strong>q</strong> – Orthogonalize (make a shape square)</li></ul></div></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/openstreetmap/index">Löydä yhteisöllinen kartoitus</a></li>
+<li><a href="/openstreetmap/ch002_welcome-to-openstreetmap">Tervetuloa OpenStreetMapin käyttäjäksi!</a></li>
+<li><a href="/openstreetmap/ch003_about-this-book">Tästä kirjasta</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/openstreetmap/ch005_my-first-edit">Ensimmäinen muokkauksesi</a></li>
+<li><a href="/openstreetmap/ch006_collecting-data">Tiedon kerääminen</a></li>
+<li><a href="/openstreetmap/ch007_sharing-your-maps">Kartan jakaminen</a></li>
+<li Class="booki-section">OpenStreetMapin editoiminen</li><li><a href="/openstreetmap/ch009_introduction-to-editing-in-openstreetmap">Johdanto editointiin OpenStreetMapissa</a></li>
+<li><a href="/openstreetmap/ch010_editing-with-the-online-editor-potlatch-2">Editointi Potlach 2 -verkkoeditorilla</a></li>
+<li><a href="/openstreetmap/ch011_editing-with-the-offline-editor-josm">Editointi työpöydällä JOSM-editorilla</a></li>
+<li><a href="/openstreetmap/ch012_editing-with-mobile-editors">Editointi mobiilieditoreilla</a></li>
+<li Class="booki-section">Tee kartasta omasi</li><li><a href="/openstreetmap/ch014_taking-openstreetmap-data-with-you">Ota OpenStreetMap mukaasi</a></li>
+<li><a href="/openstreetmap/ch015_customising-potlatch-2">Potlach 2:n kustomointi</a></li>
+<li><a href="/openstreetmap/ch016_understanding-the-openstreetmap-data-model">OpenStreetMapin tietomalli</a></li>
+<li><a href="/openstreetmap/ch017_providing-maps-for-your-web-site">Karttojen liittäminen verkkosivulle</a></li>
+<li Class="booki-section">Lisätietoa</li><li><a href="/openstreetmap/ch019_exploring-the-openstreetmap-community">Tutkimusmatka OpenStreetMap-yhteisöön</a></li>
+<li><a href="/openstreetmap/ch020_useful-websites-and-references">Hyödylliset verkkosivut ja lähteet</a></li>
+<li><a href="/openstreetmap/ch021_credits">Tekijät</a></li>
+</ul>

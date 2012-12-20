@@ -1,0 +1,69 @@
+<div id="main-content"><h1>Piirrostila
+  <br></h1>
+<p>Piirrostilassa näytetään koodin tulokset. Tämä ikkuna näyttää luomuksesi kaksi- tai kolmiulotteisena.
+</p>
+<p>Tämän tilan luo komento <code>size()</code>, joka ottaa kaksi argumenttia: <code>size(leveys, korkeus);</code>
+</p>
+<p>Kirjoita esimerkiksi seuraava komento Processingin ohjelmaikkunaan:
+  <br></p>
+<p><img title="sieze_02" alt="sieze_02" src="_booki/processing/static/sieze_02-fi.png" height="80" width="495"></p>
+<p>Seuraava ikkuna luodaan napsauttaessasi <strong>suorita</strong>-nappia: 
+</p>
+<p><img title="window.tiff" alt="window.tiff" src="_booki/processing/static/window-tiff-fi.png" height="198" width="321"></p>
+<p>Kokeile ulottuvuuksien muuttamista nähdäksesi tulokset.
+  <br></p>
+<p>Oletusarvoisesti:
+</p>
+<pre>size();
+</pre>
+<p><img title="default.tiff" alt="default.tiff" src="_booki/processing/static/default-tiff-fi.png" height="102" width="101"></p>
+<p>...luo ikkunan, jonka koko on 100 pikseliä kertaa 100 pikseliä.
+  <br></p>
+<p>Onnittelut, olet luonut ensimmäisen ikkunasi! 
+</p>
+<h2><span id="result_box"><span>Koordinaattiavaruus</span></span>
+</h2>Kun työskentelet kahdessa ulottuvuudessa, akselien x ja y koordinaatit vastaavat leveyttä (horisontaalinen akseli) ja korkeutta (vertikaalinen akseli). Sopimuksen mukaan vasen yläkulma vastaa arvoja x = 0 ja y = 0. Akselin x arvot nousevat oikealle ja akselin y arvot lisääntyvät alaspäin, toisin kuin kartesiaanisessa tasossa. Nämä x ja y -arvot voivat teoriassa jatkua loputtomiin, vaikka käytännössä ikkunasi koko rajoittaa näkyvän alueen maksimikokoa. Tässä tilassa voimme piirtää. <span id="result_box"><span></span><span></span></span>
+<p><img title="coordonnees" alt="coordonnees" src="_booki/processing/static/coordonnees-fi.png" height="265" width="308"></p>
+<p><span id="result_box"><span>Ja kun työskentelemme kolmiuloitteisessa avaruudessa, kahden koordinaattiakselin lisäksi meillä on kolmas koordinaattiakseli z, joka esittää syvyyttä:
+  <br></span></span>
+</p>
+<p><img title="coordonnees3D_02" alt="coordonnees3D_02" src="_booki/processing/static/coordonnees3D_02-fi.png" height="358" width="300"></p>
+<p><span id="result_box"><span></span></span>Tässä tapauksessa käytämme komentoa <code>size</code> yhdessä kolmannen parametrin kanssa osoittaaksemme, että työskentelemme kolmiulotteisessa avaruudessa 3D <code>size(100, 100, P3D);</code>
+</p></div><ul Class="menu-goes-here"><li Class="booki-section">Esittely</li><li><a href="/processing/index">Johdanto</a></li>
+<li><a href="/processing/ch002_esimerkkeja">Esimerkkejä</a></li>
+<li><a href="/processing/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Perusteet</li><li><a href="/processing/ch005_perusteet">Perusteet</a></li>
+<li Class="booki-section">Suunnittelu</li><li><a href="/processing/ch007_suunnittelutila">Suunnittelutila</a></li>
+<li><a href="/processing/ch008_muodot">Muodot</a></li>
+<li><a href="/processing/ch009_varit">Värit</a></li>
+<li Class="booki-section">Interaktiivisuus</li><li><a href="/processing/ch011_video">Video</a></li>
+<li><a href="/processing/ch012_videon-tuominen">Videon tuominen</a></li>
+<li><a href="/processing/ch013_mikrofoni">Mikrofoni</a></li>
+<li><a href="/processing/ch014_hiiri">Hiiri</a></li>
+<li><a href="/processing/ch015_nappaimisto">Näppäimistö</a></li>
+<li><a href="/processing/ch016_tulostaminen">Tulostaminen</a></li>
+<li><a href="/processing/ch017_verkkoon-vieminen">Verkkoon vieminen</a></li>
+<li Class="booki-section">Vienti</li><li><a href="/processing/ch019_aanet">Äänet</a></li>
+<li><a href="/processing/ch020_monien-objektien-animointi">Monien objektien animointi</a></li>
+<li><a href="/processing/ch021_objektien-animointi">Objektien animointi</a></li>
+<li><a href="/processing/ch022_aikajana">Aikajana</a></li>
+<li><a href="/processing/ch023_draw-metodi">Draw-metodi</a></li>
+<li Class="booki-section">Animaatio</li><li><a href="/processing/ch025_kommentit">Kommentit</a></li>
+<li><a href="/processing/ch026_objektit">Objektit</a></li>
+<li><a href="/processing/ch027_metodit">Metodit</a></li>
+<li><a href="/processing/ch028_listat">Listat</a></li>
+<li><a href="/processing/ch029_toistaminen">Toistaminen</a></li>
+<li><a href="/processing/ch030_ehdot">Ehdot</a></li>
+<li><a href="/processing/ch031_muuttujat">Muuttujat</a></li>
+<li Class="booki-section">Ohjelmointi</li><li><a href="/processing/ch033_muutokset">Muutokset</a></li>
+<li><a href="/processing/ch034_rajat">Rajat</a></li>
+<li><a href="/processing/ch035_kuvat">Kuvat</a></li>
+<li Class="booki-section">Kehittyneempi suunnittelu</li><li><a href="/processing/ch037_tekstit">Tekstit</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/processing/ch039_vinkkeja">Vinkkejä</a></li>
+<li><a href="/processing/ch040_yleisia-virheita">Yleisiä virheitä</a></li>
+<li><a href="/processing/ch041_ulkoiset-kirjastot">Ulkoiset kirjastot</a></li>
+<li><a href="/processing/ch042_dokumentaatio">Dokumentaatio</a></li>
+<li><a href="/processing/ch043_arduino">Arduino</a></li>
+<li><a href="/processing/ch044_tasta-oppaasta">Tästä oppaasta</a></li>
+<li><a href="/processing/ch045_tekijat">Tekijät</a></li>
+</ul>

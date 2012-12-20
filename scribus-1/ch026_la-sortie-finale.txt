@@ -1,0 +1,144 @@
+<html dir="None"><body><div id="main-content"><h1>La sortie finale
+</h1>
+<p>Phase finale de la production d'un document imprimé, la sortie est l'étape d'<strong>incorporation</strong> des éléments de composition (polices, images) et de <strong>conversion</strong> des profils en vue de l'impression.
+</p>
+<h2>Le choix du format
+</h2>
+<p>Le <strong>PDF</strong> s'est imposé comme format de sortie auprès de tous les intervenants de la chaîne graphique grâce à ses nombreuses qualités, qui lui ont valu d'être normalisé par l'ISO, comme son <strong>poids réduit</strong> en comparaison de la quantité d'informations qu'il renferme, sa sensibilité au <strong>vectoriel</strong> ou son <strong>universalité</strong>.
+</p>
+<p>D'autres formats de fichiers existent dans le menu Fichier &gt; Exporter :
+</p>
+<ul><li>Le format PostScript, longtemps plébiscité en tant que <strong>transition</strong> vers le format final PDF ou EPS, n'est plus aujourd'hui un passage obligé dans la création d'un document final, bien qu'il permet d'activer, dans Scribus, l'UCR ;
+  <br></li>
+  <li>L'EPS, dérivé du PostScript, est encore exploité, mais ne permet pas une optimisation aussi poussée que le PostScript ou le PDF ;
+  <br></li>
+  <li>Les formats d'image recommandés par les imprimeurs et accessibles depuis le sous-menu Enregistrer en tant qu'image, comme Tiff, <strong>écrasent</strong> le vectoriel comme les transparences, tout en restant considérablement <strong>lourds ;
+  <br></strong></li>
+  <li>Le format SVG, vectoriel et souple, s'intègre cependant mal en fin de chaîne dans un flux de production imprimée.</li>
+</ul>La fonction Fichier &gt; Exporter &gt; Enregistrer en PDF ouvre une fenêtre à multiples onglets, aux options d'apparence complexe pour un débutant, mais dont les paramètres par défaut sont déjà pertinents et peuvent généralement suffire aux besoins les plus courants.
+<h2>Les options générales
+</h2>
+<p>Le premier onglet s’ouvre sur une série de paramètres. Il est important de bien comprendre ces paramètres car ils seront au centre de vos échanges avec votre imprimeur. Cet échange sera d’autant plus fructueux que vous parlerez le même langage que votre interlocuteur. On vient de le dire, les paramètres par défaut sont déjà pertinents mais il se peut fort bien qu’on doive les changer. Une bonne compréhension de ce qui suit vous aidera à finaliser votre projet en beauté.
+  <br></p>
+<h3>La version du PDF
+</h3>
+<p>Le format PDF a beaucoup évolué depuis sa création, apportant à chaque nouvelle version son lot de nouveautés. Scribus propose de sélectionner, à la mention [Compatibilité], une version de PDF, qui devra correspondre aux impératifs liés à l'impression.
+</p>
+<p>Chaque version de PDF correspond à une version d'Acrobat, le logiciel conçu par Adobe pour la vérification des documents PDF. Utilisez le PDF 1.3 pour l'impression si votre projet ne comprend aucune transparence, car celui-ci ne <strong>gère pas la transparence</strong>. Dans le cas où vous avez utilisé la transparence, exportez au format PDF 1.4. L'évolution notable entre PDF 1.4 et PDF 1.5 est que ce dernier supporte certains fichiers multi-calques. Le choix de la compatibilité 1.5 permet d'activer l'option [Inclure les calques]. PDF/X-3 est un format d'échange basé sur les versions 1.3 et 1.4, et optimisé pour la partie <strong>pré-presse</strong> de la <strong>chaîne graphique</strong>.
+</p>
+<p>Une règle existe en particulier quand on parle de choisir une version de PDF : la version à utiliser est celle recommandée <strong>par l'imprimeur</strong>. Il importe d’être en contact avec ce dernier.
+  <br></p>
+<h3>Compression et résolution
+</h3>
+<p> Exporter un document dans sa version finale implique de lui apporter des informations de compression et de résolution d'images. La résolution recommandée pour un fichier destiné à l'impression est <strong>300 dpi</strong>. C'est la raison pour laquelle la mention [Résolution des graphiques EPS] est portée par défaut à 300 dpi. Il peut d'ailleurs se révéler dangereux de <strong>rééchantillonner</strong> une image. Il est donc important de vérifier en amont si les images importées sont à une résolution de 300 dpi. Les fichiers EPS pouvant intégrer des éléments vectoriels et la résolution de ceux-ci dépendant des réglages du logiciel dans lequel ils ont été créés, cette option leur appliquera alors une résolution adaptée à l'impression.
+</p>
+<p>Cette option est doublée par une autre intitulée [Compresser le texte et les graphiques vectoriels], qui permet de <strong>limiter le poids</strong> de ces éléments dans le document final.
+</p>
+<p>La partie de l'onglet [Général] portant la mention [Méthode de compression] permet avant tout, comme son nom l'indique d'appliquer ou non une compression, et de choisir l'algorithme de cette compression. Ne pas appliquer de compression peut avoir pour conséquence la création d'un fichier <strong>lourd</strong>, l'intérêt étant alors de <strong>préserver la qualité des visuels</strong>. Quant à choisir une méthode de compression, le choix de la compression JPEG ne se révélera pertinent que dans le cas de documents très importants nécessitant une compression <strong>forte</strong>, quitte à <strong>perde en qualité</strong> d'image. La solution recommandée est ici de faire appel à la compression ZIP qui limite considérablement les pertes, ou de laisser active l'option [Automatique].
+</p>
+<p>La méthode de compression est doublée par la [Qualité de la compression], un paramètre qui ne se quantifie pas, mais se décline en <strong>niveaux</strong> de [Maximale] à [Minimale]. Ici encore, la force de la compression peut avoir une incidence sur la qualité du rendu final, il est donc recommandé de laisser l'option [Maximale] activée.
+</p>
+<p>Enfin, il est possible de personnaliser la [Résolution maximale des images], celle-ci étant par défaut fixée à 300 dpi. Ce paramètre est <strong>désactivé</strong> par défaut, et pour cause : abaisser cette valeur peut nuire à la qualité de l'impression. En revanche, elle peut se révéler utile si certaines images à la <strong>résolution très élevée</strong> sont présentes dans le document. Elles peuvent en effet alourdir considérablement le fichier.
+</p>
+<h2>Les polices
+</h2>
+<p>Un document final n'est pas censé permettre la modification du texte. Il est donc temps d'inclure les polices dans le document. Scribus propose deux options :
+</p>
+<ul><li>Incorporer les polices. C'est l'action recommandée, car elle permet de préserver le <strong>jeu de caractères</strong> original et évite l'interaction avec une police de l'imprimeur.</li>
+  <li>Vectoriser les polices. L'incorporation d'une police n'est possible que si son auteur en a expressément donné l'autorisation. Dans ce cas, la police peut être vectorisée au moment de son intégration dans le document. La table des caractères ne l'accompagnera pas, mais la <strong>qualité</strong> de son affichage sera préservée.</li>
+</ul><h2>La couleur
+</h2>
+<p>L'onglet [Couleur] est une <strong>confirmation</strong> des réglages appliqués dans la gestion des couleurs. Trois types de sortie sont proposés, mais les options de couleur ne concernent que les documents destinés à être <strong>imprimés en CMJN</strong> et relevant de l'activation du modèle [Imprimante].
+</p>
+<h3>Conversion de tons directs
+</h3>
+<p>L'option [Convertir les tons directs en couleurs quadrichromiques] permet d'<strong>éviter l'ajout</strong> de couleurs supplémentaires qui induiraient un surcoût. Si le document est <strong>bichromique</strong> et a été produit avec des tons directs, cette option n'est pas recommandée, car elle détruirait la bichromie et la remplacerait par l'habituelle quadrichromie CMJN. En revanche, si le document a été produit en CMJN et qu'une <strong>cinquième nuance</strong> a été ajoutée, mais peut être recomposée en CMJN, cette option trouvera son intérêt. Dans tous les cas, il vaut mieux contrôler les couleurs en amont et n’avoir recours à ce réglage que si vous êtes certain de ce que vous faites.
+  <br></p>
+<h3>Personnaliser le rendu
+</h3>
+<p>Activer l'option [Utiliser des rendus de couleurs personnalisés] affiche des paramètres qui permettent de gérer l'angle, la fréquence et la forme des points de trame. Les valeurs par défaut sont correctes, et à moins de répondre à une requête de l'imprimeur ou du sérigraphe, il n'est <strong>pas recommandé</strong> de modifier ces valeurs.
+</p>
+<h3>L'application des profils
+</h3>
+<p>Le reste de l'onglet se focalise sur l'<strong>intégration</strong> des profils. Ici, les options doivent correspondre aux réglages exploités dans la gestion des couleurs sous peine d'être <strong>différents du résultat</strong> escompté. Il est important de noter que, contrairement aux paramètres de gestion des couleurs, il est ici possible de choisir d'utiliser ou non le profil embarqué dans les images et, le cas échéant, de <strong>charger</strong> un profil de son choix.
+</p>
+<h2>Les réglages pré-presse
+</h2>
+<p>Ce dernier onglet permet de paramétrer les éléments de repérage et de calage nécessaires à l'impression puis au massicotage du document.
+</p>
+<ul><li> Les traits de coupe permettent de déterminer la <strong>surface utile</strong> du document, celle qui sera diffusée. Tout ce qui excède les limites de ces traits de coupe <strong>n'apparaîtra pas</strong> dans le document après découpe.</li>
+  <li>Les repères de fond perdu sont semblables aux traits de coupe, mais définissent la surface d'exploitation du document au moment de sa mise en page, et intègrent donc, contrairement aux traits de coupe, tous les éléments <strong>hors cadre</strong> qui servent à donner l'impression que certains éléments illustratifs ou décoratifs, comme les images, s'arrêtent juste au bord du document. Il est possible de <strong>substituer</strong> les paramètres de fond perdu du document par d'autres paramètres à personnaliser dans la partie [Paramètres de fond perdu]. </li>
+  <li>Les marques de repérage, aussi appelées <strong>hirondelles</strong>, servent à l'imprimeur à <strong>caler</strong> les documents sur les différentes machines dont il dispose.</li>
+  <li>Les barres de contrôle permettent de connaître à tout moment le <strong>nombre de couleurs</strong> utilisées.</li>
+  <li>Les informations sur la page contiennent le nom du document, sa date de création et le numéro de la page.</li>
+  <li>La mention [Sortie PDF/X-3] n'est accessible qu'à condition d'avoir sélectionné la compatibilité du même nom dans l'onglet [Général], et permet de choisir un profil de sortie global. Cette option s'avère utile à condition d'avoir paramétré sa gestion des couleurs avec le <strong>profil souhaité</strong>, nécessairement un profil CMJN. </li>
+</ul><h2>Les options du document
+</h2>
+<p>Scribus offre également à l'utilisateur des <strong>propriétés</strong> de personnalisation sans rapport direct avec la sortie imprimée, mais qui se révéleront utiles à sa <strong>diffusion numérique</strong>. On y trouve les options de visualisation et de protection, ces dernières étant inaccessibles si la compatibilité PDF/X-3 a été sélectionnée dans l'onglet [Général].
+</p>
+<p>L'onglet [Visualiseur] permet de spécifier des paramètres d'affichage tels que [Disposition du document], qui détermine la façon dont le document sera affiché à l'écran pour un<strong> confort de lecture</strong> adapté au format de la pagination. Les options d'[Aspect] permettent de renforcer encore le confort de lecture à l'écran. Plus pointues, les [Actions spéciales] offrent la possibilité d'exécuter un <strong>script</strong> à l'ouverture du PDF, comme lancer une vidéo incorporée ou préremplir des champs dans un formulaire.
+</p>
+<h2>Imprimer un fichier virtuel
+</h2>
+<p>Imprimer un fichier virtuel permet d'avoir accès à d'autres options spécifiques qui n'apparaissent pas dans la création d'un document PDF. Il s'agit d'options applicables à une <strong>véritable impression</strong>, la seule différence étant qu'au lieu de véritablement imprimer un document, un fichier PostScript (.ps) est généré, qui renferme les <strong>informations</strong> d'impression du document.
+</p>
+<p>L'onglet [Options] permet de sélectionner le type d'impression, soit une [Impression normale], soit sous la forme de [Séparations]. Ce dernier mode permet de séparer les couleurs dans leurs <strong>couches CMJN</strong> respectives. Il permet de visualiser et produire les fichiers qui seront générés pour chaque couche d'encre. Il existe trois <strong>niveaux</strong> PostScript, le plus élevé étant le niveau trois.
+</p>
+<p>L'onglet [Fonctions évoluées] propose des paramètres de [Pagination] et de [Couleur]. Les premiers permettent d'adapter le fichier imprimé en fonction du <strong>flux d'impression</strong>. Ils ne devraient être modifiés que sur les conseils ou à la demande de l'imprimeur. Les seconds proposent des paramètres abordés dans la partie concernant la création de PDF : [Convertir les tons directs en couleurs quadrichromiques] et [Appliquer les profils]. L'impression de fichier bénéficie, contrairement à l'export direct en PDF, de l'option [Retrait des sous-couleurs (UCR)], qui intervient pour <strong>atténuer les noirs</strong> trop riches. L'option remplace toutes les nuances de gris composées en cyan, magenta et jaune par du noir à divers degrés, limitant ainsi les risques de <strong>maculage</strong> causés par un mélange CMJN trop intense.
+</p>
+<p>L'onglet [Repères] dispose des mêmes options que l'export direct en PDF, à ceci près qu'il permet également de gérer le <strong>décalage</strong> des repères par rapport aux limites de document.
+</p>
+<p>Enfin, l'onglet [Fond perdu] permet de personnaliser le fond perdu si l'utilisateur ne souhaite pas appliquer le fond perdu du document.
+</p>
+<p>L'action [Imprimer] conclut l'opération en créant un fichier PostScript qui pourra ensuite être transformé en PDF grâce à un logiciel dédié à la <strong>conversion</strong> de fichiers PostScript en fichiers PDF : Moonshiner, GSView ou Distiller selon les systèmes d'exploitation.
+</p>
+<h2>Prévisualiser la sortie
+</h2>
+<p>Il ne saurait être question de sortie finale sans une prévisualisation préalable. Une prévisualisation permet de bien cerner les éventuels <strong>problèmes</strong> liés à la couleur. La fenêtre Fichier &gt; Aperçu avant impression permet de gérer en profondeur une telle prévisualisation, notamment en <strong>rendant visible</strong> l'action de certaines des fonctions abordées dans les premières parties de ce chapitre.
+</p>
+<h3> L'affichage
+</h3>
+<p>Les [Paramètres d'affichage] servent à personnaliser l'aperçu du document. [Activer l'anti-crénelage] permet d'améliorer l'affichage des éléments vectoriels, des polices aux formes et graphiques. Il peut se révéler utile pour visualiser avec précision les <strong>surimpressions</strong> ou <strong>défonces</strong>.
+</p>
+<p>Il est complété par l'option [Afficher les transparences], et l'option [Afficher en CMJN], qui se décline en composantes cyan, magenta, jaune et noir, permettant d'afficher tour à tour les <strong>couches</strong> qui composeront le document final, et leurs interactions.
+</p>
+<p>Ces propriétés d'affichage permettent notamment de prévisualiser la <strong>superposition des encres</strong> et concerne plus particulièrement les formes vectorielles ou textes disposés en premier plan d'une couleur de fond.
+</p>
+<h3>L'aperçu
+</h3>
+<p>L'aperçu lui-même voit sa prévisualisation déterminée par des options abordées plus haut dans la partie renvoyant à l'impression d'un fichier virtuel. Il devient donc possible de donner à ces critères abscons une réalité qui permet de comprendre et <strong>anticiper leur action</strong> sur le document.
+</p>
+
+</div><ul Class="menu-goes-here"><li><a href="/scribus-1/index">Testi</a></li>
+<li><a href="/scribus-1/ch001_introduction">Introduction</a></li>
+<li><a href="/scribus-1/ch002_prerequis">Prérequis</a></li>
+<li><a href="/scribus-1/ch003_prise-en-main">Prise en main</a></li>
+<li><a href="/scribus-1/ch004_exemples-dutilisation">Exemples d'utilisation</a></li>
+<li><a href="/scribus-1/ch005_a-propos-de-ce-livre">À propos de ce livre</a></li>
+<li><a href="/scribus-1/ch006_creer">Creer</a></li>
+<li><a href="/scribus-1/ch007_commencer-par-la-fin">Commencer par la fin</a></li>
+<li><a href="/scribus-1/ch008_les-chaines-editoriale-et-graphique">Les Chaînes éditoriale et graphique</a></li>
+<li><a href="/scribus-1/ch009_preparer-les-sources">Préparer les sources</a></li>
+<li><a href="/scribus-1/ch010_format">Format</a></li>
+<li><a href="/scribus-1/ch011_choix-des-couleurs">Choix des couleurs</a></li>
+<li><a href="/scribus-1/ch012_choix-des-polices">Choix des polices</a></li>
+<li><a href="/scribus-1/ch013_organiser">Organiser</a></li>
+<li><a href="/scribus-1/ch014_organiser-ses-fichiers">Organiser ses fichiers</a></li>
+<li><a href="/scribus-1/ch015_gabarits">Gabarits</a></li>
+<li><a href="/scribus-1/ch016_composition">Composition</a></li>
+<li><a href="/scribus-1/ch017_feuilles-de-style">Feuilles de style</a></li>
+<li><a href="/scribus-1/ch018_les-scripts">Les scripts</a></li>
+<li><a href="/scribus-1/ch019_produire">Produire</a></li>
+<li><a href="/scribus-1/ch020_importer-texte-et-image">Importer Texte et Image</a></li>
+<li><a href="/scribus-1/ch021_typographie">Typographie</a></li>
+<li><a href="/scribus-1/ch022_habillage-et-typographie">Habillage et typographie</a></li>
+<li><a href="/scribus-1/ch023_gestion-des-couleurs">Gestion des couleurs</a></li>
+<li><a href="/scribus-1/ch024_le-controle-de-qualite">Le contrôle de qualité</a></li>
+<li><a href="/scribus-1/ch025_lassemblage-des-documents">L'assemblage des documents</a></li>
+<li><a href="/scribus-1/ch026_la-sortie-finale">La sortie finale</a></li>
+<li><a href="/scribus-1/ch027_annexe">Annexe</a></li>
+<li><a href="/scribus-1/ch028_problemes-recurrents">Problèmes récurrents</a></li>
+<li><a href="/scribus-1/ch029_installation">Installation</a></li>
+<li><a href="/scribus-1/ch030_kredits">Kredits</a></li>
+<li><a href="/scribus-1/ch031_glossaire">Glossaire</a></li>
+</ul>

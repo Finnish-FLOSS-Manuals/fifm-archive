@@ -1,0 +1,130 @@
+<html dir="None"><body><div id="main-content"><h1>Format
+</h1>
+<p>À la création d'un document, la question du format est primordiale. Le format est déterminé<strong> par le contenu</strong> : sa densité, mais aussi son sens, sa hiérarchie, sa segmentation et sa cible. Le menu [<em>Fichier &gt; Nouveau</em>] appelle une fenêtre remplie d'options diverses, parfois absconses pour un débutant, mais indispensables à la conception de tout document. Il convient d'anticiper au mieux les besoins du document, non seulement pour sa mise en page, mais surtout en vue de sa <strong>sortie</strong>.
+</p>
+<h2>Taille
+</h2>
+<p>Pour un document destiné à l'impression, il est courant de respecter des dimensions répondant à des <strong>flux de travail</strong> éprouvés et s'appuyant sur des normes ISO. Le standard le plus répandu est la déclinaison de <strong>formats A</strong>, dont le célèbre A4, utilisé notamment dans les imprimantes de bureau.
+</p>
+<h3> Le principe de l'imposition
+</h3>
+<p>Selon la technologie d'impression, l'imprimeur pourra faire une imposition, assemblage et disposition des pages dans un format de feuille beaucoup plus grand dans le but d'obtenir un<strong> cahier</strong> après pliage. Ce procédé permet non seulement des économies de fourniture et manipulation, mais aussi d'imprimer<strong> jusqu'aux bords</strong> de la page.
+</p>
+<p><img alt="imposition_gnu_1.jpg" src="_booki/scribus-1/static/Scribus_fr-Format-imposition_gnu_1-fr-old.jpg" height="219" width="600"> 
+</p> Source de l'image : Wikipedia, par ©éréales Kille®, GNU FDL 1.2 : <a href="http://commons.wikimedia.org/wiki/File:Metal_movable_type.jpg">http://fr.wikipedia.org/wiki/Fichier:Impo_8_poses.jpg</a>
+<h3>Respect de la proportionnelle
+</h3>
+<p>Une imposition n'est possible qu'à partir du moment où les différents formats d'une gamme sont proportionnels. Le rapport entre deux feuilles de format A, par exemple, est la racine carrée de deux. Dans ce rapport, il est possible de faire tenir dans un format deux feuilles du format directement inférieur, ce phénomène se répercutant sur tous les formats. De cette façon, il est possible de produire des cahiers pliés, puis massicotés. L'imposition la plus courante consiste à faire tenir 16 pages de format A4 sur une feuille de format A0.
+</p><a href="http://commons.wikimedia.org/wiki/File:Metal_movable_type.jpg"></a>
+<h3>Choisir la bonne taille
+</h3>
+<p> Les formats <strong>personnalisés</strong> ne sont recommandés que dans le cas d'une <strong>requête particulière</strong> ou d'une recherche graphique. La plupart du temps, mieux vaut réduire son choix aux formats les plus courants, qui ont été déterminés aussi en fonction des capacités de prise en main par le lecteur.
+</p>
+<p>La production de documents imprimés se fait donc généralement autour du format A4, même en cas de pliage particulier, comme dans le cas d'un dépliant à trois volets. Dans le cas d'une requête spécifique, il convient de se tourner au plus tôt vers l'imprimeur pour une étude de faisabilité et de coût.
+</p>
+<p>Dans son menu déroulant [Taille] de la fenêtre de création de document, Scribus propose une liste exhaustive de standards, du A4 au format américain Lettre, et même au Quarto, qui satisferont à la fois la plupart des besoins créatifs et des contraintes liées aux standards et coûts d'impression.
+</p>
+<p><img alt="formats_a_gnu.png" src="_booki/scribus-1/static/Scribus_fr-Format-formats_a_gnu-fr-old.png" height="810" width="600"></p>
+<p>Source de l'image : Wikipedia, par sven, GNU FDL 1.2 : <a href="http://upload.wikimedia.org/wikipedia/commons/8/8a/A_size_illustration.svg" target="_top">http://upload.wikimedia.org/wikipedia/commons/8/8a/A_size_illustration.svg</a>
+</p>
+<h2>Orientation
+</h2>
+<p>On distingue deux types d'orientation :
+</p>
+<ul><li> <strong>Portrait </strong>ou à la française, est la plus <strong>répandue</strong>. Il s'agit d'une orientation verticale, plus adaptée à la prise en main et aux capacités de <strong>l'œil</strong> humain, qui se fatigue vite en cas de lignes trop longues. Pour ces raisons, et quelle que soit la taille, elle reste l'orientation la plus couramment utilisée.</li>
+  <li><strong>Paysage </strong>ou à l'italienne, est moins courante, parce qu'elle respecte moins d'impératifs de lisibilité ou de prise en main, mais peut répondre à des <strong>critères créatifs</strong> ou de contenu, comme une reliure spécifique. </li>
+</ul><h2>Les mesures
+</h2>
+<p>Les unités de mesures sont importantes car elles vont servir dans toutes les dimensions et paramètres chiffrés du logiciel : mise en page, marges, dimensions des blocs, corps des caractères, etc.
+</p>
+<p>Par défaut, les mesures sont exprimées <strong>points</strong>, norme d'origine anglo-saxonne pour le corps de caractère, qui a historiquement servi de base pour de nombreux <strong>rapports proportionnels </strong>autour du multiple de six. Par exemple, une ligne a une hauteur de douze points, soit un sixième de pouce. Ce ratio permet par exemple de dé<img src="http://fr-old.flossmanuals.net/floss_fr/pub/Scribus_fr/ExemplesDutilisation/" height="0" width="0">terminer la portion de la page à attribuer au bloc texte pour qu'il soit proportionnel à la page.
+</p>
+<p>Le système métrique reste cependant la norme internationale de rigueur. Dans Scribus, la <strong>conversion</strong> entre les points et les millimètres est immédiate et automatique. Vous pouvez donc à n'importe quel moment utiliser l'unité qui vous le mieux. En général, le corps sera spécifié en point, mais vous pouvez avoir envie que le texte fasse 1cm de haut sans connaître l'équivalent. Dans ce cas, notez 1cm dans le champ, et Scribus fera la calcul pour vous. Le <strong>confort de travail</strong> de ce point de vue est ainsi maximal.
+</p>
+<p>La fenêtre de création de document de Scribus permet, dans les [Options], de définir une [Unité par défaut] qui sera appliquée au document de travail. Si vous oubliez de le spécifier, cette modification peut être faite à tout moment dans [<em>Fichier &gt; Réglage du document &gt; Document</em>]. Si vous souhaitez l'utiliser dans tous vos documents, nous vous conseillons de le définir dans les préférences,[<em>Fichier &gt; Préférences &gt; Document</em>], ce qui évitera tout oubli ultérieur.
+</p>
+<p><img alt="mesures.png" src="_booki/scribus-1/static/Scribus_fr-Format-mesures-fr-old.png" height="801" width="600"> 
+</p> <address> Dans cet exemple, les lignes de texte de 12 points mises en avant par la grille typographique sont parfaitement adaptées aux marges du document, exprimées en pouces, et intégrées dans une mise en page proportionnelle, même si à l'origine, les mesures d'un A4 sont elles exprimées en millimètres.</address>
+<h2>Disposition du document
+</h2>
+<p>Les réglages de disposition du document renvoient aux notions de taille et d'imposition introduites plus haut. Ce paramètre définit la façon dont le document sera plié, massicoté puis éventuellement relié.
+</p>
+<ul><li>[Page simple] est à considérer dans le cas de documents dont les pages ne sont pas destinées à être visualisées par deux<strong></strong>, comme des affiches, certains flyers, etc., et autres cas particuliers éventuels comme des documents destinés à une lecture écran ;
+  <br></li>
+  <li>[Pages en regard] est le mode le plus répandu car il permet de gérer le <strong>recto-verso, </strong>ainsi que le plis central pour les<strong> pages en vis-à-vis</strong>. Il est donc <strong>privilégié</strong> pour la très grande majorité des documents imprimés, du magazine à la brochure commerciale.</li>
+  <li>[3 volets] et [4 volets] facilitent le<strong> découpage de documents</strong> en parties identiques. Chaque page créée respectera donc une structure en volets. Il est important d'anticiper en amont le format final du document car chaque nouveau volet créé pour compléter le premier se verra attribuer la taille A4. Ces dispositions sont en général abandonnées au profit d'une page simple bien organisée.
+  <br></li>
+</ul><p>Des options viennent compléter les réglages de disposition, comme le [Nombre de pages], qu'il est possible de déterminer dès le départ mais qui pourra être modifié si nécessaire à n'importe quel moment de la mise en page.
+  <br></p>
+<p>L'utilisateur dispose aussi de la possibilité d'appliquer des [Cadres de texte automatiques] à chaque page. Cette option peut se révéler utile si le document à produire contient beaucoup de texte et qu'il est prévu de l'agencer "dans les marges", car le bloc de texte créé s'y contiendra. Autre avantage : les cadres de texte créés de cette façon sont automatiquement liés entre eux. Le bloc est personnalisable en colonnes et largeur de gouttière.
+</p>
+<h2>Marges et fonds perdus
+</h2>
+<p>L'utilisation des marges dépend des objectifs de l'utilisateur. Elles peuvent par exemple servir à définir le format utile ou à déterminer le positionnement du texte. Elles agissent comme les repères principaux d'un document et n'ont aucun impact sur le processus d'impression professionnel. Si vous imprimez chez vous, tenez compte des marges techniques de votre imprimante.
+</p>
+<p>Le fond perdu, représente les parties d'éléments de la composition qui sortent de la page. Il s'agit généralement d'images ou de blocs de couleur. L'intérêt d'un fond perdu est de permettre à un utilisateur de donner l'impression, après le massicotage, que l'élément s'arrête juste à l'extrême bord de la page.
+  <br></p>
+<h3>Mettre en avant l'information
+</h3>
+<p>L'anticipation est ici encore la clé. Les <strong>marges</strong> recouvrent généralement la surface utile d'un document, c'est-à-dire la portion du document qui contiendra les informations de première importance : le texte et les images habillées. Les images et blocs décoratifs sont susceptibles de <strong>dépasser ces marges</strong> pour rejoindre les bords puisque leur visibilité n'est pas indispensable au document. Ils peuvent être perçus dans un second temps sans nuire à la <strong>compréhension de l'information</strong>.
+</p>
+<h3>Créer des marges
+</h3>
+<p>La création de marges semble simple, et pourtant elle requiert de définir un équilibre des proportions et de focaliser l'attention de l'audience sur un espace dégagé, visible et lisible. Quelques règles permettent d'éviter des écueils dans la lisibilité d'un document imprimé, en particulier d'un document avec pagination en regard :
+</p>
+<ul><li>Les marges doivent respecter une hiérarchie dans leur distance par rapport au bord de la page : la marge du bas (de pied) est la plus éloignée, puis viennent la marge extérieure (grand fond), la marge supérieure (d'en tête) et enfin la marge intérieure (petit fond)</li>
+  <li>La marge intérieure doit respecter une distance minimal de 5 mm avec le bord intérieur, car le pli central pourrait nuire à la lecture, en particulier dans le cas d'une reliure large</li>
+  <li>Il est recommandé d'appliquer un rapport proportionnel aux marges, pour générer un équilibre entre le contenu et la page. Scribus propose d'automatiser la création de ce rapport en faisant appels aux [Formats prédéfinis], une liste de proportions éprouvées et équilibrées. Ces proportions ne s'appliquent pas à une disposition en page simple.</li>
+</ul><img alt="marges.png" src="_booki/scribus-1/static/Scribus_fr-Format-marges-fr-old.png" height="412" width="600"><br><h3>Le fond perdu
+</h3>
+<p>Dans Scribus, le fond perdu est paramétré via l'onglet du même nom. Comme les marges, le fond perdu se décline en quatre positions dans la page. Mais à leur différence, il est recommandé d'appliquer un fond perdu uniforme, et donc de laisser le maillon activé. La valeur d'un fond perdu dépend des prescriptions de l'imprimeur, et se situe généralement entre 3 et 5 mm. En cas de doute demandez à votre imprimeur.
+</p>
+<h2>Modifier les propriétés
+</h2>
+<p>Une fois le document créé et la mise en page commencée peuvent survenir, comme tout graphiste le sait d'expérience, des modifications ou des adaptations. Lorsque celles-ci portent sur le format, la panique peut facilement gagner les esprits.
+</p>
+<p>Les paramètres entrés à la création d'un document ne sont pas définitifs. Scribus permet de revenir à tout moment sur ces paramètres depuis la fenêtre [<em>Fichier &gt; Réglage du document &gt; Document</em>] pour les futures pages à créer ou [<em>Page &gt; Propriétés de la page </em>]. Celui-ci est alors modifié en temps réel et appliqué selon le menu choisi.
+</p>
+<p><img alt="reglages_doc.png" src="_booki/scribus-1/static/Scribus_fr-Format-reglages_doc-fr-old.png" height="367" width="600"> 
+</p>
+<p>Si la mise en page a commencé, la modification du format sur des pages existantes, pose la difficulté de la mise à l'échelle des éléments de composition. Toute la mise en page étant basée sur des objets de taille et positions fixes, le contenu ne sera pas adapté au nouveau format et le travail de mise en page sera à refaire. Quelques conseils permettent de rester relativement serein au moment d'ouvrir la fenêtre [<em>Fichier &gt; Réglage du document &gt; Document</em>] :
+</p>
+<ul><li>Effectuez les modifications entre deux documents de même standard, par exemple entre un A4 et un A5. Le rapport de proportionnelle qu'ils entretiennent permet de conserver des proportions identiques ; </li>
+  <li>Revoyez vos marges, car elles ne seront pas automatiquement recalculées. Essayez de considérer la proportionnelle appliquée au format précédent et de la conserver ; </li>
+  <li>Ne touchez pas au corps du texte. Celui-ci est généralement indépendant de la taille du document, et à moins d'y perdre vraiment en lisibilité, préservez ses styles, son corps, son interlettrage et autres caractéristiques ; </li>
+  <li>Pensez à appliquer uniformément les modifications en cochant notamment les options [Toutes les pages du document] et [Tous les gabarits] à la mention [Appliquer les réglages à].</li>
+</ul>Modifier un format n'est pas impossible, mais demande du temps et de la préparation car rien ne permet d'automatiser cette tâche et ce qu'elle implique.
+
+</div><ul Class="menu-goes-here"><li><a href="/scribus-1/index">Testi</a></li>
+<li><a href="/scribus-1/ch001_introduction">Introduction</a></li>
+<li><a href="/scribus-1/ch002_prerequis">Prérequis</a></li>
+<li><a href="/scribus-1/ch003_prise-en-main">Prise en main</a></li>
+<li><a href="/scribus-1/ch004_exemples-dutilisation">Exemples d'utilisation</a></li>
+<li><a href="/scribus-1/ch005_a-propos-de-ce-livre">À propos de ce livre</a></li>
+<li><a href="/scribus-1/ch006_creer">Creer</a></li>
+<li><a href="/scribus-1/ch007_commencer-par-la-fin">Commencer par la fin</a></li>
+<li><a href="/scribus-1/ch008_les-chaines-editoriale-et-graphique">Les Chaînes éditoriale et graphique</a></li>
+<li><a href="/scribus-1/ch009_preparer-les-sources">Préparer les sources</a></li>
+<li><a href="/scribus-1/ch010_format">Format</a></li>
+<li><a href="/scribus-1/ch011_choix-des-couleurs">Choix des couleurs</a></li>
+<li><a href="/scribus-1/ch012_choix-des-polices">Choix des polices</a></li>
+<li><a href="/scribus-1/ch013_organiser">Organiser</a></li>
+<li><a href="/scribus-1/ch014_organiser-ses-fichiers">Organiser ses fichiers</a></li>
+<li><a href="/scribus-1/ch015_gabarits">Gabarits</a></li>
+<li><a href="/scribus-1/ch016_composition">Composition</a></li>
+<li><a href="/scribus-1/ch017_feuilles-de-style">Feuilles de style</a></li>
+<li><a href="/scribus-1/ch018_les-scripts">Les scripts</a></li>
+<li><a href="/scribus-1/ch019_produire">Produire</a></li>
+<li><a href="/scribus-1/ch020_importer-texte-et-image">Importer Texte et Image</a></li>
+<li><a href="/scribus-1/ch021_typographie">Typographie</a></li>
+<li><a href="/scribus-1/ch022_habillage-et-typographie">Habillage et typographie</a></li>
+<li><a href="/scribus-1/ch023_gestion-des-couleurs">Gestion des couleurs</a></li>
+<li><a href="/scribus-1/ch024_le-controle-de-qualite">Le contrôle de qualité</a></li>
+<li><a href="/scribus-1/ch025_lassemblage-des-documents">L'assemblage des documents</a></li>
+<li><a href="/scribus-1/ch026_la-sortie-finale">La sortie finale</a></li>
+<li><a href="/scribus-1/ch027_annexe">Annexe</a></li>
+<li><a href="/scribus-1/ch028_problemes-recurrents">Problèmes récurrents</a></li>
+<li><a href="/scribus-1/ch029_installation">Installation</a></li>
+<li><a href="/scribus-1/ch030_kredits">Kredits</a></li>
+<li><a href="/scribus-1/ch031_glossaire">Glossaire</a></li>
+</ul>

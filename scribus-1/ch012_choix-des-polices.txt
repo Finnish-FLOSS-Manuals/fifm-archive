@@ -1,0 +1,228 @@
+<html dir="None"><body><div id="main-content"><h1> Choix des polices
+</h1>
+<p>En typographie, les polices de caractères, ou d'écriture, désignent un assortiment de glyphes ou signes, dessinés pour fonctionner ensemble. Exemple : Times, Garamond, Helvetica, Futura, DejaVu, Droid etc. On les appelle aussi famille de caractères. Cette représentation visuelle regroupe tous les corps et graisses d’une même famille, dont le style est coordonné, afin de former un alphabet.
+</p> <img alt="Troispolices.png" src="_booki/scribus-1/static/Scribus_fr-ChoixdesPolices-Troispolices-fr-old.png" height="235" width="638"><address>Extraits des Police Droid, Gentium et Dejà Vu. Sources des images :  QBK, sur Wikimedia common, cc-by-sa, <a href="http://en.wikipedia.org/wiki/File:GentiumBlue.svg">http://commons.wikimedia.org/wiki/File:DroidSerifSpecimen.svg</a>  ;  Tengu800, sur Wikipedia, cc-by-sa, <a href="http://en.wikipedia.org/wiki/File:GentiumBlue.svg%20">http://en.wikipedia.org/wiki/File:GentiumBlue.svg, </a> ;  Moyogo, sur Wikimedia comon, domaine public <a href="http://commons.wikimedia.org/wiki/File:DejaVuSans.svg">http://commons.wikimedia.org/wiki/File:DejaVuSans.svg</a> </address>
+<h2>Quelques précisions utiles
+</h2>
+<p>Une police a une seule <strong>graisse</strong> (par exemple le gras), et un seul <strong>style</strong> (par exemple Romain ou Oblique), sinon on parle de <strong>famille</strong> de polices (tous les Helvetica par exemple).
+</p>
+<p>Exemple :
+</p>
+<ul><li>Gentium est une police de caractère</li>
+  <li>Gentium corps 12, gras est une fonte, autrement dit une forme de cette police.</li>
+</ul><p> La consonance juridique du terme de police, vient de la règle qui définissait la logique d'écriture de l'ensemble des caractères. À l'époque de la typographie en plomb, tous les motifs étaient rassemblés dans une casse typographique (un petit tiroir). 
+</p> <img alt="Metal_movable_type.jpg" src="_booki/scribus-1/static/Scribus_fr-ChoixdesPolices-Metal_movable_type-fr-old.jpg" height="312" width="470"><address>Casses typographiques (tiroirs) et règle servant à disposer les caractères. Source de l'image : Wikimédia Common, par Willi Heidelbach, Creative common by-sa : <a href="http://commons.wikimedia.org/wiki/File:Metal_movable_type.jpg">http://commons.wikimedia.org/wiki/File:Metal_movable_type.jpg</a></address>
+<p>On parle à tort parfois de <strong>« fonte »</strong> en référence toujours à la période du plomb, ou par confusion avec le terme anglais « font ». Mais ces deux mots ne veulent pas forcément dire la même chose. À cette époque, le caractère était le dessin particulier d'un alphabet. Une fonte était la manifestation de ce dessin de caractère d'imprimerie en métal fondu. Une police listait le nombre de ces caractères.
+</p>
+<p><img alt="Garamond_type_fi_ligature_3.jpg" src="_booki/scribus-1/static/Scribus_fr-ChoixdesPolices-Garamond_type_fi_ligature_3-fr-old.jpg" height="200" width="150"></p> <address>Fonte (en métal) du caractère de ligature* "fi" de la police Garamond et rendu du caractère imprimé. Source de l'image : Wikimédia Common, par Daniel Ullrich, Creative common by-sa : <a href="http://commons.wikimedia.org/wiki/File:Garamond_type_fi-ligature_2.jpg">http://commons.wikimedia.org/wiki/File:Garamond_type_fi-ligature_2.jpg</a> </address>
+<p>Avec l'avènement de l'informatique et de la PAO, les termes de fonte et de polices sont devenus interchangeables. Les lettres étant dès lors conservées sous formes numériques, elles sont manipulées à volonté. On installe alors sur son ordinateur des polices ou des fontes pour composer son texte.
+</p>
+<p>*NB: Pour rappel, cette image représente un cas de ligature. Celles-ci sont utilisées pour résoudre des problèmes de combinaisons de lettres qui se touchent comme "oe", "tt", "ff" ou "fi" en raison d'une graphie particulière. On résout cette difficulté en formant un seul caractère à partir de deux.
+</p>
+<h2>Les polices aujourd'hui
+</h2>
+<p>Sans évoquer les <strong>classifications</strong> historiques (Thibaudeau, Vox), les typographes ou les concepteurs des caractères contemporains s'entendent aujourd'hui à regrouper les polices en grands groupes sur la base des caractéristiques similaires de celles-ci.
+</p>
+<p>Il y a deux critères simples pour bien comprendre cette classification : l'empattement (« Serif » en anglais), et la chasse.
+</p>
+<h3>L'empattement
+</h3>
+<p>Dans les langues à caractères latins, les empattements sont les petites extensions qui forment la <strong>terminaison</strong> des caractères dans certaines polices d'écriture. Initialement, les empattements proviendraient de la trace laissée par l'outil (plume, pinceau etc.) lorsque la main s'élève en achevant le geste d'écriture. Ils servent maintenant principalement à <strong>renforcer la ligne de base</strong>, améliorant la lisibilité de la police, surtout sur papier.
+</p>
+<p><img alt="Serif_and_sans_serif_03_whitebg.png" src="_booki/scribus-1/static/Scribus_fr-ChoixdesPolices-Serif_and_sans_serif_03_whitebg-fr-old.png" height="53" width="209"></p>
+<p>Les polices les plus courantes ont des empattements, ou non, et sont donc appelées polices sans empattements (ou « Sans serif ») et avec empattements (« Serif » en anglais).
+</p>
+<p><img alt="Serif_and_sans_serif_01whitebg.png" src="_booki/scribus-1/static/Scribus_fr-ChoixdesPolices-Serif_and_sans_serif_01whitebg-fr-old.png" height="59" width="209"><img alt="Serif_and_sans_serif_02_whitebg.png" src="_booki/scribus-1/static/Scribus_fr-ChoixdesPolices-Serif_and_sans_serif_02_whitebg-fr-old.png" height="56" width="209"></p> <address>Source des images : Wikimédia Common, par Aurevilly, license GFDL : <a href="http://commons.wikimedia.org/wiki/File:Serif_and_sans-serif_03.png">http://commons.wikimedia.org/wiki/File:Serif_and_sans-serif_03.png</a> </address>
+<p>Cette présence ou non des empattements est bien antérieure à l'informatique, mais maintenant que l'on utilise aussi les polices sur des écrans, on a tendance à privilégier les polices « Sans » pour l'écran, et les polices « Serif » pour le papier.
+</p>
+<p>La raison est relative aux caractéristiques des écrans, qui pour la plupart affichent des pixels carrés ou rectangulaires, et floutent donc les empattements, ce qui diminue la qualité de la police affichée. Bien sûr il n'y a pas de règles et vous pouvez jouer avec ces caractéristiques, il s'agit juste d'une recommandation.
+</p>
+<h3>La chasse
+</h3>
+<p>La chasse est l'espace occupé par les caractères dans une police (augmenté de ses « approches » c'est-à-dire les espaces entre deux caractères, mais nous en reparlerons plus tard).
+</p> <img alt="Propvsmono.png" src="_booki/scribus-1/static/Scribus_fr-ChoixdesPolices-Propvsmono-fr-old.png" height="178" width="399"><p>En haut, une police <strong>proportionnelle</strong>, c’est-à-dire à chasse <strong>variable</strong> et en bas, une police <strong>non proportionnelle</strong>, c’est-à-dire à chasse <strong>fixe</strong>, ou « monochasse ». Prenez le temps d'observer la largeur de chaque caractère et les espaces entre les lettres.
+</p>
+<p>On associe facilement les polices monochasse aux machines à écrire : en effet la plupart des machines à écrire produisaient des textes à chasse fixe à cause de contraintes mécaniques. Elles ont donc gardé une saveur particulière, et un petit goût de roman policier...
+</p>
+<p>Si vous voulez en savoir plus sur la chasse, consultez le glossaire dans l'Annexe.
+</p>
+<h3>Les grandes familles de polices
+</h3>
+<p>Avec ces deux critères, l'empattement (« Serif » en anglais), et la chasse, plus un, la <strong>forme des glyphes</strong> (ou le dessin des lettres), on peut déjà établir les grands genres de polices :
+</p>
+<ul><li>les Serif, famille de polices à empattement ;</li>
+  <li>les Sans serif, famille de polices sans empattement ;</li>
+  <li>les Mono, qui sont monochasse, à chasse fixe </li>
+  <li>les Cursives ou Scriptes, famille de polices simulant l'écriture manuelle </li>
+  <li>les Fantaisistes, famille des polices dont les glyphes sont exotiques et plus décoratifs qu'utilisables pour un long texte </li>
+  <li>les polices de Symboles (« Dings  » en anglais) : ce sont simplement des collections de symboles, d'icônes ou de dessin, qui sont regroupées pour un usage pratique. </li>
+</ul><p>On peut aller un tout petit peu plus loin en évoquant deux autres critères très répandus : la graisse et l'italique.
+</p>
+<h3>La graisse
+</h3>
+<p>la graisse est l'<strong>épaisseur</strong> d'un trait ou d'un caractère. En augmentant la graisse d'un caractère maigre, on obtient un caractère demi-gras, puis gras, et ainsi de suite. Ci-dessous un exemple avec la police Helvetica, de « l'ultra-léger » au « noir ».
+</p>
+<p><img alt="graisse_600.png" src="_booki/scribus-1/static/Scribus_fr-ChoixdesPolices-graisse_600-fr-old.png" height="469" width="600"></p> <address>Source de l'image : Wikimédia Common, domaine public : <a href="http://commons.wikimedia.org/wiki/File:Helvetica_Neue_typeface_weights.svg">http://commons.wikimedia.org/wiki/File:Helvetica_Neue_typeface_weights.svg</a> </address>
+<h3>L'italique et l'oblique
+</h3>
+<p>L'italique est une graphie <strong>inclinée vers la droite</strong>... par opposition à la graphie verticale, appelée « romaine ». mais ne confondez pas police <strong>en italique</strong> et police <strong>oblique</strong>
+</p>
+<p>En effet, si les traitements de texte vous permettent d'incliner n'importe quelle police, il s'agit la plupart du temps d'une petite tricherie, où tous les caractères romains sont inclinés automatiquement.
+</p>
+<p>Un véritable italique aura été dessiné par le créateur de caractères dans une police dite « oblique », et les glyphes pourront avoir complètement changé d'une variante à l'autre.
+</p>
+<p> <img alt="italique_et_oblique.png" src="_booki/scribus-1/static/Scribus_fr-ChoixdesPolices-italique_et_oblique-fr-old.png" height="400" width="600"></p>
+<p>Bien sûr, une police oblique sera toujours mieux dessinée et plus belle qu'un italique automatique, c'est pourquoi dans Scribus, qui a une vocation professionnelle, vous ne trouverez pas d'italique automatique. La solution pour avoir de l'italique est donc de choisir et d'utiliser des polices obliques.
+</p>
+<h2>Les fichiers des polices
+</h2>
+<p>La plupart des fichiers de police que vous trouverez aujourd'hui sont soit au format <strong>TrueType</strong>, avec l'extension <em>.ttf</em>, soit au format <strong>Opentype</strong>, avec l’extension <em>.otf.</em> Ce sont des formats standardisés et fiables.
+</p>
+<p>Vous trouverez aussi des polices dans un format plus ancien, le <strong>PostScript</strong>. On parle dans ces cas là de polices Type 1 et Type 3, extension <em>.pfm (printer font metrics) </em>et <em>.pfb (printer font binary)</em>.
+</p>
+<p>Les polices <strong>Adobe Type Manager</strong>, extension <em>.atm</em>, ont existé aussi, mais ne sont plus utilisables aujourd'hui.
+</p>
+<h3>Installation des polices sur le système
+</h3>
+<p>Pour installer des polices TrueType, Opentype et Poscript, voilà la marche à suivre en fonction de votre système&amp;nbsp.:
+</p>
+<ul><li><strong>Windows 7/Vista :</strong> Clic droit sur les fichiers de police &gt; "Installer"</li>
+  <li><strong>Windows XP :</strong> Placez les fichiers de police dans C:\Windows\Fonts</li>
+  <li><strong>Mac OS X :</strong> Double-clic sur le fichier de police &gt; bouton "Installer la police".</li>
+  <li><strong>Linux</strong> : Allez dans votre dossier d'utilisateur, dans le menu faites Vue &gt; Voir les fichiers cachés, vous devriez trouver le dossier caché <strong>.fonts</strong> (sinon, créez-le) puis copiez-y le fichier de police.</li>
+</ul><p>Si Scribus est déjà lancé, il faudra le fermer et le <strong>relancer</strong> pour qu'il retrouve la police que vous venez d'installer.
+</p>
+<h3>Utilisation de polices présentes dans des dossiers personnalisés dans Scribus
+</h3>
+<p>Vous pouvez aussi utiliser des polices dans <strong>d'autres répertoires</strong> de votre ordinateur en indiquant à Scribus où les trouver : lancez-le sans ouvrir aucun document (cliquez sur [Annuler] sur l'écran d'accueil), ou fermez le document en cours en cliquant sur le [X] du document dans le coin à l'intérieur de la fenêtre de Scribus.
+</p>
+<p>Allez ensuite dans le menu [Fichier] puis le sous-menu [Préférences]. Sélectionner [Polices]. Sélectionnez l'onglet [Chemin additionnels].
+</p>
+<p>Vous pouvez ainsi <strong>ajouter des polices</strong> de votre choix en cliquant sur [Ajouter] sur la droite. Scribus prendra en charge la ou les polices dans vos répertoires personnalisés (par exemple votre répertoire de travail) et elles seront immédiatement disponibles. Finissez en validant par [OK].
+</p>
+<h2>Comment bien choisir ses polices ?
+</h2>
+<p>En PAO, l'utilisation excessive de polices différentes dans la même mise en page peut être vraiment gênante, car la <strong>lisibilité</strong> de la mise en page en souffre beaucoup, surtout si les polices sont utilisées sans aucune <strong>hiérarchie</strong>. Cette mauvaise pratique est la conséquence de la présence répandue d'un nombre restreint de polices de base sur nos systèmes d'exploitation : c'est aller vers la facilité de les utiliser directement, sans anticiper la composition.
+</p>
+<p>Nous vous conseillons donc de choisir <strong>deux ou trois</strong> polices de qualité qui correspondent à votre projet avant de commencer votre mise en page : cela vous évitera des déconvenues (et même des plantages), et offrira de bonnes bases à votre composition, faite d'éléments peu nombreux, mais bien choisis, avec lesquels il sera facile de jouer : par exemple une police pour les grands titres, une police pour les titres intermédiaires et les chapeaux, et une police pour le texte courant vous donnera déjà une bonne palette de possibilités.
+</p>
+<p>Malheureusement, toutes ces polices installées sur nos systèmes d'exploitation ne répondent pas forcément aux exigences de la mise en page professionnelle, car elles ne répondent pas forcément à toutes les<strong> spécifications techniques</strong> qu'on attend d'une bonne police :
+</p>
+<ul><li>Présence de tous les caractères souhaités pour la langue que l'on va utiliser ; </li>
+  <li>Encodage : tous les caractères correspondent à ceux attendus lors de la frappe ou de l'importation du texte </li>
+  <li>Fiabilité à la sortie PDF : tous les caractères utilisés sont présents et bien espacés dans le PDF à l'exportation ;</li>
+  <li>Fiabilité à l'impression : tous les caractères utilisés sont présents et bien espacés une fois le document imprimé.</li>
+</ul><p>Scribus nous impose une sélection rigoureuse des polices de bonne qualité technique pour répondre à toutes ces exigences : au départ, quelques tests peuvent être nécessaires si vous n'êtes pas tout à fait sûr des polices que vous souhaitez utiliser.
+</p>
+<p>Ces critères sont encore plus importants dans les langues non latines, car les polices sont en général moins nombreuses, ou encore <strong>expérimentales</strong>.
+</p>
+<p>Scribus réalise lui-même un <strong>test</strong> rapide de qualité des polices lorsqu'il démarre, mais bien sûr, rien ne remplacera une vérification par vous même. Ainsi si une police n'est pas présente dans Scribus alors que vous l'avez bien installée sur votre système, c'est qu'elle a échoué au test rapide, soit parce qu'elle était vraiment de trop mauvaise qualité et qu'il ne faut pas l'utiliser, soit parce que son fichier a été corrompu lors d'une copie, et qu'elle n'est pas utilisable.
+</p>
+<p>Un critère simple de qualité a priori, est que plus une police possède de variantes et de caractères dans de nombreuses langues, moins elle a de chances de comporter des erreurs.
+</p>
+<blockquote>N.B. : Si vous passez outre, et que vous utilisez des polices de mauvaise qualité dans une composition, des plantages peuvent survenir dans Scribus et d'autres problèmes en cours de route lorsque vous exportez ou imprimez.
+</blockquote>
+<p>Scribus ne supporte pas encore vraiment les langues non latines, en dehors du cyrillique, mais c'est en cours de développement, et on peut espérer qu'elles seront supportées dans la prochaine version stable.
+</p>
+<h2>Pour trier et choisir, utilisez un gestionnaire de polices
+</h2>
+<p>Choisir deux ou trois bonnes polices dans un panel qui peut en comporter plusieurs milliers si vous avez commencé à rassembler une collection n'est pas une chose facile... Il faut donc utiliser un outil dédié à cela : un gestionnaire de police.
+</p>
+<p>Cet outil vous permettra de voir la liste des polices installées sur votre système, et dans des dossiers personnalisés, mais aussi d'avoir un <strong>aperçu</strong> de leur rendu, de les <strong>classer</strong> et les trier, de consulter des métadonnées comme leur licence d'utilisation, mais aussi de désactiver pour tout le système toutes celles dont vous ne vous servez pas, afin de n'<strong>activer</strong> que celle qui vous seront utile pour votre projet en cours. Avec un gestionnaire de polices, votre système d'exploitation a moins de polices à charger au démarrage et gagne en <strong>rapidité</strong> et légèreté.
+</p>
+<p>L'explication détaillée sur l'usage d'un gestionnaire de police dépasse le cadre de ce manuel, mais ce sont des outils assez simples à prendre en main quand on a compris à quoi ils servent.
+</p>
+<p>Si vous en cherchez un, nous ne pouvons que vous conseiller Fontmatrix : <a href="http://fontmatrix.net/">http://fontmatrix.net/</a>, logiciel libre et gratuit qui fonctionne sur Linux, Windows et Mac et qui est très complet.
+</p>
+<p><img alt="fontmatrix_chart_600.png" src="_booki/scribus-1/static/Scribus_fr-ChoixdesPolices-fontmatrix_chart_600-fr-old.png" height="461" width="600"> 
+</p> <address>L'interface de Fontmatrix</address>
+<p>Une alternative intéressante sur Linux, plus simple, mais complètement fonctionnelle, est Font manager : <a href="http://code.google.com/p/font-manager/">http://code.google.com/p/font-manager/</a>
+</p>
+<h2>Que se passe-il si j'ouvre un document Scribus qui utilise des polices qui ne sont pas installées sur mon ordinateur ?
+</h2>
+<p>Lorsque vous ouvrez un document Scribus, le logiciel vérifiera si toutes les polices utilisées dans le document sont bel et bien <strong>installées</strong> sur votre système d'exploitation.
+</p>
+<p>Si ce n’est pas le cas, une fenêtre s'affichera et vous indiquera la ou les polices indisponibles. En face de chacune d'elles, une <strong>police de substitution</strong> s'affichera. Sélectionnez celle par défaut ou déroulez l'onglet pour choisir dans la liste des polices disponibles celle qui vous conviendrait le mieux.
+</p>
+<h2>Quelques polices pour démarrer
+</h2>
+<p>Comme annoncé plus haut, toutes les polices ne répondent pas aux exigences de la PAO. Quel que soit votre système d'exploitation et les polices dont vous disposez déjà, il est nécessaire d'utiliser des polices de qualité pour atteindre des résultats adéquats.
+</p>
+<p>Voici une petite liste de polices fiables, de qualité, libres et gratuites, pour vous permettre de continuer votre mise en page sans être bloqué parce que vous ne trouvez pas de polices adaptées.
+</p>
+<p><strong>Liberation</strong> famille de polices développée par Red Hat comme des polices d'usage courant équivalentes à Arial, Arial Narow, Times New Roman et Courier New. Le fait qu'elles aient été dessinées ensemble leur donne une cohérence commune, ce qui est un atout pour une bonne composition. La famille des police Liberation contient Liberation Sans, Liberation Sans Narrow, Liberation Serif et Liberation Mono.
+</p>
+<p>Pour les télécharger : <a href="https://fedorahosted.org/liberation-fonts/">https://fedorahosted.org/liberation-fonts/</a>
+</p>
+<p>Licence : GPL v2, avec l'exception pour les polices
+</p>
+<p><strong>Droid </strong> : famille de police développée pour le système Android, contenant Droid Serif, Droid Sans, Droid Sans Mono. Comme pour Liberation, le fait qu'elles aient été dessinées ensemble leur donne une bonne cohérence.
+</p>
+<p>Pour les télécharger : <a href="http://www.droidfonts.com/">http://www.droidfonts.com/</a>
+</p>
+<p>Licence : Apache Licence, v2
+</p>
+<p><strong>Gentium</strong> : belle famille de police dessinée par Victor Gaultney, qui a des points communs avec la classique Garamond. La famille de Gentium contient Gentium, Gentium Alternative, Gentium Basic, Gentium Book Basic, Gentium Plus, Gentium Plus Compact
+</p>
+<p>Pour les télécharger : <a href="http://scripts.sil.org/gentium">http://scripts.sil.org/gentium</a>
+</p>
+<p>Licence : SIL Open Font License (OFL)
+</p>
+<p><strong>DejaVu</strong> : famille de police basée sur Bitstream Vera, dont une des particularités est d'avoir un bon rendu sur un écran même si elle a un aspect brut, et qui a la grande qualité de proposer une très large gamme de caractères. S'il vous manque un caractère spécial, vous le trouverez en le cherchant dans DejaVu. La famille DejaVu comporte DejaVu Sans, DejaVu Sans Mono, DejaVu Serif
+</p>
+<p>Pour les télécharger : <a href="http://dejavu-fonts.org/wiki/Main_Page">http://dejavu-fonts.org/wiki/Main_Page</a>
+</p>
+<p>Licence : licence permissive spécifique, disponible à l'adresse <a href="http://dejavu-fonts.org/wiki/License">http://dejavu-fonts.org/wiki/License</a>
+</p>
+<p> <strong>Cantarell</strong> : Police Sans serif moderne et complète dessinée par Dave Crossland, avec des variantes Bold et Oblique
+</p>
+<p>Pour la télécharger : <a href="http://abattis.org/cantarell/" target="_top">http://abattis.org/cantarell/</a>
+</p>
+<p>Licence : SIL Open Font Licence (OFL)
+</p>
+<h2>Où trouver des polices libres ?
+</h2>
+<p>Nous pouvons vous indiquer trois sources fiables sur Internet :
+</p>
+<p>Open Font Library :  <a href="http://openfontlibrary.org/">http://openfontlibrary.org/</a> 
+</p>
+<p>Google Web Font : <a href="http://www.google.com/webfonts">http://www.google.com/webfonts</a>
+</p>
+<p>Font Squirrel : <a href="http://www.fontsquirrel.com/">http://www.fontsquirrel.com/</a>
+</p>
+<p>Bien sûr, vérifiez toujours les licences des polices que vous téléchargez, pour savoir sous quelles conditions vous pouvez les utiliser et/ou les modifier.
+</p>
+
+</div><ul Class="menu-goes-here"><li><a href="/scribus-1/index">Testi</a></li>
+<li><a href="/scribus-1/ch001_introduction">Introduction</a></li>
+<li><a href="/scribus-1/ch002_prerequis">Prérequis</a></li>
+<li><a href="/scribus-1/ch003_prise-en-main">Prise en main</a></li>
+<li><a href="/scribus-1/ch004_exemples-dutilisation">Exemples d'utilisation</a></li>
+<li><a href="/scribus-1/ch005_a-propos-de-ce-livre">À propos de ce livre</a></li>
+<li><a href="/scribus-1/ch006_creer">Creer</a></li>
+<li><a href="/scribus-1/ch007_commencer-par-la-fin">Commencer par la fin</a></li>
+<li><a href="/scribus-1/ch008_les-chaines-editoriale-et-graphique">Les Chaînes éditoriale et graphique</a></li>
+<li><a href="/scribus-1/ch009_preparer-les-sources">Préparer les sources</a></li>
+<li><a href="/scribus-1/ch010_format">Format</a></li>
+<li><a href="/scribus-1/ch011_choix-des-couleurs">Choix des couleurs</a></li>
+<li><a href="/scribus-1/ch012_choix-des-polices">Choix des polices</a></li>
+<li><a href="/scribus-1/ch013_organiser">Organiser</a></li>
+<li><a href="/scribus-1/ch014_organiser-ses-fichiers">Organiser ses fichiers</a></li>
+<li><a href="/scribus-1/ch015_gabarits">Gabarits</a></li>
+<li><a href="/scribus-1/ch016_composition">Composition</a></li>
+<li><a href="/scribus-1/ch017_feuilles-de-style">Feuilles de style</a></li>
+<li><a href="/scribus-1/ch018_les-scripts">Les scripts</a></li>
+<li><a href="/scribus-1/ch019_produire">Produire</a></li>
+<li><a href="/scribus-1/ch020_importer-texte-et-image">Importer Texte et Image</a></li>
+<li><a href="/scribus-1/ch021_typographie">Typographie</a></li>
+<li><a href="/scribus-1/ch022_habillage-et-typographie">Habillage et typographie</a></li>
+<li><a href="/scribus-1/ch023_gestion-des-couleurs">Gestion des couleurs</a></li>
+<li><a href="/scribus-1/ch024_le-controle-de-qualite">Le contrôle de qualité</a></li>
+<li><a href="/scribus-1/ch025_lassemblage-des-documents">L'assemblage des documents</a></li>
+<li><a href="/scribus-1/ch026_la-sortie-finale">La sortie finale</a></li>
+<li><a href="/scribus-1/ch027_annexe">Annexe</a></li>
+<li><a href="/scribus-1/ch028_problemes-recurrents">Problèmes récurrents</a></li>
+<li><a href="/scribus-1/ch029_installation">Installation</a></li>
+<li><a href="/scribus-1/ch030_kredits">Kredits</a></li>
+<li><a href="/scribus-1/ch031_glossaire">Glossaire</a></li>
+</ul>

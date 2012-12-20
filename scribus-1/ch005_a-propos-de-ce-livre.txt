@@ -1,0 +1,73 @@
+<html dir="None"><body><div id="main-content"><h1>À propos de ce livre
+</h1>
+<p>Ce livre est un manuel de prise en main du logiciel libre Scribus. Il répond à divers objectifs qui ont guidé les auteurs au fil de l'écriture :
+</p>
+<ul><li>Permettre une prise en main rapide du logiciel autant par des amateurs débutants en matière de mise en page que par des professionnels de la Publication Assistée par Ordinateur (PAO).</li>
+  <li>Donner des bases méthodologiques de la PAO pour assurer un flux de production correct, rapide, non contraignant au niveau créatif et qui assure un résultat final, en particulier imprimé, de qualité. Ce manuel est progressif et nous vous invitons à suivre l'ordre de succession des chapitres.</li>
+  <li>Permettre aux utilisateurs francophones de se documenter dans leur propre langue. Cela facilite la compréhension de concepts professionnels parfois complexes, tout en développant la communauté linguistique d'utilisateurs francophones de Scribus.</li>
+  <li>Offrir une documentation à jour pour les utilisateurs de ce logiciel à l'évolution dynamique, sachant que ce manuel dans sa forme accessible en ligne (wiki) peut être amélioré et compléter en permanence.</li>
+</ul><p>Le cœur et la structure de l'ouvrage de plus de 200 pages ont été réalisés en 5 jours dans le cadre d'un BookSprint qui s'est tenu à Strasbourg du 6 au 10 juillet 2011 grâce au soutien de l'Organisation internationale de la Francophonie (<a href="http://www.francophonie.org/">http://www.francophonie.org</a>).
+</p>
+<p>Expérimentée et popularisée par la Floss Manuals Foundation dans le cadre de ses activités de création de manuels multilingues sur les logiciels et pratiques libres, la méthodologie du Booksprint permet de rédiger en un temps très court des livres de qualité. Floss Manuals Francophone est une association loi 1901 dont l'objectif est d'organiser et de faciliter l'écriture ou la traduction de documentations en français.
+</p>
+<p>Un groupe de six co-auteurs (formateurs, maquettistes, développeurs et imprimeurs) originaires d'Amérique du Nord, d'Europe et d'Afrique ont travaillé ensemble en veillant à représenter la diversité des utilisatrices et utilisateurs francophones. 
+</p>
+<p><img alt="Les co-rédacteurs du manuel Scribus (Strasbourg, 6-10 juillet 2011)" src="_booki/scribus-1/static/Scribus_fr-Introduction-nous-fr-old.jpg" height="389" width="600"> 
+</p>
+<p>Co-rédacteurs présents lors du booksprint :
+</p>
+<ul><li>Camille Bissuel (France)</li>
+  <li>Magaouata Dan Bourgami (Niger)</li>
+  <li>Louis Desjardins (Canada-Québec)</li>
+  <li>Cédric Gémy (France)</li>
+  <li>Thibaut Hofer (France)</li>
+  <li>Alessandro Rimoldi (Suisse)</li>
+</ul><p>Par ailleurs, le booksprint a été animé par deux facilitatrices :
+</p>
+<ul><li>Elisa de Castro Guerra (France)</li>
+  <li>Anne Goldenberg (Canada-Québec / France)</li>
+</ul><h2>Un manuel libre disponible sous plusieurs formats et supports
+</h2>
+<p>Écrit en collaboration, ce manuel d'initiation à Scribus a été inspiré par les valeurs du libre. Il est disponible depuis le site de Flossmanuals sous plusieurs formes : livre imprimé, pages web, PDF et ePub, ce dernier format permettant de le consulter facilement sur des appareils portatifs.
+</p>
+<p>Publié sous double licence licence <a href="http://www.gnu.org/licenses/gpl-2.0.html">GPLv2</a> et <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr">Creative Commons Paternité - Partage à l'Identique 3.0 (CC-BY-SA 3.0)</a>, ce manuel peut être lu et copié librement.
+</p>
+<p>Par ailleurs, la version électronique de cet ouvrage évoluera encore au fur et à mesure des contributions et des avancées du logiciel. Pour consulter la dernière version actualisée, nous vous invitons à visiter régulièrement le volet francophone de Floss Manuals sur le site <a href="/scribus/" target="_top">http://fr.flossmanuals.net/scribus/</a>
+</p>
+<p>N'hésitez pas à votre tour à améliorer ce manuel en nous faisant part de vos commentaires dans la liste de diffusion francophone de Floss Manuals. Si vous avez des talents de rédacteur et une bonne connaissance de Scribus, l'envie d'ajouter une remarque ou un détail, inscrivez-vous en tant que contributeur pour proposer la création de nouveaux chapitres ou améliorer les chapitres existants. Vous trouverez en fin d'ouvrage la liste complète des personnes ayant participé jusqu'à ce jour à la co-rédaction du manuel.
+</p>
+<p>Vous consultez l'édition révisée et augmentée du 1er décembre 2011.
+</p>
+</div><ul Class="menu-goes-here"><li><a href="/scribus-1/index">Testi</a></li>
+<li><a href="/scribus-1/ch001_introduction">Introduction</a></li>
+<li><a href="/scribus-1/ch002_prerequis">Prérequis</a></li>
+<li><a href="/scribus-1/ch003_prise-en-main">Prise en main</a></li>
+<li><a href="/scribus-1/ch004_exemples-dutilisation">Exemples d'utilisation</a></li>
+<li><a href="/scribus-1/ch005_a-propos-de-ce-livre">À propos de ce livre</a></li>
+<li><a href="/scribus-1/ch006_creer">Creer</a></li>
+<li><a href="/scribus-1/ch007_commencer-par-la-fin">Commencer par la fin</a></li>
+<li><a href="/scribus-1/ch008_les-chaines-editoriale-et-graphique">Les Chaînes éditoriale et graphique</a></li>
+<li><a href="/scribus-1/ch009_preparer-les-sources">Préparer les sources</a></li>
+<li><a href="/scribus-1/ch010_format">Format</a></li>
+<li><a href="/scribus-1/ch011_choix-des-couleurs">Choix des couleurs</a></li>
+<li><a href="/scribus-1/ch012_choix-des-polices">Choix des polices</a></li>
+<li><a href="/scribus-1/ch013_organiser">Organiser</a></li>
+<li><a href="/scribus-1/ch014_organiser-ses-fichiers">Organiser ses fichiers</a></li>
+<li><a href="/scribus-1/ch015_gabarits">Gabarits</a></li>
+<li><a href="/scribus-1/ch016_composition">Composition</a></li>
+<li><a href="/scribus-1/ch017_feuilles-de-style">Feuilles de style</a></li>
+<li><a href="/scribus-1/ch018_les-scripts">Les scripts</a></li>
+<li><a href="/scribus-1/ch019_produire">Produire</a></li>
+<li><a href="/scribus-1/ch020_importer-texte-et-image">Importer Texte et Image</a></li>
+<li><a href="/scribus-1/ch021_typographie">Typographie</a></li>
+<li><a href="/scribus-1/ch022_habillage-et-typographie">Habillage et typographie</a></li>
+<li><a href="/scribus-1/ch023_gestion-des-couleurs">Gestion des couleurs</a></li>
+<li><a href="/scribus-1/ch024_le-controle-de-qualite">Le contrôle de qualité</a></li>
+<li><a href="/scribus-1/ch025_lassemblage-des-documents">L'assemblage des documents</a></li>
+<li><a href="/scribus-1/ch026_la-sortie-finale">La sortie finale</a></li>
+<li><a href="/scribus-1/ch027_annexe">Annexe</a></li>
+<li><a href="/scribus-1/ch028_problemes-recurrents">Problèmes récurrents</a></li>
+<li><a href="/scribus-1/ch029_installation">Installation</a></li>
+<li><a href="/scribus-1/ch030_kredits">Kredits</a></li>
+<li><a href="/scribus-1/ch031_glossaire">Glossaire</a></li>
+</ul>

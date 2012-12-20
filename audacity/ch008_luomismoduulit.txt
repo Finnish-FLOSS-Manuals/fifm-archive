@@ -1,0 +1,127 @@
+<div id="main-content"><p>
+</p>
+<div id="content">
+  <h1>Luomismoduulit
+  </h1>
+  <p>Alchemyssä on monta erilaista moduulia, jotka tekevät melko erilaisia asioita. 
+  </p>
+  <p><em>Luo (</em><strong>Create</strong><em>) </em>-moduulit ovat muotojen luomista varten, ja ne voidaan valita yksi kerrallaan käyttäen <strong>Create</strong> -ponnahdusvalikkoa työkalupalkissa. Katsotaanpa yksitellen <strong>Create</strong> -moduuleja: 
+  </p>
+  <h2>Shapes (muodot)
+    <br></h2>
+  <p><img alt="resized_600x375_ModuleShapes" src="_booki/audacity/static/Alchemy-CreateModules-resized_600x375_ModuleShapes-fi.png" height="375" width="600"> 
+  </p>
+  <p>Muodot (<strong>Shapes</strong>) -moduuli piirtää kuin tavallinen kynä vapaassa (<strong>Freeform</strong>) -tilassa tai suoria viivoja suorassa (<strong>Straight</strong>) -tilassa. Kun piirrät suoria viivoja, kaksoisnapsautus antaa sinun aloittaa uuden muodon. Ääriviiva (<strong>Outline</strong>) -nappi antaa sinun piirtää tilapäisesti vain ääriviivaa, kun olet kiinteiden muotojen tilassa. Kun muoto on valmis, muoto täytetään automaattisesti.
+    <br></p>
+  <h2>Mic Shapes (mikrofonimuodot)
+    <br></h2>
+  <p><img title="ModuleMicShapes007" alt="ModuleMicShapes007" src="_booki/audacity/static/Alchemy-resized_600x389_ModuleMicShapes007-en.png" height="389" width="600"> 
+  </p>
+  <p>Mikrofonimuodot <em>(</em><strong>Mic Shapes</strong><em>)</em> -moduuli käyttää tietokoneesi mikrofonin äänenvoimakkuutta vaikuttamaan muotojen luomiseen.
+    <br></p>
+  <p>Paksunna (<strong>Fatten</strong>) -tilassa viivan paksuus riippuu mikrofonin äänentasosta. Enemmän ääntä luo paksumman viivan ja päinvastoin.
+    <br>Tärinä (<strong>Shake</strong>) -tilassa viivan sijainti muuttuu mikrofonin äänentason mukaan. Enemmän ääntä tekee "tärisevämmän" viivan.
+    <br>Äänenvoimakkuus (<strong>Volume</strong>) -liukusäädintä voidaan käyttää hallitsemaan äänentasoa, joka tarvitaan muodon paksuntamiseen tai täristämiseen.
+    <br></p>
+  <h2>Speed Shapes (nopeusmuodot)
+    <br></h2>
+  <p><img alt="ModuleSpeedShapes007" src="_booki/audacity/static/Alchemy-CreateModules-resized_600x389_ModuleSpeedShapes007_en-fi.png" height="389" width="600"> 
+  </p>
+  <p>Nopeusmuodot (<strong>Speed Shapes</strong><em>)</em> -moduulim avulla kynän nopeutta käytetään luomaan muodoja, jotka heittävät viivan kynän todellisen sijainnin ulkopuolelle. Nopeampi kynän liike johtaa kauas kynän sijainnin ulkopuolelle meneviin ja mahdollisesti jopa pois ruudulta meneviin muotoihin.
+    <br></p>
+  <p>Nopeus <span>(</span><strong>Speed</strong>) -liukusääditimellä voidaan hallita nopeuden käyttöä.
+    <br>Viivan tyyppi (<strong>Line Type</strong>)<strong> </strong>voidaan vaihtaa suorien ja käyrien viivojen välillä.
+    <br></p>
+  <h2>Trace Shapes (seuraa muotoja)
+    <br></h2>
+  <p><img alt="ModuleTraceShapes007" src="_booki/audacity/static/Alchemy-CreateModules-resized_600x389_ModuleTraceShapes007_en-fi.png" height="389" width="600"> 
+  </p>
+  <p>Seuraa muotoja (<strong>Trace Shapes</strong>) -moduuli lataa satunnaisen kuvan käyttäen Flickriä ja piilottaa sen kankaan taakse. Kynä napsahtaa sen jälkeen kätketyn kuvan reunoihin, ja luo tuntemattomia muotoja. 
+  </p>
+  <p>Kuvan näyttö voidaan kääntää päälle ja pois käyttäen näytä kuva (<strong>Display Image</strong>) -nappia.
+    <br>Uusi kuva voidaan ladata napsauttamalla lataa kuva (<strong>Load Image</strong>) -nappia.
+  </p>
+  <p>Napsautusetäisyys (<strong>Snap Distance</strong>) -liukusäädin antaa sinun määritellä maksimietäisyyden, jolla napsahdus tapahtuu.
+  </p>
+  <p>Toleranssi (<strong>Tolerance</strong>) -liukusäädin määrittelee, kuinka "kova" reunan täytyy olla, jotta viiva napsahtaa siihen.
+    <br></p>
+  <h2>Pressure Shapes (painemuodot)
+  </h2>
+  <p><img alt="ModulePressureShapes007" src="_booki/audacity/static/Alchemy-resized_600x391_ModulePressureShapes007-en.png" height="391" width="600"> 
+  </p>
+  <p>Painemuodot (<strong>Pressure Shapes</strong>) -moduuli käyttää piirtoalustan kynän painetta muuttamaan viivan paksuutta.
+    <br></p>
+  <h2>Type Shapes (kirjainmuodot)
+  </h2>
+  <p><img title="ModuleTypeShapes007" alt="ModuleTypeShapes007" src="_booki/audacity/static/Alchemy-CreateModules-resized_600x389_ModuleTypeShapes007_en-fi.png" height="389" width="600"> 
+  </p>
+  <p>Kirjainmuodot (<strong>Type Shapes</strong>) -moduuli luo satunnaisia muotoja kirjasimista. Se etsii kirjasintyyppejä tietokoneeltasi, asettaa ne eri tasoille ja vääristelee niitä luodakseen abstrakteja muotoja. Näitä muotoja voidaan käyttää hahmojen, avaruusalusten tai minkä tahansa "pilvissä" näkemäsi muodon aloituskohtana.
+    <br></p>
+  <p>Vääristys (<strong>Distortion</strong>) -liukusäädin määrittää, kuinka paljon muotoja vääristetään.
+    <br>Automaattinen kehitys (<strong>Auto-generate</strong>) -nappi luo monimutkaisempia muotoja liittämällä useampia kirjainmuotoja yhteen ja asettamalla ne kankaalle.
+  </p>
+  <p>Koko (<strong>Size</strong>) -liukusäädin muuttaa luotujen muotojen kokoa.
+  </p>
+  <p>Näppäinpiirros (<strong>Key Drawing</strong>) -nappi antaa sinun piirtää näppäimistösi näppäimillä, ja asettaa muotoja kankaalle painamiesi näppäinten mukaan.
+  </p>
+  <h2>Median Shapes (mediaanimuodot)
+    <br></h2>
+  <p><img alt="ModuleMedianShapes.png" src="_booki/audacity/static/Alchemy-CreateModules-resized_600x375_ModuleMedianShapes_en-fi.png" height="375" width="600"> 
+  </p>
+  <p>Mediaanimuodot (<strong>Median Shapes</strong>) -moduuli piirtää "mediaani"viivan edellisen ja nykyisen viivan väliin.
+    <br></p>
+  <h2>X Shapes (X-muodot)
+    <br></h2>
+  <p><img alt="ModuleXShapes.png" src="_booki/audacity/static/Alchemy-CreateModules-resized_600x375_ModuleXShapes_en-fi.png" height="375" width="600"> 
+  </p>
+  <p>X-muodot (<strong>X Shapes</strong>) -moduuli luo kovia ja teräväkulmaisia muotoja, jotka siirtyvät epätasaisesti riippuen viivan pituudesta ja kynän nopeudesta.
+    <br></p>
+  <p>Etäisyys (<strong>Distance</strong>) -liukusäädin muuttaa maksimietäisyyttä kynästä, jolle muotoja luodaan.
+    <br></p>
+  <h2>Inverse Shapes (käänteismuodot)
+    <br></h2>
+  <p><img alt="ModuleInverseShapes.png" src="_booki/audacity/static/Alchemy-CreateModules-resized_600x375_ModuleInverseShapes_en-fi.png" height="375" width="600"> 
+  </p>
+  <p class="endp">Käänteismuodot (<strong>Inverse Shapes</strong>) -moduuli piirtää kuin tavallinen kynä, mutta käännettynä. Kun kynä on ylhäällä se piirtää, mutta kun se on alhaalla se ei piirrä.
+    <br></p>
+  <h2>Detach Shapes (irrota muodot)
+    <br></h2>
+  <p><img alt="ModuleDetachShapes" src="_booki/audacity/static/Alchemy-CreateModules-ModuleDetachShapes_en-fi.png" height="400" width="600"> 
+  </p>
+  <p>Irrota muodot (<strong><span>Detach</span> Shapes</strong>) -moduuli luo muotoja liikkumalla itsenäisesti kynästä erillisessä sijainnissa. Käytä etäisyys (<strong>Distance</strong>) -liukusäädintä asettamaan, kuinka kaukana kynästä piirrospiste on.
+  </p>
+  <p>
+  </p>
+  <h2>Scrawl Shapes (raapustusmuodot)
+    <br></h2>
+  <p><img alt="ModuleScrawlShapes" src="_booki/audacity/static/Alchemy-CreateModules-ModuleScrawlShapes_en-fi.png" height="400" width="600"></p>
+  <p>Raapustusmuodot (<strong>Scrawl Shapes</strong>) -moduuli luo muotoja, jotka muodostavat satunnaisesti raapustettuja viivoja. Käytä virtaus (<strong>Flow</strong>) -liukusäädintä asettamaan kuinka nopeasti muodot virtaavat kynästä. Käytä yksityiskohtaisuus (<strong>Detail</strong>) -liukusäädintä hallitsemaan kuinka paljon yksityiskohtia tahdot, vähemmän yksityiskohtia tekee tasaisempia muotoja ja päinvastoin. Häly (<strong>Noise</strong>) -liukusäädin hallitsee muotojen leviämisetäisyyttä alkuperäisestä sijainnista.
+    <br></p>
+  <h2>Pull Shapes (vetomuodot)
+    <br></h2>
+  <p><img title="ModulePullShapes007" alt="ModulePullShapes007" src="_booki/audacity/static/Alchemy-CreateModules-resized_600x389_ModulePullShapes007_en-fi.png" height="389" width="600"><br></p>
+  <p>Vetomuodot (<strong>Pull Shapes</strong>) -moduuli piirtää muotoja kankaalle, jotka on otettu esimääritetyistä PDF-tiedostoista, jotka on varastoitu Alchemyn asennushakemistoon. Sinulla on täysi hallinta näiden tiedostojen sisältöön ja voit lisätä ja poistaa elementtejä halutessasi. Tiedostojen täytyy olla PDF-muodossa (versioon 1.4 asti) ja niissä voi olla monta sivua - voit ladata jopa Alchemyn istuntotiedostoja.
+    <br></p>
+  <p>Voit valita tiedostojen vetämisen kaikista saatavilla olevista tiedostoista, tai valita käsin tiettyjä kansioita käytettäväksi pudotusvalikosta. Uudelleenlataus (<strong>Reload</strong>) -nappia voidaan käyttää tutkimaan muotokansiota ja päivittämään uusien tiedostojen kanssa. Ti<span>la (<strong>S</strong></span><strong>pacing)</strong> -liukusäädin määrittää, kuinka nopeasti muodot lisätään. Koko (<strong>Size</strong>) -liukusäädin hallitsee muotojen kokoa ja kieritys (<strong>Rotate</strong>) -nappi kääntää muotoja satunnaisesti.
+  </p>
+  <h2>Ribbon Shapes (nauhamuodot)
+    <br></h2>
+  <p><img title="ModuleRibbon008" alt="ModuleRibbon008" src="_booki/audacity/static/Alchemy-CreateModules-resized_600x375_ModuleRibbon008_en-fi.png" height="375" width="600"><br>Nauhamuodot (<strong>Ribbon Shapes</strong>) -moduuli jättää polun nauhamaisia muotoja. Nauhojen koko (<strong>Size</strong>) voidaan asettaa, samoin nauhojen etäisyys (<strong>Spacing</strong>), eli niiden ilmestymistaajuus kankaalle. Nauhojen ominaisuuksia, kuten kitka (<strong>Friction</strong>) ja painovoima (<strong>Gravity</strong>), voidaan myös asettaa.
+    <br></p>
+  <h2>Splatter Shapes (roiskemuodot)
+    <br></h2>
+  <p><img title="ModuleSplatter008" alt="ModuleSplatter008" src="_booki/audacity/static/Alchemy-CreateModules-resized_600x375_ModuleSplatter008_en-fi.png" height="375" width="600"> 
+  </p>
+  <p>Roiskemuodot (<strong>Splatter Shapes</strong>) -moduuli luo maalin kaltaisia roiskeita kankaalle. Roiskeiden muoto (<strong>Size</strong>) ja pisaroiden (<strong>Drips</strong>) määrä voidaan asettaa.
+    <br></p>
+  <p>
+  </p>
+</div></div><ul Class="menu-goes-here"><li Class="booki-section">JOHDANTO</li><li><a href="/audacity/index">JOHDANTO</a></li>
+<li Class="booki-section">KÄYTTÖLIITTYMÄ</li><li><a href="/audacity/ch003_kayttoliittyman-perusteet">KÄYTTÖLIITTYMÄN PERUSTEET</a></li>
+<li><a href="/audacity/ch004_valikkopalkki">VALIKKOPALKKI</a></li>
+<li><a href="/audacity/ch005_tyokalupalkki">TYÖKALUPALKKI</a></li>
+<li Class="booki-section">MODUULI</li><li><a href="/audacity/ch007_mika-on-moduuli">MIKÄ ON MODUULI?</a></li>
+<li><a href="/audacity/ch008_luomismoduulit">LUOMISMODUULIT</a></li>
+<li><a href="/audacity/ch009_muokkausmoduulit">MUOKKAUSMODUULIT</a></li>
+<li Class="booki-section">TEKIJÄT</li><li><a href="/audacity/ch011_tekijat">TEKIJÄT</a></li>
+</ul>
