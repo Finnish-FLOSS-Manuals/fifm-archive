@@ -1,4 +1,0 @@
-<div Class="content-goes-here" id="main-content"><h1>TITLE</h1><div><a href="/title-4/index">Introduction</a></div><div><a href="/title-4/ch001_asennuswindows">AsennusWindows</a></div><div><a href="/title-4/ch002_credits">Credits</a></div></div><ul Class="menu-goes-here"><li><a href="/title-4/index">Introduction</a></li>
-<li><a href="/title-4/ch001_asennuswindows">AsennusWindows</a></li>
-<li><a href="/title-4/ch002_credits">Credits</a></li>
-</ul>

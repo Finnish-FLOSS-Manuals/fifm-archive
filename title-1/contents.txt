@@ -1,5 +1,0 @@
-<div Class="content-goes-here" id="main-content"><h1>TITLE</h1><div><a href="/title-1/index">Introduction</a></div><div><a href="/title-1/ch001_peertopeer">PeerToPeer</a></div><div><a href="/title-1/ch002_bittorrent">BitTorrent</a></div><div><a href="/title-1/ch003_credits">Credits</a></div></div><ul Class="menu-goes-here"><li><a href="/title-1/index">Introduction</a></li>
-<li><a href="/title-1/ch001_peertopeer">PeerToPeer</a></li>
-<li><a href="/title-1/ch002_bittorrent">BitTorrent</a></li>
-<li><a href="/title-1/ch003_credits">Credits</a></li>
-</ul>

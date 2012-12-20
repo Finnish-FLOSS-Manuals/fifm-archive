@@ -1,3 +1,0 @@
-<html dir="None"><body><div Class="content-goes-here" id="main-content"><h1>Kuvatesti</h1><h2>No pics</h2><div><a href="/kuvatesti/index">No pics</a></div><div><a href="/kuvatesti/ch002_kuvatesti">Kuvatesti</a></div></div><ul Class="menu-goes-here"><li Class="booki-section">No pics</li><li><a href="/kuvatesti/index">No pics</a></li>
-<li><a href="/kuvatesti/ch002_kuvatesti">Kuvatesti</a></li>
-</ul>

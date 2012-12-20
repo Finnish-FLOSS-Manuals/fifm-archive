@@ -1,5 +1,0 @@
-<div Class="content-goes-here" id="main-content"><h1>TITLE</h1><div><a href="/title/index">Asennus</a></div><div><a href="/title/ch001_manual">Manual</a></div><div><a href="/title/ch002_introduction">Introduction</a></div><div><a href="/title/ch003_credits">Credits</a></div></div><ul Class="menu-goes-here"><li><a href="/title/index">Asennus</a></li>
-<li><a href="/title/ch001_manual">Manual</a></li>
-<li><a href="/title/ch002_introduction">Introduction</a></li>
-<li><a href="/title/ch003_credits">Credits</a></li>
-</ul>
