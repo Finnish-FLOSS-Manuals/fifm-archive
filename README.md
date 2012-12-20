@@ -1,1 +1,1 @@
-Just an archive of fi.flossmanuals.net manuals. 
+Just an automatic archive of published Finnish FLOSS Manuals. 
