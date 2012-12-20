@@ -1,0 +1,230 @@
+<div id="main-content"><h1>Vieminen</h1>
+<p>Kun kirja on valmis tai viimeistelty tyydyttävälle tasolle se voidaan viedä. Se voidaan viedä useampaan eri formaattiin - ei pelkästään tyypillisiin tulostusformaatteihin - joista jokaisella on omat käyttötarkoituksensa. </p>
+<p>Katsotaanpa ensin vientiä varten tarjolla olevia formaatteja: </p>
+<p><strong>Kirja(PDF)</strong>: Käytetään painettavia kirjoja tehtäessä. Kirja (PDF) voidaan ladata print on demand -palveluun tai jopa lähettää paikalliselle painajalle painettavaksi tavalliseksi sidotuksi kirjaksi. Sitä voidaan myös käyttää yksittäisen kirjan kopion tulostamiseen kotitulostimella. </p>
+<p><strong>Sanomalehti (PDF)</strong>: Tätä formaattia käytetään painettaessa monipalstaisia tekstejä suuren mittakaavan uutispainossa. Tämä voi olla hyödyllistä painettaessa kirjoja halvalla käyttäen halpaa painoformaattia ja paikallisia painotaloja. </p>
+<p><strong>Web (PDF)</strong>: Tämä tyyppi on ruudulta lukemista varten. Se voidaan lisätä verkkosivulle tai ladata luettavaksi ilman verkkoyhteyttä tietokoneella tai muussa sopivassa laitteessa. </p>
+<p><strong>ePub</strong>: ePubia käytetään e-kirjojen julkaisemiseen, se luo e-kirjan käyttäen avointa ePub-formaattia. Jota voidaan lukea käyttäen mitä tahansa sopivaa laitetta, kuten sopivalla ohjelmalla varustettua tietokonetta tai kannettavia laitteita, kuten Sony Reader ja Applen iPod Touch ja iPhone. </p>
+<p><strong>OpenOffice (.odt): </strong>Tämä ulostulo voidaan avata ja muokata OpenOffice.org -tekstinkäsittelyohjelmalla, jolloin lisämuokkauksia voidaan lisätä ja tiedosto voidaan muuntaa Microsoftin .doc-formaattiin, jolloin se voidaan lähettää kolmansille osapuolille, jotka eivät ole kuulleet avoimen lähdekoodin ohjelmista. Tämä voi myös olla hyvä julkaisumenetelmä, mikäli tahdot muokata julkaisusi kirjasintyyppejä ja muotoilua, mutta et osaa CSS-koodia. </p>
+<h2>Kirjan vieminen </h2>
+<p>Kun kirja on valmis, paina välilehteä <strong>Vienti</strong> kirjan sivulla. Nyt voit asettaa kirjan vientivalinnat.</p>
+<p><img src="_booki/booki/static/kirjanvieminen.png" alt=""></p>
+<h2>Yksinkertainen vieminen </h2>
+<p>Jos olet tyytyväinen kirjasi oletusarvoiseen ulkoasuun etkä aio myydä sitä kirjakaupoissa, voit tehdä pelkän yksinkertaisen julkaisun.   </p>
+<ol><li>Kirjoita painetun <strong>Kirjan nimeke</strong>. Oletusarvoisesti tässä on Bookissa käytetty kirjan otsikkoa, mutta se voidaan muuttaa tarvittaessa ja se muodostaa kirjan kannen tai otsikkosivun. </li>
+<li>Valitse ulostulon <strong>Asiakirjatyyppi</strong> pudotusvalikosta. </li>
+<li>Valitse kirjalle <strong>Lisenssi</strong> pudotusvalikosta. </li>
+<li>Laita rasti kohtaan <strong>lähetä archive.orgin</strong>, mikäli tahdot sinne lähetettävän kopion kirjastasi. </li>
+<li>Paina <strong>Julkaise tämä kirja</strong>.<strong> <br></strong></li>
+</ol><p>Booki muuntaa kirjasi haluttuun dokumenttityyppiin käyttäen Objavia ja viimeistelty versio näyttää linkin luotuun dokumenttiin. Kirjasi sivukoko on Comicbook, joka on 160mm x 260mm, ja käytössä on oletusarvoinen tyylitiedostoa kirjasimille ja taitolle. </p>
+<div id="PageBreak" title="Page Break"> </div>
+<h2>Kehittyneemmät valinnat </h2>
+<p>Näytä kehittyneemmät valinnat -linkin napsauttaminen avaa suuren määrän lisäasetuksia, joita voidaan käyttää muokkaamaan kirjasi ulkoasua.</p>
+<p><img src="_booki/booki/static/kehittyneemmatvalinnat.png" alt="" width="600" height="300"></p>
+<ul><ul><li>Jos olet ostanut kirjallesi <strong>ISBN</strong>-numeron, voit lisätä sen.</li>
+<li><strong>Sisällysluettelon ylätunniste</strong> voidaan lisätä kirjaasi. Muuten otsikko on vain sisällysluettelo. </li>
+<li>Kirjan <strong>Sivun kokojen</strong> esiasetukset:</li>
+</ul></ul><table cellpadding="1"><caption> </caption>
+<tbody><tr><th rowspan="2" width="23%"> Nimi</th><th rowspan="2" width="23%">Ulottuvuudet  (mm)</th><th colspan="3">Yhteensopivuus</th></tr><tr><th width="18%"> Lulu</th><th width="18%">Sanomalehti </th><th width="18%"> ISO-standardi </th></tr><tr><td width="23%"> POCKET</td>
+<td width="23%"> 107 x 174 </td>
+<td width="18%"> Kyllä</td>
+<td width="18%"> </td>
+<td width="18%"> </td>
+</tr><tr><td> A5</td>
+<td> 148 x 210 </td>
+<td> Kyllä</td>
+<td> </td>
+<td> Yes</td>
+</tr><tr><td> USTRADE </td>
+<td> 152 x 228 </td>
+<td> Kyllä </td>
+<td> </td>
+<td> </td>
+</tr><tr><td> SQUARE7.5</td>
+<td> 190 x 190 </td>
+<td> Kyllä</td>
+<td> </td>
+<td> </td>
+</tr><tr><td> ROYAL </td>
+<td> 155 x 233 </td>
+<td> Kyllä</td>
+<td> </td>
+<td> </td>
+</tr><tr><td> LANDSCAPE9X7</td>
+<td> 228 x 177 </td>
+<td> Kyllä </td>
+<td> </td>
+<td> </td>
+</tr><tr><td> COMICBOOK</td>
+<td> 168 x 260 </td>
+<td> Kyllä</td>
+<td> </td>
+<td> </td>
+</tr><tr><td> CROWNQUATRO</td>
+<td> 189 x 245 </td>
+<td> Kyllä</td>
+<td> </td>
+<td> </td>
+</tr><tr><td> SQUARE8.5</td>
+<td> 215 x 215 </td>
+<td> Kyllä</td>
+<td> </td>
+<td> </td>
+</tr><tr><td> USLETTER</td>
+<td> 215 x 279 </td>
+<td> Kyllä</td>
+<td> </td>
+<td> </td>
+</tr><tr><td> A4</td>
+<td> 210 x 297 </td>
+<td> Kyllä</td>
+<td> </td>
+<td> Kyllä</td>
+</tr><tr><td> Foolscap (F4)</td>
+<td> 210 x 330 </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td> B4</td>
+<td> 250 x 353 </td>
+<td> </td>
+<td> </td>
+<td> Kyllä</td>
+</tr><tr><td> Oamaru Tabloid</td>
+<td> 265 x 380 </td>
+<td> </td>
+<td> Kyllä</td>
+<td> </td>
+</tr><tr><td> UK Tabloid</td>
+<td> 279 x 431 </td>
+<td> </td>
+<td> Kyllä</td>
+<td> </td>
+</tr><tr><td> A3 (NZ Tabloid)</td>
+<td> 297 x 420 </td>
+<td> </td>
+<td> Kyllä</td>
+<td> Kyllä</td>
+</tr><tr><td> Berliner</td>
+<td> 315 x 470 </td>
+<td> </td>
+<td> Kyllä </td>
+<td> </td>
+</tr><tr><td> B3</td>
+<td> 353 x 500 </td>
+<td> </td>
+<td> </td>
+<td> Kyllä</td>
+</tr><tr><td> Oamaru Broadsheet</td>
+<td> 382 x 540 </td>
+<td> </td>
+<td> Kyllä</td>
+<td> </td>
+</tr><tr><td> US Broadsheet</td>
+<td> 380 x 577 </td>
+<td> </td>
+<td> Kyllä</td>
+<td> </td>
+</tr><tr><td> A2 (NZ Broadsheet)</td>
+<td> 420 x 594 </td>
+<td> </td>
+<td> Kyllä</td>
+<td> Kyllä</td>
+</tr><tr><td> UK Broadsheet</td>
+<td> 457 x 609 </td>
+<td> </td>
+<td> Kyllä</td>
+<td> </td>
+</tr><tr><td> B2</td>
+<td> 500 x 707 </td>
+<td> </td>
+<td> </td>
+<td> Kyllä</td>
+</tr><tr><td> A1</td>
+<td> 594 x 841 </td>
+<td> </td>
+<td> </td>
+<td> Kyllä</td>
+</tr><tr><td> B1</td>
+<td> 707 x 1000 </td>
+<td> </td>
+<td> </td>
+<td> Kyllä</td>
+</tr></tbody></table><ul><li>Voit asettaa tyylin kirjallesi käyttäen<strong> CSS-tilaa</strong>. Voit valita joko<strong> Palvelimen oletusarvon</strong> tai kustomoidun CSS-tiedoston. Kun kustomoidut asetukset on valittu, ilmestyy tekstilaatikko, jossa voit muokata kirjasi luomisessa käytettyä CSS-koodia.</li>
+</ul><ul><li>Jos yksikään ennalta määritellyistä sivun kokovalinnoista ei sovi tarpeisiisi voit asettaa sivulle oletusarvoisen koon käyttäen <strong>Sivun leveys</strong> ja<strong> Sivun korkeus </strong>-asetuksia.</li>
+<li>Marginaalit voidaan muotoilla käyttäen <strong>Ylämarginaali</strong>, <strong>Sivun reunus</strong> ja <strong>Pohjan marginaali</strong> -asetuksia. Kun julkaiset PDF-kirjan voit myös määritellä kirjan aukeaman <strong>Sivun sisäosan marginaalin</strong>. Tämä on suurempi kuin sivumarginaali, jotta jätetään tilaa kirjan sitomiselle. </li>
+<li>Jos tahdot tulostaa monen palstan sivuja esimerkiksi sanomalehteä varten, voit käyttää asetuksia <strong>Sarake</strong> ja <strong>Sarakkeen leveys</strong> määritelläksesi, kuinka monta saraketta tahdot sivulle ja tilan määrän jokaisen sarakkeen välillä.</li>
+<li>Kehittyneempien valintojen alareunassa voit valita <strong>Harmaasävyt</strong> tulostaaksesi pelkästään mustavalkoista esimerkiksi uutispainossa. </li>
+</ul><h2>Käyttötapauksia</h2>
+<p>Seuraavassa on kuvitteellisia käyttötapauksia, joissa kuvaillaan erilaisten vientiasetusten käyttöä. </p>
+<h3>Verkkojulkaisu</h3>
+<p>Kun luomuviljelyryhmä liittyi Bookiin, sen jäsenmäärä alkoi kasvaa ja se on nyt luonut oman verkkosivunsa, jossa se tarjoaa ladattavia PDF-versioita valmiista oppaistaan. Olet juuri lopettanut kirjan Köynnöskasvien kasvatus kirjoittamisen ja tahdot julkaista sen liitettäväksi ryhmän verkkosivulle. </p>
+<ol><li>Menet Köynnöskasvien kasvattamisen muokkaussivulle ja napsautat <strong>Vienti</strong>-välilehteä. </li>
+<li>Jätät Kirjan otsikon Köynnöskasvien kasvattamiseksi ja valitset Dokumenttityypiksi web (PDF) ja Lisenssiksi CC-BY-SA.</li>
+<li>Päätät, että Archive.orgissa olisi hyvä olla kopio kirjastasi, joten rastit kohdan <strong>lähetä Archive.orgiin</strong>.</li>
+<li>Ei ole tarvetta muokata julkaisuprosessia enempää, joten painat nappia <strong>Julkaise tämä kirja</strong>. </li>
+<li>Näet etenemispalkin etenevän hitaasti, kun Booki lähettää kirjasi Köynnöskasvien kasvattaminen Objaviin julkaistavaksi PDF-tiedostona. </li>
+<li>Kun prosessi on valmis, uuteen kirjaan on linkki kirjan alaosassa. Napsautat linkkiä ladataksesi julkaistun kirjan tietokoneellesi, jotta voit myöhemmin ladata sen luomuviljelyryhmän verkkosivulle. </li>
+</ol><h3>Sanomalehtijulkaisu</h3>
+<p>Kahden viikon päästä olet pitämässä pöytää paikallisten maanviljelijöiden torilla. Myynnissä olevien tavaroiden joukossa on viinirypäleitä puutarhastasi. Ajattelet, että olisi hyvä idea hankkia kopioita kirjasta Köynnöskasvien kasvattaminen myytäväksi viinirypäleidesi rinnalla. Kun olet soittanut paikallisiin painoihin huomaat, että pieni painos paikallisessa sanomalehtipainossa olisi sopivan hintainen, sinun täytyy vain toimittaa kirjasi sanomalehtimuotoon muotoiltu PDF-tiedosto.</p>
+<ol><li>Siirryt Köynnöskasvien kasvattaminen -kirjan <strong>Vienti</strong>-välilehteen. </li>
+<li>Jätät kirjan otsikoksi Köynnöskasvien kasvattaminen ja valitset dokumenttityypiksi sanomalehden (PDF) ja lisenssiksi CC-BY-SA. </li>
+<li>Jotta Booki julkaisee sanomalehden (PDF) oikein, joudut korjaamaan kehittyneempiä asetuksia, joten napsautat Näytä kehittyneemmät valinnat. </li>
+<li>Valitset sivun kooksi A3 (NZ Tabloid), koska tämä oli paikallisen painotalon pyytämä sivukoko.  </li>
+<li>Tahdot kaksi palstaa sanomalehdeksi painettavaan kirjaasi, joten kirjoitat 2 kohtaan <strong>Sarake</strong> ja 5 kohtaan <strong>Sarakkeen reunus</strong>, jotta palstojen välillä on 5mm marginaali. </li>
+<li>Lopulta rastit kohdan <strong>Harmaasävyt</strong>, joten olet rajoittanut itsesi mustavalkoiseen tulostamiseen kustannusten vähentämiseksi.</li>
+<li>Napsautat linkkiä <strong>Julkaise tämä kirja</strong> ja pian linkki luodaan sanomalehtikirjaasi. Lataat tämän tiedoston ja lähetät sen paikalliseen painotaloosi. </li>
+</ol><h3>Kirjan julkaiseminen </h3>
+<p>Sanomalehdeksi muotoiltu kirjasi osoittautui hyvin menestyksekkääksi maanviljelijöiden torilla ja päätit myydä kirjasi print on demand -versioita. Kun olet tutkinut heidän verkkosivunsa ja luonut käyttäjätunnuksen, päätät tehdä kirjasta A5-kokoisen, jolloin se on sopivan kokoinen sidottu kirja. </p>
+<ol><li>Mentyäsi <strong>Vienti</strong>-välilehteen jätä <strong>Kirjan nimekkeeksi</strong> Köynnöskasvien kasvattaminen, valitse <strong>kirjan (PDF)</strong> dokumenttityypiksi ja <strong>CC-BY-SA</strong> lisenssiksi. </li>
+<li>Napsauta <strong>Näytä kehittyneemmät valinnat</strong> ja kirjoita Köynnöskasvien kasvattaminen - sisältö <strong>Sisällysluettelon ylätunnisteeksi</strong>. </li>
+<li>Valitse <strong>Sivun kooksi</strong> A5. </li>
+<li>Kohdassa CSS-tila valitse <strong>Kustomoi</strong>. Tekstilaatikko aukeaa ja siinä on oletusarvoinen CSS-koodi muokattavaksi. Tahdot muuttaa kirjasintyyppiä leipätekstille, joten vaihdat <em>Gillius ADF </em>-kirjasimen<em> DejaVu Sans </em>-kirjasimeen. </li>
+<li>Tahdot myös kirjan otsikon erottuvan etusivulla, joten menet CSS-laatikossa kohtaan <em>h1.frontpage</em> ja lisäät kirjasintyypin: <em>"Century Schoolbook L"</em>.</li>
+<li>Napsauta linkkiä<strong> Julkaise tämä kirja</strong> ja kun linkki on luotu, lataat kirjaksi muotoillun PDF-tiedoston koneellesi ennen kuin lataat sen kirjapainoon. </li>
+</ol><h3>Epub-julkaiseminen</h3>
+<p>Kun valmistelit kirjaa Köynnöskasvien kasvattaminen print on demand -julkaisua varten, huomasit että he myyvät myös e-kirjoja, jolloin arvelit tämän olevan hyvä uusi tapa jakaa tietoa, joten päätit julkaista kirjastasi epub-version lisättäväksi kirjapainon verkkokauppaan. </p>
+<ol><li>Kirjan Köynnöskasvien kasvattaminen <strong>Vienti</strong>-välilehdessä jätät kirjan otsikon entiselleen. </li>
+<li>Valitset <strong>Asiakirjatyypiksi</strong> epub ja <strong>Lisenssiksi</strong> CC-NBY-SA. </li>
+<li>Koska olet jo lähettänyt kirjasi Archive.orgiin, poistat rastin kohdasta <strong>Lähetä Archive.orgiin</strong>. </li>
+<li>Et tarvitse kehittyneempiä valintoja, joten napsautat <strong>Julkaise tämä kirja</strong> ja lataat ePub-dokumentin, kun julkaisuprosessi on päättynyt, ennen kuin lisäät sen kirjapainoon. </li>
+</ol><h3>OpenOffice-julkaiseminen</h3>
+<p>Muutama kuukausi Lulu-käyttäjätunnuksesi luomisen jälkeen sivuilla on ollut paljon liikennettä ja nyt paikallinen kustantaja on kysynyt sinulta mahdollisuutta tehdä painos Köynnöskasvien kasvattamisesta. Puhuttuasi heidän kanssaan muutaman viikon olet kehittänyt kirjasta version ja olet vakuuttanut heidät tarpeesta julkaista tämäkin versio kirjasta CC-BY-SA-lisenssillä.</p>
+<p>Vaikka sisältö on sama, kirjaan tehdään joitain tyylimuutoksia. Ensinnäkin kirjan koko ei ole yksi Bookin tavallisista sivukokovaihtoehdoista, se on tavallista kirjaa korkeampi ja kapeampi. Leipätekstin kirjasin on Century Gothic, jota ei ole vielä tarjolla Booki-palvelimella.</p>
+<p>On myös tarpeen laittaa kirjaan pakotettuja sivuvaihtoja, jotta aliotsikot pysyvät samalla sivulla kuin niiden sisältö. Lopllinen muotoilun muutos on tekstin laittaminen kiertämään kuvat kaikissa mahdollisissa paikoissa.</p>
+<p>Lopulta julkaisija tahtoo kirjan Microsoft Wordin .doc-formaatissa. Koska osa näistä muotoiluvaihtoehdoista ei ole tarjolla CSS-muutoksien kautta, päätät julkaista kirjasi OpenOffice-muodossa, jolloin voit avata sen OpenOfficessa ja tehdä tarpeelliset muutokset muotoiluun, jonka jälkeen tallennat dokumentin .doc-formaatissa ja lähetät sen kustantajalle. </p>
+<ol><li>Kirjan <strong>Vienti</strong>-välilehdessä jätät otsikon ennalleen, muutat <strong>Asiakirjatyypiksi</strong> OpenOffice, vaihdat <strong>Lisenssiksi</strong> CC-BY-SA, poistat rastin kohdasta <strong>Lähetä Archive.orgiin</strong> ja napsautat kohtaa <strong>Näytä kehittyneemmät valinnat</strong>. </li>
+<li>Kirjoitat julkaisijasi antaman <strong>ISBN</strong>-numeron ja muutat <strong>Sivun kooksi </strong>valinnan <strong>Muokkaa</strong>. </li>
+<li>Kirjoitat <strong>Sivun leveydeksi</strong> 100 ja <strong>Sivun korkeudeksi</strong> 200. </li>
+<li>Kaikki mitat ovat millimetrejä. </li>
+<li>Kirjoitat 10 kohtaan <strong>Ylämarginaali</strong>, <strong>Sivun reunus </strong>ja <strong>Pohjan marginaali</strong>. </li>
+<li>Kirjoitat 25mm kohtaan <strong>Sivun sisäosan marginaali</strong>.</li>
+<li>Nyt napsautat linkkiä <strong>Julkaise tämä kirja</strong>. </li>
+<li>Kun dokumentti on luotu, lataat sen ja teet kaikki tarpeelliset muutokset OpenOfficessa, ennen kuin tallennat sen .doc-tiedostoon ja lähetät sen painotaloon. </li>
+</ol></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/booki/index">Mikä on Booki</a></li>
+<li><a href="/booki/ch002_mihin-bookia-voi-kayttaa">Mihin Bookia voi käyttää</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/booki/ch004_bookiin-paaseminen">Bookiin pääseminen</a></li>
+<li><a href="/booki/ch005_kayttajatunnuksen-luominen">Käyttäjätunnuksen luominen</a></li>
+<li><a href="/booki/ch006_asetukseni">Asetukseni</a></li>
+<li><a href="/booki/ch007_kirjan-luominen">Kirjan luominen</a></li>
+<li Class="booki-section">Kirjojen muokkaaminen</li><li><a href="/booki/ch009_lukujen-luominen">Lukujen luominen</a></li>
+<li><a href="/booki/ch010_lukujen-muokkaus">Lukujen muokkaus</a></li>
+<li><a href="/booki/ch011_sisallysluettelo">Sisällysluettelo</a></li>
+<li><a href="/booki/ch012_kuvien-lisaaminen">Kuvien lisääminen</a></li>
+<li Class="booki-section">Muiden kanssa työskentely</li><li><a href="/booki/ch014_ryhman-luominen">Ryhmän luominen</a></li>
+<li><a href="/booki/ch015_ryhmaan-liittyminen">Ryhmään liittyminen</a></li>
+<li><a href="/booki/ch016_kirjan-lisaaminen-ryhmaan">Kirjan lisääminen ryhmään</a></li>
+<li><a href="/booki/ch017_viestinta">Viestintä</a></li>
+<li Class="booki-section">Kehittynyt käyttö</li><li><a href="/booki/ch019_kirjan-tuominen">Kirjan tuominen</a></li>
+<li><a href="/booki/ch020_vieminen">Vieminen</a></li>
+<li Class="booki-section">Asentaminen</li><li><a href="/booki/ch022_linuxiin-asentaminen">Linuxiin asentaminen</a></li>
+<li Class="booki-section">Ulkoasun muokkaaminen</li><li><a href="/booki/ch024_kirjojen-css-muotoilu">Kirjojen CSS-muotoilu</a></li>
+<li><a href="/booki/ch025_lisaa-css-suunnittelua">Lisää CSS-suunnittelua</a></li>
+<li Class="booki-section">Teknologia</li><li><a href="/booki/ch027_osallistuminen">Osallistuminen</a></li>
+<li><a href="/booki/ch028_ydinosat">Ydinosat</a></li>
+<li><a href="/booki/ch029_teknologiat">Teknologiat</a></li>
+<li><a href="/booki/ch030_ominaisuudet">Ominaisuudet</a></li>
+<li><a href="/booki/ch031_virheraportointi">Virheraportointi</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/booki/ch033_oppaasta">Oppaasta</a></li>
+<li><a href="/booki/ch034_lisenssi">Lisenssi</a></li>
+</ul>

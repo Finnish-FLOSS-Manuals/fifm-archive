@@ -1,0 +1,31 @@
+<div id="main-content">
+<h1> Azureus
+</h1>
+<p> Azureus on <strong>bittorrent</strong>-asiakasohjelma, jolla voi ladata tietokoneelle tiedostoja bittorrent-verkosta. 
+</p>
+<p> Bittorrentin käyttäjät luovat pieniä bittorrent-tiedostoja, jotka sisältävät tietoa heidän jakamistaan mediatiedostoista. Bittorrent-jakelusivustot, kuten <strong>The Pirate Bay</strong> (<a target="_blank" href="http://thepiratebay.org/" rel="nofollow">http://thepiratebay.org/</a>) jakelevat näitä pieniä tiedostoja. Kun tahdot ladata mediatiedoston, lataat bittorrent-tiedoston, ja avaat sen bittorrent-asiakasohjelmallasi (kuten Azureuksella). Bittorrent-asiakasohjelma aloittaa sitten mediatiedoston lataamisen muilta käyttäjiltä bittorrent-verkostossa. Bittorrent-verkosto sisältää sekä lisensoitua että piratisoitua materiaalia. Azureus voi ladata molempia.
+  <br></p>
+<p> Azureus toimii <strong>Windows,</strong> <strong>MacOSX</strong> ja <strong>Linux</strong> -käyttöjärjestelmissä ja on suosittu bittorrent-asiakasohjelma, jota kehittää joukko vapaaehtoisia avoimen lähdekoodin ohjelmoijia. Sinun koneellasi täytyy olla Java-asennettuna, jotta voit asentaa Azureuksen.
+  <br></p>
+<p> <img title="classic_600w" alt="classic_600w" src="http://en.flossmanuals.net/publish/Azureus/rsrc/Azureus/Introduction/classic_600w.png" height="265" width="600"></p>
+<p> Ylläoleva kuva näyttää Azureuksen "klassisessa" tilassa. Azureuksessa on erikoistila, jota kutsutaan "Vuzeksi". Vuze näyttää hieman kivemmalle ja on graafisempi. Alla on Azureus "Vuze"-tilassa (tämä on oletustila Windowsissa):
+  <br></p>
+<p> <img title="azurtrack5_2" src="http://en.flossmanuals.net/publish/Azureus/rsrc/VideoDistribution/dstimgages/azurtrack5_2.jpg" height="292" width="590"></p>
+<p> Huomaa, että joskus Azureusta kutsutaan "Vuzeksi". Jos yrität saada selville, mikä Vuze on, kehittäjät sanovat sen olevan pelkästään "graafisesti erilainen versio Azureuksesta"... Mutta ilmeisesti näin ei kuitenkaan ole...
+  <br></p>
+<h2> Vuze.com
+</h2>
+<p> Jotta asiat olisivat vielä sekavampia, verkossa on sisältösivu, jota kutsutaan "Vuzeksi", ja jonka ovat tehneet Azureuksen tekijät. Tämä sivusto näyttää täsmälleen samalta kuin Vuze-tilassa oleva Azureus, kun avaat sen. Sillä ei ole kuitenkaan samaa toiminnallisuutta, ja tarvitset Azureuksen päästäksesi käsiksi sisältöön. Lisäksi... Azureuksesta on Java-versio, jota sivusto kutsuu Vuzeksi, ja joka toimii Vuze.com -verkkosivulta selaimellasi (Vain OS X ja Windows, ei toimi Linuxissa), jos sinulla ei ole Azureusta asennettuna... 
+</p>
+<p>Hämmentynyt? Sinulla on oikeus olla. Jokaiselle komponentille pitäisi tosiaan olla oma nimi.
+  <br></p>
+<p>Komponentit ovat nämä: 
+</p> 1. <strong>Azureus</strong> - ohjelma
+<br>2. <strong>Vuze</strong> - Azureus Vuze-grafiikalla (Azureus erilaisella ulkoasulla ja käyttöliittymällä)
+<br>3. <strong>Vuze.com</strong> - verkon sisältöportaali (<a target="_blank" href="http://www.vuze.com/" rel="nofollow">http://www.vuze.com</a> vaatii Azureusta sisällön käyttämiseksi) 
+<br>4. <strong>Vuze (java)</strong> - verkon (Vuze.com) Java-versio Azureuksesta Vuze-grafiikalla - <a target="_blank" href="http://www.vuze.com/jws/vuze.jnlp" rel="nofollow">http://www.vuze.com/jws/vuze.jnlp</a>
+</div><ul Class="menu-goes-here"><li><a href="/title-1/index">Introduction</a></li>
+<li><a href="/title-1/ch001_peertopeer">PeerToPeer</a></li>
+<li><a href="/title-1/ch002_bittorrent">BitTorrent</a></li>
+<li><a href="/title-1/ch003_credits">Credits</a></li>
+</ul>

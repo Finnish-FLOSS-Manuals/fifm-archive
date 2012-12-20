@@ -1,0 +1,85 @@
+<div id="main-content">
+<p>
+</p>
+<div id="content">
+  <h1>Käyttäjätilien luominen
+    <br></h1>
+  <p>Icecast-käyttäjätilit Linuxissa ja Windowsissa luodaan editoimalla konfiguraatiotiedostoa suoraan tekstieditorilla. Luultavasti työskentelet konfiguraatiotiedoston parissa palvelimella, joten on tarpeen käyttää tekstieditoria päätteellä. Kokeile ohjelmia nano, pico, emacs, vi tai vim. Jos sinulla ei ole kokemusta päätteeseen perustuvista tekstieditoreista, kokeile kahta ensimmäistä. 
+  </p>
+  <p>Jos tahdot yhden salasanan kaikille koodaajille (Icecastin oletusarvoinen asetus), sinun täytyy katsoa seuraavaa osaa: 
+  </p>
+  <pre><source-password>hackme</source-password></pre>
+  <p>Tässä tilanteessa kuka tahansa voi luoda striimin missä tahansa <strong>mountpoint</strong>issa palvelimellasi käyttäen tätä salasanaa ("hackme"). Jos tahdot vaihtaa salasanan, kirjoita uusi salasana tagien väliin tavallisilla kirjaimilla.
+    <br></p>
+  <p>Voit kuitenkin luoda yksittäisiä <strong>mountpointteja</strong> yksittäisille käyttäjille, jolloin käyttäjät joutuvat tunnistautumaan omilla salasanoillaan. Näitä käyttäjätilejä varten sinun täytyy määritellä käytettävä mountpoint. Näiden mountpointtien hallinnan parametrit ovat aika moninaisia, ja voit rajoittaa kuulijoiden määrää, bittinopeutta, minne striimi tallennetaan arkistona, ja jopa introtiedoston, joka soitetaan ennen kuin kuulija kuulee streamin (muiden seikkojen ohella). 
+  </p>
+  <p>Jokainen tämän tyyppinen tili on listattu tagien välissä. Jost tahdot aloittaa hyvin yksinkertaisen tilin, jossa annat jollekin käyttäjänimen ja salasanan, ja käyttäjä voi striimata serverille, voit lisätä näin yksinkertaisen rivin: 
+  </p>
+  <p>
+  </p>
+  <pre> <mount><mount-name>newuser.mp3</mount-name><password>hackmetoo</password></mount></pre>
+  <p>Valitettavasti lisätessäsi mount-käyttäjätilejä, kuten yllä, konfiguraatiotiedostoon, joudut pakottamaan Icecastin lukemaan konfiguraatiotiedoston uudelleen ennen kuin muutokset tapahtuvat. Icecastia ei tarvitste käynnistää uudelleen, jotta tämä tapahtuu, mutta sinun täytyy lähettää sille SIGHUP-signaali komentoriviltä. Tämän voit tehdä antamalla seuraavan komennon:  
+    <br></p>
+  <pre>killall -HUP icecast </pre> Voit lisätä myös mitkä tahansa seuraavista parametreista (<strong>mount-name </strong>tarvitaan aina):
+  <p>
+  </p>
+  <ul><li>mount-name </li>
+    <li>username </li>
+    <li>password </li>
+    <li>max-listeners </li>
+    <li>max-listener-duration </li>
+    <li>dumpfile </li>
+    <li>intro </li>
+    <li>fallback mount </li>
+    <li>fallback-override </li>
+    <li>fallback-when-full </li>
+    <li>public </li>
+    <li>stream-name </li>
+    <li>stream-description </li>
+    <li>stream-url </li>
+    <li>genre </li>
+    <li>bitrate </li>
+    <li>type </li>
+    <li>subtype </li>
+    <li>hidden </li>
+    <li>burst-size </li>
+    <li>mp3-metadata-interval </li>
+    <li>authentication-type </li>
+    <li>on-connect </li>
+    <li>on-disconnect </li>
+  </ul><p>
+  </p>
+  <p>
+  </p>
+  <h2>Yleiset käyttäjätilin asetukset
+  </h2>
+  <p>Se mihin viittaamme käyttäjätilin asetuksina on itse asiassa yksittäisiä mountpointteja varten. Seuraavassa on joitain käyttökelpoisimmista asetuksista: 
+  </p>
+  <h3>password (salasana)
+    <br></h3>
+  <p>Password on salasana, jota vaaditaan ennen kuin mitään streamia hyväksytään serverin kyseiseen mountpointtiin. Salasana kirjoitetaan koodaajan salasanakenttään, jos koodaaja on komentorivin koodaaja, salasana kirjoitetaan joko komentorivillä tai kirjoitetaan tekstikonfiguraatiotiedostoon. Jos koodaajassa on graafinen käyttöliittymä, siitä löytyy yleensä joku lomakekenttäkäyttöliittymä salasanaa varten. 
+  </p>
+  <h3>max-listeners (kuuntelijoiden maksimimäärä)
+    <br></h3>
+  <p>Maksimimäärä kuuntelijoita, jota mountpoint voi tukea samaan aikaan. Jos asetat arvoksi 50, sinulla voi olla 50 kuuntelijaa tai katselijaa jonain tiettynä hetkenä.
+  </p>
+  <h3>dump-file (arkistotiedosto)
+    <br></h3>
+  <p>Polku ja tiedostonimi, johon tämän mountpointin streami arkistoidaan (tallennetaan).
+  </p>
+  <h3>intro (johdanto-ohjelma)
+    <br></h3>
+  <p>Tämä merkitsee, että intro täytyy soittaa mountpointilla ennen kuin kuuntelija kuulee striimin. Esimerkiksi jos tapahtumassa on suoran lähetyksen streami, tahdot ehkä soittaa lyhyen johdantojuonnon kun kuuntelija kytkeytyy streami, jonka jälkeen varsinainen streami alkaa. Tässä tapauksessa sinun tulee käyttää tätä vaihtoehtoa ja laittaa linkki tiedostoon, joka soitetaan ennen streamia.
+    <br></p>
+</div>
+</div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/icecast/index">Johdanto</a></li>
+<li><a href="/icecast/ch002_streamaus">Streamaus</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/icecast/ch004_linux">Linux</a></li>
+<li><a href="/icecast/ch005_windows">Windows</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/icecast/ch007_aloittaminen-linuxissa">Aloittaminen Linuxissa</a></li>
+<li><a href="/icecast/ch008_asennus-windowsiin">Asennus Windowsiin</a></li>
+<li><a href="/icecast/ch009_lokit">Lokit</a></li>
+<li Class="booki-section">Konfiguraatio</li><li><a href="/icecast/ch011_peruskonfiguraatio">Peruskonfiguraatio</a></li>
+<li><a href="/icecast/ch012_tilit">Tilit</a></li>
+<li Class="booki-section">Tekijät</li><li><a href="/icecast/ch014_tekijat">Tekijät</a></li>
+</ul>

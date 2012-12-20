@@ -1,0 +1,64 @@
+<div id="main-content"><h1>Mihin voin käyttää Bookia?</h1>
+<p>Booki tukee mitä tahansa yksittäistä ryhmää, joka tahtoo kirjoittaa kirjan. Tämän alustan tyypilliset käyttötavat voisivat olla:</p>
+<ul><li>
+<p style="margin-bottom: 0cm;">Kirjojen kirjoittaminen: käyttöohjeet, keittokirjat, kalastusoppaat, fiktionaaliset tarinat.</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm;">Painettujen kirjojen tuottaminen.</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm;">Elektronisten kirjojen tuottaminen.</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm;">Sisällön tuottaminen yksilöllisesti.</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm;">Sisällön tuottaminen yhteistyössä.</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm;">Nopea sisällön luominen kirjapyrähdyksissä.</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm;">Olemassa olevan sisällön muuntaminen tiettyä käyttötarkoitusta varten.</p>
+</li>
+<li>
+<p>Kirjan kääntäminen toiselle kielelle.</p>
+</li>
+</ul><h2 class="western">Kirjapyrähdys</h2>
+<p>Työskentelen siirtotyöläisten oikeuksien parissa. Meidän täytyy luoda pamfletti työläisten oikeuksista. Luen FLOSS Manualsin vapaan oppaan kirjapyrähdyksistä ja organisoin viisi työntekijäämme käyttämään siihen kolme päivää seuraavalla viikolla. Ensimmäisenä aamuna jokainen luo käyttäjäntunnuksen. Olen jo luonut uuden kirjan, laittanut siihen avoimen lisenssin, lähettänyt muille verkko-osoitteen ja valmistellut sisällysluettelon. Käytämme kolme tuntia keskustellen lukujen sisällöstä ja mietimme kuka kirjoittaa mitäkin. Lounaan jälkeen aloitamme kirjoittamisen. Jatkamme kaksi päivää. Viimeisen päivän lopussa tulostamme kirjan koossa A5, siinä on 110 sivua ja lähetämme sen paikalliseen painotaloon, joka painaa siitä 500 kopiota. Seuraavien kahden päivän ajan kollegat muilta toimistoilta kirjautuvat sisään ja parantelevat työtämme. Teemme kirjan PDF-versiosta vapaasti luettavan ja painettavan. Jokainen muista toimistoista painaa kopioita paikallisesti ja jakelee niitä.</p>
+<h2 class="western"><strong>Sisällön muokkaaminen </strong></h2>
+<p>Olen kehittäjä ja olen kirjoittanut muutamaan avoimia ohjelmistoja käsittelevään oppaaseen. Erikoisuuteni on Drupal ja minulla on asiakas, jolle olen juuri luonut sivuston käyttäen Drupalia. Tahdon luoda oppaan tätä asiakasta varten, joten menen käyttäjäsivulleni ja teen uuden version Drupal-oppaasta. Nyt minulla on erillinen versio oppaasta tunnuksellani, tekemiäni muutoksia ei näytetä alkuperäisessä oppaassa, ellen liitä muutoksia alkuperäiseen oppaaseen. Poistan monia lukuja, jotka eivät ole olennaisia asiakkaan kannalta, lisään neljä asiakkaan erikoistarpeisiin sopivaa lukua. Merkitsen uudet luvut tavallisen tekijänoikeuden alle ja piilotan ne kaikilta muilta käyttäjiltä. Kirjoitan näihin lukuihin tietoa, joka on laadittu tämän asiakkaan erikoistarpeisiin ja muutan monia ruutukaappauksia muissa luvuissa asiakkaan sivuston kuvankaappauksiin. Vien materiaalin kirjaksi muotoiltuun PDF-tiedostoon, lataan sen Lulu.comin print on demand -palveluun ja ostan kaksi kappaletta täydellisesti sidottua kirjaa asiakkaalleni. Myöhemmin mahdollinen asiakas kutsuu minut tapaamiseen. Käytän omaa versiotani Drupal-oppaasta, poistan asiakkaalle kuuluvan arkaluontoisen materiaalin, lataan kirjan, ostan kopion itselleni ja vien sen tapaamiseen asiakkaalle näytettäväksi. </p>
+<h2 class="western">Kääntäminen</h2>
+<p>Olen vapaaehtoinen kääntäjä. Tahdon kääntää keittokirjaryhmän meksikolaisen keittokirjan suomeksi. Teen olemassa olevasta oppaasta uuden version käyttäjäsivulleni. Teen sisällön konekäännöksen ja merkitsen kaikki luvut käännettäväksi. Lähetän muille Bookin käyttäjille tiedon, että tarvitsen käännösapua. Käännän oppaan kolmen muun kanssa. Merkitsemme kaikki kääntämämme luvut tilaan oikoluettava tai tekniset yksityiskohdat tarkastettava. Kutsun kaverini oikolukemaan oppaamme. Häneltä menee siihen viikko, sillä hän tekee sen vapaa-aikanaan. Tämän jälkeen jokainen luku merkitään valmiiksi. Myöhemmin siirrän käännetyn kirjan PDF-muotoon, lataan sen Lulu.comiin ja ostan kopion. </p>
+<h2 class="western">Eri formaatit</h2>
+<p>Olen kouluttaja ja olen kirjoittanut Bookia käyttäen oppikirjan digitaalisesta designistä. Kun kirjoitan, pidän kirjan yksityisenä, mutta kutsun tiettyjä käyttäjiä katsomaan sisältöä ja kommentoimaan - tämä on minulle hienoa palautetta. Nyt kirja on valmis ja kustantaja on valinnut sen. Otan sen ulos .odt-muodossa Bookista ja avaan sen OpenOffice.org -tekstinkäsittelyohjelmassa, tallennan sen .doc-muodossa (kustantaja ei tunne avoimia ohjelmia) ja lähetän sen heille. Neuvottelin myös kustantajan kanssa Creative Commons -lisenssin käytöstä. Julkaisen kirjan verkkosivullani käyttäen sulautettua APIa ja kutsun mukaan kääntäjiä. Neljän viikon päästä se on käännetty espanjaksi ja se on ladattu print on demand -palveluun, josta se myydään verkkosivujeni kautta. Portugalinkielinen käännös on valmis kolme viikkoa myöhemmin. Portugalinkielinen käännös otetaan innokkaasti vastaan Brasiliassa ja tulostan materiaalin useamman palstan PDF-tiedostoon, joka sopii tulostettavaksi tabloidiksi. Koulu Sao Paolossa etsii paikallisen painotalon, painaa kirjaa lehtimuodossa 1500 kappaletta ja jakaa ne ilmaiseksi kouluissa. Tämä maksaa yhtä paljon kuin kolmenkymmenen painetun kirjan painaminen tai ostaminen. Tunnen oloni hyväksi koulujen saavuttamien säästöjen vuoksi. </p>
+<h2 class="western">Siirrettävyys</h2>
+<p>Minut kutsutaan fasilitoimaan viljelytekniikoita käsittelevää kirjapyrähdystä syrjäisellä alueella. Tapahtumapaikka on maatila, jossa ei ole nettiyhteyksiä. Tiedän hieman verkkopalveluiden asentamisesta, joten lataan ja asennan Bookin omalle kannettavalle tietokoneelleni. Kirjapyrähdyksessä kytkemme neljä kannettavaa tietokonetta koneellani pyörivään Bookin paikalliseen versioon. Kirjoitamme kirjan viidessä päivässä. Tulostamme kirjan muotoiltuun PDF-tiedostoon kannettavalla koneellani ja jakelemme sen paikallisesti koulutusmateriaaleina. Myöhemmin lataan lähdekoodin palvelimella pyörivään Bookiin, jotta muut pääsevät lukemaan ja käyttämään sisältöä tarpeidensa mukaisesti.</p>
+<h2 class="western">Organisaatioiden dokumentaatio </h2>
+<p>Organisaationi tahtoo tarkastaa ja päivittää dokumentaationsa. Olemme päättäneet käyttää Bookia sisällön parantelemiseen ja päivittämiseen yhteistyössä. Tietokonegurumme on asentanut Bookin palvelimellemme, jotta kirjoittajat voivat kirjautua ja päivittää dokumentaatiota miltä tahansa koneelta. Käytämme versiointiominaisuutta pitääksemme kirjaa dokumentaation versioista, sillä dokumenttimme kasvavat ja kehittyvät ajan kuluessa. Kun lopulliset versiot on hyväksytty, ne "julkaistaan" ruudulta luettavina PDF-tiedostoina ja kirjoiksi muovattuina PDF-tiedostoina. Kirjaksi muotoiltu PDF tulostetaan virallista dokumentaatiotamme varten, kun taas ruudulla luettavan PDF-tiedoston pariin työntekijämme pääsevät helposti.  </p></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/booki/index">Mikä on Booki</a></li>
+<li><a href="/booki/ch002_mihin-bookia-voi-kayttaa">Mihin Bookia voi käyttää</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/booki/ch004_bookiin-paaseminen">Bookiin pääseminen</a></li>
+<li><a href="/booki/ch005_kayttajatunnuksen-luominen">Käyttäjätunnuksen luominen</a></li>
+<li><a href="/booki/ch006_asetukseni">Asetukseni</a></li>
+<li><a href="/booki/ch007_kirjan-luominen">Kirjan luominen</a></li>
+<li Class="booki-section">Kirjojen muokkaaminen</li><li><a href="/booki/ch009_lukujen-luominen">Lukujen luominen</a></li>
+<li><a href="/booki/ch010_lukujen-muokkaus">Lukujen muokkaus</a></li>
+<li><a href="/booki/ch011_sisallysluettelo">Sisällysluettelo</a></li>
+<li><a href="/booki/ch012_kuvien-lisaaminen">Kuvien lisääminen</a></li>
+<li Class="booki-section">Muiden kanssa työskentely</li><li><a href="/booki/ch014_ryhman-luominen">Ryhmän luominen</a></li>
+<li><a href="/booki/ch015_ryhmaan-liittyminen">Ryhmään liittyminen</a></li>
+<li><a href="/booki/ch016_kirjan-lisaaminen-ryhmaan">Kirjan lisääminen ryhmään</a></li>
+<li><a href="/booki/ch017_viestinta">Viestintä</a></li>
+<li Class="booki-section">Kehittynyt käyttö</li><li><a href="/booki/ch019_kirjan-tuominen">Kirjan tuominen</a></li>
+<li><a href="/booki/ch020_vieminen">Vieminen</a></li>
+<li Class="booki-section">Asentaminen</li><li><a href="/booki/ch022_linuxiin-asentaminen">Linuxiin asentaminen</a></li>
+<li Class="booki-section">Ulkoasun muokkaaminen</li><li><a href="/booki/ch024_kirjojen-css-muotoilu">Kirjojen CSS-muotoilu</a></li>
+<li><a href="/booki/ch025_lisaa-css-suunnittelua">Lisää CSS-suunnittelua</a></li>
+<li Class="booki-section">Teknologia</li><li><a href="/booki/ch027_osallistuminen">Osallistuminen</a></li>
+<li><a href="/booki/ch028_ydinosat">Ydinosat</a></li>
+<li><a href="/booki/ch029_teknologiat">Teknologiat</a></li>
+<li><a href="/booki/ch030_ominaisuudet">Ominaisuudet</a></li>
+<li><a href="/booki/ch031_virheraportointi">Virheraportointi</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/booki/ch033_oppaasta">Oppaasta</a></li>
+<li><a href="/booki/ch034_lisenssi">Lisenssi</a></li>
+</ul>

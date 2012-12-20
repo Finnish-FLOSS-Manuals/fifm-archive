@@ -1,0 +1,83 @@
+<div id="main-content">
+<h1>Somebody Should Set The Title For This Chapter!</h1><p><span><font size="4">Kasvokuvan parantaminen GIMP:illä</font></span>
+  <br><br> Kaikkihan meistä tietävät että esimerkiksi muotilehtien sivuilla olevat valokuvat ovat vahvasti retusoituja. Aamu-unisesta, meikkaamattomasta tai auringon polttamasta ihmisestä saadaan tavallisesti alle 30 minuutissa edustuskelpoinen kaunotar.
+  <br><br><strong>Kloonaustyökalu</strong>
+</p>
+<p>Kloonaustyökalu on erittäin tärkeä perustyökalu, jossa luomet, arvet ja pisamat saadaan piiloon ja ihoa saadaan muutenkin sileämmäksi. Sillä pystytään myös eliminoimaan liian kiiltäviä kohtia ihosta kopioimalla kiiltävän kohdan päälle ihoa muualta. GIMP:in kloonaustyökalu on melko karkea ja jättää selkeät reunat. Näitä voidaan lieventää valitsemalla vähitellen haihtuva sivellin tai valitsemalla esim. hirttonuoralla alue, jossa reunat näkyvät selkeästi ja valitsemalla ”Suotimet”=&gt;”Tee epäteräväksi”=&gt;”Gauss-sumennus”.
+</p>
+<p><img title="kasvo_html_m5d03c4ad" alt="kasvo_html_m5d03c4ad" src="_booki/gimp/static/GIMP-retusointi-kasvo_html_m5d03c4ad-fi.jpg" name="grafiikka1" height="334" width="258"><br clear="left"> Kuva 1. Tästä voidaan valita myös vähitellen häipyviä siveltimiä.
+</p>
+<p><strong>Ihon värisävyjen korjaaminen ja punasilmäisyyden poisto</strong>
+</p>
+<p>Ihon värisävyjen korjaamiseen on olemassa kolme tehokasta työkalua: ”Tasot”=&gt;”Värit”=&gt;”Väri-sävykylläisyys” on eräs niistä. Tämä työkalu on erittäin tehokas vähentämään ihon punaisia värisävyjä, jotka yleensä häiritsevät kuvaa. <span></span>
+</p>
+<p><span>Huomio!</span> Aloittelijoiden yleensä suosima "Tasot"="Värit"=&gt;"Kirkkaus- ja kontrastisäätö" ei yleensä ole paras työkalu tämänkaltaiseen työskentelyyn. Toki sen vähäinen säätely voi parantaa kuvaa, mutta se ei yleensä yksin riitä. 
+</p>
+<p><img src="_booki/gimp/static/GIMP-retusointi-kasvo_html_m75e82342-fi.jpg" name="grafiikka2"><br clear="left"> Kuva 2. Tästä työkalusta saadaan vähennettyä ihon punaisuutta.
+</p>
+<p>Myös paljon kysytty <strong>punasilmäisyyden eliminointi</strong> onnistuu tällä samalla työkalulla (GIMP:issä ei oletuksena ole punasilmäisyyden poistotyökalua, kuten monissa muissa kuvankäsittelyohjelmissa): valitse ensin pupilli esimerkiksi ympyrävalinnalla ja sen jälkeen vähennä siitä punaisia värisävyjä. Jos koko silmä hohtaa punaisena (ei pelkkä pupilli) on se erittäin vaikeaa saada normaalin näköiseksi. Paras vaihtoehto on piirtää silmä pensselillä ja kokeilla siihen Gauss-sumennusta.
+</p>
+<p>Punaista värisävyä voidaan myös lisätä, esimerkiksi rajaamalla huulet ja lisäämällä niihin punaisia värisävyjä saadaan huomio kiinnittymään niihin.
+</p>
+<p>Myös työkaluilla ”Taso”=&gt;”Värit”=&gt;”Värintoistokäyrät” voidaan korjata ihon värisävyjä.
+</p>
+<p><img src="_booki/gimp/static/GIMP-retusointi-kasvo_html_m70924553-fi.jpg" name="grafiikka3"><br clear="left"> Kuva 3. Värintoistokäyrät. Huomaa ”Kanava”-valikko käyttöliittymän yläosassa
+</p>
+<p>Väritasot-työkalulla (”Taso”=&gt;”Värit”=&gt;”Väritasot”) saadaan kuvan väreihin syvyyttä. Toisin kuin värintoistokäyrä-työkalu, joissa ei ole olemassa muita vaihtoehtoja kuin kokeilla, mikä näyttää parhaalta vaihtoehdolta, väritasoissa on olemassa nyrkkisääntö, jota kannattaa kokeilla aina ensimmäiseksi.
+</p>
+<p><img src="_booki/gimp/static/GIMP-retusointi-kasvo_html_m5f22030f-fi.jpg" name="grafiikka4"><br clear="left"> Kuva 4. Väritasot. Miten kannattaa säätää värejä?
+</p>
+<p>Ensimmäiseksi kannattaa säätää ”Ottotasot”-toimintoa siten, että vasemmalla olevaa mustaa kolmiota siirtää siihen kohtaan diagrammia, josta värisävyt alkavat nousemaan. Samoin oikealla olevaa valkoista kolmiota samaan kohtaan. Otetaan siis ”tyhjät pois” ja näin saadaan kuvan väriavaruus skaalautumaan rikkaammaksi. ”Haaleilta” näyttäviin kuviin tällä saadaan yllättävän paljon eroa.
+</p>
+<p><img src="_booki/gimp/static/GIMP-retusointi-kasvo_html_51584e55-fi.jpg" name="grafiikka5"><br clear="left"> Kuva 5. Oikeat väritasojen säädöt
+</p>
+<p><img src="_booki/gimp/static/GIMP-retusointi-kasvo_html_2879188d-fi.jpg" name="grafiikka6"><br clear="left"> Kuva 6. Tässä on alkuperäinen kuva...
+</p>
+<p><img src="_booki/gimp/static/GIMP-retusointi-kasvo_html_m55feaee4-fi.jpg" name="grafiikka7"><br clear="left"> Kuva 7. Ja tässä kuva väritasojen säädön jälkeen. Kuvassa on huomattavasti enemmän syvyyttä ja eri värisävyjä.
+</p>
+<p><strong>IWarp</strong>
+</p>
+<p>IWarp (”Suotimet”=&gt;”Vääristykset”=&gt;IWarp”), jolla pystytään pullistamaan ja supistamaan tiettyjä kuvan osia on GIMP:issä- ikävä sanoa- erittäin surkeaa tasoa. Tämä siitä syystä että esikatseluikkuna on tulitikkuaskin etiketin kokoinen eikä riitä siis alkuunkaan pikkutarkkaan muotoiluun. Kuitenkin periaatteessa tätä työkalua voidaan käyttää hiuksien tuuhentamiseen ja huulten paksuntamiseen, nenän, kaksoisleuan, kasvojen ja korvien kaventamiseen ja muuhun sellaisen.
+</p>
+<p><strong>Pikselitason muokkaus</strong>
+</p>
+<p>Tämä tehdään yleensä lopuksi pensselillä yhden pikselin siveltimellä, kun isommista linjoista huolehtivilla työkaluilla on tehty ensin päälinjaukset. Esimerkiksi silmäripset saavat uutta eloa.
+</p>
+</div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/gimp/index">Johdanto</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/gimp/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Asetukset</li><li><a href="/gimp/ch005_asetukset">Asetukset</a></li>
+<li Class="booki-section">Aloittelijan oppaat</li><li><a href="/gimp/ch007_johdatus">Johdatus</a></li>
+<li><a href="/gimp/ch008_kokeiluja">Kokeiluja</a></li>
+<li><a href="/gimp/ch009_uuden-kuvan-tekeminen">Uuden kuvan tekeminen</a></li>
+<li><a href="/gimp/ch010_koon-muuttaminen">Koon muuttaminen</a></li>
+<li><a href="/gimp/ch011_valinnat">Valinnat</a></li>
+<li><a href="/gimp/ch012_toimintamoodit">Toimintamoodit</a></li>
+<li><a href="/gimp/ch013_kuvien-manipulointi">Kuvien manipulointi</a></li>
+<li><a href="/gimp/ch014_reunat">Reunat</a></li>
+<li><a href="/gimp/ch015_kuvateksti">Kuvateksti</a></li>
+<li><a href="/gimp/ch016_kloonaus">Kloonaus</a></li>
+<li Class="booki-section">Kehittyneen käyttäjän oppaat</li><li><a href="/gimp/ch018_tasot">Tasot</a></li>
+<li><a href="/gimp/ch019_valokuvien-parantaminen">Valokuvien parantaminen</a></li>
+<li><a href="/gimp/ch020_taidetta">Taidetta</a></li>
+<li><a href="/gimp/ch021_sumua">Sumua</a></li>
+<li><a href="/gimp/ch022_etaisyydet">Etäisyydet</a></li>
+<li><a href="/gimp/ch023_iwarp">Iwarp</a></li>
+<li><a href="/gimp/ch024_kanavat">Kanavat</a></li>
+<li><a href="/gimp/ch025_script-fu">Script-fu</a></li>
+<li><a href="/gimp/ch026_lapinakyvyys">Läpinäkyvyys</a></li>
+<li><a href="/gimp/ch027_animaatio">Animaatio</a></li>
+<li><a href="/gimp/ch028_bannerit">Bannerit</a></li>
+<li Class="booki-section">Edenneen käyttäjän oppaat</li><li><a href="/gimp/ch030_kuvaformaatit">Kuvaformaatit</a></li>
+<li><a href="/gimp/ch031_teoriaa">Teoriaa</a></li>
+<li><a href="/gimp/ch032_pensselit">Pensselit</a></li>
+<li><a href="/gimp/ch033_haaveilua">Haaveilua</a></li>
+<li><a href="/gimp/ch034_avaruusmaisema">Avaruusmaisema</a></li>
+<li><a href="/gimp/ch035_kolmiulotteisuus">Kolmiulotteisuus</a></li>
+<li><a href="/gimp/ch036_konffausta">Konffausta</a></li>
+<li><a href="/gimp/ch037_selektiivinen">Selektiivinen</a></li>
+<li><a href="/gimp/ch038_retusointi">Retusointi</a></li>
+<li><a href="/gimp/ch039_sumentaminen">Sumentaminen</a></li>
+<li><a href="/gimp/ch040_syvays">Syväys</a></li>
+<li><a href="/gimp/ch041_alfakanava">Alfakanava</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/gimp/ch043_tekijat">Tekijät</a></li>
+</ul>

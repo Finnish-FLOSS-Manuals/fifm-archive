@@ -1,0 +1,36 @@
+<div id="main-content"><h1>Suosituksia SVG-kuville</h1>
+<div id="content">
+<p>SVG on lyhenne sanoista Scalable Vector Graphics, skaalattava vektorigrafiikka. Nimensä mukaisesti SVG-kuvat ovat vektorigraafisia kuvia, joiden kokoa voi muuttaa rajattomasti. </p>
+<h2>Kuinka Wikipedia/MediaWiki.WikimediaFoundation käsittelee SVG-kuvia</h2>
+<p>SVG ei ole tiedostomuoto, jonka lataaminen on sallittua oletusarvoisesti. Se voidaan lisätä helposti sallituksi tiedostomuodoksi ja kaikissa Wikimedian wikeissä näin on jo tehty. Koska verkkoselaimet eivät näytä SVG-kuvia luotettavasti, Wikipedia/MediaWiki.WikimediaFoundation luo PNG-esikatselukuvat SVG-kuvista, nämä näytetään käyttäjälle aina kun SVG:hen viitataan (paitsi jos käyttäjä lataa alkuperäisen lähdetiedoston).</p>
+<p>Wikimedia-wikit käyttävät RSVG-ohjelmaa (tunnetaan myös nimellä librsvg) renderöidäkseen PNG-kuvat. Kun katsot SVG-kuvaa millä tahansa Wikipedia/MediaWiki.WikimediaFoundation -sivulla (myös sen omalla kuvasivulla), näet oikeasti PNG-esikatselukuvan.</p>
+<p align="center"> <img title="mediawikiSVGhandling_en" src="_booki/wikimedia-commons/static/WikimediaCommons-SVG-mediawikiSVGhandling_en-fi.png" alt="mediawikiSVGhandling_en" width="576" height="372"></p>
+<p>Tämän seurauksena alkuperäisen SVG-tiedoston tallentaminen artikkelin kuvasta tai jopa kuvasivun kuvasta ei toimi. </p>
+<p><img title="savefileas_en" src="_booki/wikimedia-commons/static/WikimediaCommons-SVG-savefileas_en-fi.png" alt="savefileas_en" width="426" height="451"></p>
+<p>Kuten kuvakaappaus näyttää, tapa tallentaa alkuperäinen SVG-tiedosto on napsauttaa oikealla hiiren napilla linkitetyn tiedostonimen päällä, joka näkyy esikatselukuvan alla, ja naksauttaa "Tallenna kohde nimellä..."</p>
+<h2>Kielipuolueettomuus</h2>
+<p>Koska Wikimedia Commons on monikielinen resurssi, erilaiset kaaviot, graafit ja kartat on paras tehdä kielineutraaleiksi, mikäli mahdollista. Tämä merkitsee sitä, että niitä voidaan käyttää wikissä millä tahansa kielellä ilman muutoksia.</p>
+<p>Esimerkiksi, sen sijaan että alueet merkittäisiin suoraan kuvaan, harkitse niiden värikoodausta tai numerointia, ja viittaa sen jälkeen kuvan alapuolella väriin tai numeroon sivuston kielellä. Jos on monia erilaisia elementtejä, kuvasta voi tulla hyvin suuri -- mutta toisaalta useiden erilaisten elementtien tapauksessa kuva ei luultavasti ole muutenkaan selkeä esikatselukuvana.</p>
+<p>Kaavioista on järkevää ladata numeroitu versio ja versio suosimallasi kielellä. Näin käyttäjät, jotka puhuvat muita kieliä, mutta joilla ei ole teknistä tai lingvististä tietoa tiedoston kääntämiseen voivat edelleenkin parantaa projektiaan lisäämällä numeroidun version.</p>
+<p>Erittäin hyödyllinen SVG-käännöstyökalu, jota kutsutaan nimellä "SVG Translate", on käytettävissä Wikimedian työkalupalvelimella osoitteessa <a href="http://toolserver.org/~nikola/svgtranslate.php">http://toolserver.org/~nikola/svgtranslate.php</a> .</p>
+<h2>Erilaisia vinkkejä</h2>
+<ul><li>Älä upota bittikarttakuvia SVG-tiedostoihin. Jos muunnat bittikarttakuvaa, varmista että se on muunnettu kunnolla eikä pelkästään upotettu.</li>
+<li>Kirjasintyypit ovat yksi yleisimmistä syistä epäonnistuneeseen SVG-kuvien renderöintiin  Wikipedia/MediaWiki.WikimediaFoundation -wikeissä. Tarkasta käytettävissä olevien kirjasintyyppien lista sivulta <a href="http://meta.wikimedia.org/wiki/SVG_fonts">http://meta.wikimedia.org/wiki/SVG_fonts</a>. On huomattavaa, että CJK-kirjasimet eivät näy, ne täytyy muuntaa poluiksi ennen kuin niitä sisältäviä tiedostoja ladataan Wikimedia Commonsiin.</li>
+<li>Käytä mieluiten toisteista koodausta. Tämä merkitsee, että ei kannata käyttää väriä ainoana tapana erottaa asiat toisistaan. Käytä myös kuvioita, kaiverruksia tai erilaisia muotoja.</li>
+<li>Käytä värejä, jotka eroavat sekä värisävyltään että kirkkaudeltaan.</li>
+</ul><h2>Lisää luettavaa</h2>
+<ul><li> <a href="http://commons.wikimedia.org/wiki/Help:SVG">http://commons.wikimedia.org/wiki/Help:SVG</a></li>
+<li><a href="http://commons.wikimedia.org/wiki/Help:Inkscape">http://commons.wikimedia.org/wiki/Help:Inkscape</a></li>
+<li><a href="http://commons.wikimedia.org/wiki/Help:Text_and_Inkscape">http://commons.wikimedia.org/wiki/Help:Text_and_Inkscape</a></li>
+<li><a href="http://jfly.iam.u-tokyo.ac.jp/color/index.html">How to make figures and presentations that are friendly to color blind people</a></li>
+<li><a href="http://colorfilter.wickline.org/">Check if an existing image is colour-blind-friendly</a></li>
+<li><a href="http://colorlab.wickline.org/colorblind/colorlab/">Colorblind colorlab</a> - valitse väripaletti ja katso sitä sen jälkeen suodattimen läpi, jolloin näet sen aivan kuin värisokea henkilö näkisi sen.</li>
+</ul></div></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/wikimedia-commons/index">Johdanto</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/wikimedia-commons/ch003_mediawiki-ohjelmasta">MediaWiki-ohjelmasta</a></li>
+<li><a href="/wikimedia-commons/ch004_kirjaudu-sisaanluo-tunnus">Kirjaudu sisään/luo tunnus</a></li>
+<li><a href="/wikimedia-commons/ch005_tiedoston-lataaminen">Tiedoston lataaminen</a></li>
+<li><a href="/wikimedia-commons/ch006_lisenssin-valitseminen">Lisenssin valitseminen</a></li>
+<li><a href="/wikimedia-commons/ch007_kuvan-lisaaminen-sivulle">Kuvan lisääminen sivulle</a></li>
+<li Class="booki-section">Tiedostomuodot</li><li><a href="/wikimedia-commons/ch009_svg">SVG</a></li>
+<li Class="booki-section">Tekijät</li><li><a href="/wikimedia-commons/ch011_tekijat">Tekijät</a></li>
+</ul>

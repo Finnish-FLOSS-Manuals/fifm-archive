@@ -1,0 +1,25 @@
+<div id="main-content">
+<h1>Advanced User Interface Programming
+</h1>
+</div><ul Class="menu-goes-here"><li Class="booki-section">INTRODUCTION</li><li><a href="/riassence-framework/index">INTRODUCTION</a></li>
+<li Class="booki-section">INSTALLATION</li><li><a href="/riassence-framework/ch003_installation">INSTALLATION</a></li>
+<li><a href="/riassence-framework/ch004_configuration">CONFIGURATION</a></li>
+<li><a href="/riassence-framework/ch005_troubleshooting">TROUBLESHOOTING</a></li>
+<li Class="booki-section">TUTORIAL</li><li><a href="/riassence-framework/ch007_tutorial">TUTORIAL</a></li>
+<li Class="booki-section">PROGRAMMING LANGUAGES</li><li><a href="/riassence-framework/ch009_ruby-basics">RUBY BASICS</a></li>
+<li><a href="/riassence-framework/ch010_javascript-basics">JAVASCRIPT BASICS</a></li>
+<li><a href="/riassence-framework/ch011_yaml-basics">YAML BASICS</a></li>
+<li Class="booki-section">TUTORIALS</li><li><a href="/riassence-framework/ch013_visitor-counter">VISITOR COUNTER</a></li>
+<li Class="booki-section">PLUGINS</li><li><a href="/riassence-framework/ch015_server-plugin-model">SERVER PLUGIN MODEL</a></li>
+<li><a href="/riassence-framework/ch016_programming-plugins">PROGRAMMING PLUGINS</a></li>
+<li Class="booki-section">CLIENT</li><li><a href="/riassence-framework/ch018_client-framework">CLIENT FRAMEWORK</a></li>
+<li><a href="/riassence-framework/ch019_client-themes">CLIENT THEMES</a></li>
+<li Class="booki-section">DATA MODELS</li><li><a href="/riassence-framework/ch021_data-models">DATA MODELS</a></li>
+<li Class="booki-section">SERVLETS</li><li><a href="/riassence-framework/ch023_programming-servlets">PROGRAMMING SERVLETS</a></li>
+<li Class="booki-section">SOAP</li><li><a href="/riassence-framework/ch025_programming-soap">PROGRAMMING SOAP</a></li>
+<li Class="booki-section">USER INTERFACE</li><li><a href="/riassence-framework/ch027_using-gui">USING GUI</a></li>
+<li><a href="/riassence-framework/ch028_user-interface-model">USER INTERFACE MODEL</a></li>
+<li><a href="/riassence-framework/ch029_user-interface-programming">USER INTERFACE PROGRAMMING</a></li>
+<li Class="booki-section">INTEGRATION</li><li><a href="/riassence-framework/ch031_integration-examples">INTEGRATION EXAMPLES</a></li>
+<li Class="booki-section">CREDITS</li><li><a href="/riassence-framework/ch033_credits">CREDITS</a></li>
+</ul>

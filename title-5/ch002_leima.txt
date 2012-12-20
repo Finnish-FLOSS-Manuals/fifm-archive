@@ -1,0 +1,12 @@
+<div id="main-content">
+<h1>Leima
+</h1>
+<p>Valitse työkaluista leima: 
+</p>
+<p><img title="ScreenHunter_15_Apr._17_19.59" alt="ScreenHunter_15_Apr._17_19.59" src="_booki/title-5/static/TuxPaint-ScreenHunter_15_Apr-_17_19-59-fi.gif" width="48" height="51"><br></p>
+</div><ul Class="menu-goes-here"><li><a href="/title-5/index">Introduction</a></li>
+<li><a href="/title-5/ch001_ikkuna">Ikkuna</a></li>
+<li><a href="/title-5/ch002_leima">Leima</a></li>
+<li><a href="/title-5/ch003_maalaa">Maalaa</a></li>
+<li><a href="/title-5/ch004_credits">Credits</a></li>
+</ul>

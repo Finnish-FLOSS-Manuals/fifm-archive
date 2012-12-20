@@ -1,0 +1,47 @@
+<div id="main-content">
+<h1>Fritzing
+</h1>
+<p>Fritzing luotiin helpottamaan Arduino-projektien dokumentaatiota.
+  <br></p>
+<p><img title="fritzing" alt="fritzing" src="_booki/arduino/static/Arduino-resized_600x340_fritzing-fi.png" width="600" height="340"> 
+</p>
+<p>Alueet:
+</p>
+<p> - Parts
+</p>
+<p>- Project Area
+</p>
+<p>- Inspector
+</p>
+<p>- Navigator
+</p>
+<p>1) Lediesimerkki (BLINK)
+  <br></p>
+<p>2) Pidä hiiri pohjassa - vedä breadboardilla - voit vetää johtoa ja näyttää toisiinsa kytketyt kolot.
+</p>
+<p><img title="withresistor" alt="withresistor" src="_booki/arduino/static/Arduino-resized_600x375_withresistor-fi.png" width="600" height="375"> 
+</p>
+<p>ANALOG - SELITÄ ANALOGINEN
+  <br></p>
+<p>DIGITAL - SELITÄ DIGITAALINEN
+</p>
+<p>Käytä koodilla Fading:
+</p>
+<p><img title="2leds" alt="2leds" src="_booki/arduino/static/Arduino-resized_600x375_2leds-fi.png" width="600" height="375"><br></p>
+<p>
+  <br></p>
+</div><ul Class="menu-goes-here"><li Class="booki-section">JOHDANTO</li><li><a href="/arduino/index">JOHDANTO</a></li>
+<li><a href="/arduino/ch002_avoin-lahdekoodi">AVOIN LÄHDEKOODI</a></li>
+<li Class="booki-section">OHJELMOINTIYMPÄRISTÖ</li><li><a href="/arduino/ch004_asennus-ubuntuun">ASENNUS UBUNTUUN</a></li>
+<li><a href="/arduino/ch005_ohjelmointiymparisto">OHJELMOINTIYMPÄRISTÖ</a></li>
+<li Class="booki-section">FRITZING</li><li><a href="/arduino/ch007_fritzing">FRITZING</a></li>
+<li Class="booki-section">ARDUINO</li><li><a href="/arduino/ch009_ohjelmointiesimerkki">OHJELMOINTIESIMERKKI</a></li>
+<li Class="booki-section">OHJELMOINTIKIELI</li><li><a href="/arduino/ch011_ohjelmointikieli">OHJELMOINTIKIELI</a></li>
+<li Class="booki-section">ELEKTRONIIKKA</li><li><a href="/arduino/ch013_elektroniikka">ELEKTRONIIKKA</a></li>
+<li><a href="/arduino/ch014_pietsosummeri">PIETSOSUMMERI</a></li>
+<li><a href="/arduino/ch015_servomoottori">SERVOMOOTTORI</a></li>
+<li><a href="/arduino/ch016_sensori">SENSORI</a></li>
+<li Class="booki-section">ROBOTTI</li><li><a href="/arduino/ch018_robotti">ROBOTTI</a></li>
+<li Class="booki-section">ROBOTIN OHJELMOINTI</li><li><a href="/arduino/ch020_robotin-ohjelmointi">ROBOTIN OHJELMOINTI</a></li>
+<li Class="booki-section">TEKIJÄT</li><li><a href="/arduino/ch022_tekijat">TEKIJÄT</a></li>
+</ul>

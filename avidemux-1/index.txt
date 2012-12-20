@@ -1,0 +1,17 @@
+<div id="main-content"><h1>Avidemux</h1>
+<div id="content">
+<p><strong>Avidemux</strong> on ilmainen videoeditori. Sillä voi myös muokata videon muodosta toiseen. Sitä ei ole varsinaisesti suunniteltu aloittelijoille, mutta sitä ei ole liian vaikeaa oppia pienellä vaivalla. </p>
+<p>Avidemux on saatavilla Linuxiin, BSD:hen, Windowsiin ja Mac OS X:ään. Se on suunniteltu yksinkertaista leikkausta, suodatusta ja enkoodausta varten. Se tukee monia erilaisia tiedostotyyppejä, kuten AVI, DVD-yhteensopiva MPEG ja MP4.</p>
+<p><img title="avidemux2_1_en" src="_booki/avidemux-1/static/Avidemux-InstallingUbuntu-avidemux2_1_en-fi.png" alt="avidemux2_1_en" width="600" height="457"></p>
+<p>Avidemux on yksi harvoista videon enkoodaamiseen käytettävistä ohjelmista, jossa on graafinen käyttöliittymä ja joka toimii eri alustoilla. Se on kehittynyt toiminnoiltaan, mutta se ei ole kaikkein käyttäjäystävällisin ohjelma. Joitain ennakkosäätöjä on kuitenkin olemassa, mikä tekee mahdolliseksi tallentaa muokattuja asetuksia, joiden avulla aloittelijoiden on helpompi käyttää Avidemuxia. </p>
+</div></div><ul Class="menu-goes-here"><li Class="booki-section">JOHDANTO</li><li><a href="/avidemux-1/index">JOHDANTO</a></li>
+<li Class="booki-section">PERUSTEET</li><li><a href="/avidemux-1/ch003_avaa-tiedosto">AVAA TIEDOSTO</a></li>
+<li><a href="/avidemux-1/ch004_leikkaa-tiedosto">LEIKKAA TIEDOSTO</a></li>
+<li><a href="/avidemux-1/ch005_muuta-videon-kokoa">MUUTA VIDEON KOKOA</a></li>
+<li><a href="/avidemux-1/ch006_poista-videon-limitys">POISTA VIDEON LIMITYS</a></li>
+<li Class="booki-section">VIDEOTIEDOSTOJEN LUOMINEN</li><li><a href="/avidemux-1/ch008_luo-mp4-tiedostoja">LUO MP4-TIEDOSTOJA</a></li>
+<li><a href="/avidemux-1/ch009_luo-dv-tiedostoja">LUO DV-TIEDOSTOJA</a></li>
+<li><a href="/avidemux-1/ch010_lisaa-tekstitys-videoon">LISÄÄ TEKSTITYS VIDEOON</a></li>
+<li Class="booki-section">DVD-LEVYT</li><li><a href="/avidemux-1/ch012_mpg2-tiedosto-dvdsta">MPG2-TIEDOSTO DVD:STÄ</a></li>
+<li Class="booki-section">TEKIJÄT</li><li><a href="/avidemux-1/ch014_tekijat">TEKIJÄT</a></li>
+</ul>

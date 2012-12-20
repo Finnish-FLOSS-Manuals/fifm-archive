@@ -1,0 +1,104 @@
+<div id="main-content">
+<h1><strong>GIMP:in alkeistoiminnot</strong>
+</h1>
+<p>
+</p>
+<p><strong>Kaksi tärkeintä termiä</strong>
+</p>
+<p>GIMP:in kaksi tärkeintä termiä ovat <span>työkaluikkuna</span> ja <span>kuvaikkuna</span>. Tässä ovat kaikki ikkunat mitä tarvitset. Muut mahdollisesti avautuvat ikkunat voit sulkea. Työkaluikkuna on kuvan 1 näköinen ikkuna, jossa sijaitsee graafiset objektit eri kuvanmuokkaustyökaluille. Ikkuna sisältää myös siveltimen koon ja muodon, taustavärin, taustakuvan sekä edustavärin määritteet. Lisäksi työkaluikkunan valikkoriviltä saadaan kaikenlaisia toimintoja. Näitä asioita käsitellään myöhemmin.
+</p>
+<p><span>Kuvaikkuna</span> on taas yksinkertaisesti ikkuna, johon valitsemamme kuva avautuu.
+</p>
+<p>GIMP käynnistyy valitsemalla valikosta GIMP-ohjelman ja painamalla sitä. ”Vinkki”-ikkunan kohdalla voit napsauttaa ”Close”-painiketta. GIMP:in työkaluikkuna on seuraavanlainen:
+</p>
+<p><img title="gimp1_html_m48204b2d" alt="gimp1_html_m48204b2d" src="_booki/gimp/static/GIMP-gimp1_html_m48204b2d-fi.jpg" height="445" width="328"> 
+</p>
+<p>Kuva 1. GIMP:in työkaluikkuna
+</p>
+<p><span>Huomio! </span>Yleisin hämmästyksen aihe GIMP:in avaamisessa ensimmäistä kertaa on se, että miksi työkalujen asetukset eivät näy työkaluikkunan alaosassa kuten itselläni, vaan alaosa on tyhjä. Vastaus tähän mysteeriin löytyy <a href="http://www.joutsi.com/gimp/asetus.html">täältä</a>. Jos olet aloittelija, lienee viisainta säätää työkalut linkin ohjeiden mukaisesti, silloin opiskelu sujuu nopeammin eteenpäin.
+</p>
+<p><span>Huomio 2!</span> Ensimmäisellä kerralla sinulla aukeaa todennäköisesti myös muita ikkunoita kuin kuvan 1 kaltainen ikkuna. Kuitenkin GIMP:iä opettaessani olen huomannut, että aloittelijalle on fiksua sulkea kaikki muut ikkunat paitsi tämä työkaluikkuna. Siinä on kaikki mitä tarvitset, eikä mitään ylimääräistä tai asioita monimutkaistavaa.  
+</p>
+<p><span>Kuvan lataaminen kuvankäsittelyohjelmaan</span>
+</p>
+<p>Kuvankäsittelyn harjoittelu alkaa yleensä siitä, että kuva ladataan kuvankäsittelyohjelmaan. Miten kuva saadaan ladattua GIMP:iin? On olemassa oikeita tapoja ja vääriä tapoja.
+</p>
+<p>Tapa 1 (helpoin) 
+</p>
+<p>Yleensä aloittaessamme kuvankäsittelyn harjoittelua otamme treenauskuvamme Internetistä. Tämä onkin hyvä tapa, koska Internet on loputon kuvavarasto, kunhan vain muistamme että varmuuden vuoksi muokkaamiamme kuvia ei ole hyvä julkaista mahdollisten tekijänoikeuskiistojen vuoksi. Kuvan kopiointi onnistuu, kun menemme mihin tahansa nettisivulle jossa vain on kuvia ja painamme hiiren kakkospainiketta valitsemamme kuvan päällä, valitsemme avautuvasta valikosta "kopioi". Sen jälkeen kuvan 1 käyttöliittymässä valitsemme "Tiedosto"=&gt;"Kuvan syöttö"=&gt;"Liitä uutena". Kuva aukeaa automaattisesti uuteen ikkunaan, jota nimitämme kuvaikkunaksi. Työskentele kuvan kanssa ja tallenna se tämän jälkeen kovalevylle ("Tiedosto"=&gt;"Tallenna nimellä..."). Haittapuolena tässä helpossa tavassa on se, että aloitteleva kuvankäsittelijä ei kovinkaan usein muista tallentaa työtään monen tunnin uurastuksen jälkeen. Tämän jälkeen sähkökatkos tai tietokoneen sekoaminen voi harmittaa. GIMP:issä <span>ei ole</span> automaattista tallennustoimintoa, vaan kaikki tallentamiset täytyy tehdä itse! 
+</p>
+<p><span>tapa 2 (vaikeampi, mutta varmempi)  </span>
+</p>
+<p> Ota joku kuva esimerkiksi Internetistä (mene selaimella halutulle sivulle ja painamalla hiiren kakkospainiketta halutun kuvan päällä. Valitse vaihtoehto "Tallenna nimellä" ja toimi ohjeiden mukaan) ja lataa se tietokoneellesi johonkin kansioon. Tässä oppaassa oletetaan, että osaat tehdä tämän ilman tarkempaa erillistä neuvoa ja tiedät myös, miten etsit tämän kansion ja tiedoston tietokoneeltasi. 
+</p>
+<p> <img title="gimp1_html_358d20f" alt="gimp1_html_358d20f" src="_booki/gimp/static/GIMP-resized_600x436_gimp1_html_358d20f-fi.jpg" name="Grafiikka2" align="bottom" border="0" height="436" width="600"></p>
+<p>Kuva 2. GIMP-ohjelman "avaa kuva"-käyttöliittymä
+</p>
+<p>Ylläoleva valikko eroaa jonkun verran Windowsin perinteisestä, mutta pienen totuttelun jälkeen kaikki on selvää. Ideana on se, että vasemmalla puolella ovat massamuistit (C:-asema, D:-asema jne.), keskellä olevassa ikkunassa on sen sisältämät kansiot. Kansioita voi klikata ja mennä siten eteenpäin, ja myös tiedostot (erityisesti kuvatiedostot) näkyvät samassa ikkunassa missä kansiotkin. Napsauttamalla taas keskimmäisessä ikkunassa kansion kuvaa, jonka nimenä on kaksi pistettä, "..", pääset kansiorakenteessa "taaksepäin". Napsauttamalla kuvatiedostoa hiiren ykköspainikkeella kerran saat sen oikeanpuoliseen esikatseluikkunaan (jossa lukee tällä hetkellä: "Ei Valintaa") ja kaksoisnapsauttamalla saat sen avautumaan. Toinen vaihtoehto avata kuva on napsauttaa sitä kerran jolloin se muuttuu siniseksi. Tällöin sanomme että valinta on <span>aktiivinen</span>. Tämän jälkeen painamme oikeasta alakulmasta nappia "Avaa". Valitse kuva ja avaa se GIMP:illä:
+</p>
+<p><img title="gimp1_html_m19054fa1" alt="gimp1_html_m19054fa1" src="_booki/gimp/static/GIMP-gimp1_html_m19054fa1-fi.jpg" height="486" width="569"> 
+</p>
+<p>Kuva 3. Penkkarikuva GIMP:in työpöydällä
+</p>
+<p>Tapa 3 (väärä tapa!)
+</p>
+<p>Mene Internetiin ja ota taas hiiren kakkospainikkeella jälleen valitsemasi kuvan päällä "Kopioi". Tämän jälkeen ota kuvan 1 käyttöliittymässä "Tiedosto"=&gt;"Uusi" ja paina ilmestyvästä käyttöliittymästä "OK". Tämän jälkeen liitä kuvasi Windowsin leikepöydällä (Ctrl+V) ikkunaan. Tämä tapa on väärä sen takia että se luo kuvaan kaksi eri tasoa. Tasoihin palaamme myöhemmin, mutta kun ei vielä ymmärrä mitä ne tarkoittavat, niin ne vain sotkevat ja sekoittavat työskentelyä. Toki jos on taitava kuvankäsittelijä niin pystyy yhdistämään nämä kaksi tasoa toisiinsa ennen työskentelynsä aloittamista, mutta mitään, minkä pystyy tekemään helpommin ei kannata tehdä vaikeammin.   
+</p>
+<p><strong>Tallentaminen eri formaateissa</strong>
+</p>
+<p>Oletetaan nyt, että kuvamme on vaikka .jpg-kuva. Kaikkein yleisimpiä rutiinitehtäviä mitä kuvankäsittelyssä täytyy tehdä on kuvan formaatin vaihto. Formaattia sanotaan myös tiedostopäätteeksi tai tiedostotunnisteeksi. Jokainen kuva tietokoneessa on talletettu tietyllä formaatilla, joka on algoritminen tapa pakata kuva. Formaatti ilmaistaan tiedoston päätteenä pisteen jälkeen, ja yleisimpiä kuvaformaatteja ovat .jpg, .gif, .bmp ja .png. Muitakin formaatteja löytyy, mutta niitä ei liene syytä käydä tässä läpi. 
+</p>
+<p>Mitä formaattien vaihdosta sitten on hyötyä? Esimerkiksi tietyt julkaisuohjelmat hyväksyvät vain tiettyjä formaatteja. Tällöin kuvan formaatti täytyy vaihtaa toiseksi, koska muuten sitä ei voida käyttää. Tärkeää on myös muistaa, että esimerkiksi .bmp-formaatti ei kelpaa WWW-julkaisuun. Jos haluat julkaista tietyn kuvan WWW-sivuillasi, on sinun muutettava se vaikka .png tai .jpg-muotoon. Toisia syitä formaatin vaihtoon voi olla esimerkiksi vähemmän muistia käyttävän formaatin valitseminen levytilan säästämiseksi ja kyseistä kuvaa käyttävän ohjelman nopeuttamiseksi.
+</p>
+<p>GIMP:issä saat tallennettua kuvasi eri formaatissa yksinkertaisesti antamalla sille tallennusvaiheessa ("Tiedosto"=&gt;"Tallenna nimellä") eri formaatti. Esimerkiksi jos sinulla on kuva nimeltä <span>puu.jpg</span>, tallentalla se nimellä <span>puu.png</span> se tallentuu jpg-formaatin sijasta png-formaatissa. 
+</p>
+<p><strong>Huomio! </strong>Tallentaessa kuvaa sinun täytyy <font color="#800000">ehdottomasti</font> määritellä sille formaatti. Jos esimerkiksi laitat kuvan nimeksi "kuva1", "metsa" jne, niin GIMP ei pysty tallentamaan sitä (helppokäyttöisyystoiminto joka oletuksena määrää tietyn kuvaformaatin olisi tässä kyllä hyvä, mutta nähtävästi GIMP-käyttäjältä odotetaan kokemusta tietokoneista sen verran että tämä ei ole tarpeen). Sen sijaan kuvan nimeksi täytyy laittaa esimerkiksi "kuva1.jpg", "metsa.png" jne... Vältä ä, å ja ö-kirjaimia ja erikoismerkkejä (!"#¤...) sekä <span>etenkin välilyöntiä</span> kuvan nimeämisessä.
+</p>
+<p><img title="gimp1_html_67eebcfd" alt="gimp1_html_67eebcfd" src="_booki/gimp/static/GIMP-gimp1_html_67eebcfd-fi.jpg" height="482" width="411"> 
+</p>
+<p>Kuva 4. Tiedoston tallentaminen eri formaatissa, tässä tapauksessa .png-formaatissa.
+</p>
+<p>Napsauttamalla kuvassa 4 kohtaa <span>Selaa muita kansioita</span> saat talletettua kuvasi myös muualle kuin GIMP:in oletuskansioon.
+</p>
+<p> 
+</p>
+<p>
+</p>
+</div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/gimp/index">Johdanto</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/gimp/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Asetukset</li><li><a href="/gimp/ch005_asetukset">Asetukset</a></li>
+<li Class="booki-section">Aloittelijan oppaat</li><li><a href="/gimp/ch007_johdatus">Johdatus</a></li>
+<li><a href="/gimp/ch008_kokeiluja">Kokeiluja</a></li>
+<li><a href="/gimp/ch009_uuden-kuvan-tekeminen">Uuden kuvan tekeminen</a></li>
+<li><a href="/gimp/ch010_koon-muuttaminen">Koon muuttaminen</a></li>
+<li><a href="/gimp/ch011_valinnat">Valinnat</a></li>
+<li><a href="/gimp/ch012_toimintamoodit">Toimintamoodit</a></li>
+<li><a href="/gimp/ch013_kuvien-manipulointi">Kuvien manipulointi</a></li>
+<li><a href="/gimp/ch014_reunat">Reunat</a></li>
+<li><a href="/gimp/ch015_kuvateksti">Kuvateksti</a></li>
+<li><a href="/gimp/ch016_kloonaus">Kloonaus</a></li>
+<li Class="booki-section">Kehittyneen käyttäjän oppaat</li><li><a href="/gimp/ch018_tasot">Tasot</a></li>
+<li><a href="/gimp/ch019_valokuvien-parantaminen">Valokuvien parantaminen</a></li>
+<li><a href="/gimp/ch020_taidetta">Taidetta</a></li>
+<li><a href="/gimp/ch021_sumua">Sumua</a></li>
+<li><a href="/gimp/ch022_etaisyydet">Etäisyydet</a></li>
+<li><a href="/gimp/ch023_iwarp">Iwarp</a></li>
+<li><a href="/gimp/ch024_kanavat">Kanavat</a></li>
+<li><a href="/gimp/ch025_script-fu">Script-fu</a></li>
+<li><a href="/gimp/ch026_lapinakyvyys">Läpinäkyvyys</a></li>
+<li><a href="/gimp/ch027_animaatio">Animaatio</a></li>
+<li><a href="/gimp/ch028_bannerit">Bannerit</a></li>
+<li Class="booki-section">Edenneen käyttäjän oppaat</li><li><a href="/gimp/ch030_kuvaformaatit">Kuvaformaatit</a></li>
+<li><a href="/gimp/ch031_teoriaa">Teoriaa</a></li>
+<li><a href="/gimp/ch032_pensselit">Pensselit</a></li>
+<li><a href="/gimp/ch033_haaveilua">Haaveilua</a></li>
+<li><a href="/gimp/ch034_avaruusmaisema">Avaruusmaisema</a></li>
+<li><a href="/gimp/ch035_kolmiulotteisuus">Kolmiulotteisuus</a></li>
+<li><a href="/gimp/ch036_konffausta">Konffausta</a></li>
+<li><a href="/gimp/ch037_selektiivinen">Selektiivinen</a></li>
+<li><a href="/gimp/ch038_retusointi">Retusointi</a></li>
+<li><a href="/gimp/ch039_sumentaminen">Sumentaminen</a></li>
+<li><a href="/gimp/ch040_syvays">Syväys</a></li>
+<li><a href="/gimp/ch041_alfakanava">Alfakanava</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/gimp/ch043_tekijat">Tekijät</a></li>
+</ul>

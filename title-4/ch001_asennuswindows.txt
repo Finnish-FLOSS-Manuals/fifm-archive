@@ -1,0 +1,20 @@
+<div id="main-content">
+<h1>Asennus Windowsiin
+</h1>
+<p>Tässä asennusohjeessa neuvotaan asentamaan Pencilin versio 0.4.4b Windows XP -käyttöjärjestelmään.
+</p>
+<p> Mene ensin selaimellasi Pencilin kotisivuille <a href="http://www.pencil-animation.org/">http://www.pencil-animation.org/</a>
+</p>
+<p><img title="ScreenHunter_03_Apr._20_16.59" alt="ScreenHunter_03_Apr._20_16.59" src="_booki/title-4/static/Pencil-resized_600x457_ScreenHunter_03_Apr-_20_16-59-fi.gif" width="600" height="457"></p>
+<p>Napsauta sivun oikeassa laidassa olevaa Download-linkkiä.
+</p>
+<p><img title="ScreenHunter_04_Apr._20_17.22" alt="ScreenHunter_04_Apr._20_17.22" src="_booki/title-4/static/Pencil-ScreenHunter_04_Apr-_20_17-22-fi.gif" width="86" height="27"></p>
+<p>Seuraavalla sivulla voit valita ladattavaksi Windows-version Pencilistä.
+</p>
+<p><img title="ScreenHunter_05_Apr._20_17.24" alt="ScreenHunter_05_Apr._20_17.24" src="_booki/title-4/static/Pencil-ScreenHunter_05_Apr-_20_17-24-fi.gif" width="395" height="34"></p>
+<p>
+  <br></p>
+</div><ul Class="menu-goes-here"><li><a href="/title-4/index">Introduction</a></li>
+<li><a href="/title-4/ch001_asennuswindows">AsennusWindows</a></li>
+<li><a href="/title-4/ch002_credits">Credits</a></li>
+</ul>

@@ -1,0 +1,36 @@
+<div id="main-content"><h1>Kuvien lisääminen </h1>
+<p>Kun tahdot lisätä kuvia, mene muokkaamaan lukua, johon tahdot lisätä kuvia, laita kursorisi oikeaan paikkaan ja napsauta <img src="_booki/booki/static/tuokuvanappi.png" alt="">. </p>
+<p>Kuvan lisäämisikkuna avautuu, näet kaksi välilehteä, <strong>Kuvat</strong> ja<strong></strong> <strong>Lataa kuvat</strong> -välilehdet.</p>
+<p><img src="_booki/booki/static/kuvatlahetakuva_1.png" alt="" width="500" height="300"></p>
+<p><strong>Kuvat-välilehti</strong>: listaa kaikki kirjaasi ladatut kuvat. Napsauta kuvan nimeä listassa ja näet esikatselun kuvastasi oikealla olevassa paneelissa. Jos tahdot lisätä tämän kuvan lukuusi, paina <strong>Lisää kuva</strong>. </p>
+<p><strong>Lähetä kuva -välilehti</strong>: jos kuva, jonka tahdot lisätä, ei ole näkyvissä <strong>Kuvat</strong>-välilehdessä, se pitää ladata Bookiin, jolloin voit käyttää <strong>Lähetä kuva</strong> -välilehteä.</p>
+<p><img src="_booki/booki/static/lahetakuva.png" alt="" width="500" height="300"></p>
+<p>Voit painaa <strong>Lähetä kuva </strong>-nappia, joka avaa tavallisen järjestelmäsi tiedostoselaimen. Etsi kuva, jota tahdot käyttää, ja napsauta OK tai Avaa, jolloin pääset takaisin <strong>Lähetä kuva</strong> -välilehteen. Kun olet palannut, näet kuvatiedoston sijainnin alla kaksi eri valintaa. Ensimmäinen valinta on <strong>Oikeuksien hallitsija</strong> - tähän kirjoitat tekijänoikeuksien omistajan. Toinen on <strong>Lisenssi</strong> - tässä voit käyttää pudotusvalikkoa valitaksesi lisenssin kuvalle. (Huomaa: Bookiin voi ladata vain vapaan lisenssin alla olevaa sisältöä.) </p>
+<p>Lisenssin alla on toinen <strong>Selaa</strong> -nappi, tämän painaminen antaa sinun ladata toisen kuvan. Aina kun valitset uuden kuvan ladattavaksi, uusi <strong>Selaa</strong> -nappi ilmestyy ikkunan alaosaan, jolloin voit lisätä latauslistaan uuden tiedoston. </p>
+<p>Kun sinulla on kaikki kuvat valmiina ladattavaksi (edellisessä esimerkissä 2 kuvaa on valittu ladattavaksi), napsauta <strong>Lataa</strong>-nappia. Booki lataa ne tietokoneeltasi ja lisää ne kirjasi käytettävissä oleviin kuviin. Voit nyt lisätä tahtomasi kuvan lukuusi <strong>Kuvat</strong>-välilehdessä valitsemalla sen listasta ja napsauttamalla <strong>Lisää kuva</strong>. </p></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/booki/index">Mikä on Booki</a></li>
+<li><a href="/booki/ch002_mihin-bookia-voi-kayttaa">Mihin Bookia voi käyttää</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/booki/ch004_bookiin-paaseminen">Bookiin pääseminen</a></li>
+<li><a href="/booki/ch005_kayttajatunnuksen-luominen">Käyttäjätunnuksen luominen</a></li>
+<li><a href="/booki/ch006_asetukseni">Asetukseni</a></li>
+<li><a href="/booki/ch007_kirjan-luominen">Kirjan luominen</a></li>
+<li Class="booki-section">Kirjojen muokkaaminen</li><li><a href="/booki/ch009_lukujen-luominen">Lukujen luominen</a></li>
+<li><a href="/booki/ch010_lukujen-muokkaus">Lukujen muokkaus</a></li>
+<li><a href="/booki/ch011_sisallysluettelo">Sisällysluettelo</a></li>
+<li><a href="/booki/ch012_kuvien-lisaaminen">Kuvien lisääminen</a></li>
+<li Class="booki-section">Muiden kanssa työskentely</li><li><a href="/booki/ch014_ryhman-luominen">Ryhmän luominen</a></li>
+<li><a href="/booki/ch015_ryhmaan-liittyminen">Ryhmään liittyminen</a></li>
+<li><a href="/booki/ch016_kirjan-lisaaminen-ryhmaan">Kirjan lisääminen ryhmään</a></li>
+<li><a href="/booki/ch017_viestinta">Viestintä</a></li>
+<li Class="booki-section">Kehittynyt käyttö</li><li><a href="/booki/ch019_kirjan-tuominen">Kirjan tuominen</a></li>
+<li><a href="/booki/ch020_vieminen">Vieminen</a></li>
+<li Class="booki-section">Asentaminen</li><li><a href="/booki/ch022_linuxiin-asentaminen">Linuxiin asentaminen</a></li>
+<li Class="booki-section">Ulkoasun muokkaaminen</li><li><a href="/booki/ch024_kirjojen-css-muotoilu">Kirjojen CSS-muotoilu</a></li>
+<li><a href="/booki/ch025_lisaa-css-suunnittelua">Lisää CSS-suunnittelua</a></li>
+<li Class="booki-section">Teknologia</li><li><a href="/booki/ch027_osallistuminen">Osallistuminen</a></li>
+<li><a href="/booki/ch028_ydinosat">Ydinosat</a></li>
+<li><a href="/booki/ch029_teknologiat">Teknologiat</a></li>
+<li><a href="/booki/ch030_ominaisuudet">Ominaisuudet</a></li>
+<li><a href="/booki/ch031_virheraportointi">Virheraportointi</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/booki/ch033_oppaasta">Oppaasta</a></li>
+<li><a href="/booki/ch034_lisenssi">Lisenssi</a></li>
+</ul>

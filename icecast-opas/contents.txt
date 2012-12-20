@@ -1,0 +1,11 @@
+<html dir="None"><body><div Class="content-goes-here" id="main-content"><h1>Icecast-opas</h1><h2>Icecast</h2><div><a href="/icecast-opas/index">Icecast</a></div><h2>Streamaus</h2><div><a href="/icecast-opas/ch003_mita-streamaus-on">Mitä streamaus on? </a></div><h2>Asennus</h2><div><a href="/icecast-opas/ch005_asennus-linuxiin">Asennus Linuxiin</a></div><div><a href="/icecast-opas/ch006_asennus-windowsiin">Asennus Windowsiin</a></div><h2>Käyttö</h2><div><a href="/icecast-opas/ch008_kaynnistaminen-linuxissa">Käynnistäminen Linuxissa</a></div><div><a href="/icecast-opas/ch009_kaynnistaminen-windowsissa">Käynnistäminen Windowsissa</a></div><div><a href="/icecast-opas/ch010_lokitiedostot">Lokitiedostot</a></div><div><a href="/icecast-opas/ch011_icecastin-konfigurointi">Icecastin konfigurointi</a></div><div><a href="/icecast-opas/ch012_kayttajatilien-luominen">Käyttäjätilien luominen</a></div><h2>Lisenssi</h2><div><a href="/icecast-opas/ch014_lisenssi">Lisenssi</a></div></div><ul Class="menu-goes-here"><li Class="booki-section">Icecast</li><li><a href="/icecast-opas/index">Icecast</a></li>
+<li Class="booki-section">Streamaus</li><li><a href="/icecast-opas/ch003_mita-streamaus-on">Mitä streamaus on? </a></li>
+<li Class="booki-section">Asennus</li><li><a href="/icecast-opas/ch005_asennus-linuxiin">Asennus Linuxiin</a></li>
+<li><a href="/icecast-opas/ch006_asennus-windowsiin">Asennus Windowsiin</a></li>
+<li Class="booki-section">Käyttö</li><li><a href="/icecast-opas/ch008_kaynnistaminen-linuxissa">Käynnistäminen Linuxissa</a></li>
+<li><a href="/icecast-opas/ch009_kaynnistaminen-windowsissa">Käynnistäminen Windowsissa</a></li>
+<li><a href="/icecast-opas/ch010_lokitiedostot">Lokitiedostot</a></li>
+<li><a href="/icecast-opas/ch011_icecastin-konfigurointi">Icecastin konfigurointi</a></li>
+<li><a href="/icecast-opas/ch012_kayttajatilien-luominen">Käyttäjätilien luominen</a></li>
+<li Class="booki-section">Lisenssi</li><li><a href="/icecast-opas/ch014_lisenssi">Lisenssi</a></li>
+</ul>

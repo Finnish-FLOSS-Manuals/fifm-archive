@@ -1,0 +1,74 @@
+<div id="main-content"><p>
+</p>
+<div id="content">
+  <h1>Icecastin asentaminen lähdekoodista (Linux)
+    <br></h1>
+  <p>Tämä luku käsittelee <strong>Icecast</strong>in asentamista <strong>Linux</strong>-koneelle käyttäen <span>lähdekoodia</span>.  Tämä merkitsee, että joudut kääntämään sovelluksen uudestaan komentoriviä käyttäen.
+    <br></p>
+  <p>Icecast-verkkosivun etusivulla on linkki "Download": klikkaa tätä ja pääset verkkosivun latausosioon (<a target="_top" href="http://www.icecast.org/download.php">http://www.icecast.org/</a>).
+  </p>
+  <p>Tätä kirjoitettaessa viimeisin versio on <strong>2.3.2</strong>, on kuitenkin todennäköisempää, että työskentelet erilaisen version parissa. Sillä ei ole merkitystä ellet lue tätä vuonna 2040, yleensä asennusprosessin pitäisi olla suunnilleen samanlainen. voit havaita, että ohjelmasta on erilaisia versioita saatavilla - Redhat-versioita ja Windows-versio. Tahtomamme versio on lähdekoodi. Tämä on yksittäinen pakattu ladattava tiedosto, jossa on kaikki asennustiedostot. 
+  </p>Voit ladata seuraavan lähdetiedoston Icecast-sivustolta. Voit myös ladata tätä versiota uudemman version.
+  <br><pre>icecast-2.3.2.tar.gz
+</pre> Toivottavasti latasit tiedoston paikkaan, johon pääset käsiksi. Yleensä lataan itse tiedostot oman kotihakemistoni alahakemistoon, jonka nimi on src. Voit laittaa tiedostosi minne haluat, kunhan pääset käsiksi niihin, mutta älä täytä tiedostojärjestelmääsi siellä täällä lojuvilla asennustiedostoilla. Suosittelen, että laitat sen kotihakemistoosi. Kotihakemistosi on hakemisto, jonka nimi on käyttäjänimesi, ja joka on /home -hakemiston alla. Päästäksesi kotihakemistoosi voit kirjoittaa seuraavan komennon pääteikkunassa:
+  <pre>cd /home/käyttäjänimi
+</pre>
+  <p>  Jossa "käyttäjänimi" on käyttäjänimesi, esimerkiksi oma käyttäjänimeni on "adam", joten kirjoittaisin: 
+  </p>
+  <pre>cd /home/adam
+</pre> Tai kokeile tätä:
+  <pre>cd ~
+</pre>
+  <p>Komento <strong>cd</strong> on lyhenne sanoista<strong> c</strong>hange <strong>d</strong>irectory (vaihda hakemistoa) ja voit käyttää tätä komentoa aina navigoidaksesi tiedostojärjestelmässä. Jos olet kotihakemistossasi, etsi hakemistoa nimeltä <strong>src</strong>. Tehdäksesi tämän, kirjoita: 
+  </p>
+  <pre>ls -al
+</pre> Komento "<strong>ls</strong>" sanasta "list" (listaa), sen kirjoittaminen näyttää sinulle kaikki tiedostot kotihakemistossasi. Jos et näe <strong>src</strong>-hakemistoa, kirjoita seuraava:
+  <pre>mkdir src
+</pre>Komento <strong>mkdir</strong> on lyhenne sanoista "<strong>m</strong>a<strong>k</strong>e <strong>dir</strong>ectory" (tee hakemisto), ja sen kirjoittaminen luo hakemiston, jota kutsutaan nimellä "src": nyt sinun täytyy vaihtaa hakemistoa tuohon uuteen hakemistoon komennolla <strong>cd</strong>. Tänne on hyvä laittaa kaikki lataamasi lähdekoodi, ellei sinulla ole niille parempaa paikkaa. Jos et ole vielä ladannut lähdekoodia, lataa ne tähän hakemistoon. Jos olet jo ladannut lähdekoodin, siirrä se tähän hakemistoon käyttäen <strong>mv</strong>-komentoa (jos tiedät missä lähdekoodi on.  
+  <pre>mv /home/käyttäjänimi/icecast-2.3.2.tar.gz /home/käyttäjänimi/src
+</pre> Edellisessä esimerkissä latasin vahingossa lähdekoodin hakemisoon <strong>/home/adam</strong> ja siirrän ne uuteen src-hakemistooni.
+  <p>
+  </p>
+  <h2><a name="Extracting_the_downloaded_files"></a>Ladattujen tiedostojen purkaminen
+  </h2>Nyt <strong>puramme</strong> juuri lataamamme tiedostot... Tehdäksesi tämän, kirjoita (jos sinulla on Icecastin versio 2.3.2, muuten muuta tiedoston nimi siihen, joka sinulla on):
+  <pre>tar -zxvf icecast-2.3.2.tar.gz
+</pre>Tämä heittää paljon roskaa päätteen ikkunaan. Siinä on lista kaikista arkistosta puretuista tiedostoista. Oppiaksesi enemmän <strong>tar</strong>-komennosta käytä tätä komentoa: 
+  <pre>man tar
+</pre>
+  <p>Nyt näet toivottavasti uuden haksmiston, kun käytät<strong> ls -al</strong> -komentoa.
+  </p>
+  <p>
+  </p>
+  <p> Nyt voit käyttää komentoa <strong>cd</strong> siirtyäksesi uuteen hakemistoon (tässä tapauksessa hakemiston nimi on <strong>icecast-2.3.2</strong>).
+  </p>
+  <pre>cd icecast-2.3.2</pre>
+  <p>Tämän jälkeen joudut kirjoittamaan seuraavan komennon:
+  </p>
+  <pre>./configure
+</pre> Tämä on <strong>configure</strong> -konfigurointikomento, jota joudut käyttämään aina asentaessasi jotain lähdekoodista Linuxissa. Jos olet onnekas, näet kasoittain tekstiä vierimässä päätteen läpi. Tämä on konfiguraatio-ohjelma, joka tarkastaa että kaikki on kunnossa tietokoneellasi, ennen kuin se antaa sinun asentaa ohjelman. Jos kaikki menee hyvin, sinulla pitäisi olla siisti konfiguraatioprosessi ilman ongelmia.
+  <p>
+  </p>
+  <p> Kirjoita nyt seuraava komento:
+  </p>
+  <pre>make
+</pre> Tämä <strong>make</strong>-komento tekee binääritiedoston lähdekoodeista, periaatteessa tämä merkitsee, että <strong>configure</strong>-ohjelma on selvittänyt, kuinka ohjelma tehdään sinun järjestelmääsi varten, ja <strong>make</strong>-komento käyttää tätä tietoa tehdäkseen (kompiloidakseen) ohjelman. Jos <strong>make</strong>-prosessi on mennyt hyvin, päädyt jälleen siistiin terminaaliin ilman virheitä.
+  <p> <img title="icecast_term2_en" src="_booki/icecast/static/Icecast-InstallingLinux-icecast_term2_en-fi.jpg" alt="icecast_term2_en" height="346" width="499"></p>
+  <p> Jos olet kohdannut virheitä, ei tässä ole juurikaan tilaa käsitellä kaikkia mahdollisuuksia. Kannattaa etsiä vastauksia hakukoneiden avulla. Parasta on kopioida virheviesti hakukoneeseen ja katsoa mitä löytyy. Luultavasti joku muu on törmännyt samaan ongelmaan ja dokumentoinut ratkaisun, tai ehkä joku on lähettänyt aiheesta neuvoja uutisryhmään. Joka tapauksessa monia erilaisia ongelmia voi syntyä, eikä niitä kaikkia voi ennustaa tässä käyttöoppaassa.
+    <br></p>
+  <p>Jos kaikki on sujunut hyvin, on tässä vielä yksi komento kirjoitettavaksi:
+  </p>
+  <pre>make install
+</pre>Tämä komento asentaa käännetyn ohjelman oikeaan paikkaan järjestelmässäsi. Tarkastaaksesi, että kaikki on mennyt hyvin, kirjoita seuraava komento:
+  <pre>icecast
+</pre>Tämä komento käynnistää uuden Icecast2-palvelimesi...
+  <br><br></div></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/icecast/index">Johdanto</a></li>
+<li><a href="/icecast/ch002_streamaus">Streamaus</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/icecast/ch004_linux">Linux</a></li>
+<li><a href="/icecast/ch005_windows">Windows</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/icecast/ch007_aloittaminen-linuxissa">Aloittaminen Linuxissa</a></li>
+<li><a href="/icecast/ch008_asennus-windowsiin">Asennus Windowsiin</a></li>
+<li><a href="/icecast/ch009_lokit">Lokit</a></li>
+<li Class="booki-section">Konfiguraatio</li><li><a href="/icecast/ch011_peruskonfiguraatio">Peruskonfiguraatio</a></li>
+<li><a href="/icecast/ch012_tilit">Tilit</a></li>
+<li Class="booki-section">Tekijät</li><li><a href="/icecast/ch014_tekijat">Tekijät</a></li>
+</ul>

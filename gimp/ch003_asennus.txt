@@ -1,0 +1,95 @@
+<div id="main-content">
+<h1><span>Asennus</span>
+</h1>
+<p>GIMP:in version 2.6 asennus on todella helppoa. Täysin uudistetun asennuspaketin ansiosta kolmen tai neljän asennuksen tekeminen peräjälkeen on historiaa, ja kaikki mitä tarvitset on yhdessä asennuspaketissa. Tämä ohjesivu kertoo GIMP:in asentamisesta nimenomaan <span>Windows</span>-käyttöjärjestelmään. <span>Linux</span>-käyttöjärjestelmässä ohjelma on yleensä jo oletuksena.
+  <br></p>
+<p> 
+  <br><span>Vaatimukset GIMP-ohjelmalle
+  <br><br></span>GIMP 2.6 vaatii Windows XP -käyttöjärjestelmän tai uudemman (eli XP, Vista tai 7). Laitteistopuolelta GIMP:in pyörittämiseen ei vaadita kovaakaan myllyä. Jos sinulla on Windows XP, Vista tai 7 ja se pyörii koneessasi hyvin, riittävät sen tehot taatusti myös GIMP:in kanssa työskentelyyn.
+  <br><br><span>Itse asennukseen
+  <br><br></span>Asennuspaketti saadaan GIMP:in kotisivuilta osoitteesta <a href="http://www.gimp.org/">http://www.gimp.org/</a><a href="http://gimp-win.sourceforge.net/"></a>. Tämän sivun latausesimerkki tehdään <span>Firefox</span>-selaimella, mutta esimerkiksi Internet Explorerilla se on lähes samanlainen.  Muista, että asennuspaketti on tosiaan <span>ilmainen</span> ja vapaasti jaettavissa! Voit kopioida asennuspaketin vaikka omille kotisivuillesi tai laittaa sen vertaisverkkoon, täysin laillisesti. Mene GIMP:in kotivisulle:
+</p>
+<p><img title="ScreenHunter_06_Nov._28_19.40" alt="ScreenHunter_06_Nov._28_19.40" src="_booki/gimp/static/GIMP-Asennus-resized_600x320_ScreenHunter_06_Nov-_28_19-40-fi.gif" height="320" width="600"></p>
+<p>Kuva 1. Mene GIMP-sivuille.
+</p>
+<p><img title="ScreenHunter_07_Nov._28_19.44" alt="ScreenHunter_07_Nov._28_19.44" src="_booki/gimp/static/GIMP-Asennus-ScreenHunter_07_Nov-_28_19-44-fi.gif" height="42" width="142"> 
+</p>
+<p>Kuva 2. Paina linkkiä <strong>Download</strong>.
+</p>
+<p><img title="ScreenHunter_08_Nov._28_19.45" alt="ScreenHunter_08_Nov._28_19.45" src="_booki/gimp/static/GIMP-Asennus-ScreenHunter_08_Nov-_28_19-45-fi.gif" height="33" width="407"> 
+</p>
+<p>Kuva 3. Paina linkkiä <strong>Download GIMP 2.6.11</strong>.
+</p>
+<p><img title="ScreenHunter_09_Nov._28_19.48" alt="ScreenHunter_09_Nov._28_19.48" src="_booki/gimp/static/GIMP-Asennus-ScreenHunter_09_Nov-_28_19-48-fi.gif" height="177" width="404"> 
+</p>
+<p>Kuva 4. Selain vie sinut automaattisesti Sourceforgen lataussivustolle. Sivusto ehdottaa lähintä serveriä, jolloin voit napsauttaa <span>Tallenna tiedosto</span>-painiketta.
+  <br></p>
+<p><img title="ScreenHunter_10_Nov._28_19.49" alt="ScreenHunter_10_Nov._28_19.49" src="_booki/gimp/static/GIMP-Asennus-ScreenHunter_10_Nov-_28_19-49-fi.gif" height="96" width="487"> 
+</p>
+<p>Kuva 5. Sitten vain odottelet, kun GIMP latautuu.
+  <br></p>
+<p><img title="ScreenHunter_12_Nov._28_19.51" alt="ScreenHunter_12_Nov._28_19.51" src="_booki/gimp/static/GIMP-Asennus-ScreenHunter_12_Nov-_28_19-51-fi.gif" height="85" width="90"> 
+</p>
+<p>Kuva 6. Oletuksena Firefox lataa asennustiedostot työpöydälle. Jos se lataa ne johonkin muualle, kansion osoite näkyy kuvan 4 alapalkissa. Kaksoisnapsauta asennustiedostoa. Jos käytössäsi on Vista, anna vielä hyväksyntä tiedoston asentamiselle ja aloita asennus: 
+  <br></p>
+<p><img title="ScreenHunter_13_Nov._28_20.01" alt="ScreenHunter_13_Nov._28_20.01" src="_booki/gimp/static/GIMP-Asennus-ScreenHunter_13_Nov-_28_20-01-fi.gif" height="397" width="508"> 
+</p>
+<p>Kuva 7. Ilmoitus asennuksen aloittamisesta. Napsauta <span>Next &gt;</span>.
+  <br></p>
+<p><img title="7" alt="7" src="_booki/gimp/static/GIMP-7-fi.png" height="386" width="503"> 
+</p>
+<p>Kuva 8. GNU-lisenssi, joka täytyy hyväksyä jotta asennus voisi jatkua. Käytännössä lisenssi ilmoittaa että ohjelma on ilmainen, myös kaupalliseen käyttöön.
+  <br></p>
+<p><img title="8" alt="8" src="_booki/gimp/static/GIMP-8-fi.png" height="386" width="503"> 
+</p>
+<p>Kuva 9. Napsauta <span>Install now</span>-painiketta, jos haluat asentaa GIMP:in oletusasetuksilla, jotka ovat normaalikäyttäjälle ihan hyvät. Customize-painiketta napsauttamalla pääset muokkaamaan mukaan tulevia ominaisuuksia, mutta tämä on suositeltavaa vain kokeneille GIMP:in käyttäjille. 
+  <br></p>
+<p><img title="9" alt="9" src="_booki/gimp/static/GIMP-9-fi.png" height="386" width="503"> 
+</p>
+<p>Kuva 9. Ohjelma asentuu koneellesi
+  <br></p>
+<p><img title="10" alt="10" src="_booki/gimp/static/GIMP-10-fi.png" height="386" width="503"> 
+</p>
+<p>Kuva 10. Ohjelma on asennettu koneellesi ja sen pikakuvake on sekä <span>työpöydällä</span> että <span>Käynnistä</span>-valikossa. Napsauta <span>Finish</span>, ja ohjelma käynnistyy ensimmäisen kerran. Ensimmäisen kerran käynnistyessään ohjelman latautumiseen menee aikaa koneesta riippuen kohtuullisen kauan aikaa, mutta se täytyy tehdä vain kerran, seuraavilla kerroilla se on huomattavasti nopeampi.  
+  <br> 
+</p>
+<p>
+  <br></p>
+</div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/gimp/index">Johdanto</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/gimp/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Asetukset</li><li><a href="/gimp/ch005_asetukset">Asetukset</a></li>
+<li Class="booki-section">Aloittelijan oppaat</li><li><a href="/gimp/ch007_johdatus">Johdatus</a></li>
+<li><a href="/gimp/ch008_kokeiluja">Kokeiluja</a></li>
+<li><a href="/gimp/ch009_uuden-kuvan-tekeminen">Uuden kuvan tekeminen</a></li>
+<li><a href="/gimp/ch010_koon-muuttaminen">Koon muuttaminen</a></li>
+<li><a href="/gimp/ch011_valinnat">Valinnat</a></li>
+<li><a href="/gimp/ch012_toimintamoodit">Toimintamoodit</a></li>
+<li><a href="/gimp/ch013_kuvien-manipulointi">Kuvien manipulointi</a></li>
+<li><a href="/gimp/ch014_reunat">Reunat</a></li>
+<li><a href="/gimp/ch015_kuvateksti">Kuvateksti</a></li>
+<li><a href="/gimp/ch016_kloonaus">Kloonaus</a></li>
+<li Class="booki-section">Kehittyneen käyttäjän oppaat</li><li><a href="/gimp/ch018_tasot">Tasot</a></li>
+<li><a href="/gimp/ch019_valokuvien-parantaminen">Valokuvien parantaminen</a></li>
+<li><a href="/gimp/ch020_taidetta">Taidetta</a></li>
+<li><a href="/gimp/ch021_sumua">Sumua</a></li>
+<li><a href="/gimp/ch022_etaisyydet">Etäisyydet</a></li>
+<li><a href="/gimp/ch023_iwarp">Iwarp</a></li>
+<li><a href="/gimp/ch024_kanavat">Kanavat</a></li>
+<li><a href="/gimp/ch025_script-fu">Script-fu</a></li>
+<li><a href="/gimp/ch026_lapinakyvyys">Läpinäkyvyys</a></li>
+<li><a href="/gimp/ch027_animaatio">Animaatio</a></li>
+<li><a href="/gimp/ch028_bannerit">Bannerit</a></li>
+<li Class="booki-section">Edenneen käyttäjän oppaat</li><li><a href="/gimp/ch030_kuvaformaatit">Kuvaformaatit</a></li>
+<li><a href="/gimp/ch031_teoriaa">Teoriaa</a></li>
+<li><a href="/gimp/ch032_pensselit">Pensselit</a></li>
+<li><a href="/gimp/ch033_haaveilua">Haaveilua</a></li>
+<li><a href="/gimp/ch034_avaruusmaisema">Avaruusmaisema</a></li>
+<li><a href="/gimp/ch035_kolmiulotteisuus">Kolmiulotteisuus</a></li>
+<li><a href="/gimp/ch036_konffausta">Konffausta</a></li>
+<li><a href="/gimp/ch037_selektiivinen">Selektiivinen</a></li>
+<li><a href="/gimp/ch038_retusointi">Retusointi</a></li>
+<li><a href="/gimp/ch039_sumentaminen">Sumentaminen</a></li>
+<li><a href="/gimp/ch040_syvays">Syväys</a></li>
+<li><a href="/gimp/ch041_alfakanava">Alfakanava</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/gimp/ch043_tekijat">Tekijät</a></li>
+</ul>

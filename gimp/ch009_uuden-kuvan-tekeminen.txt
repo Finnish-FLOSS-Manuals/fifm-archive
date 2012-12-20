@@ -1,0 +1,96 @@
+<div id="main-content">
+<h1>Somebody Should Set The Title For This Chapter!</h1><p><font size="4">Uuden kuvan luominen GIMP:illä</font>
+</p>
+<p>Sen lisäksi, että GIMP on loistava valokuvankäsittelyohjelma, sillä saa piirrettyä myös omia kuvia eli kynää, ruiskutyökalua<img title="ruisku" alt="ruisku" src="_booki/gimp/static/GIMP-uusikuva-ruisku-fi.jpg" height="23" width="27">ja monia muita työkaluja voi käyttää luovaan piirtämiseen. Voit piirtää joko yksiväriselle (yleensä valkoiselle) alustalle tai sitten jo a<img src="http://www.joutsi.com/gimp/" height="0" width="0">vatun valokuvan/muun piirroksen päälle. 
+</p>
+<p><span></span>Uuden Kuvan luominen tapahtuu GIMP:illä valitsemalla kuvaikkunan valikkoriviltä "Tiedosto"=&gt;"Uusi". Kuvan leveys ja korkeus voidaan asettaa halutuksi, mutta yleensä oletusarvot ovat ihan hyviä.
+</p>
+<p><img src="_booki/gimp/static/GIMP-uusikuva-gimp2_html_m2e68989c-fi.jpg" name="Grafiikka1" align="bottom" border="0" height="278" width="390"><br> Kuva 1. GIMP:in uuden kuvan luominen. Voit säätää leveyttä ja korkeutta ja kokeilla muitakin vaihtoehtoja. Napsauta sitten "OK".
+</p>
+<p><img src="_booki/gimp/static/GIMP-uusikuva-gimp2_html_307c9aa1-fi.jpg" name="Grafiikka10" align="bottom" border="0" height="435" width="296"><br> Kuva 2. Tässä harjoituksessa läpikäydyt toiminnot. Vasemmalta alkaen: Maalitölkki<img alt="maali" src="_booki/gimp/static/GIMP-uusikuva-maalipontto-fi.jpg">, väriliukuma<img alt="vari" src="_booki/gimp/static/GIMP-uusikuva-variliukuma-fi.jpg">, pensseli<img alt="pensseli" src="_booki/gimp/static/GIMP-uusikuva-pensseli-fi.jpg"> ja pyyhekumi<img alt="kumi" src="_booki/gimp/static/GIMP-uusikuva-kumi-fi.jpg">.
+</p>
+<p>Napsauta "OK"-painiketta ja GIMP luo sinulle valkoisen pohjan kuvaa varten. Jos pohja ei ole valkoinen, se johtuu siitä että taustavärisi on joku muu.
+</p>
+<p><img alt="vari" src="_booki/gimp/static/GIMP-uusikuva-varivaihto-fi.jpg"></p>
+<p>Kuva 3. Taustaväri on säädetty valkoiseksi
+</p>
+<p> Käydäänpä läpi perusasiat: pensselin kuvaa kaksoisnapsauttamalla saat esiin valikon, josta voit säädellä piirtämäsi viivan ominaisuuksia.
+</p>
+<p><img src="_booki/gimp/static/GIMP-uusikuva-gimp2_html_m296accf9-fi.jpg" name="Grafiikka9" align="bottom" border="0" height="334" width="258"><br> Kuva 4. Pensselin valikko.
+</p>
+<p>Tärkeitä ovat valikko "toiminta" ja "Sivellin", jolla saat vaihdeltua sekä pensselin<img alt="pens" src="_booki/gimp/static/GIMP-uusikuva-pensseli-fi.jpg">paksuutta että sen toimintatapaa: "Normaali, Roiskiva" jne... "Peitto"-ominaisuudella saat säädettyä sitä, kuinka vahvasti sivellin piirtää väriä. Esimerkiksi jos haluat maalata valokuvassa olevan auton muun väriseksi, kannattaa peitto olla pienempi kuin 100%, niin työ voi näyttää hyvinkin realistiselta. Kokeile lisäksi "Häivytä"-optiota, joka rajaa sivellinvedon pituutta häivyttäen sitä vähitellen pois, aivan kuten oikeassakin pensselissä maali loppuu liian pitkässä sivellinvedossa kesken.
+</p>
+<p><img src="_booki/gimp/static/GIMP-uusikuva-gimp2_html_m757c1409-fi.jpg" name="Grafiikka2" align="bottom" border="0" height="434" width="546"><br> Kuva 5. Kaikenlaisia sivellinvetoja
+</p>
+<p><span>Huomio!</span> Vakiokysymys siveltimen<img alt="pens" src="_booki/gimp/static/GIMP-uusikuva-pensseli-fi.jpg"> (tai miksei kynänkin<img alt="kyna" src="_booki/gimp/static/GIMP-uusikuva-kyna-fi.jpg">) kohdalla on <span>suoran viivan piirtäminen</span>. Se onnistuu siveltimellä tai kynällä <span>Shift</span>-näppäin pohjassa napsauttamalla hiirellä kahta eri pistettä kuvassa. Jos haluat piirtää useita suoria viivoja (esim. suorakulmion tapauksessa9 täytyy Shift-näppäin päästää välillä ylös.
+</p>
+<p><strong>Värillä täyttäminen</strong>
+</p>
+<p>Useasti joudumme värittämään kuvan taustavärillä ennen varsinaisen kuvan piirtämistä. Se onnistuu samoin kuin kaikilla muillakin kuvankäsittelyohjelmilla maaliämpärin<img alt="pontto" src="_booki/gimp/static/GIMP-uusikuva-maalipontto-fi.jpg"> kuvaa napsauttamalla. GIMP:issä samoin kuin muissakin kuvankäsittelyohjelmissa voi itselleen valita tausta-ja edustavärin (oletuksena ne ovat valkoinen ja musta). Ne näkyvät kuvassa 5, ja niitä saa vaihdeltua kaksoisnapsauttamalla edusta- tai taustaväriä hiiren ykköspainikkeella. Kaksoisnuoli punaisella merkityn alueen sisällä on "taustaväri edustaväriksi ja toisinpäin"-toiminto, joka aktivoituu luonnollisesti hiirellä napsauttamalla.
+</p>
+<p><img src="_booki/gimp/static/GIMP-uusikuva-gimp2_html_m3a7f371b-fi.jpg" name="Grafiikka12" align="bottom" border="0" height="435" width="296"><br> Kuva 6. Tästä vaihdetaan tausta- ja edustaväri tuplaklikkaamalla joko edustavärin (tässä musta) tai taustavärin (tässä valkoinen) osoittavaa suorakulmiota. 
+</p>
+<p><img src="_booki/gimp/static/GIMP-uusikuva-gimp2_html_m740af20f-fi.jpg" name="Grafiikka3" align="bottom" border="0" height="348" width="458"><br> Kuva 7. Oletusvärin vaihtaminen. Vaihtoehtoja riittää, joko silmämääräisesti hiirellä tai sitten tarkkana värinä heksadesimaalimerkinnän kautta. Näitä samoja heksadesimaalikoodeja voidaan käyttää myös WWW-sivujen värivalinnassa, joten GIMP on loistava apuohjelma myös WWW-graafikolle!
+</p>
+<p>Vaaleanpunainen pyyhekumin kuva<img alt="kumi" src="_booki/gimp/static/GIMP-uusikuva-kumi-fi.jpg"> pyyhkii värin pois ja laittaa tilalle oletustaustavärin. Pyyhekumin pyyhkimän jäljen leveyttä ja muita optioita voit valita samanlaisen käyttöliittymän avulla kuin siveltimessäkin. Voidaan ajatella myös, että kun pyyhit pyyhekumilla, se värittää alueen taustavärillä. Oletuksena se on valkoinen, mutta se voidaan säätää tietysti miksi väriksi kukin vain haluaa.
+</p>
+<p><strong>Täyttö kuviolla</strong>
+</p>
+<p>Maalitölkki-käyttöliittymässä (kaksoisnapsauta maalipurkin<img alt="maali" src="_booki/gimp/static/GIMP-uusikuva-maalipontto-fi.jpg">kuvaa, niin saat sen esiin) on myös mahdollisuus "täytä kuviolla". Tällä saat hienoja taustakuvia piirroksiisi, eikä sinun täydy värittää kaikkea tasapaksulla edustavärillä. Myös taustavärillä maalaaminen onnistuu sopivalla asetuksella. 
+</p>
+<p><img src="_booki/gimp/static/GIMP-uusikuva-gimp2_html_m66475d97-fi.jpg" name="Grafiikka4" align="bottom" border="0" height="445" width="328"><br> Kuva 8. Taustakuvioiden valitseminen
+</p>
+<p>Maalitölkin oikealla puolella on työkalu nimeltä "täytä väriliukumalla"<img alt="vari" src="_booki/gimp/static/GIMP-uusikuva-variliukuma-fi.jpg">. Tällä saat kuvaasi upean väriliukuman vaaleasta tummempaan valitsemallasi geometrialla. kaksoisnapsauta työkalua ja vedä hiirellä vasen painike pohjassa viiva kuvan yli haluamaasi suuntaan ja haluamallasi pituudella.
+</p>
+<p><img src="_booki/gimp/static/GIMP-uusikuva-gimp2_html_581b8f00-fi.jpg" name="Grafiikka5" align="bottom" border="0" height="417" width="546"><br> Kuva 9. Väriliukuma valkoisen kuvapohjan yli.
+</p>
+<p>"Muoto"- "toista"- ja "Toiminta"-valikkojen (jotka saat esiin kaksoisnapsauttamalla "väriliukuma"-kuvaa peruspaletissa) sekä edusta- ja taustavärien muuntamisen avulla saat kokeiltua loputtomasti eri väriliukumavariaatioita. 
+</p>
+<p><img src="_booki/gimp/static/GIMP-uusikuva-gimp2_html_d3aa5e2-fi.jpg" name="Grafiikka11" align="bottom" border="0" height="334" width="366"><br> Kuva 10. Väriliukuman säätöjä
+</p>
+<p><img src="_booki/gimp/static/GIMP-uusikuva-gimp2_html_22d2f6b3-fi.jpg" name="Grafiikka6" align="bottom" border="0" height="417" width="546"><br> Kuva 11. Eksoottisempi väriliukuma
+</p>
+<p><img src="_booki/gimp/static/GIMP-uusikuva-gimp2_html_m41efdf9c-fi.jpg" name="Grafiikka7" align="bottom" border="0" height="417" width="546"><br> Kuva 12. Vielä eräs toinen erikoinen väriliukuma
+</p>
+<p>"Tason tai valinnan vääntö"-työkalulla<img alt="kierto" src="_booki/gimp/static/GIMP-uusikuva-kierto-fi.jpg"> saat kierrettyä kuvaa vinoon. 
+</p>
+<p><img src="_booki/gimp/static/GIMP-uusikuva-gimp2_html_m1c8874cd-fi.jpg" name="Grafiikka8" align="bottom" border="0" height="434" width="546"><br> Kuva 13. Vinoon piirretty hohtava ympyrä. Harmaa ruudukko takana on ns. läpinäkyvä alue, jonka ominaisuuksiin palaamme myöhemmin. 
+</p>
+</div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/gimp/index">Johdanto</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/gimp/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Asetukset</li><li><a href="/gimp/ch005_asetukset">Asetukset</a></li>
+<li Class="booki-section">Aloittelijan oppaat</li><li><a href="/gimp/ch007_johdatus">Johdatus</a></li>
+<li><a href="/gimp/ch008_kokeiluja">Kokeiluja</a></li>
+<li><a href="/gimp/ch009_uuden-kuvan-tekeminen">Uuden kuvan tekeminen</a></li>
+<li><a href="/gimp/ch010_koon-muuttaminen">Koon muuttaminen</a></li>
+<li><a href="/gimp/ch011_valinnat">Valinnat</a></li>
+<li><a href="/gimp/ch012_toimintamoodit">Toimintamoodit</a></li>
+<li><a href="/gimp/ch013_kuvien-manipulointi">Kuvien manipulointi</a></li>
+<li><a href="/gimp/ch014_reunat">Reunat</a></li>
+<li><a href="/gimp/ch015_kuvateksti">Kuvateksti</a></li>
+<li><a href="/gimp/ch016_kloonaus">Kloonaus</a></li>
+<li Class="booki-section">Kehittyneen käyttäjän oppaat</li><li><a href="/gimp/ch018_tasot">Tasot</a></li>
+<li><a href="/gimp/ch019_valokuvien-parantaminen">Valokuvien parantaminen</a></li>
+<li><a href="/gimp/ch020_taidetta">Taidetta</a></li>
+<li><a href="/gimp/ch021_sumua">Sumua</a></li>
+<li><a href="/gimp/ch022_etaisyydet">Etäisyydet</a></li>
+<li><a href="/gimp/ch023_iwarp">Iwarp</a></li>
+<li><a href="/gimp/ch024_kanavat">Kanavat</a></li>
+<li><a href="/gimp/ch025_script-fu">Script-fu</a></li>
+<li><a href="/gimp/ch026_lapinakyvyys">Läpinäkyvyys</a></li>
+<li><a href="/gimp/ch027_animaatio">Animaatio</a></li>
+<li><a href="/gimp/ch028_bannerit">Bannerit</a></li>
+<li Class="booki-section">Edenneen käyttäjän oppaat</li><li><a href="/gimp/ch030_kuvaformaatit">Kuvaformaatit</a></li>
+<li><a href="/gimp/ch031_teoriaa">Teoriaa</a></li>
+<li><a href="/gimp/ch032_pensselit">Pensselit</a></li>
+<li><a href="/gimp/ch033_haaveilua">Haaveilua</a></li>
+<li><a href="/gimp/ch034_avaruusmaisema">Avaruusmaisema</a></li>
+<li><a href="/gimp/ch035_kolmiulotteisuus">Kolmiulotteisuus</a></li>
+<li><a href="/gimp/ch036_konffausta">Konffausta</a></li>
+<li><a href="/gimp/ch037_selektiivinen">Selektiivinen</a></li>
+<li><a href="/gimp/ch038_retusointi">Retusointi</a></li>
+<li><a href="/gimp/ch039_sumentaminen">Sumentaminen</a></li>
+<li><a href="/gimp/ch040_syvays">Syväys</a></li>
+<li><a href="/gimp/ch041_alfakanava">Alfakanava</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/gimp/ch043_tekijat">Tekijät</a></li>
+</ul>

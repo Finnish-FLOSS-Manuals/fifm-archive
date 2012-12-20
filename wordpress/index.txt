@@ -1,0 +1,36 @@
+<div id="main-content"><h1>WordPress</h1>
+<p><strong>WordPress</strong> on sisällönhallintajärjestelmä (englanniksi "Content Management System" tai "CMS") ja bloggaustyökalu. <strong>Blogi</strong> (englannin sanoista "web-log") on verkossa oleva lehti, päiväkirja tai mielipidepalsta, joka esitetään verkkosivun muodossa. Yleensä yksi tai useampi kirjoittaja (<strong>bloggaaja</strong>) lisää uutta sisältöä verkkosivun yläosaan melko säännöllisesti. </p>
+<p>Monet yritykset käyttävät Wordpress-järjestelmää omien verkkosivujen alustana ja siihen käyttöön wordpress -sopii myös erinomaisesti. </p>
+<p align="center"> </p>
+<p align="center"><img src="http://fi.flossmanuals.net/kirjoita/wordpress/_draft/_v/1.0/static/wordpress-logo-stacked-rgb.png" alt="" width="499" height="310"></p>
+<p>On kaksi tapaa, joilla voit ottaa WordPressin käyttöön:</p>
+<ul><li>Rekisteröi käyttäjätunnus WordPress.com -sivustolla.</li>
+<li>Asenna oma WordPress -ohjelma palvelimelle, jota voit käyttää.</li>
+</ul><h2>Wordpress.com</h2>
+<p>Ensimmäinen vaihtoehto on helpompi. WordPress ylläpitää omaa verkkosivustoaan, joka tarjoaa ilmaisia bloggaustilejä ja nykyisin jopa 3GB varastotilaa mediatiedostoillesi. Luodaksesi oman tunnuksen sinun täytyy vain mennä WordPress.com-sivustolle ja luoda se:</p>
+<p><a title="WordPress.com" href="http://wordpress.com/signup/">http://wordpress.com/signup/</a></p>
+<h2>Oma asennus</h2>
+<p>Jos tahdot muutella WordPressin asetuksia, voit valita toisen vaihtoehdon ja asentaa WordPressin itse.</p>
+<p>Tähän on kaksi vaihtoehtoa:</p>
+<p><strong>1) Automaattinen asennus (Fantastico / Intrallatron tms)</strong><br>Nykyaikaisissa webhotelleissa wordpress on ns. vakiovaruste ja sen voi asentaa muutamalla napin painalluksella. </p>
+<p>Jos päätät perustaa oman wordress-sivuston, niin muista päivittää wordpress-uusimpaan versioon, jotta se säilyy tietoturvallisena. </p>
+<p><strong>2) Asenna Wordpress itse</strong></p>
+<p>Silloin sinun täytyy käydä lataussivustolla:</p>
+<p>Tätä toista vaihtoehtoa ei suositella, mikäli sinulla ei ole kokemusta ohjelmien asentamisesta palvelimelle. Ainoa tuki toiselle vaihtoehdolle on virallinen keskustelufoorumi, virallista tukitiimiä ei ole olemassa.</p>
+<p><a title="WordPress" href="http://wordpress.org/">http://wordpress.org/download/</a></p>
+<p>Lue ohjeet huolellisesti. Wordpress vaatii PHP ja mySQL-tietokantapalvelimen tuen palvelimella. </p></div><ul Class="menu-goes-here"><li Class="booki-section">Perusteet</li><li><a href="/wordpress/index">Johdanto</a></li>
+<li><a href="/wordpress/ch002_mika-on-blogi">Mikä on blogi?</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/wordpress/ch004_wordpressin-asentaminen">WordPressin asentaminen</a></li>
+<li><a href="/wordpress/ch005_wordpresscom">Wordpress.com</a></li>
+<li Class="booki-section">Peruskäyttö</li><li><a href="/wordpress/ch007_kirjautuminen-wordpressiin">Kirjautuminen Wordpressiin</a></li>
+<li><a href="/wordpress/ch008_lisaa-artikkeli">Lisää artikkeli</a></li>
+<li><a href="/wordpress/ch009_kuvien-lisaaminen">Kuvien lisääminen</a></li>
+<li><a href="/wordpress/ch010_linkkien-lisaaminen">Linkkien lisääminen</a></li>
+<li Class="booki-section">Video</li><li><a href="/wordpress/ch012_liita-sulautettu-video">Liitä sulautettu video (Youtube)</a></li>
+<li><a href="/wordpress/ch013_liita-video">Liitä video</a></li>
+<li Class="booki-section">Äänipodcast</li><li><a href="/wordpress/ch015_luo-striimaava-aanisoitin">Luo striimaava äänisoitin</a></li>
+<li><a href="/wordpress/ch016_ilmainen-audiopodcast">Ilmainen audiopodcast</a></li>
+<li Class="booki-section">Suunnittelu</li><li><a href="/wordpress/ch018_vimpaimet">Vimpaimet</a></li>
+<li><a href="/wordpress/ch019_ulkoasu">Ulkoasu</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/wordpress/ch021_tekijat">Tekijät</a></li>
+</ul>

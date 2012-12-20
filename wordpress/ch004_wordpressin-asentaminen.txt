@@ -1,0 +1,86 @@
+<div id="main-content"><h1>WordPressin asentaminen</h1>
+<div id="content">
+<p>Tämä ei ole helppo prosessi! Jos sinulla ei ole kokemusta ohjelmien asentamisesta palvelimelle, tämä prosessi ei luultavasti ole sinua varten - tahdot ehkä mielummin mennä WordPress-sivuille ja luoda blogi-käyttäjätunnuksen ilmaiseksi. Jos kuitenkin tahdot säätää enemmänkin WordPressin asetuksia, voit seurata tätä prosessia.</p>
+<h2>Vaatimukset </h2>
+<p>Tarvitset järjestelmänvalvojan perustaidot ja seuraavat ohjelmat asentaaksesi WordPressin palvelimellesi. On tämän käyttöoppaan kattavuuden ulkopuolella esitellä jokainen teknologia, joten oletamme että ennakkotiedot ovat hyvät.</p>
+<ul><li><strong>MySQL 4</strong> tai parempi (muut <strong>SQL</strong> -versiot vaativat lisäasetuksia, joita ei käsitellä tässä kappaleessa).</li>
+<li><strong>PHP 4</strong> tai parempi.</li>
+</ul><p>Vaihtoehtoisesti <strong>htaccess</strong> -pääsy tai <strong>server rewrites</strong> (tarvitaan pysyvien kustomoitujen <strong>permalinks</strong> -linkkien tekemiseen).</p>
+<p>Tarvitset myös seuraavat taidot.</p>
+<ul><ul><li>Tunnet <strong>FTP</strong>/<strong>FTP</strong>S -tiedostonsiirtoprotokollan sekä hakemistojen oikeuksien asettamisen.</li>
+<li>TAI olet taitava purkamaan arkistoja ja asettamaan tiedostojen omistusoikeuksia <strong>päätteellä</strong></li>
+</ul></ul><p> *Verkossa toimivan tiedostonhallintaohjelman käyttö on erittäin suositeltavaa, koska muutamia tiedostoja täytyy ladata.</p>
+<h2>WordPressin asentaminen FTP/sFTP -tiedostonsiirrolla</h2>
+<p> </p>
+<ol><li>Lataa WordPress. <br><a href="http://wordpress.org/latest.zip">http://wordpress.org/latest.zip</a></li>
+<li>Tuplaklikkaa purkaaksesi "latest.zip" .tiedoston. Tämä luo "wordpress" -hakemiston.</li>
+<li>Luo uusi hakemisto nimellä "uploads". Se tulee "wp-content" -hakemiston sisälle "wordpress" -hakemistossa. </li>
+<li>Lataa "wordpress" -hakemiston sisältö verkkosivusi juureen tai alihakemistoon, esimerkiksi "blog" -hakemistoon.</li>
+<li>Selvitä missä voit asentaa tiedostojen oikeudet tai käytä käskyä <strong>CHMOD</strong> FTP/FTPS -ohjelmassasi.</li>
+<li>Aseta juurihakemiston ja "uploads" -hakemiston käyttöoikeudet muotoon read/write/execute (777) kaikille käyttäjille.</li>
+</ol><p> </p>
+<h2>WordPressin asentaminen Fantastico Script Installerilla</h2>
+<p>Monet verkkosivut on varustettu cPanelilla. cPanelissa on automaattinen asennusohjelma, jota kutsutaan nimellä <a title="Fantastico Website" href="http://netenberg.com/fantastico.php">Fantastico Script Installer</a>. Yksi ominaisuus siinä on WordPressin automaattinen asentaminen. Tehdäksesi tämän navigoi Fantastico Script Installeriin cPanel-ohjauspaneelista ja seuraa ohjeita asentaaksesi WordPressin.</p>
+<h2>Installing WordPress via the command line</h2>
+<p> </p>
+<ol><li>Lataa WordPressin uusin versio. <br><pre>curl -O http://wordpress.org/latest.tar.gz</pre>
+</li>
+<li>Pura se hakemistoon "./wordpress/". <br><pre>tar zxf latest.tar.gz</pre>
+</li>
+<li>Siirrä sisältö verkkopalvelimesi juurihakemistoon tai siellä olevaan alihakemistoon. <br><pre>mv wordpress/* webroot/</pre>
+</li>
+<li>Tee lataushakemisto sinne, missä WordPress sen odottaa olevan. <br><pre>mkdir -p webroot/wp-content/uploads</pre>
+</li>
+<li>Etsi käyttäjä, jonka alla Apache toimii, tässä tapauksessa "www". <br><pre>grep -r ^User\  /etc/httpd/ </pre>
+</li>
+<li>Aseta juurihakemiston ja lataushakemiston käyttöoikeudet. <br><pre>sudo chown <strong>www</strong> webroot/ webroot/wp-content/uploads/</pre>
+</li>
+</ol><p> </p>
+<h2>Asennuksen viimeisteleminen</h2>
+<p>Ennen kuin jatkat, tarvitset:</p>
+<ul><li>Käyttämäsi tietokannan nimen, esimerkiksi: <strong>user1db</strong></li>
+<li>Käyttäjänimen, jolla pääsee tuohon tietokantaan, esimerkiksi: <strong>user1</strong></li>
+<li>Käyttäjänimen salasanan.</li>
+<li>Palvelimen, jolla SQL-tietokantasi on (jos käytät tätä omalta palvelimeltasi, se on luultavasti localhost, mutta muuten sinun tulisi saada se selville verkkosi ylläpitäjältä).</li>
+</ul><p> </p>
+<p>Mene selaimellasi verkkosivusi etusivulle, esimerkiksi: <a href="http://mywordpress.com/" target="_top">http://mywordpress.com/</a></p>
+<p>Automaattiset asetusohjelmat opastavat sinut prosessin seuraavan osan läpi.</p>
+<ol><li>Klikkaa linkkiä, joka sanoo: "Create a wp-config.php file through a web interface".</li>
+<li>Klikkaa linkkiä, joka sanoo: "If you"re all ready, let's go!".</li>
+<li>Kirjoita vaaditut tiedot, jotka olet jo kerännyt. Taulukkojen etuliikettä varten muuta tarjottu "wp_" johonkin merkitykselliseen, kuten "blog1_".</li>
+<li>Klikkaa "Submit".</li>
+<li>Jos virheitä ei tapahdu, klikkaa linkkiä "If you are ready, time now to run the install!".</li>
+<li>Kirjoita ensimmäiseen kenttään blogisi nimi. Huomaa: tämä voidaan vaihtaa milloin tahansa. <br>  Esimerkki: "WordPressin testaaminen".</li>
+<li>Kirjoita sähköpostiosoitteesi. Tämä on ainoa tapa saada järjestelmänvalvojan salasana, mikäli hukkaat sen ja WordPressissä ei ole muita järjestelmänvalvojia.</li>
+<li>Paina nappia, jonka nimi on "Install Wordpress".</li>
+</ol><p>Jos joudut lopettamaan työskentelyn tähän, varmista että olet joko:</p>
+<ul><li>Saanut järjestelmänvalvojan salasanan sähköpostilla tai</li>
+<li>Kirjoittanyt järjestelmänvalvojan salasanan turvalliseen paikkaan.</li>
+</ul>
+Jos et ole tehnyt näin, joudut poistamaan tietokannan taulukon ja aloittamaan alusta, mitä ei käsitellä tässä luvussa. Muussa tapauksessa, kopioi järjestelmänvalvojan salasana ja paina "Login" -nappia.
+<p> </p>
+<p>Järjestelmänvalvojan ensimmäinen salasana on "admin" ilman lainausmerkkejä. Jos työskentelet jaetulla tietokoneella, älä laita rastia "Remember me" -laatikkoon.</p>
+<p>Ensimmäinen asia, joka tulisi tehdä sisäänkirjauduttaessa, on uuden käyttäjän luominen itsellesi muistettavalla salasanalla.</p>
+<ol><li>Klikkaa Users -välilehteä ylhäällä olevan valikkopalkin oikealla puolella.</li>
+<li>Vieritä sivua alaspäin, kunnes näet otsikon "Add New User".</li>
+<li>Kirjoita käyttäjänimesi, sähköpostiosoitteesi ja uusi salasanasi. Aseta Role -alasvetovalikkoon Administrator ja paina "Add User" -nappia.</li>
+</ol><p> </p>
+<p>Lopuksi sinun tulisi muuttaa verkon juurihakemiston käyttöoikeudet takaisin joksikin turvallisemmaksi. Muuta juurihakemiston käyttöoikeuksia tai käytä CHMOD-komentoa. Aseta oikeuksiksi read/write/execute vain omistajalle, ja read/execute ryhmille ja muille käyttäjille. Komentoriviltä voit käyttää komentoa:</p>
+<pre>sudo chown `whoami` webroot/</pre>
+<p> </p>
+Asennus ja jotkin vähäisemmät asetukset on nyt tehty. Jos selaat blogisi etusivulle, sinun pitäisi nyt nähdä WordPressin perusasennus, jossa ei ole juuri mitään sisältöä, ja blogisi otsikko näkyy sivun yläosassa. </div></div><ul Class="menu-goes-here"><li Class="booki-section">Perusteet</li><li><a href="/wordpress/index">Johdanto</a></li>
+<li><a href="/wordpress/ch002_mika-on-blogi">Mikä on blogi?</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/wordpress/ch004_wordpressin-asentaminen">WordPressin asentaminen</a></li>
+<li><a href="/wordpress/ch005_wordpresscom">Wordpress.com</a></li>
+<li Class="booki-section">Peruskäyttö</li><li><a href="/wordpress/ch007_kirjautuminen-wordpressiin">Kirjautuminen Wordpressiin</a></li>
+<li><a href="/wordpress/ch008_lisaa-artikkeli">Lisää artikkeli</a></li>
+<li><a href="/wordpress/ch009_kuvien-lisaaminen">Kuvien lisääminen</a></li>
+<li><a href="/wordpress/ch010_linkkien-lisaaminen">Linkkien lisääminen</a></li>
+<li Class="booki-section">Video</li><li><a href="/wordpress/ch012_liita-sulautettu-video">Liitä sulautettu video (Youtube)</a></li>
+<li><a href="/wordpress/ch013_liita-video">Liitä video</a></li>
+<li Class="booki-section">Äänipodcast</li><li><a href="/wordpress/ch015_luo-striimaava-aanisoitin">Luo striimaava äänisoitin</a></li>
+<li><a href="/wordpress/ch016_ilmainen-audiopodcast">Ilmainen audiopodcast</a></li>
+<li Class="booki-section">Suunnittelu</li><li><a href="/wordpress/ch018_vimpaimet">Vimpaimet</a></li>
+<li><a href="/wordpress/ch019_ulkoasu">Ulkoasu</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/wordpress/ch021_tekijat">Tekijät</a></li>
+</ul>

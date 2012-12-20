@@ -1,0 +1,61 @@
+<html dir="None"><body><div id="main-content"><div id="main-content">
+<div id="content">
+<h1>Icecastin konfigurointi (Windows ja Linux)</h1>
+<p>Linuxissa tarvitset tekstieditorin muuttaaksesi konfiguraatiotiedostoa. Sinun täytyy myös tietää missä osassa käyttöjärjestelmääsi konfiguraatiotiedosto on. Windowsissa se on hieman helpompaa. Jos tahdot editoida Icecastin konfiguraatiotiedostoa Windowsissa, joudut ensin varmistamaan, että Icecast on avoinna mutta ei päällä. Tämän jälkeen napsauta "Configuration" valikkopalkissa ja valitse "Edit Configuration". </p>
+<p><img title="editconfig_en" src="../../../icecast/_booki/icecast/static/Icecast-BasicConfig-editconfig_en-fi.jpg" alt="editconfig_en" width="245" height="135"></p>
+<p>Tämän jälkeen konfiguraatiota voi muokata Notepad-ohjelmassa: </p>
+<p><img title="notepad_en" src="../../../icecast/_booki/icecast/static/Icecast-BasicConfig-notepad_en-fi.jpg" alt="notepad_en" width="600" height="456"></p>
+<p>Icecast2 voidaan konfiguroida Linuxissa tai Windowsissa editoimalla konfiguraatiotiedostoa tekstieditorilla. Tämä dokumentti noudattaa tiettyä syntaksia, joka tunnetaan nimellä XML, joten Icecast2-konfiguraatiotiedosto tulisi nimetä "icecast.xml". Jos sinulla on tiedosto, jonka nimi on <a href="http://icecast.xml.dist/">"icecast.xml.dist",</a>  on tämä tiedosto Icecast2:n esimerkkitiedosto. Nimeä tämä tiedosto tiedostoksi "icecast.xml". Konfiguraatiotiedostojen XML-formaatti on formaatti, joka käyttää samankaltaisia tageja kuin HTML. On tärkeää tietää, että jokaisen "avaustagin" jälkeen täytyy olla "sulkutagi", sillä muuten palvelin ei hyväksy tiedostoa. Tagi on jotain, joka on pienemmyys- ja suuremmuusmerkin välissä, kuten tässä:</p>
+<pre> </pre>
+Tätä esimerkkiä sanotaan "avaavaksi" tagiksi, ja jokaista tällaista kohden täytyy olla sulkutagi. Sulkutagit alkavat avaavalla pienemmyysmerkillä, jota seuraa vinoviiva, kuten tässä:
+<p>Niinpä tagi, joka alkaa "</p>
+<pre>hackme
+</pre>
+<p>Joksikin tällaiseksi:</p>
+<pre>salasanani
+</pre>
+<h2>Kommentit</h2>
+<p>Kommentteja käytetään usein konfiguraatiotiedostossa. Kommentit ovat yksinkertaisesti huomautuksia, jotka on laitettu tiedostoon Icecast2-ohjelmoijien toimesta, jotta ymmärrät konfiguraatiotiedoston eri osia. Jokainen kommentti alkaa merkillä " </p>
+<h2>Konfiguraatiotiedoston muutokset</h2>
+<p>Kun aloitat Icecast2-palvelimen käytön konfiguraatiotiedostossa on vain muutama asia, joista sinun täytyy murehtia.</p>
+<h2>Autentikaatio</h2>
+<pre>    
+        hackme&lt;⁞/source-password&gt;
+        hackme;
+        admin
+        hackme
+    
+</pre>
+<p>Yllä olevat kentät hallitsevat minkä tahansa Icecast-palvelimeen kytkeytyvän ohjelman sisäänkirjautumisprosesseja. Poikkeuksena mediasoitinten (Winamp/XMMS jne.) ei tarvitse käyttää sisäänkirjautumista, ne vain kytkeytyvät ilman mitään autentikaatiota. Nyt sinun tarvitsee välittää vain lähteen salasanaa (source password) käsittelevästä osasta tässä tiedostossa. Lähteen salasana (source password) on salasana, jota koodaajien täytyy käyttää kytkeytyessään Icecast-palvelimeen. Lähettääkseen striimin koodaajan täytyy ensin identifioida itsensä Icecast-palvelimelle lähettämällä oikean salasanan. Jos salasana on oikein, palvelin hyväksyy yhteyden ja voit aloittaa streamauksen. Jos salasana on väärin, tai jos koodaaja ei ole lähettänyt salasanaa, Icecast2-palvelin ei hyväksy yhteyttä ja et voi streamata. Koodausohjelmalle on vain vain yksi salasana, joten jos 10 ihmistä lähettää eri streameja serverille, jokaisen täytyy käyttää samaa salasanaa, joka on listattu tässä. Oletusarvoinen lähteen salasana kaikille Icecast2-palvelimille on "hackme", joten on hyvä idea muuttaa tämä joksikin muuksi, sillä monet ihmiset tuntevat tämän joka tapauksessa.</p>
+<p> </p>
+<h2><a name="Hostname_and_Port"></a> Internet-osoite ja portti</h2>
+<p>Tässä vaiheessa ei tarvitse tietää mitä internet-osoite ja portti ovat. Nyt sinun täytyy vain asettaa näihin oikeat arvot.</p>
+<pre>    localhost
+
+    
+        8000
+        
+    
+</pre>
+<p>Jokaisella verkkoon kytketyllä koneella on internet-osoite. Tämä on kentässä . Löytääksesi tämän voit kirjoittaa Linuxin komentorivillä komennon "hostname" ja kirjoittaa komennon tuloksen tähän osaan. Jos kirjoitan "hostname" terminaaliin ja saan vastaukseksi "liquidsky.net", hostname-kentän tulisi näyttää tältä:</p>
+<pre> liquidsky.net
+</pre>
+<p>Icecast2-palvelimen oletusarvoinen portti on "8000", anna sen olla näin toistaiseksi. Huomaa: nämä kaksi arvoa sinun täytyy muistaa, sillä ne täytyy laittaa koodaajan vastaaviin kenttiin.</p>
+</div>
+</div>
+<div id="main-content">
+<p> </p>
+<div id="content">
+<h1> </h1>
+</div>
+</div></div><ul Class="menu-goes-here"><li Class="booki-section">Icecast</li><li><a href="/icecast-opas/index">Icecast</a></li>
+<li Class="booki-section">Streamaus</li><li><a href="/icecast-opas/ch003_mita-streamaus-on">Mitä streamaus on? </a></li>
+<li Class="booki-section">Asennus</li><li><a href="/icecast-opas/ch005_asennus-linuxiin">Asennus Linuxiin</a></li>
+<li><a href="/icecast-opas/ch006_asennus-windowsiin">Asennus Windowsiin</a></li>
+<li Class="booki-section">Käyttö</li><li><a href="/icecast-opas/ch008_kaynnistaminen-linuxissa">Käynnistäminen Linuxissa</a></li>
+<li><a href="/icecast-opas/ch009_kaynnistaminen-windowsissa">Käynnistäminen Windowsissa</a></li>
+<li><a href="/icecast-opas/ch010_lokitiedostot">Lokitiedostot</a></li>
+<li><a href="/icecast-opas/ch011_icecastin-konfigurointi">Icecastin konfigurointi</a></li>
+<li><a href="/icecast-opas/ch012_kayttajatilien-luominen">Käyttäjätilien luominen</a></li>
+<li Class="booki-section">Lisenssi</li><li><a href="/icecast-opas/ch014_lisenssi">Lisenssi</a></li>
+</ul>

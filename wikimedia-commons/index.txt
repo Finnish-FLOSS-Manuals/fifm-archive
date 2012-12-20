@@ -1,0 +1,62 @@
+<div id="main-content"><h1>Johdanto</h1>
+<div id="content">
+<p>Tämä käyttöopas tarjoaa tarpeelliset tiedot ihmisille, jotka tahtovat lisätä oman työnsä Wikimedia Commonsiin.</p>
+<h2>Mikä on Wikimedia Commons?</h2>
+<p><em>Wikimedia Commons</em> (<a href="http://commons.wikimedia.org/wiki/Etusivu">http://commons.wikimedia.org/wiki/Etusivu</a>) on verkkosivu, jota ylläpitää <em>Wikimedia Foundation</em> (<a href="http://wikimediafoundation.org/wiki/Etusivu">http://wikimediafoundation.org/wiki/Etusivu</a>), voittoa tuottamaton järjestö, joka ylläpitää myös Wikipediaa. Se on mediatiedostojen tietokanta, jota kuka tahansa voi käyttää mihin tahansa tarkoitukseen. Se on avoin verkkosivu, johon kuka tahansa voi lisätä tiedostojaan, ja joka käyttää helpon yhteistyön mahdollistavaa wiki-ohjelmistoa.</p>
+<p>Sivustoa ylläpitävät vapaaehtoiset toimittajat, jotka luovat myös suurimman osan sisällöstä lisäämällä omia töitään. Yhteisö on monikielinen, kääntäjiä on saatavilla kymmenille eri kielille. Se kerää vain materiaalia, joka on vapaiden sisältölisenssien alaista tai public domainissa. Se perustettiin syyskuussa 2004, vuoden 2010 alussa sivuilla on lähes 6 miljoonaa tiedostoa.</p>
+<h2>Mitä erikoista siinä on?</h2>
+<p>Tässä on joitain ominaisuuksia, jotka tekevät Wikimedia Commonsista ainutlaatuisen:</p>
+<ul><li>
+<p>Kaikki sisältö on saatavilla vapaiden sisältölisenssien alaisuudessa. Tämä mahdollistaa kaupallisen käytön ja johdannaisteokset.</p>
+</li>
+<li>
+<p>Hyöty: Wikimedia Commons keskittyy hyödyllisiin tiedostoihin. Ei epätarkkoja kuvia jonkun kengistä.</p>
+</li>
+<li>
+<p>Yhteisö keskittyy tarjoamaan yksityiskohtaiset taustatiedot mediatiedostoista, jopa tarkkojen maantieteellisten koordinaattien tarkkuudella. Luontoa koskevista tiedostoista on usein tarjolla tarkka sijainti ja tiedot lajista, mikä on äärimmäisen hyödyllistä tieteellisessä tutkimuksessa.</p>
+</li>
+<li>
+<p>Monikielisen yhteisön ansiosta monien maailman kulttuurien ihmiset löytävät helposti tarpeelliset tiedostot kuvattuna omalla kielellään. </p>
+</li>
+<li>
+<p>Laajat kokoelmat korkealaatuista vektorigrafiikkaa, kuten lippuja, karttoja ja kaavioita. Vektorigrafiikka sopii tulostettavaksi missä tahansa koossa, toisin kuin bittikarttakuvat, jotka näyttävät sumeilta korkealla resoluutiolla.</p>
+</li>
+<li>
+<p>Kutsumme kaikki auttamaan meitä tekemään kaikkein laajimman mediakokoelman maailmassa. Yksilöt voivat ottaa osaa vapaan kulttuurin luomiseen lataamalla työnsä Wikimedia Commonsiin.</p>
+</li>
+</ul><h2>Mitä on vapaa sisältö?</h2>
+<p><em>Vapaan kulttuurin teosten määrittely</em> (<a href="http://freedomdefined.org/Definition/Fi">http://freedomdefined.org/Definition/Fi</a>) tunnistaa seuraavat perusvapaudet, jotka minkä tahansa lisenssin täytyy tarjota, jotta työtä voidaan pitää "vapaana sisältönä": <strong></strong></p>
+<ul><li>
+<p><strong>vapautta käyttää</strong> teosta ja nauttia sen käyttämisen hyödyistä</p>
+</li>
+<li>
+<p><strong>vapautta tutkia</strong> teosta ja soveltaa siitä hankittua tietoa</p>
+</li>
+<li>
+<p><strong>vapautta tehdä ja levittää kopioita</strong>, osaksi tai kokonaisuudessaan, sen sisällöstä ja ilmaisusta</p>
+</li>
+<li>
+<p><strong>vapautta tehdä muutoksia ja parannuksia</strong>. ja levittää johdettuja teoksia</p>
+</li>
+</ul><p>Vain kolmea rajoitusta pidetään sallittuina:</p>
+<ul><li>
+<p>Tekijöiden mainitseminen (Attribution of authors)</p>
+</li>
+<li>
+<p>Vapauksien siirto (“copyleft” tai “share-alike” -lauseke)</p>
+</li>
+<li>
+<p>Vapauksien suojaaminen (esimerkiksi pääsy lähdekoodiin voi olla vaadittu, kun työtä jaellaan uudelleen).</p>
+</li>
+</ul><h2>Mitkä lisenssit ovat vapaita?</h2>
+<p>Työt, jotka ovat public domainissa, sillä tekijänoikeudet ovat vanhentuneet tai tekijä on päättänyt luopua niistä, ovat vapaita kulttuuriteoksia, vaikkakin "public domain" ei teknisesti ottaen ole lisenssi. (Lisenssiä voidaan käyttää vain tekijänoikeuden ollessa olemassa. "Public domain" merkitsee tekijänoikeuksien puutetta.)</p>
+<p>Yleisiä lisenssejä, joita ihmiset käyttävät tehdäkseen töistään vapaata sisältöä, ovat GNU Free Documentation License (“GFDL”), jonka on julkaissut Free Software Foundation, ja Attribution-lisenssi (“CC-BY”), sekä Attribution ShareAlike -lisenssi (“CC-BY-SA”), joista molemmat on julkaissut Creative Commons.</p>
+</div></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/wikimedia-commons/index">Johdanto</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/wikimedia-commons/ch003_mediawiki-ohjelmasta">MediaWiki-ohjelmasta</a></li>
+<li><a href="/wikimedia-commons/ch004_kirjaudu-sisaanluo-tunnus">Kirjaudu sisään/luo tunnus</a></li>
+<li><a href="/wikimedia-commons/ch005_tiedoston-lataaminen">Tiedoston lataaminen</a></li>
+<li><a href="/wikimedia-commons/ch006_lisenssin-valitseminen">Lisenssin valitseminen</a></li>
+<li><a href="/wikimedia-commons/ch007_kuvan-lisaaminen-sivulle">Kuvan lisääminen sivulle</a></li>
+<li Class="booki-section">Tiedostomuodot</li><li><a href="/wikimedia-commons/ch009_svg">SVG</a></li>
+<li Class="booki-section">Tekijät</li><li><a href="/wikimedia-commons/ch011_tekijat">Tekijät</a></li>
+</ul>

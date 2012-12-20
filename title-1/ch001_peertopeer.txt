@@ -1,0 +1,43 @@
+<div id="main-content">
+<p>
+</p>
+<div id="content">
+  <h1>Mikä on vertaisverkko?
+    <br></h1>
+  <p>Vertaisverkko on tapa vaihtaa tiedostoja Internetissä. Sen toiminnan ymmärtämiseksi on hyvä katsoa peruskuvausta siitä, miten internet yleensä toimii, kun katsot verkkosivuja.
+    <br></p>
+  <p>The internet is, at its most simplest level, a lot of computers connected together. In this type of computer network there are two types of computers - <strong>Clients</strong> and <strong>Servers</strong>. A 'client' can be thought of as a computer that you use to connect to the internet. This might be, for example, the computer you have at home which you use to browse. It is called a 'client' because it requests data from other computers and seldom delivers data to to other computers in any substantial way.
+    <br></p>
+  <p>A 'server' is a computer that delivers the webpages. These computers are dedicated to the delivery of websites. They are called 'servers' because they 'serve' (deliver) data.
+  </p>
+  <p>When you 'open a webpage' what you are actually doing is downloading that webpage from a server. Your client requests the webpage from the server and the server then delivers the data (webpage) back to your computer. This is known as the 'client - server model' and a diagram of it might look a little like this:
+    <br></p>
+  <p><img title="servernet_2" alt="servernet_2" src="_booki/title-1/static/WhatIs-PeerToPeer-servernet_2-en.png" height="238" width="358"><br>In the above diagram you can see many clients can request data from the same server.
+    <br></p>
+  <p>There are many many servers on the internet dedicated to serving webpages. This network of servers is what we call the <strong>World Wide Web</strong>.
+  </p>
+  <p>What you may notice about this network is that client computers can only request information from servers. In this model there is no way you can interact with computers on the internet unless they are servers. You cannot request data from another client computer. My computer cannot request data from your computer.
+  </p>
+  <p>This is what Peer-to-Peer technology solves. In effect it turns every client computer into a server. So the configuration of clients as drawn above, redrawn as a WhatIs.P2P network would look like this:
+  </p>
+  <p><img title="p2p" alt="p2p" src="_booki/title-1/static/WhatIs-PeerToPeer-p2p-en.png" height="238" width="358"></p>
+  <p>In the above diagram you can see each client computer can communicate directly with any other client computer. This is known as the <strong>P2P network model</strong>. This is the idea behind WhatIs.P2P - it enables any client computer to deliver files to any other client computer. This is why WhatIs.P2P networks are often referred to as 'file sharing networks' as they enable all users on the network to request and deliver (share) files with any other user on the network. Most commonly these files are music and video files. 
+  </p>
+  <h2>How do I join a P2P network?
+  </h2>
+  <p>It's very simple. To participate in a file sharing network you need to install and run a type of software known as a 'file sharing client' or 'Peer-to-Peer client'. This software enables you to find the other computers on the network, see what files they have available, and download those files to your computer. A file sharing client also enables you to make available your own files for others to download from your computer.
+  </p>
+  <p>Common file sharing clients include Napster, Azureus, Limewire, BitTorrent, BitTornado, Gnutella, and eDonkey. There are many many other softwares that do more or less the same job. They all work in slightly different ways and working out which one is best for you is often only acquired by trial and error, or by asking your local WhatIs.P2P expert (if you have one) and talking to them about your specific needs.
+    <br></p>
+  <p> Author : <em>PeerToPeer</em>
+    <br>© adam hyde 2007
+  </p>
+  <hr><br>License : General Public License
+  <p>Produced in <a href="http://www.flossmanuals.net/">FLOSS Manuals</a>
+  </p>
+</div>
+</div><ul Class="menu-goes-here"><li><a href="/title-1/index">Introduction</a></li>
+<li><a href="/title-1/ch001_peertopeer">PeerToPeer</a></li>
+<li><a href="/title-1/ch002_bittorrent">BitTorrent</a></li>
+<li><a href="/title-1/ch003_credits">Credits</a></li>
+</ul>

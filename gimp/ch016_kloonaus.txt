@@ -1,0 +1,85 @@
+<div id="main-content">
+<h1>Somebody Should Set The Title For This Chapter!</h1><p><font size="4">Kloonaus ja väritasapaino</font>
+</p>
+<p>Kloonaus on perustekniikka, jolla saadaan kuvasta kopioitua tietynlaista kuviota toiseen paikkaan ja tavallisen hirttonuoralla tapahtuvan valinta ja Ctrl-C/Ctrl-V-tekniikan käyttäminen on turhan hankalaa tai muuten epäedullista. 
+</p>
+<p>Kloonauksella saadaan tehtyä mm. seuraavia manipulaatioita tehokkaasti: 
+</p>
+<p>- Lisää puita tai muita objekteja maisemakuvaan
+</p>
+<p>- Ihoa virheettömämmäksi, finnit ja näppylät pois
+</p>
+<p>- Sillä saadaan piiloon häiritseviä esineitä
+</p>
+<p>Kloonaustyökalu<img title="kloonaus" alt="kloonaus" src="_booki/gimp/static/GIMP-kloonaus-kloonaus-fi.jpg" height="24" width="27"> löytyy työkaluikkunasta seuraavasta paikasta:
+</p>
+<p><img src="_booki/gimp/static/GIMP-kloonaus-gimp2_html_7985c812-fi.jpg" name="Grafiikka1" align="left" border="0" height="435" width="296"><br clear="left"> Kuva 1. Kloonaustyökalu valittuna
+</p>
+<p>Sinun täytyy tämä työkalu valittuna painaa <span>Ctrl</span>-näppäin pohjassa (Huom!) kuvassa jotakin osaa. Sitten yksinkertaisesti päästät <span>Ctrl</span>-näppäimen vapaaksi ja maalaat saamaasi kuvaa jonnekin muualle. Se siis toimii kuten pensseli, mutta maalaa pelkän tylsän värin sijasta valokuvan osia kokonaisuudessaan. Kloonaustyökalun pensselin alaa ja muitakin ominaisuuksia voidaan luonnollisesti säädellä toiminnon oman käyttöliittymän kautta (tulee esiin, kun kaksoisnapsautat hiiren ykköspainiketta kloonaustyökalun päällä), joka on hyvin samantapainen mm. pensselin tai pyyhekumin kanssa. Esimerkki kloonauksen käytöstä:
+</p>
+<p>
+  <br><br></p>
+<p><img src="_booki/gimp/static/GIMP-kloonaus-resized_600x518_gimp2_html_6b693105-fi.jpg" name="Grafiikka2" align="left" border="0" height="518" width="600"><br clear="left">Kuva 2. Käsittelemätön kuva hiekkarannasta
+</p>
+<p>
+  <br><br></p>
+<p><img src="_booki/gimp/static/GIMP-kloonaus-resized_600x518_gimp2_html_m54d07fca-fi.jpg" name="Grafiikka3" align="left" border="0" height="518" width="600"><br clear="left">Kuva 3. Kaksi saarta rannikon edustalla. Myönnetään, oikeanpuoleisempi ei vaikuta kovinkaan realistiselta koska sen puut ovat liian pienet ottaen huomioon sen edustalla olevan sijainnin.
+</p>
+<p><strong>Väritasapaino</strong>
+</p>
+<p>Väritasapainolla pystytään vaikuttamaan paljon siihen, minkälainen tunnelma kuvaan saadaan.  Se toimii myös joskus tehokkaana valokuvien parantamistyökaluna. Valitse "Työkalut"=&gt;"Värityökalut"=&gt;"Väritasapainon säätö":
+</p>
+<p>eteesi avautuu käyttöliittymä, joka näyttää seuraavalta:
+</p>
+<p><img src="_booki/gimp/static/GIMP-kloonaus-gimp2_html_6d80bb94-fi.jpg" name="Grafiikka4" align="left" border="0" height="382" width="378"><br clear="left"> Kuva 4. Väritasapainon säätö
+</p>
+<p>Perusideaa on, että voit muuttaa punaisen, vihreän ja sinisen värin kylläisyyttä kuvassa. Esimerkiksi korostamalla punaista ja sinistä saat taivaalla olevat sadepilvet huomattavasti uhkaavamman näköisiksi:
+</p>
+<p><img src="_booki/gimp/static/GIMP-kloonaus-resized_600x518_gimp2_html_29aee287-fi.jpg" name="Grafiikka5" align="left" border="0" height="518" width="600"><br clear="left">Kuva 6. Uhkaavat sadepilvet
+</p>
+<p>Laittamalla taas alinta säädintä keltaisen suuntaan saat aurinkoisen kesäpäivän tunnelman:
+</p>
+<p><img src="_booki/gimp/static/GIMP-kloonaus-resized_600x518_gimp2_html_m5e566aa-fi.jpg" name="Grafiikka6" align="left" border="0" height="518" width="600"><br clear="left">Kuva 7. Aurinkoinen kesäpäivä
+</p>
+<p>Jne... Kokeile eri yhdistelmiä ja sitä, miten ne vaikuttavat kuvan tunnelmaan.
+</p>
+<p>
+</p>
+</div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/gimp/index">Johdanto</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/gimp/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Asetukset</li><li><a href="/gimp/ch005_asetukset">Asetukset</a></li>
+<li Class="booki-section">Aloittelijan oppaat</li><li><a href="/gimp/ch007_johdatus">Johdatus</a></li>
+<li><a href="/gimp/ch008_kokeiluja">Kokeiluja</a></li>
+<li><a href="/gimp/ch009_uuden-kuvan-tekeminen">Uuden kuvan tekeminen</a></li>
+<li><a href="/gimp/ch010_koon-muuttaminen">Koon muuttaminen</a></li>
+<li><a href="/gimp/ch011_valinnat">Valinnat</a></li>
+<li><a href="/gimp/ch012_toimintamoodit">Toimintamoodit</a></li>
+<li><a href="/gimp/ch013_kuvien-manipulointi">Kuvien manipulointi</a></li>
+<li><a href="/gimp/ch014_reunat">Reunat</a></li>
+<li><a href="/gimp/ch015_kuvateksti">Kuvateksti</a></li>
+<li><a href="/gimp/ch016_kloonaus">Kloonaus</a></li>
+<li Class="booki-section">Kehittyneen käyttäjän oppaat</li><li><a href="/gimp/ch018_tasot">Tasot</a></li>
+<li><a href="/gimp/ch019_valokuvien-parantaminen">Valokuvien parantaminen</a></li>
+<li><a href="/gimp/ch020_taidetta">Taidetta</a></li>
+<li><a href="/gimp/ch021_sumua">Sumua</a></li>
+<li><a href="/gimp/ch022_etaisyydet">Etäisyydet</a></li>
+<li><a href="/gimp/ch023_iwarp">Iwarp</a></li>
+<li><a href="/gimp/ch024_kanavat">Kanavat</a></li>
+<li><a href="/gimp/ch025_script-fu">Script-fu</a></li>
+<li><a href="/gimp/ch026_lapinakyvyys">Läpinäkyvyys</a></li>
+<li><a href="/gimp/ch027_animaatio">Animaatio</a></li>
+<li><a href="/gimp/ch028_bannerit">Bannerit</a></li>
+<li Class="booki-section">Edenneen käyttäjän oppaat</li><li><a href="/gimp/ch030_kuvaformaatit">Kuvaformaatit</a></li>
+<li><a href="/gimp/ch031_teoriaa">Teoriaa</a></li>
+<li><a href="/gimp/ch032_pensselit">Pensselit</a></li>
+<li><a href="/gimp/ch033_haaveilua">Haaveilua</a></li>
+<li><a href="/gimp/ch034_avaruusmaisema">Avaruusmaisema</a></li>
+<li><a href="/gimp/ch035_kolmiulotteisuus">Kolmiulotteisuus</a></li>
+<li><a href="/gimp/ch036_konffausta">Konffausta</a></li>
+<li><a href="/gimp/ch037_selektiivinen">Selektiivinen</a></li>
+<li><a href="/gimp/ch038_retusointi">Retusointi</a></li>
+<li><a href="/gimp/ch039_sumentaminen">Sumentaminen</a></li>
+<li><a href="/gimp/ch040_syvays">Syväys</a></li>
+<li><a href="/gimp/ch041_alfakanava">Alfakanava</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/gimp/ch043_tekijat">Tekijät</a></li>
+</ul>

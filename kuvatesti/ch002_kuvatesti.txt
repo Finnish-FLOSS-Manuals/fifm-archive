@@ -1,0 +1,4 @@
+<html dir="None"><body><div id="main-content"><h1>Kuvatesti</h1>
+<p>blahblahblah</p></div><ul Class="menu-goes-here"><li Class="booki-section">No pics</li><li><a href="/kuvatesti/index">No pics</a></li>
+<li><a href="/kuvatesti/ch002_kuvatesti">Kuvatesti</a></li>
+</ul>

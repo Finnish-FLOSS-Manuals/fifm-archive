@@ -1,0 +1,46 @@
+<div id="main-content"><h1>Tiedostosi lisääminen artikkeliin</h1>
+<div id="content">
+<p align="center">  <img title="resized_600x491_insertingimage_all" src="_booki/wikimedia-commons/static/WikimediaCommons-InsertingMedia-resized_600x491_insertingimage_all-fi.png" alt="resized_600x491_insertingimage_all" width="600" height="491"></p>
+<p>Kuvasi toimii millä tahansa Wikimedia-projektin ylläpitämällä sivustolla, kunhan kuva on ladattu Wikimedia Commonsiin.</p>
+<p>Kaikki lisätyt kuvat saavat automaattisesti linkin tiedostosta sen kuvasivulle. Tämä merkitsee, että on aina helppoa löytää tekijä- ja lisenssitiedot kuvista, jotka on lisätty artikkeleihin -- ne ovat vain napsautuksen päässä.</p>
+<h2>Esikatselukuvat</h2>
+<p>Yksinkertaisin wiki-koodi, jota vaaditaan kuvan näyttämiseen, näyttää tiedoston nimen hakasulkujen sisällä:</p>
+<p> </p>
+<div>
+<pre>[[Image:Esimerkki.png]]</pre>
+</div>
+<p> </p>
+<p>Tämä näyttää kuitenkin kuvan täysikokoisena, mikä on yleensä epätoivottavaa. Kuvan kokoa pienentääksemme voimme lisätä <strong>thumb</strong> -avainsanan:</p>
+<pre>[[Image:Esimerkki.png|thumb]]</pre>
+<p>Avainsana <strong>thumb</strong> lisää myös harmaan kehyksen kuvan ympärille ja jonkin verran tilaa kuvatekstiä varten kuvan alle.</p>
+<p>Esikatselukuvien leveys on 100-250 pikseliä (riippuen käyttäjän asetuksista). Jos tahdot pakottaa net tiettyyn leveyteen, voit tehdä niin wikikoodilla:</p>
+<pre>[[Image:Esimerkki.png|250px]]</pre>
+<pre>[[Image:Esimerkki.png|thumb|250px]]</pre>
+<p>Sekä leveysparametrin että <strong>thumb</strong> -avainsanan käyttö merkitsee, että kuva näkyy sen levyisenä, mutta sillä on myös harmaa kehys.</p>
+<h2>Kuvatekstin lisääminen</h2>
+<p>Avainsanan <strong>thumb</strong> käyttö saa kuvan näyttämään vähän oudolta, mikäli emme lisää myös kuvatekstiä. Voimme tehdä sen kirjoittamalla kuvatekstin viimeiseksi vaihtoehdoksi hakasulkujen sisälle. Kuvatekstin täytyy olla viimeinen elementti. </p>
+<pre>[[Image:Esimerkki.png|thumb|Tähän kirjoitetaan kuvateksti]]
+</pre>
+<pre>[[Image:Esimerkki.png|250px|Tähän kirjoitetaan kuvateksti]]
+</pre>
+<p>Jos kuvatekstiä käytetään ilman<strong> thumb</strong> -avainsanaa, kuvatekstiä käytetään "vaihtoehtoisena tekstinä", mikä merkitsee, että kuvateksti näytetään, kun käyttäjä pitää hiiren osoitinta kuvan päällä.</p>
+<h2>Asettelu</h2>
+<p>Jos kuva näytetään ilman asettelu-avainsanaa, se näytetään oletusarvoisesti vasemmalla, mutta teksti ei kierrä kuvaa. Vaihtoehtoiset avainsanat ovat <strong>center</strong>, <strong>left</strong> ja <strong>right</strong>. Left ja right antavat tekstin kiertää kuvan, mikä on yleensä haluttavaa. </p>
+<pre>[[Image:Esimerkki.png|250px|right]]</pre>
+<pre>[[Image:Esimerkki.png|thumb|right|Kuvateksti tulee tähän]]</pre>
+<pre>[[Image:Esimerkki.png|thumb|250px|right|Kuvateksti tulee tähän]]</pre>
+<p>Nämä kuvat asetellaan oikealle.</p>
+<p>Asettelu-avainsana voi tulla myös ennen leveys-parametriä tai <strong>thumb</strong>-avainsanaa.</p>
+<h2>Muita vaihtoehtoja</h2>
+<p>On myös monia muita vaihtoehtoja kuvien asetteluun. Seuraavat sivut kertovat muista vaihtoehdoista, joita voit kokeilla. </p>
+<ul><li><a href="http://www.mediawiki.org/wiki/Help:Images">http://www.mediawiki.org/wiki/Help:Images</a> </li>
+<li><a href="http://en.wikipedia.org/wiki/Wikipedia:Picture_tutorial">http://en.wikipedia.org/wiki/Wikipedia:Picture_tutorial</a> </li>
+</ul></div></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/wikimedia-commons/index">Johdanto</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/wikimedia-commons/ch003_mediawiki-ohjelmasta">MediaWiki-ohjelmasta</a></li>
+<li><a href="/wikimedia-commons/ch004_kirjaudu-sisaanluo-tunnus">Kirjaudu sisään/luo tunnus</a></li>
+<li><a href="/wikimedia-commons/ch005_tiedoston-lataaminen">Tiedoston lataaminen</a></li>
+<li><a href="/wikimedia-commons/ch006_lisenssin-valitseminen">Lisenssin valitseminen</a></li>
+<li><a href="/wikimedia-commons/ch007_kuvan-lisaaminen-sivulle">Kuvan lisääminen sivulle</a></li>
+<li Class="booki-section">Tiedostomuodot</li><li><a href="/wikimedia-commons/ch009_svg">SVG</a></li>
+<li Class="booki-section">Tekijät</li><li><a href="/wikimedia-commons/ch011_tekijat">Tekijät</a></li>
+</ul>

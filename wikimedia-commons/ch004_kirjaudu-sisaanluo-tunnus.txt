@@ -1,0 +1,50 @@
+<div id="main-content"><h1>Kirjautuminen sisään ja käyttäjätunnuksien luominen</h1>
+<div id="content">
+<p>Useimpia Wikimedia Commonsin sivuja voi muokata rekisteröimättä käyttäjätunnusta. Ilman käyttäjätunnuksia muokkaavien ihmisten sanotaan muokkaavan "anonyymisti", mutta muokkauksien kanssa näytetään IP-osoitteet, mikä on usein vähemmän anonyymiä kuin käyttäjänimen valitseminen!</p>
+<p>Käyttäjien täytyy kuitenkin olla kirjautuneina sisään ladatakseen tiedostoja. Kuitenkin Wikimedia Commonsin käyttäjätunnusta voi käyttää kaikissa Wikimedia-projekteissa. Kun olet kirjautunut yhdelle sivulle, sinut kirjataan sisään myös kaikille muille sivuille.</p>
+<h2>Rekisteröityminen</h2>
+<p><img title="MediaWiki_Login_link_en" src="_booki/wikimedia-commons/static/WikimediaCommons-UserAccount-MediaWiki_Login_link_en-fi.png" alt="MediaWiki_Login_link_en" width="336" height="157"></p>
+<p>Oikeassa ylänurkassa näet linkin, joka sanoo "Kirjaudu sisään tai luo tunnus". Tämä linkki vie sinut sivulle <a href="http://commons.wikimedia.org/w/index.php?title=Special:UserLogin&amp;uselang=fi">http://commons.wikimedia.org/w/index.php?title=Special:UserLogin&amp;uselang=fi</a>.</p>
+<p><img title="MediaWiki_Login_mask_en" src="_booki/wikimedia-commons/static/WikimediaCommons-UserAccount-MediaWiki_Login_mask_en-fi.png" alt="MediaWiki_Login_mask_en" width="443" height="306"></p>
+<p>Seuraa linkkiä <a href="http://commons.wikimedia.org/w/index.php?title=Special:UserLogin&amp;type=signup&amp;uselang=fi">luodaksesi tunnuksen</a>.</p>
+<p><img title="createaccount_en" src="_booki/wikimedia-commons/static/WikimediaCommons-UserAccount-createaccount_en-fi.png" alt="createaccount_en" width="441" height="499"></p>
+<p>Ruudun yläosassa näkyy kaksi yhdistettyä sumuista sanaa. Uudet käyttäjät joutuvat kirjoittamaan sanat laatikkoon. Tämä tunnetaan "CAPTCHA"-tunnistuksena ja se estää spämmereitä rekisteröimästä automaattisesti satoja tunnuksia. </p>
+<p>CAPTCHA-tunnistuksen alla on kentät käyttäjänimelle, salasanalle ja sähköpostiosoitteelle. Huomaa:</p>
+<ul><li>Käyttäjänimet ovat herkkiä isoille kirjaimille - "Doug" on eri nimi kuin "DOUG", joka on eri nimi kuin "DoUG", joka on eri nimi kuin "DOuG" ...</li>
+<li>Käyttäjänimesi täytyy olla ainutlaatuinen, joten et voi kirjata käyttäjänimeä, mikäli joku on jo ottanut saman käyttäjänimen. Siinä tapausessa voit lisätä käyttäjänimen loppuun numeroita tai kirjaimia.</li>
+</ul><p>Sähköpostiosoitteen kirjoittaminen on vapaaehtoista, mutta se on hyvä idea. Ensinnäkin saat uuden salasanan sähköpostissa, mikäli hukkaat salasanasi. Toiseksi saat huomautuksen sähköpostiisi, mikäli jku lähettää sinulle viestin wikissä. Tämä on erittäin hyödyllistä, mikäli et aio palata ja tarkastaa sivustoa säännölliseksi. Kolmanneksi voit lähettää sähköpostia wikin kautta muille käyttäjille, jotka voivat myös lähettää sinulle sähköpostia.</p>
+<h2>Kirjautuminen sisään</h2>
+<p><img title="MediaWiki_Login_link_en" src="_booki/wikimedia-commons/static/WikimediaCommons-UserAccount-MediaWiki_Login_link_en-fi.png" alt="MediaWiki_Login_link_en" width="336" height="157"></p>
+<p>Seuraa samaa linkkiä sivulle <a href="http://commons.wikimedia.org/wiki/Special:UserLogin">http://commons.wikimedia.org/wiki/Special:UserLogin</a> , kirjoita käyttäjänimesi ja salasanasi ja napsauta "Kirjaudu sisään".</p>
+<p>Kun olet kirjautunut sisään, huomaat uusia linkkejä oikeassa ylänurkassa, alkaen käyttäjänimestäsi, jota seuraa:</p>
+<ul><li><a title="My talk page [alt-shift-n]" accesskey="n" href="http://commons.wikimedia.org/wiki/Special:Mytalk">Keskustelusivu <br></a></li>
+<li><a title="My preferences" href="http://commons.wikimedia.org/wiki/Special:Preferences">Asetukset <br></a></li>
+<li><a title="The list of pages youre monitoring for changes [alt-shift-l]" accesskey="l" href="http://commons.wikimedia.org/wiki/Special:Watchlist">Tarkkailulista <br></a></li>
+<li><a title="List of my contributions [alt-shift-y]" accesskey="y" href="http://commons.wikimedia.org/wiki/Special:Mycontributions">Omat muokkaukset <br></a></li>
+<li><a href="http://commons.wikimedia.org/w/index.php?title=Special:UserLogout&amp;returnto=Etusivu"><span>Kirjaudu ulos</span></a></li>
+</ul><h2>Käyttäjän linkit</h2>
+<p>Rekisteröityneenä käyttäjänä sinulle on tarjolla muutamia erikoisvaihtoehtoja. Ensimmäinen on oma käytäjäsivusi. Tämä on sijainnissa <span class="twikiNewLink">User:käyttäjänimesi<a title="Create this topic" href="http://fi.flossmanuals.net/bin/edit/WikimediaCommons/User:k%C3%A4ytt%C3%A4j%C3%A4nimesi?topicparent=WikimediaCommons.UserAccount" rel="nofollow">?</a></span> . Pääset sinne napsauttamalla käyttäjänimeäsi oikeassa ylänurkassa.</p>
+<p>Tänne on hyvä laittaa omia henkilökohtaisia tietojasi, esimerkiksi mielenkiintosi kohteista ja taidoistasi. Voit myös kertoa taidostasi eri kielissä, jotta muut käyttäjät tietävät, miten kanssasi voi parhaiten kommunikoida. Erikoistemplaatteja tähän tarkoitukseen löytyy osoitteesta <a href="http://commons.wikimedia.org/wiki/Commons:Babel">http://commons.wikimedia.org/wiki/Commons:Babel</a>.</p>
+<p><em>Keskustelusivusi </em>sijaitsee osoitteessa <span class="twikiNewLink">User talk:käyttäjänimesi<a title="Create this topic" href="http://fi.flossmanuals.net/bin/edit/WikimediaCommons/UserTalk:k%C3%A4ytt%C3%A4j%C3%A4nimesi?topicparent=WikimediaCommons.UserAccount" rel="nofollow">?</a></span> . Tänne muut käyttäjät voivat jättää viestejä sinulle. Kun keskustelusivuasi on muokattu, suuri oranssi palkki ilmestyy kaikille wikisivuille joilla käyt, siinä lukee "Sinulle on uusia viestejä", kunnes luet keskustelusivusi.</p>
+<p>Voit vastata viesteihin keskustelusivullasi joko omalla keskustelusivullasi tai toisen käyttäjän keskustelusivulla. (Luultavasti käyttäjän allekirjoituksessa on linkki keskustelusivulle.) Varmista, että allekirjoitat kaikki viestit joita kirjoitat keskustelusivuille neljällä tildellä: ~~~~. Kun tallennat sivun, tämä muutetaan automaattisesti linkiksi käyttäjäsivullesi ja aikaleimaksi.</p>
+<p><em>Tarkkailulistastasi</em> näet, mihin tarkkailulistallasi oleville sivuille on viimeksi tehty muutoksia. Oletusarvoisesti lataamiesi tiedostojen kuvasivut lisätään tarkkailulistallesi. Tämä merkitsee että voit seurata muiden tekemiä muutoksia tiedostojesi kuvauksiin. Voit myös lisätä sivuja tarkkailulistaasi avaamalla "muokkaa" -sivulehden ja rastimalla laatikon, joka sanoo "Tarkkaile tätä sivua".</p>
+<p><em>Omat muokkaukset</em> -kohdassa näet listan kaikista muokkauksita tai latauksista, jotka olet tehnyt, alkaen uusimmasta. Tämä voi olla hyödyllistä, jos muistat muokanneesi mielenkiintoista sivua, mutta unohdit lisätä sen tarkkailulistaasi.</p>
+<h2>Asetuksien muuttaminen</h2>
+<p>On olemassa tusinoittain asetuksia, mutta tässä käsitellään vain muutamia kaikkein mielenkiintoisimpia.</p>
+<p><img title="Commons_register3_open_preferences_en" src="_booki/wikimedia-commons/static/WikimediaCommons-UserAccount-Commons_register3_open_preferences_en-fi.png" alt="Commons_register3_open_preferences_en" width="240" height="76"></p>
+<p>Seuraa oikealla olevaa linkkiä sivulle <a href="http://commons.wikimedia.org/wiki/Special:Preferences">http://commons.wikimedia.org/wiki/Special:Preferences</a> .</p>
+<p><img title="Commons_register4_set_language_cropped_en" src="_booki/wikimedia-commons/static/WikimediaCommons-UserAccount-Commons_register4_set_language_cropped_en-fi.png" alt="Commons_register4_set_language_cropped_en" width="240" height="125"></p>
+<p>Kohdassa "Käyttäjätiedot" on pudotusvalikko "Käyttöliittymän kieli". Tämä muuttaa käyttöliitymän viestien (kuten valikkojen linkkien) kielen. Tämä kannattaa vaihtaa suomeen, mikäli et tahdo käyttää oletusarvoisena olevaa englannin kieltä.</p>
+<p><img title="prefs_email_en" src="_booki/wikimedia-commons/static/WikimediaCommons-UserAccount-prefs_email_en-fi.png" alt="prefs_email_en" width="436" height="175"></p>
+<p>Alimpana on "Sähköpostiasetukset", jossa on joukko vaihtoehtoja. Jos et tarkasta sivua säännöllisesti, on hyvä idea rastia vaihtoehto "<em>Lähetä sähköpostiviesti, kun käyttäjäsivun keskustelusivu muuttuu</em>".</p>
+<p><img title="Commons_register5_save_changes_1_1" src="_booki/wikimedia-commons/static/WikimediaCommons-mediawiki_screenshots-Commons_register5_save_changes_1_1-en.png" alt="Commons_register5_save_changes_1_1" width="385" height="99"></p>
+<p>Älä unohda tallentaa asetuksiasi! </p>
+</div></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/wikimedia-commons/index">Johdanto</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/wikimedia-commons/ch003_mediawiki-ohjelmasta">MediaWiki-ohjelmasta</a></li>
+<li><a href="/wikimedia-commons/ch004_kirjaudu-sisaanluo-tunnus">Kirjaudu sisään/luo tunnus</a></li>
+<li><a href="/wikimedia-commons/ch005_tiedoston-lataaminen">Tiedoston lataaminen</a></li>
+<li><a href="/wikimedia-commons/ch006_lisenssin-valitseminen">Lisenssin valitseminen</a></li>
+<li><a href="/wikimedia-commons/ch007_kuvan-lisaaminen-sivulle">Kuvan lisääminen sivulle</a></li>
+<li Class="booki-section">Tiedostomuodot</li><li><a href="/wikimedia-commons/ch009_svg">SVG</a></li>
+<li Class="booki-section">Tekijät</li><li><a href="/wikimedia-commons/ch011_tekijat">Tekijät</a></li>
+</ul>

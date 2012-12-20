@@ -1,0 +1,105 @@
+<div id="main-content"><h1>MediaWiki-ohjelmistosta</h1>
+<div id="content">
+<h2>Mikä on wiki?</h2>
+<p>On hyvä erotella jonkin luomiseen käytetty työkalu ja varsinainen luomistyön tulos. Tekstinkäsittelyohjelmaa käytetään luomaan tekstiasiakirja, <em>wikiohjelmistoa</em> käytetään luomaan <em>wiki</em>. Tässä tapauksessa käsite wiki viittaa kirjoittajien luomaan sisältöön.</p>
+<h2>Mikä on Wikipedia/MediaWiki.WikimediaFoundation?</h2>
+<em> </em>
+<p><em>Wikipedia/MediaWiki.WikimediaFoundation</em> (<a href="http://www.mediawiki.org/wiki/MediaWiki/fi">http://www.mediawiki.org/wiki/MediaWiki/fi</a>) on wikiohjelmisto Wikipedian ja Wikimedia Commonsin taustalla. Se hallitsee käyttäjätunnuksia ja käyttöoikeuksia, muuttaa "wikikoodin" HTML-koodiksi, tallentaa kaikkien artikkeleiden kaikki eri versiota ja paljon, paljon enemmän.</p>
+<p>Suurin osa Wikimedia Commonsiin liittyvistä taidoista on hyödyksi Wikipediaa muokattaessa, tai muokattaessa mitä tahansa wiki-verkkosivua, joka käyttää pohjanaan Wikipedia/MediaWiki.WikimediaFoundation -wikiohjelmistoa.</p>
+<h2>Rakenne Wikimedia-wikeissä</h2>
+<p>Wikipedia/MediaWiki.WikimediaFoundation tarjoaa monta erilaista mekanismia rakenteen luomiseksi wikin sisällä. Oletusarvoisesti ei ole olemassa vaadittua rakennetta -- mutta se tekee usein sisällöstä hyvin vaikeasti hahmotettavan. Niinpä sivustot, jotka käyttävät Wikipedia/MediaWiki.WikimediaFoundation -ohjelmistoa rakentavat usein oman rakenteensa.</p>
+<h3>Nimiavaruudet</h3>
+<p>Sivut Wikipedia/MediaWiki.WikimediaFoundation -ohjelmistossa on jaettu <em>nimiavaruuksiin</em>. Oletusarvoisesti sivut luodaan päänimiavaruudessa, jossa ei ole etuliitettä. Kaikkilla muilla nimiavaruuksilla on selkeä etuliite, joka on erotettu sivun nimestä kaksoispisteellä (:). Nimiavaruuksien käyttö jakaa tyypillisesti sisällön tarkoituksen mukaan. Monet nimiavaruudet saavat myös sivut käyttäytymään erikoisesti. </p>
+<p><img title="pagetitle_en" src="_booki/wikimedia-commons/static/WikimediaCommons-MediaWiki-pagetitle_en-fi.png" alt="pagetitle_en" width="329" height="128"></p>
+<p>Tämä kuvakaappaus sivun otsikosta näyttää, että sivu on Image-nimiavaruudessa (kuvat) ja sivun nimi on "Example.svg".</p>
+<p>Useimmissa wikeissä suurin osa työstä tehdään tekstiasiakirjojen parissa, joten nimiavaruus jota yleensä käytetään on päänimiavaruus Main. Wikimedia Commonsissa yleisimmin käytetty nimiavaruus on kuvanimiavaruus Image. Yksi Image-sivu sisältää linkin yhteen mediatiedostoon ja metatietoa siitä tiedostosta. (Riippumattaa nimestä, kuvasivuja käytetään esittämään kaikkia tiedostoja, joita voidaan ladata.)</p>
+<p>Useimmin rakenteiden luomiseen käytetyt nimiavaruudet ovat Template ja Category.</p>
+<h3>Malline</h3>
+<p>Mallinteet (sivustot Template-nimiavaruudessa) mahdollistavat jonkin "tekstikilven" asettamisen useammille sivuille - esimerkiksi lisenssi- tai tekijätiedot. Jos tätä tekstiä joudutaan muuttamaan (esimerkiksi kirjoittaja muuttaa yhtystietojaan), on mahdollista muokata mallinetta ja teksti muuttuu kaikilla sivuilla, joissa mallinetta käytetään. Niitä voi käyttää tähän tapaan myös tarvittaessa jonkun tekstin samanlaista esitystä kaikilla sivuilla.</p>
+<p align="center"><img title="resized_600x252_template_all" src="_booki/wikimedia-commons/static/WikimediaCommons-MediaWiki-resized_600x252_template_all-fi.png" alt="resized_600x252_template_all" width="600" height="252"></p>
+<p>Nämä kuvakaappaukset näyttävät tuloksen, kun malline on upotettu sivuun.</p>
+<p>Wikimedia Commonsissa mallinteita käytetään eri tarkoituksiin. Yksi tärkeimmistä tarkoituksista on osoittaa mediatiedostojen lisenssit. Jokaisen kuvasivun tulisi sisältää ainakin yksi upotettu lisenssitemplaatti (joita kutsutaan joskus "tageiksi").</p>
+<h3>Kategoriat</h3>
+<p>Kategorioita (sivut <strong>Category</strong>-nimiavaruudessa) voidaan automaattisesti käyttää ryhmittelemään sivuja. Sen sijaan että ylläpidettäisiin käsin listaa johonkin tiettyyn aiheeseen liittyvistä mediatiedostoista, kategoriat pitävät automaattisesti sellaisen listan ajan tasalla.</p>
+<p align="center"><img title="resized_600x287_category_all_1" src="_booki/wikimedia-commons/static/WikimediaCommons-MediaWiki-resized_600x287_category_all_1-fi.png" alt="resized_600x287_category_all_1" width="600" height="287"></p>
+<p>Nämä kuvakaappaukset näyttävät tuloksen lisättäessä kategorialinkki sivulle.</p>
+<p>Wikimedia Commonsissa kategorioita käytetään luokittelemaan tiedostoja aiheen ja lisenssin mukaan (vaikka lisenssikategoriat lisätään automaattisesti lisenssimallinteilla). On hyvin tärkeää lisätä ainakin yksi <em>kuvaava</em> kategoria jokaiselle kuvasivulle. Nämä kategoriat tekevät tiedostoista "löydettäviä" ja helpottavat sivustolla suunnistamista.</p>
+<h2>Wikimedia Commons keskeisenä Wikimedian resurssina</h2>
+<p>Normaalisti kuvia voidaan lisätä wiki-sivulle vain, jos ne on jo ladattu kyseiseen wikiin. Wikimedia Commonsin ja muiden Wikimedia-projektien välillä on kuitenkin erityinen linkki, joka mahdollistaa Wikimedia Commonsin kuvien käytön missä tahansa Wikimedia-projekteissa, <em>aivan kuin wiki-tiedosto olisi ladattu tuohon paikalliseen wikiin</em>. Tämä on hyvin käytännöllistä: lataa kerran, käytä kaikkialla! </p>
+<h2>Wiki-koodin lunttauslomake</h2>
+<p>Wikipedia/MediaWiki.WikimediaFoundation ei sisällä <em>WYSIWYG</em> (sen saat mitä näet, "What You See Is What You Get") -tekstinkäsittelyohjelmaa oletusarvoisesti. Sen sijaan se antaa käyttäjien muokata tekstiä "wiki-koodilla". Wiki-koodin oppiminen voi olla aluksi vaikeaa, varsinkin taulukko- ja mallinesyntaksin oppiminen, mutta perusasiat voi oppia nopeasti.</p>
+<p>Jos luet tätä opasta verkossa, suosittelemme voimakkaasti kokeilemaan wiki-koodia oikealla Wikipedia/MediaWiki.WikimediaFoundation -sivustolla, kuten Wikipediassa. Esimerkiksi seuraavat kaksi sivua kannattaa avata samaan aikaan:</p>
+<ul><li><a href="http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet">http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Wikipedia:Sandbox">http://en.wikipedia.org/wiki/Wikipedia:Sandbox</a></li>
+</ul><p>"Hiekkalaatikko" on erikoissivu, joka on suunniteltu erityisesti kokeilua varten. Uudet ja vanhat käyttäjät voivat kokeilla ja testata taitojaan wiki-koodissa muokkaamalla, tallentamalla tai esikatselemalla muutoksia ja tarkastelemalla niitä.</p>
+<p>Alla on johdanto wiki-koodin useimmin käytettyihin elementteihin.</p>
+<table style="width: 100%;" border="2" rules="all" cellspacing="4" cellpadding="3" align="center"><tbody><tr><td><strong>Kuvaus</strong></td>
+<td><strong>Kirjoitat</strong></td>
+<td><strong>Tulos</strong></td>
+</tr><tr><td colspan="3" align="center"><em>toimii missä tahansa</em></td>
+</tr><tr><td>Kursivoitu</td>
+<td>''kursivoitu''</td>
+<td><em>kursivoitu</em></td>
+</tr><tr><td>Lihavoitu</td>
+<td>'''lihavoitu'''</td>
+<td><strong>lihavoitu</strong></td>
+</tr><tr><td>
+<p>Linkki wikisivulle</p>
+</td>
+<td>
+<p>Linkki <span class="twikiNewLink">pääsivulle<a title="Create this topic" href="http://fi.flossmanuals.net/bin/edit/WikimediaCommons/P%C3%A4%C3%A4sivulle?topicparent=WikimediaCommons.MediaWiki" rel="nofollow">?</a></span></p>
+<p>Linkki mallinteeseen <span class="twikiNewLink">Template:Test<a title="Create this topic" href="http://fi.flossmanuals.net/bin/edit/WikimediaCommons/Template:Test?topicparent=WikimediaCommons.MediaWiki" rel="nofollow">?</a></span> <br> Linkki kuvaan <span class="twikiNewLink">:Image:Esimerkki.png<a title="Create this topic" href="http://fi.flossmanuals.net/bin/edit/:Image:Esimerkki/Png?topicparent=WikimediaCommons.MediaWiki" rel="nofollow">?</a></span> <br> Linkki kategoriaan <span class="twikiNewLink">:Category:Test<a title="Create this topic" href="http://fi.flossmanuals.net/bin/edit/WikimediaCommons/:Category:Test?topicparent=WikimediaCommons.MediaWiki" rel="nofollow">?</a></span></p>
+</td>
+<td>Linkki <span style="text-decoration: underline;">pääsivulle </span> <br><p>Linkki mallinteeseen <span style="text-decoration: underline;">Template:Test </span> <br> Linkki kuvaan <span style="text-decoration: underline;">Image:Esimerkki.png </span> <br> Linkki kategoriaan <span style="text-decoration: underline;">Category:Test </span></p>
+</td>
+</tr><tr><td valign="top">Linkki ulkoiselle sivulle</td>
+<td valign="top">Linkki sivulle [http://www.google.com/ Google]</td>
+<td valign="top">Linkki sivulle <span style="text-decoration: underline;">Google</span></td>
+</tr><tr><td>Lisää malline</td>
+<td>Tämä on {{test}}</td>
+<td>(näkyy mallinteen <span style="text-decoration: underline;">Template:Test</span> sisältö)</td>
+</tr><tr><td>Lisää kategoria</td>
+<td><span class="twikiNewLink">Category:Test<a title="Create this topic" href="http://fi.flossmanuals.net/bin/edit/WikimediaCommons/Category:Test?topicparent=WikimediaCommons.MediaWiki" rel="nofollow">?</a></span></td>
+<td>(automaattinen linkki näkyy sivun alaosassa)</td>
+</tr><tr><td colspan="3" align="center"><em>vain rivin alussa</em></td>
+</tr><tr><td>Sisennä tekstiä</td>
+<td>
+<p>:Yksi sisennys <br> ::Tuplasisennys <br> :::::Monta sisennystä</p>
+</td>
+<td><dl><dd>Yksi sisennys<dl><dd>Tuplasisennys<dl><dd><dl><dd><dl><dd>Monta sisennystä</dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></td>
+</tr><tr><td>Eri tasojen otsikot</td>
+<td>
+<p>==taso 2== <br><code><strong>=taso 3=</strong></code> <br><code><strong>==taso 4==</strong></code></p>
+</td>
+<td>  <span>Taso2</span> <br>  <span>Taso 3</span> <br>  <span>Taso 4</span></td>
+</tr><tr><td>Luotilista</td>
+<td>
+<p>* yksi <br> * kaksi <br> * kolme <br> ** kolme ja kolmasosa <br> ** kolme ja kaksi kolmasosaa</p>
+</td>
+<td>
+<ul><li>yksi</li>
+<li>kaksi</li>
+<li>kolme
+<ul><li>kolme ja kolmasosa</li>
+<li>kolme ja kaksi kolmasosaa</li>
+</ul></li>
+</ul></td>
+</tr><tr><td>Numeroitu lista</td>
+<td>
+<p># yksi <br> # kaksi <br> # kolme <br> ## kolme piste yksi <br> ## kolme piste kaksi</p>
+</td>
+<td><ol><li>yksi</li>
+<li>kaksi</li>
+<li>kolme<ol><li>kolme piste yksi</li>
+<li>kolme piste kaksi</li>
+</ol></li>
+</ol></td>
+</tr></tbody></table></div></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/wikimedia-commons/index">Johdanto</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/wikimedia-commons/ch003_mediawiki-ohjelmasta">MediaWiki-ohjelmasta</a></li>
+<li><a href="/wikimedia-commons/ch004_kirjaudu-sisaanluo-tunnus">Kirjaudu sisään/luo tunnus</a></li>
+<li><a href="/wikimedia-commons/ch005_tiedoston-lataaminen">Tiedoston lataaminen</a></li>
+<li><a href="/wikimedia-commons/ch006_lisenssin-valitseminen">Lisenssin valitseminen</a></li>
+<li><a href="/wikimedia-commons/ch007_kuvan-lisaaminen-sivulle">Kuvan lisääminen sivulle</a></li>
+<li Class="booki-section">Tiedostomuodot</li><li><a href="/wikimedia-commons/ch009_svg">SVG</a></li>
+<li Class="booki-section">Tekijät</li><li><a href="/wikimedia-commons/ch011_tekijat">Tekijät</a></li>
+</ul>

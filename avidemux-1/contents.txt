@@ -1,0 +1,11 @@
+<div Class="content-goes-here" id="main-content"><h1>AVIDEMUX</h1><h2>JOHDANTO</h2><div><a href="/avidemux-1/index">JOHDANTO</a></div><h2>PERUSTEET</h2><div><a href="/avidemux-1/ch003_avaa-tiedosto">AVAA TIEDOSTO</a></div><div><a href="/avidemux-1/ch004_leikkaa-tiedosto">LEIKKAA TIEDOSTO</a></div><div><a href="/avidemux-1/ch005_muuta-videon-kokoa">MUUTA VIDEON KOKOA</a></div><div><a href="/avidemux-1/ch006_poista-videon-limitys">POISTA VIDEON LIMITYS</a></div><h2>VIDEOTIEDOSTOJEN LUOMINEN</h2><div><a href="/avidemux-1/ch008_luo-mp4-tiedostoja">LUO MP4-TIEDOSTOJA</a></div><div><a href="/avidemux-1/ch009_luo-dv-tiedostoja">LUO DV-TIEDOSTOJA</a></div><div><a href="/avidemux-1/ch010_lisaa-tekstitys-videoon">LISÄÄ TEKSTITYS VIDEOON</a></div><h2>DVD-LEVYT</h2><div><a href="/avidemux-1/ch012_mpg2-tiedosto-dvdsta">MPG2-TIEDOSTO DVD:STÄ</a></div><h2>TEKIJÄT</h2><div><a href="/avidemux-1/ch014_tekijat">TEKIJÄT</a></div></div><ul Class="menu-goes-here"><li Class="booki-section">JOHDANTO</li><li><a href="/avidemux-1/index">JOHDANTO</a></li>
+<li Class="booki-section">PERUSTEET</li><li><a href="/avidemux-1/ch003_avaa-tiedosto">AVAA TIEDOSTO</a></li>
+<li><a href="/avidemux-1/ch004_leikkaa-tiedosto">LEIKKAA TIEDOSTO</a></li>
+<li><a href="/avidemux-1/ch005_muuta-videon-kokoa">MUUTA VIDEON KOKOA</a></li>
+<li><a href="/avidemux-1/ch006_poista-videon-limitys">POISTA VIDEON LIMITYS</a></li>
+<li Class="booki-section">VIDEOTIEDOSTOJEN LUOMINEN</li><li><a href="/avidemux-1/ch008_luo-mp4-tiedostoja">LUO MP4-TIEDOSTOJA</a></li>
+<li><a href="/avidemux-1/ch009_luo-dv-tiedostoja">LUO DV-TIEDOSTOJA</a></li>
+<li><a href="/avidemux-1/ch010_lisaa-tekstitys-videoon">LISÄÄ TEKSTITYS VIDEOON</a></li>
+<li Class="booki-section">DVD-LEVYT</li><li><a href="/avidemux-1/ch012_mpg2-tiedosto-dvdsta">MPG2-TIEDOSTO DVD:STÄ</a></li>
+<li Class="booki-section">TEKIJÄT</li><li><a href="/avidemux-1/ch014_tekijat">TEKIJÄT</a></li>
+</ul>

@@ -1,0 +1,112 @@
+<div id="main-content">
+<h1>Ohjelmointikieli
+</h1>
+<h2>Rakenne
+  <br></h2>
+<h2>setup()
+</h2>
+<p>Asetusfunktio setup() kutsutaan ohjelmaluonnoksen alkaessa. Käytä sitä alustaaksesi muuttujat, pinnien tilat, kirjastojen käytön aloituksen, jne. Käynnistysfunktio suoritetaaan vain kerran, jokaisen käynnistyksen tai alkutilaan asettamisen yhteydessä.
+  <br></p>
+<h3>Esimerkki
+</h3>
+<pre>int buttonPin = 3;
+
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(buttonPin, INPUT);
+}
+
+void loop()
+{
+  // ...
+}
+
+</pre>
+<h2>loop()
+</h2>
+<p>Asetusfunktio setup() alustaa ja asettaa alkuarvot, jonka jälkeen loop()-silmukkafunktio aloittaa silmukan, jolloin ohjelmasi voi muuttua ja reagoida tilanteen kehitykseen. Käytä sitä hallitaksesi aktiivisesti Arduino-mikrokontrolleria.
+  <br></p>
+<h3>Esimerkki
+</h3>
+<pre>int buttonPin = 3;
+
+// setup alustaa sarja- ja nappipinnin
+void setup()
+{
+  beginSerial(9600);
+  pinMode(buttonPin, INPUT);
+}
+
+// silmukka tarkastaa nappipinnin joka kerralla, ja lähettää sarjalliseen, mikäli
+// sitä painetaan
+void loop()
+{
+  if (digitalRead(buttonPin) == HIGH)
+    serialWrite('H');
+  else
+    serialWrite('L');
+⁞
+  delay(1000);
+}
+</pre>
+<h2>Hallintarakenteet
+  <br></h2>
+<h2>if (ehdollinen operaattori) ja  <code>=, </code>, &lt;, &gt; (vertailuoperaattorit)
+</h2>
+<p>Ehdollinen operaattori if, jota käytetään vertailuoperaattorin yhteydessä, testaa onko tietty ehto saavutettu, kuten ylittääkö sisääntulo tietyn arvon. Tällaisen testin muoto on:
+  <br></p>
+<pre>if (jokuMuuttuja &gt; 50)
+{
+  // Tee jotain tässä.
+}
+</pre>
+<p>Ohjelma testaa onko jokuMuuttuja suurempi kuin 50. Jos se on, ohjelma tekee tietyn toiminnon. Toisella tavalla ilmaistuna, mikäli lausunto sulkujen sisällä on totta, aaltosulkujen sisällä olevat lausunnot ajetaan. Jos ei, ohjelma hyppää koodin yli.
+  <br></p>
+<p>Aaltosulut voidaan jättää pois if-lausunnon jälkeen. Jos näin tehdään, seuraavalla rivillä (puolipisteen määrittämästä) tulee ainoa ehdollinen lausunto.
+</p>
+<pre>if (x &gt; 120) digitalWrite(LEDpin, HIGH);
+
+if (x &gt; 120)
+digitalWrite(LEDpin, HIGH);
+
+if (x &gt; 120){ digitalWrite(LEDpin, HIGH); }
+
+if (x &gt; 120){
+  digitalWrite(LEDpin1, HIGH);
+  digitalWrite(LEDpin2, HIGH);
+}                                 // kaikki ovat oikein
+
+</pre>
+<p>Sulkujen sisällä arvioitavat lausunnot vaativat yhden tai useamman operaattorin käyttöä:
+  <br></p>
+<h3>Vertailuoperaattorit:
+</h3>
+<pre> <strong>x == y</strong> (x on sama kuin y)
+ <strong>x != y</strong> (x ei ole sama kuin y)
+ <strong>x &lt;  y</strong> (x on pienempi kuin y)
+ <strong>x &gt;  y</strong> (x on suurempi kuin y)
+ <strong>x &lt;= y</strong> (x on pienempi tai yhtäsuuri kuin y)
+ <strong>x &gt;= y</strong> (x on suurempi tai yhtäsuuri kuin y)
+</pre>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+</div><ul Class="menu-goes-here"><li Class="booki-section">JOHDANTO</li><li><a href="/arduino/index">JOHDANTO</a></li>
+<li><a href="/arduino/ch002_avoin-lahdekoodi">AVOIN LÄHDEKOODI</a></li>
+<li Class="booki-section">OHJELMOINTIYMPÄRISTÖ</li><li><a href="/arduino/ch004_asennus-ubuntuun">ASENNUS UBUNTUUN</a></li>
+<li><a href="/arduino/ch005_ohjelmointiymparisto">OHJELMOINTIYMPÄRISTÖ</a></li>
+<li Class="booki-section">FRITZING</li><li><a href="/arduino/ch007_fritzing">FRITZING</a></li>
+<li Class="booki-section">ARDUINO</li><li><a href="/arduino/ch009_ohjelmointiesimerkki">OHJELMOINTIESIMERKKI</a></li>
+<li Class="booki-section">OHJELMOINTIKIELI</li><li><a href="/arduino/ch011_ohjelmointikieli">OHJELMOINTIKIELI</a></li>
+<li Class="booki-section">ELEKTRONIIKKA</li><li><a href="/arduino/ch013_elektroniikka">ELEKTRONIIKKA</a></li>
+<li><a href="/arduino/ch014_pietsosummeri">PIETSOSUMMERI</a></li>
+<li><a href="/arduino/ch015_servomoottori">SERVOMOOTTORI</a></li>
+<li><a href="/arduino/ch016_sensori">SENSORI</a></li>
+<li Class="booki-section">ROBOTTI</li><li><a href="/arduino/ch018_robotti">ROBOTTI</a></li>
+<li Class="booki-section">ROBOTIN OHJELMOINTI</li><li><a href="/arduino/ch020_robotin-ohjelmointi">ROBOTIN OHJELMOINTI</a></li>
+<li Class="booki-section">TEKIJÄT</li><li><a href="/arduino/ch022_tekijat">TEKIJÄT</a></li>
+</ul>

@@ -1,0 +1,132 @@
+<div id="main-content">
+<h1>Somebody Should Set The Title For This Chapter!</h1><p><font size="4">Tasot ja kanavat</font>
+</p>
+<p>Tasot eli layerit ovat tärkeä osa nykyajan kuvankäsittelyä. Tasojen perusidea on se, että ne ovat läpinäkyviä "kalvoja", joita voidaan laittaa samaan kuvaan. Kalvojen läpinäkyvyyttä voidaan säätää ja siten muokata sitä, kuinka hyvin kukin kalvo näkyy. Mitä kalvoilla voidaan sitten tehdä?
+</p>
+<p>Esimerkiksi:
+</p>
+<p>-Kummitushuijaus (yksinkertainen malliesimerkki, jonka teemme tämän oppaan perusteella).
+</p>
+<p>-Mainostekstit, joissa tekstin taustalla oleva valokuva näkyy läpi.
+</p>
+<p>-Kuvaan mukaan tietty perusväri taustalle (esim. kellertävä väri=&gt;tulee vaikutelma että kuva on otettu kesäauringossa, vaikka aurinko ei paistaisikaan, tumma väri=&gt;kirkas päivä voi muuttua hämäräksi illaksi).
+</p>
+<p>-Taitavan ihmisen käsissä tasoilla saa aikaan paljon uskottavampia kuvamanipulaatioita kuin kloonaamalla tai copy-pasteamalla.
+</p>
+<p>Erityisesti kun tasojen käsittely yhdistetään kanavien taitavaan käsittelyyn, olemme jo kuvankäsittelyn ammattilaistasolla. Nimenomaan tasojen ja kanavien käsittelyssä riittää todella paljon haastetta, paljon enemmän kuin mitä tästä alkeisoppaasta saa irti.
+</p>
+<p>Tämän tunnin tehtävää varten tarvitsemme seuraavaa kahta kuvaa:
+</p>
+<p><img title="mina" alt="mina" src="_booki/gimp/static/GIMP-kanavat-mina-fi.jpg" name="Grafiikka1" height="401" width="300"><br> Kuva 1. Valokuva minusta
+</p>
+<p>
+  <br><br></p>
+<p><img title="silta" alt="silta" src="_booki/gimp/static/GIMP-kanavat-resized_600x448_silta-fi.jpg" name="Grafiikka2" height="448" width="600"><br clear="left"> Kuva 2. Viitasaaren kuuluisa silta luonnonkauniin maiseman keskeltä
+</p>
+<p>Avaamme nämä GIMP:iin kuten normaalisti.
+</p>
+<p>Seuraavaksi ota jälkimmäisen kuvan (kuva 2) kuvaikkunassa esiin tasotyökalu: "ikkunat"=&gt;"tasot".
+  <br></p>
+<p><img src="_booki/gimp/static/GIMP-kanavat-tasot_html_69c9059d-fi.jpg" name="Grafiikka5"><br clear="left"> Kuva 5. Tasotyökalu GIMP:issä. Punaisella merkitty Tason peiton (läpinäkyvyyden) säätö ja "uusi taso"-toiminto.
+</p>
+<p>Tällä hetkellä kuvassa on vain yksi taso: se ainoa valokuva joka siinä on. Tämänkin läpinäkyvyyttä voidaan säätää "Peitto"-toiminnon avulla aivan läpinäkyvästä (asteikolla 0) täysin läpinäkymättömäksi (asteikolla 100, joka on tällä hetkellä "peitto"-toiminnon arvo kuvassa 5). Kuitenkaan tällä kertaa emme tee tasotyökalulla vielä mitään. 
+</p>
+<p>Seuraavaksi otamme työkaluikkunasta "hirttonuoran", jolla valitsemme vapaamuotoisia alueita. Ota huomioon, että todellisessa tilanteessa monimutkaista kohdetta ei koskaan kannata  rajata tällä työkalulla vaan esimerkiksi maskilla tai pikamaskilla, mutta se on toisen oppitunnin aihe, käytämme hirttonuoraa sen yksinkertaisuuden vuoksi:
+</p>
+<p><img src="_booki/gimp/static/GIMP-kanavat-tasot_html_722072fb-fi.jpg" name="Grafiikka7"><br clear="left"> Kuva 7. "valitse vapaamuotoisia alueita" valittu.
+</p>
+<p>Ja kuvasta 3 leikkaamme sillä kuvassa näkyvän ihmisen vartalon jättäen muun kuvan ulkopuolelle:
+</p>
+<p><img src="_booki/gimp/static/GIMP-kanavat-tasot_html_6aa6ff6e-fi.jpg" name="Grafiikka8"><br clear="left"> Kuva 8. Miehen vartalo valittuna (hiukan kiireisesti leikattu, pyri itse parempaan laatuun! Voit myös käyttää "valitse muotoja kuvasta"-työkalua<img alt="saksi" src="http://www.joutsi.com/paletti/saksi.jpg"> tai pikamaskia, jotka olisivat oikeasti tarkoituksenmukaisempia valintakeinoja.
+</p>
+<p>Sitten painetaan (edellisen kuvan ikkuna aktiivisena) Ctrl-C ja napsautetaan toinen kuvaikkuna aktiiviseksi sekä liitetään siihen kuva painamalla Ctrl-V. Tämä uusi taso ilmestyy tasotyökaluun "kelluvana valintana", mutta siitä ei kannata välittää- sen peitto-arvoa voidaan säädellä kuten tavallisenkin tason.
+  <br><br><br></p>
+<p><img src="_booki/gimp/static/GIMP-kanavat-resized_600x517_tasot_html_m27349c04-fi.jpg" name="Grafiikka10" height="517" width="600"><br clear="left"> Kuva 10. Leikattu kuva on liitetty maisemakuvaan.
+</p>
+<p>Jos Ctrl+C/Ctrl+V- menetelmällä leikattu kuva on liian iso tai pieni, se kannattaa siirtää kuva-alueen ulkopuolelle jolloin se siirtyy "roskikseen". Suurenna/pienennä kuvaa, josta otat valinnan toiminnolla "Kuva"=&gt;"Skaalaa kuvaa".
+</p>
+<p>Seuraavaksi siirrämme leikatun kuvan toisen kuvan alareunaan uskottavalla tavalla ja säädämme tasotyökalulla (kuva 5) kelluvan tason "peitto"-arvoa pienemmäksi=&gt;leikattu kuva alkaa "haihtua" pois. Säädä peitto-arvoa siten, että kuvasta näkyy läpi mutta se on vielä selkeästi erotettavissa.
+</p>
+<p><img src="_booki/gimp/static/GIMP-kanavat-resized_600x488_tasot_html_m15fe0c4-fi.jpg" name="Grafiikka11" height="488" width="600"><br clear="left"> Kuva 11. Valmis "haamuhuijaus"
+</p>
+<p>Sitten vain tallentamaan kuva.
+</p>
+<p>Nyt tason perusajatus on tullut selväksi: meillä on kuvassa 11 kaksi tasoa. Pohjalla täysin läpinäkymätön taso ja sen päällä hiukan läpinäkyvä taso. 
+</p>
+<p>Teemme vielä auringonpaisteisen kuvan, joka on toinen klassinen tasojen harjoittelutyö. Otamme käsittelyyn jälleen kuvassa 3 olevan valokuvan, mutta ensin muutamme edustaväriä työkalupaletissa:
+</p>
+<p><img src="_booki/gimp/static/GIMP-kanavat-tasot_html_2ceba56d-fi.jpg" name="Grafiikka12"><br clear="left"> Kuva 12. edustaväriksi on vaihdettu keltainen mustan sijasta. Sen saa vaihdettua painamalla hiirtä edustusvärin kohdalla (kuvan keltaisesta neliöstä) ja vaihtamalla värin värikartasta hiirellä klikkaamalla ja valitsemalla "OK".
+</p>
+<p>Sitten vain valokuvan kohdalla "Ikkunat"=&gt;"Tasot" ja "uusi taso" (katso kuva 5), rasti kohdassa "edustaväri". Aseta peitto-arvoa pienemmälle, ja kuvaan tulee kaunis kellertävä auringonvalo:
+</p>
+<p><img src="_booki/gimp/static/GIMP-kanavat-tasot_html_4377ea1c-fi.jpg" name="Grafiikka13"><br clear="left"> Kuva 13. Aurinko paistaa, vaikkei oikeasti paistakaan
+</p>
+<p><font color="#800000">Lopputehtävä</font><span>:</span> Käytä seuraavaa kuvaa (siinä on teksti <span>Viitasaari-Keski-Suomen helmi!</span> kuvamuodossa):
+</p>
+<p><img src="http://fi.flossmanuals.net/floss_fi/pub/GIMP/kanavat/teksti.jpg" name="Grafiikka14"><br clear="left"> Ja tee tasoja käyttäen seuraava mainoskuva:
+</p>
+<p><img src="_booki/gimp/static/GIMP-kanavat-resized_600x507_tasot_html_524de33d-fi.jpg" name="Grafiikka15" height="507" width="600"><br clear="left"> Kuva 14. Niin hieno mainoskuva, että kelpaisi mainostoimistollekin. Huomaa, että mainostekstin todellakin pitää olla läpinäkyvä!
+</p>
+<p><span>Vihje:</span> Muuten asia toimii ihan samalla lailla kuin oppaan haamuhuijaus-esimerkki, mutta mainostekstiä täytyy suurentaa("Kuva"=&gt;"Skaalaa Kuvaa"). Jos Copy-pasteaminen epäonnistuu, niin poista epäonnistunut tason lisäys tasotyökalun roskakori-toiminnon kautta.
+</p>
+<p><span>Vihje2</span>: leikatun kuvan siirtäminen sopivaan paikkaan liittämisen jälkeen onnistuu siirtotyökalulla<img title="siirto_1" alt="siirto_1" src="_booki/gimp/static/GIMP-siirto_1-fi.jpg" height="24" width="31"></p>
+<p><img src="_booki/gimp/static/GIMP-kanavat-tasot_html_m7acc724-fi.jpg" name="Grafiikka16"><br clear="left"> Kuva 15. Roskakoritoiminto on oikeassa alakulmassa. Valitse epäkelpo taso hiirellä ja napsauta roskakori-painiketta, jolloin taso poistuu.
+</p>
+<p><strong>Kanavat</strong>
+</p>
+<p>Kanavat liittyvät oleellisesti tasoihin. Otetaan vaikka esimerkiksi jälleen poseerauskuva:
+</p>
+<p><img src="_booki/gimp/static/GIMP-kanavat-tasot_html_3464189a-fi.jpg" name="Grafiikka17"><br clear="left"> Kuva 16. Minä jälleen
+</p>
+<p>Mitä kanavat ovat ja mitä kanavia kuvassa on? Kuten olemme ehkä fysiikan väriopissa oppineet, jokainen väri voidaan muodostaa vihreän, sinisen ja punaisen sekoituksesta sekoittamalla värejä eri suhteessa. Näin esimerkiksi tietokoneen monitorin tapauksessa (RGB-malli). Kun taas jotain painetaan paperille, perusvärit ovat vihreä, sininen ja keltainen (CMY-malli). Värinmuodostusmalleista voisi pitää jopa oman kurssin, mutta ellei toisin sanota, niin kuvankäsittelyssä perusvärit ovat RGB-mallin mukaiset vihreä, sininen ja punainen (Red, Green ja Blue). Näitä perusvärejä kutsumme kanaviksi. Ota esiin toiminto "Ikkunat"=&gt;"Kanavat":
+</p>
+<p><img src="_booki/gimp/static/GIMP-kanavat-tasot_html_m1a09a241-fi.jpg" name="Grafiikka18"><br clear="left"> Kuva 17. Kuvan 16 eri kanavat
+</p>
+<p>Perusidea on se, että kunkin kanavan "silmä"-kuvaa napsauttamalla saadaan se kanava kuvasta pois, ja napsauttamalla sitä uudestaan se tulee taas käyttöön. Esimerkiksi napsauttamalla kanavan "Punainen" silmää saadaan kuvasta kaikki punaiset värisävyt pois:
+</p>
+<p><img src="_booki/gimp/static/GIMP-kanavat-tasot_html_715f2849-fi.jpg" name="Grafiikka19"><br clear="left"> Kuva 18. Kuva, jossa ei ole lainkaan punaisia sävyjä
+</p>
+<p>Jos kaikki silmät painetaan kiinni, niin sitten kuvassa ei luonnollisesti ole mitään värejä, ainoastaan musta tausta. Kanavia voi olla yksi tai kaksi, ainoastaan kolme kanavaa luo realistisen, kaikki värit näyttävän valokuvan. Kokeile eri kanavayhdistelmiä!
+</p>
+<p><strong>Miä hyötyä sitten kanavista on?</strong>
+</p>
+<p>Näin pikaisesti esitellen kanavista ei varmasti löydy hyötynäkökulmaa kovinkaan paljon. Kun kanavien käsittely yhdistetään korkeatasoiseen tasojen käsittelyyn, niin sitten vasta niiden arvon tajuaa, mutta se on korkeamman luokan kuvankäsittelyä- meille amatööreille riittää useimmiten vain se tieto, että mitä kanavat yleensä ovat ja miten GIMP:issä ne otetaan esille.
+</p>
+</div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/gimp/index">Johdanto</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/gimp/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Asetukset</li><li><a href="/gimp/ch005_asetukset">Asetukset</a></li>
+<li Class="booki-section">Aloittelijan oppaat</li><li><a href="/gimp/ch007_johdatus">Johdatus</a></li>
+<li><a href="/gimp/ch008_kokeiluja">Kokeiluja</a></li>
+<li><a href="/gimp/ch009_uuden-kuvan-tekeminen">Uuden kuvan tekeminen</a></li>
+<li><a href="/gimp/ch010_koon-muuttaminen">Koon muuttaminen</a></li>
+<li><a href="/gimp/ch011_valinnat">Valinnat</a></li>
+<li><a href="/gimp/ch012_toimintamoodit">Toimintamoodit</a></li>
+<li><a href="/gimp/ch013_kuvien-manipulointi">Kuvien manipulointi</a></li>
+<li><a href="/gimp/ch014_reunat">Reunat</a></li>
+<li><a href="/gimp/ch015_kuvateksti">Kuvateksti</a></li>
+<li><a href="/gimp/ch016_kloonaus">Kloonaus</a></li>
+<li Class="booki-section">Kehittyneen käyttäjän oppaat</li><li><a href="/gimp/ch018_tasot">Tasot</a></li>
+<li><a href="/gimp/ch019_valokuvien-parantaminen">Valokuvien parantaminen</a></li>
+<li><a href="/gimp/ch020_taidetta">Taidetta</a></li>
+<li><a href="/gimp/ch021_sumua">Sumua</a></li>
+<li><a href="/gimp/ch022_etaisyydet">Etäisyydet</a></li>
+<li><a href="/gimp/ch023_iwarp">Iwarp</a></li>
+<li><a href="/gimp/ch024_kanavat">Kanavat</a></li>
+<li><a href="/gimp/ch025_script-fu">Script-fu</a></li>
+<li><a href="/gimp/ch026_lapinakyvyys">Läpinäkyvyys</a></li>
+<li><a href="/gimp/ch027_animaatio">Animaatio</a></li>
+<li><a href="/gimp/ch028_bannerit">Bannerit</a></li>
+<li Class="booki-section">Edenneen käyttäjän oppaat</li><li><a href="/gimp/ch030_kuvaformaatit">Kuvaformaatit</a></li>
+<li><a href="/gimp/ch031_teoriaa">Teoriaa</a></li>
+<li><a href="/gimp/ch032_pensselit">Pensselit</a></li>
+<li><a href="/gimp/ch033_haaveilua">Haaveilua</a></li>
+<li><a href="/gimp/ch034_avaruusmaisema">Avaruusmaisema</a></li>
+<li><a href="/gimp/ch035_kolmiulotteisuus">Kolmiulotteisuus</a></li>
+<li><a href="/gimp/ch036_konffausta">Konffausta</a></li>
+<li><a href="/gimp/ch037_selektiivinen">Selektiivinen</a></li>
+<li><a href="/gimp/ch038_retusointi">Retusointi</a></li>
+<li><a href="/gimp/ch039_sumentaminen">Sumentaminen</a></li>
+<li><a href="/gimp/ch040_syvays">Syväys</a></li>
+<li><a href="/gimp/ch041_alfakanava">Alfakanava</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/gimp/ch043_tekijat">Tekijät</a></li>
+</ul>

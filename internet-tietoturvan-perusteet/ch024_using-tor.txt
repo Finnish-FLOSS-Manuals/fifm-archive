@@ -1,0 +1,95 @@
+<div id="main-content"><h1>Mikä on Tor?</h1>
+<p><img src="_booki/internet-tietoturvan-perusteet/static/Pictogram_Information.png" alt="" align="right">Tor on järjestelmä, jonka tavoitteena on mahdollistaa anonyymi verkon käyttö. Siihen kuuluu asiakasohjelma ja palvelinverkosto, joka voi piilottaa tiedon käyttäjien sijainneista. Se kätkee myös muut tiedot, jotka voisivat johtaa käyttäjän tunnistamiseen. Ajattele viestiä, joka on kääritty moneen suojakerrokseen: jokaisen palvelimen täytyy ottaa pois yksi kerros, jolloin se tuhoaa välittömästi edellisen palvelimen lähettäjätiedot.</p>
+<p>Tämän järjestelmän käyttö vaikeuttaa verkossa kulkevan liikenteen jäljittämistä internetin käyttäjään asti. Vaikeammin jäljitettäviä asioita ovat käynnit verkkosivulla, viestit verkossa, erilaiset keskusteluohjelmat ja muut viestintämuodot. Sen tarkoitus on suojata käyttien henkilötietoja, yksityisyyttä ja kykyä tehdä luottamuksellisia asioita verkossa. Tämän se tekee estämällä heidän verkkotoimintansa tarkkailun. Tor on avoimen lähdekoodin ohjelma ja verkkoa voi käyttää ilmaiseksi.</p>
+<p>Kuten kaikki nykyiset matalan latenssin anonyymisyysverkot, Tor ei voi ja ei yritä suojata liikenteen tarkkailulta Tor-verkon rajalla. Toisin sanottuna Tor ei suojaa liikennettä, joka saapuu Tor-verkkoon ja lähtee siitä. Vaikka Tor tarjoaa suojaa liikenneanalyysiä vastaan, se ei voi estää liikenteen vahvistamista (jota kutsutaan myös päästä-päähän-korrelaatioksi).</p>
+<p><img src="_booki/internet-tietoturvan-perusteet/static/Pictogram_Caveats.png" alt="" align="left"><strong>Varoitus</strong>: Tor ei suunnittelunsa vuoksi edes voi salata liikennettä Tor-verkon liikennettä ulospäin välittävän palvelimen ja kohdepalvelimen välillä. Palvelin, joka välittää liikennettä ulos Tor-verkosta (englanniksi "exit node") voi kaapata kaiken sen kautta kulkevan liikenteen, ellei liikenne käytä päästä päähän -salausta, kuten TLS-salausta. (Jos postiljoonisi on rikollinen, häi voi avata kirjeen ja lukea sen sisällön). Käyttäjien pitää huomata, että Tor itsessään ei tarjoa liikenteen salausta, jolloin heidän täytyy salata liikenteensä Torin käyttämisen lisäksi. Muuten vaarana on salakuuntelu vihamielisten tahojen ylläpitämän Tor-solun taholta. Toisin sanottuna käyttäjän sijainti pysyy salattuna, mutta joissain tapauksissa sen sisältö voi olla analysoitavissa, jolloin tietoa käyttäjästä on mahdollista saada.</p>
+<h2>Tor-selaimen käyttäminen</h2>
+<p>Tor-selainpakkaus mahdollistaa Torin käytön Windowsissa, OSX:ssä ja Linuxissa, mutta ei vaadi tekemään verkkoselaimen asetuksia. Lisäksi se on mukana kannettava sovellus, joka sopii USB-muistitikulle, joten sitä voi käyttää millä tahansa PC-tietokoneella asentamatta sitä tietokoneen kovalevylle.</p>
+<h2>Tor-selaimen lataaminen</h2>
+<p>Voit ladata Tor-selainpaketin torproject.org -verkkosivulta (https://www.torproject.org), joko yksittäisenä tiedoston (13MB) tai useampana 1,4 MB kokoisena tiedostona, jotka on helpompi ladata hitailla yhteyksillä.</p>
+<p>Jos torproject.org-verkkosivu on sensuroitu sinun sijainnistasi, kirjoita "tor mirrors" suosikkihakukoneeseesi: hakutulokset luultavasti sisältävät joitain vaihtoehtoisia osoitteita, joista voit ladata Tor-selainpakkauksen.</p>
+<p><strong><img src="_booki/internet-tietoturvan-perusteet/static/Pictogram_Caveats.png" alt="" align="left"></strong></p>
+<blockquote>
+<p><strong>Varoitus</strong>: Kun lataat Tor-pakkauksen (kokonaisena tai erillisinä tiedostoina), sinun tulisi tarkastaa tietojen allekirjoitukset, varsinkin jos lataat ne peilisivustolta. Tämä askel vahvistaa, että tiedostoja ei ole näpelöity. Oppiaksesi enemmän allekirjoitustiedostoista ja niiden tarkastamisesta, lue:</p>
+<p><a href="https://wiki.torproject.org/noreply/TheOnionRouter/VerifyingSignatures">https://wiki.torproject.org/noreply/TheOnionRouter/VerifyingSignatures</a></p>
+</blockquote>
+<blockquote>
+<p>(Voit myös ladata GnuPG-ohjelman, jolla voit tarkastaa allekirjoituksen täältä:</p>
+<p><a href="http://www.gnupg.org/download/index.en.html#auto-ref-2">http://www.gnupg.org/download/index.en.html#auto-ref-2</a>)</p>
+</blockquote>
+<p>Alla olevat ohjeet viittaavat Tor-selaimen asentamiseen Microsoft Windowsissa. Jos käytät erillistä käyttöjärjestelmää, katso sivulta Torproject.org latauslinkkejä ja ohjeita. </p>
+<h3>Asentaminen yksittäisestä tiedostosta</h3>
+<ol><li>Verkkoselaimessasi voit kirjoitaa lataussivun URLin Tor-selaimeesi: <a href="https://www.torproject.org/torbrowser/"><br> https://www.torproject.org/torbrowser/ <br><br></a><img title="tordl_1" src="_booki/internet-tietoturvan-perusteet/static/CircumventionTools-InstallingTor-tordl_1-en.png" alt="tordl_1" width="559" height="427"></li>
+<li>Napsauta omaan kieleesi osoittavaa linkkiä ladataksesi asennustiedoston. <br><br></li>
+<li>Windowsissa voit kaksoisnapsauttaa juuri lataamaasi .exe-tiedostoa. Ohjelman "7-Zip self-extracting archive" ikkuna aukeaa. <br><br><img title="extract Tor Browser" src="_booki/internet-tietoturvan-perusteet/static/CircumventionTools-InstallingTor-TBextract01-en.png" alt="extract Tor Browser" width="401" height="258"></li>
+<li>Valitse kansio, johon tahdot purkaa tiedostot, ja paina "Extract".
+<blockquote><strong>Huomaa</strong>: Voit purkaa tiedostot suoraan USB-muistitikulle, jos tahdot käyttää Tor-selainta eri tietokoneissa (esimerkiksi yleisessä käytössä olevilla tietokoneilla tai verkkokahviloissa). </blockquote>
+</li>
+<li>Kun purkaminen on valmiina, avaa kansio ja katso, että sisältö sopii alla olevaan kuvaan: <br><br><img title="the Tor browser folder after extraction" src="_booki/internet-tietoturvan-perusteet/static/CircumventionTools-InstallingTor-TBextract02-en.png" alt="the Tor browser folder after extraction" width="300" height="231"></li>
+<li>Puhdistaaksesi koneesi, tuhoa alunperin lataamasi .exe-tiedosto. </li>
+</ol><h3>Asentaminen useampaan tiedostoon jaetusta latauksesta</h3>
+<ol><li>Verkkoselaimessasi voit kirjoittaa URL-osoitteen Tor-selainpaketin lautaussivulle (<a href="https://www.torproject.org/torbrowser/split.html">https://www.torproject.org/torbrowser/split.html</a>), jonka jälkeen voit napsauttaa omaan kieleesi osoittavaa linkkiä, jotta pääset sivulle, joka näyttää samalta kuin englanninkielinen sivu alla: <img title="torsplitwww" src="_booki/internet-tietoturvan-perusteet/static/CircumventionTools-InstallingTor-torsplitwww-en.png" alt="torsplitwww" width="595" height="499"></li>
+<li>Napsauta jokaista tiedostoa ladataksesi sen (yhden loppupääte on ".exe" ja yhdeksän muuta on loppupäätteellä ".rar"), yksi kerrallaan, ja tallenna ne kaikki yhteen kansioon kovalevylläsi tai USB-muistitikullasi.  <br><br></li>
+<li>Kaksoisnapsauta ensimmäistä osaa (jonka tiedostonimi päättyy loppupäätteeseen ".exe"). Tämä ajaa ohjelman, joka kerää kaikki muut osat yhteen.  <br><br><img src="_booki/internet-tietoturvan-perusteet/static/CircumventionTools-InstallingTor-tor_winrar_2-en.png" alt="" width="562" height="384"></li>
+<li>Valitse kansio, johon tahdot asentaa tiedostot, ja napsauta sen jälkeen "Install". Ohjelma näyttää viestejä etenemisestään toimiessaan, jonka jälkeen se lopettaa. </li>
+<li>Kun purkaminen on valmis, avaa kansio ja katso, että sisältö sopii alla olevaan kuvaan: <br><br><img title="the Tor browser folder after extraction" src="_booki/internet-tietoturvan-perusteet/static/CircumventionTools-InstallingTor-TBextract02-en.png" alt="the Tor browser folder after extraction" width="300" height="231"></li>
+<li>Siivotaksesi koneesi voit poistaa kaikki alunperin lataamasi tiedostot. </li>
+</ol><h2>Tor-selaimen käyttö</h2>
+<p>Ennen kuin aloitat:</p>
+<ul><li><strong>Sulje Firefox.</strong> Jos Firefox on asennettu tietokoneellesi, varmista, että se ei ole käynnissä. </li>
+</ul><ul><li><strong>Sulje Tor.</strong> Jos Tor on jo asennettu tietokoneellesi, varmista, että se ei ole käynnissä. </li>
+</ul><p>Avaa Tor-selain:</p>
+<ul><li>Mene kansioon "Tor Browser", kaksoisnapsauta kuvaketta "Start Tor Browser". Tor-kontrollipaneeli ("Vidalia") aukeaa ja Tor ottaa yhteyttä Tor-verkkoon. <br><br><img title="Tor starting" src="_booki/internet-tietoturvan-perusteet/static/CircumventionTools-InstallingTor-TORstarting_1-en.png" alt="Tor starting" width="400" height="458"></li>
+</ul><p>Kun yhteys on auki, Firefox yhdistää automaattisesti TorCheck-sivulle, jossa voit varmistaa, että olet yhteydessä Tor-verkkoon. Tämä voi kestää jonkin aikaa, riippuen internet-yhteytesi laadusta.</p>
+<p><img title="Tor check with green onion" src="_booki/internet-tietoturvan-perusteet/static/CircumventionTools-InstallingTor-torcheck01-en.png" alt="Tor check with green onion" width="400" height="426"></p>
+<p>Jos olet yhteydessä Tor-verkkoon, vihreä sipulin näköinen kuvake ilmestyy järjestelmän valikkoon ruudun oikeassa alanurkassa:<br><br><img title="Tray bar button on" src="_booki/internet-tietoturvan-perusteet/static/CircumventionTools-InstallingTor-TB_tray_on-en.png" alt="Tray bar button on" width="367" height="67"></p>
+<h2>Verkon selaaminen käyttäen Tor-selainta</h2>
+<p>Yritä katsoa muutamaa verkkosivua, jotta näet että niihin saadaan yhteys. Sivut luultavasti latautuvat normaalia hitaammin, koska yhteytesi reititetään muutaman välityspalvelimen kautta. </p>
+<h2>Jos tämä ei toimi</h2>
+<p>Jos Vidalia-hallintapaneelissa oleva sipuli ei koskaan muutu vihreäksi, tai jos Firefox on avattu, mutta näkyvillä on sivu, jossa lukee "Sorry. You are not using Tor", kuten alla olevassa kuvassa, et käytä Toria. </p>
+<p><img title="Tor check with red onion" src="_booki/internet-tietoturvan-perusteet/static/CircumventionTools-InstallingTor-torcheck02-en.png" alt="Tor check with red onion" width="400" height="392"><br><br>Jos näet tämän viestin, sulje Firefox ja Tor-selain ja toista edelliset askeleet. Voit tehdä tämän tarkastuksen nähdäksesi, että käytät Toria. Napsauta milloin tahansa kirjanmerkkinappia, jossa lukee "Torcheck at Xenobite..." Firefoxin työkalupalkissa. </p>
+<p>Jos Firefox-selain ei aukene, toinen selaimen versio voi häiritä Tor-selainta. Korjataksesi tämän: </p>
+<ol><li>Avaa Windowsin tehtävienhallinta. Tämän tekeminen riippuu siitä miten tietokoneesi asetukset on tehty. Useimmissa järjestelmissä voit napsauttaa oikealla napilla tehtäväpalkkia ja napsauttaa kohtaa "Tehtävienhallinta". </li>
+<li>Napsauta "Prosessit"-välilehteä.</li>
+<li>Etsi listasta "firefox.exe"-nimistä prosessia. </li>
+<li>Jos löydät "firefox.exe"-prosessin, valitse se ja paina "Lopeta prosessi". </li>
+<li>Tee uudestaan edellä mainitut askeleet laukaistaksesi Tor-selaimen. </li>
+</ol><p>Jos Tor-selain ei vieläkään toimi ensimmäisten kahden tai kolmen yrityksen jälkeen, internet-palveluntarjoajasi voi estää Torin käytön ja sinun täytyisi käyttää Torin <strong>siltausominaisuutta</strong>. </p>
+<h2>Vaihtoehdot</h2>
+<p><img src="_booki/internet-tietoturvan-perusteet/static/Pictogram_Further%20Reading.png" alt="" align="right">On myös kaksi muuta projektia, jotka yhdistävät Torin ja selaimen:</p>
+<ul><li>XeroBank, Torin ja Firefoxin yhdistelmä (<a title="http://xerobank.com/xB_Browser.php" href="http://xerobank.com/xB_Browser.php">http://xerobank.com/xB_Browser.php</a>)</li>
+<li>OperaTor, Torin ja Operan yhdistelmä (<a title="http://archetwist.com/en/opera/operator" href="http://archetwist.com/en/opera/operator">http://archetwist.com/en/opera/operator</a>)</li>
+</ul></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/internet-tietoturvan-perusteet/index">Johdanto</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch002_why-use-a-manual-on-internet-security">Miksi käyttää internet-tietoturvaopasta?</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch003_understanding-basic-internet-security">Internet-tietoturvan perusteiden ymmärtäminen</a></li>
+<li Class="booki-section">Yleinen turvallisuus</li><li><a href="/internet-tietoturvan-perusteet/ch005_secure-your-computer-general">Turvaa tietokoneesi (yleistä)</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch006_internet-cafes">Internet-kahvilat</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch007_software-on-usb-or-cd">Ohjelmat USB-tikulla tai CD:llä</a></li>
+<li Class="booki-section">Salasanojen turvaaminen</li><li><a href="/internet-tietoturvan-perusteet/ch009_keeping-passwords-safe">Salasanojen turvaaminen</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch010_installing-a-password-manager">Salasanojen hallintaohjelman asentaminen</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch011_encrypting-passwords-with-a-password-manager">Salasanojen salaaminen salasanojen hallintaohjelman avulla</a></li>
+<li Class="booki-section">Henkilökohtaisten tietojen turvaaminen</li><li><a href="/internet-tietoturvan-perusteet/ch013_introduction-to-securing-personal-data">Johdanto henkilökohtaisten tietojen turvaamiseen</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch014_installing-truecrypt">TrueCryptin asentaminen</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch015_using-truecrypt">TrueCryptin käyttö</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch016_setting-up-a-hidden-volume">Kätketyn osion luominen</a></li>
+<li Class="booki-section">Turvallinen selaaminen</li><li><a href="/internet-tietoturvan-perusteet/ch018_introduction-to-safe-browsing">Johdanto turvalliseen selaamiseen</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch019_accessing-firefox-on-ubuntu">Firefoxin asennus Ubuntuun</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch020_installing-firefox-on-windows">Firefoxin asentaminen Windowsiin</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch021_protecting-your-internet-passwords">Internet-salasanojen suojaaminen</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch022_extending-firefox">Firefoxin laajentaminen</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch023_proxy-setting-and-foxyproxy">Välityspalvelimet ja FoxyProxy</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch024_using-tor">Torin käyttö</a></li>
+<li Class="booki-section">Sähköpostin tietoturvan perusteet</li><li><a href="/internet-tietoturvan-perusteet/ch026_introduction-to-e-mail-safety">Johdanto sähköpostin tietoturvaan</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch027_start-using-thunderbird-mail">Thunderbird-sähköpostin käyttö</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch028_setting-up-secure-connections">Salattujen yhteyksien luominen</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch029_some-additional-security-settings">Lisää turvallisuusasetuksia</a></li>
+<li Class="booki-section">Sähköpostien salaaminen</li><li><a href="/internet-tietoturvan-perusteet/ch031_introduction-to-mail-encryption-pgp">Johdanto sähköpostien salaamiseen (PGP)</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch032_installing-pgp-on-windows">PGP:n asentaminen Windowsiin</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch033_installing-pgp-on-ubuntu">PGP:n asentaminen Ubuntuun</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch034_creating-your-pgp-keys">PGP-avainten luominen</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch035_daily-pgp-usage">Päivittäinen PGP:n käyttö</a></li>
+<li Class="booki-section">Taustatietoa</li><li><a href="/internet-tietoturvan-perusteet/ch037_how-the-net-works">Kuinka verkko toimii</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch038_glossary">Sanasto</a></li>
+<li Class="booki-section">Tekijät</li><li><a href="/internet-tietoturvan-perusteet/ch040_tekijat">Tekijät</a></li>
+<li><a href="/internet-tietoturvan-perusteet/ch041_lisenssi">Lisenssi</a></li>
+</ul>

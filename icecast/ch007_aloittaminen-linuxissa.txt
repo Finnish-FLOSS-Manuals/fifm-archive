@@ -1,0 +1,40 @@
+<div id="main-content"><h1>Icecastin käynnistäminen Linuxissa
+  <br></h1>
+<p>Linuxissa Icecastia kontrolloidaan kokonaan komentoriviltä. Tämä on hyvin käytännöllistä, mikäli tahdot käyttää sitä etäkäyttönä palvelimella, kuten sitä yleensä käytetäänkin.
+  <br></p>
+<p>Icecastin ajamisen peruskomento on:
+</p>
+<pre>icecast -c icecast.xml
+</pre>Sinun täytyy kuitenkin etsiä "icecast.xml"-tiedostosi. jos asensit lähdekoodista, joudut etsimään tiedoston Icecast2-lähdehakemistosta conf-hakemiston sisältä. Tiedostoa kutsutaan <a href="http://icecast.xml.dist/">"icecast.xml.dist"-nimellä.</a>  Jos sitä ei löydy, käytä komentoa <strong>locate</strong> tai <strong>slocate</strong> köytääksesi sen. Sanotaanpa, että olen Icecast2 -lähdehakemistossa, ja <a href="http://icecast.xml.dist/">"icecast.xml.dist"</a>  -tiedosto on "conf"-hakemistossa. Tällöin on helpompaa siirtää se hakemistoon, jossa työskentelen, ja nimetä se "icecast.xml" -tiedostoksi. Käytän cp-komentoa, koska tahdon jättää alkuperäisestä kopion varuuden vuoksi... niinpä kirjoitan komennon:
+<br><pre>cp conf/icecast.xml.dist icecast.xml
+</pre> Nyt voin ajaa komennon:
+<pre>icecast -c icecast.xml
+</pre> Hyvällä onnella se toimii... Parametri "-c" merkitsee konfiguraatiota, joten tämä on tapa saada Icecast käyttämään konfiguraatiotiedostoa "icecast.xml".
+<br><p>Jos törmäät virheeseen, katso seuraavaa kappaletta Icecast2 -konfiguraatioasetusten tekemisestä.
+  <br></p>
+<p>Jos se kuitenkin toimii, ainoa tarpeellinen asia, joka sinun täytyy tietää, on oletussalasana "hackme".
+  <br></p>
+<p> Ajaaksesi ohjelmaa MuSE juuri asentamasi Icecast-palvelimen kanssa, käytä seuraavia asetuksia (joista kaikki voidaan vaihtaa muokkaamalla "icecast.xml" -tiedostoa):
+  <br></p>
+<pre>port: 8000
+
+password: hackme
+
+host: localhost
+</pre> Tämän jälkeen mikä tahansa mountpoint toimii hyvin, esimerkiksi /firststream.
+<p> Nyt voit testata streamausoptiota ja kirjoittaa "open location" -kenttään seuraavan URLin:
+  <br></p>
+<pre>http://localhost:8000/firststream
+</pre> Nyt sinun pitäisi kuulla mitä tulee ulos äänikortiltasi.
+<p> 
+</p></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/icecast/index">Johdanto</a></li>
+<li><a href="/icecast/ch002_streamaus">Streamaus</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/icecast/ch004_linux">Linux</a></li>
+<li><a href="/icecast/ch005_windows">Windows</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/icecast/ch007_aloittaminen-linuxissa">Aloittaminen Linuxissa</a></li>
+<li><a href="/icecast/ch008_asennus-windowsiin">Asennus Windowsiin</a></li>
+<li><a href="/icecast/ch009_lokit">Lokit</a></li>
+<li Class="booki-section">Konfiguraatio</li><li><a href="/icecast/ch011_peruskonfiguraatio">Peruskonfiguraatio</a></li>
+<li><a href="/icecast/ch012_tilit">Tilit</a></li>
+<li Class="booki-section">Tekijät</li><li><a href="/icecast/ch014_tekijat">Tekijät</a></li>
+</ul>

@@ -1,0 +1,34 @@
+<div id="main-content"><p>
+</p>
+<div id="content">
+  <h1> Icecast
+  </h1>
+  <p> <img title="icecast_cover_5_en" alt="icecast_cover_5_en" src="_booki/icecast/static/Icecast-Introduction-icecast_cover_5_en-fi.gif" height="225" width="350"><br></p>
+  <p>Verkon äänen ja videon maailmassa on joukko teknologioita, joita kutsutaan streamaukseksi. Streamaus on yksinkertaisimmillaan äänen ja videon välittämistä verkon yli reaaliajassa. Perinteisesti streamausta on käytetty internetin suoriin radiolähetyksiin tai tapahtumien lähettämiseen suorana netissä, jotta niitä voi katsella kotoa. 
+  </p>
+  <p>Streamausta kuvaillaan usein käyttäen vertauskuvia joukkotiedotusvälineiden lähetysteknologiasta. Internetin ääni- ja videolähetykset nähdään usein samankaltaisina kuin radio- ja televisiolähetykset. Ihmiset puhuvat usein suorista ääni- ja videostreameista "netissä lähettämisenä" tai "nettilähetyksenä". Nämä käsitteet ovat hyödyllisiä, jotta ymmärrämme streamauksen tarkoitukset, mutta niitä ei kannata ottaa liian kirjaimellisesti. On kuitenkin hyödyllistä viitata näihin malleihin, kun selostamme Icecastin toimintaa.
+    <br></p>
+  <p>Radio- ja televisiolähetyksiä lähetetään lähettimellä, joka välittää studiosta lähetetyn signaalin televisioon tai radioon.
+    <br></p>
+  <p> <img title="radio_en" alt="radio_en" src="_booki/icecast/static/Icecast-StreamingIntro-radio_en-fi.gif" height="225" width="350"><br></p>
+  <p>Internet-lähetyksissä (streamauksessa) korvaat lähettimen streamauspalvelimella, joka on itse asiassa tietokone-ohjelma.
+    <br></p>
+  <p> <img title="transmit_server_en" alt="transmit_server_en" src="_booki/icecast/static/Icecast-StreamingIntro-transmit_server_en-fi.gif" height="225" width="350"> 
+  </p>
+  <p><strong>Icecast</strong> on tällainen ohjelma. Se mahdollistaa suoran ääni- ja videolähetyksen internetissä reaaliajassa. Tämä on kuitenkin vain osa kokonaisuudesta. Tarvitset myös streamikoodaajan, joka voi lähettää alkuperäisen ääni- tai videostreamin Icecastiin. Icecast jakelee streamin, se ei luo sitä - streamin luominen on koodaajan homma. 
+  </p>
+  <p>Icecast on hyvin kypsä teknologia ja hyvin kestävä. Se tukee monien eri äänistreamausformaattien lähettämistä (myös MP3 ja Ogg Vorbis) ja se tukee Ogg Theoran käyttöä videon streamaamiseen. Icecast toimii Linuxissa ja Windowsissa. Jos tahdot asentaa sen Linuxiin, tarvitset jonkin verran kokemusta Linuxin käytöstä; erityisesti ohjelmien asentamisesta komentoriviltä, sekä tekstiin perustuvien konfiguraatiotiedostojen muokkaamisesta. Windowsin asennusprosessi on paljon suoraviivaisempi, mutta sinun täytyy silti tuntea tekstiin perustuvien konfiguraatiotiedostojen editointi. 
+  </p>
+  <p>Icecastin asentamista ja käyttöä ei suositella kokemattomille käyttäjille.
+    <br></p>
+</div></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/icecast/index">Johdanto</a></li>
+<li><a href="/icecast/ch002_streamaus">Streamaus</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/icecast/ch004_linux">Linux</a></li>
+<li><a href="/icecast/ch005_windows">Windows</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/icecast/ch007_aloittaminen-linuxissa">Aloittaminen Linuxissa</a></li>
+<li><a href="/icecast/ch008_asennus-windowsiin">Asennus Windowsiin</a></li>
+<li><a href="/icecast/ch009_lokit">Lokit</a></li>
+<li Class="booki-section">Konfiguraatio</li><li><a href="/icecast/ch011_peruskonfiguraatio">Peruskonfiguraatio</a></li>
+<li><a href="/icecast/ch012_tilit">Tilit</a></li>
+<li Class="booki-section">Tekijät</li><li><a href="/icecast/ch014_tekijat">Tekijät</a></li>
+</ul>

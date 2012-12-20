@@ -1,0 +1,11 @@
+<div Class="content-goes-here" id="main-content"><h1>Icecast</h1><h2>Johdanto</h2><div><a href="/icecast/index">Johdanto</a></div><div><a href="/icecast/ch002_streamaus">Streamaus</a></div><h2>Asennus</h2><div><a href="/icecast/ch004_linux">Linux</a></div><div><a href="/icecast/ch005_windows">Windows</a></div><h2>Aloittaminen</h2><div><a href="/icecast/ch007_aloittaminen-linuxissa">Aloittaminen Linuxissa</a></div><div><a href="/icecast/ch008_asennus-windowsiin">Asennus Windowsiin</a></div><div><a href="/icecast/ch009_lokit">Lokit</a></div><h2>Konfiguraatio</h2><div><a href="/icecast/ch011_peruskonfiguraatio">Peruskonfiguraatio</a></div><div><a href="/icecast/ch012_tilit">Tilit</a></div><h2>Tekijät</h2><div><a href="/icecast/ch014_tekijat">Tekijät</a></div></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/icecast/index">Johdanto</a></li>
+<li><a href="/icecast/ch002_streamaus">Streamaus</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/icecast/ch004_linux">Linux</a></li>
+<li><a href="/icecast/ch005_windows">Windows</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/icecast/ch007_aloittaminen-linuxissa">Aloittaminen Linuxissa</a></li>
+<li><a href="/icecast/ch008_asennus-windowsiin">Asennus Windowsiin</a></li>
+<li><a href="/icecast/ch009_lokit">Lokit</a></li>
+<li Class="booki-section">Konfiguraatio</li><li><a href="/icecast/ch011_peruskonfiguraatio">Peruskonfiguraatio</a></li>
+<li><a href="/icecast/ch012_tilit">Tilit</a></li>
+<li Class="booki-section">Tekijät</li><li><a href="/icecast/ch014_tekijat">Tekijät</a></li>
+</ul>

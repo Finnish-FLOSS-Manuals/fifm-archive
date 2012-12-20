@@ -1,0 +1,170 @@
+<div id="main-content">
+<h1>Tutorial
+</h1>
+<pre>Step 1: Initializing a RSence project.
+
+Welcome to the RSence Chat Tutorial.
+
+In this tutorial you will learn the basics of RSence development.
+
+You will need three applications to develop a project:
+ - A text editor suitable for writing source code.
+ - A command shell to control the process and initialize your environment.
+ - A web browser to test your application.
+
+Start by creating a new RSence project in your project folder.
+
+In this case, we use a folder named "tutorial".
+
+To initialize a new RSence project, in this case a chat application we'll use
+for tutorial purposes, type this in your terminal application:
+ rsence init chat_app
+
+The init wizard will ask you a few basic questions about your project setup:
+ - The first question is "Project Title":
+   - Just enter any name for your project, like "Chat Application"
+   - That name will be shown in the title bar of your web browser.
+ - The second question is the database connection string.
+   - The database is used as session storage, enabling persistent session
+     data storage even when RSence is not running. It's also used for
+     temporary storage of file uploads.
+   - If you have sqlite installed, just press enter. It will work by default.
+   - Any database supported by Sequel is supported by RSence too.
+ - The third question is the TCP port of the RSence web server.
+   - Only one process at a time can use a specific port, so be sure to enter
+     one not used by other processes on the same computer.
+   - In most cases, the default 8001 is fine, so just press enter.
+ - The fourth question is the TCP/IP address to bind the HTTP server to.
+   - The default "0.0.0.0" address binds the HTTP Server to all configured
+     network interfaces. Just press enter to select the default.
+   - Another safe choice is "127.0.0.1", which is the localhost interface.
+     That interface is accessible only to the computer itself.
+     We will use the localhost interface in this tutorial.
+ - The fifth question is the HTTP Server URI prefix which is the "directory"
+   RSence will respond to. The default "/" works fine in most cases, so just
+   press enter to continue.
+   - NOTICE: RSence does not serve any actual files or directories by default.
+             The URI (and complete URL) configured by default is an access
+             hook to in-memory objects of the RSence process, which will call
+             installed plugin objects.
+ - The sixth question is just a confirmation of the basic configuration
+   parameters. Press enter to accept or press "n" followed by enter to
+   re-enter the questions.
+ - Finally, RSence asks whether or not to install the "welcome" plugin.
+   Just press enter to install it. We will use it as a template for this
+   tutorial.
+
+---
+
+Step 2: Inspect the project.
+
+As a result of the project init, RSence creates a directory to hold your
+application. Open this directory and look let's review which file and folder
+is what.
+
+The "conf" directory contains by default a configuration file named
+"config.yaml". This configuration file contains the result of the answers
+to the questions asked by the "init" command. Modify the configuration file
+to set any advanced options or to change some of the basic settings.
+For development, enter these two lines at the bottom of the configuration
+file and save it:
+
+:transporter_conf:
+  :client_autoreload: true
+
+This tells the RSence process to reload connected web browser clients
+automatically, whenever RSence detects changes in the source files of the
+project plugin bundles. It's a great convenience while writing applications,
+because you do not have to reload the web browser manually between changes.
+
+The "db" directory contains the sqlite session database. The directory is
+unused, if you don't use a session storage database (it's optional) or if
+you use another database engine and its associated ruby database driver
+libraries.
+
+The "log" directory contains the standard output and standard error log
+files, unless configured otherwise.
+
+The "run" directory contains process identification files.
+
+The "plugins" directory contains all installed RSence software. RSence is able
+runs by default with a few support plugins, but they do nothing particularly
+interesting by their own, except initializing the RSence client when
+web browsers access the main URL.
+
+If you didn't answer "n" to the final question of the project init command,
+the "plugins" directory now contains a copy of the "welcome" plugin.
+
+It's a simple plugin that displays a greeting when you start RSence.
+
+Lets look at its structure:
+
+ - It's in a directory that defines its name. It's accessible by other
+   installed plugins via the plugin managemnt system by that name.
+ - It contains a ruby source code file named "welcome.rb".
+   - If a ".rb" file is found matching the name of the directory, the
+     directory is identified as a "Plugin Bundle" and the ruby source
+     is loaded into memory. If the source file contains a class inherited
+     from a supported Plugin interface, like Plugin, Servlet or GUIPlugin,
+     it's also automatically initialized by the plugin management system.
+   - If the ruby source file contains a class inherited from either
+     GUIPlugin or Plugin, it will look for a file called "values.yaml".
+     That file contains client-server -synchronized value container object
+     specifications. More about this later.
+   - If the ruby source file contains a class inherited from GUIPlugin,
+     like the "welcome" plugin is, it will look for a ".yaml" file named
+     similarly to the bundle directory name in the "gui" subdirectory.
+     In this case, the file is named "gui/welcome.yaml". The file contains
+     a "GUITree" structure, which is used for user interface rendering
+     instructions. More about this later.
+   - There is also a file called "info.yaml", which contains basic
+     plugin-specific meta-data, such as the name, description, version
+     and dependencies of the plugin bundle.
+
+---
+
+Step 3: Run the project
+
+RSence supports several different ways to run a RSence server process.
+In this case, we will use the "run" command, which is supported on all
+platforms, including Windows. Background daemon processes require a
+posix-compatible operating system, such as Mac OS X and Linux, so we'll
+focus on the "run" command here.
+
+There are various options for each command. To list all commands, run the
+following command at your command line:
+
+ rsence help
+
+It will list all available commands on your platform. To get more information
+about a specific command, such as the "run" command, do this:
+
+ rsence help run
+
+It will display help for the various options available for that command.
+
+</pre>
+<p> 
+</p>
+</div><ul Class="menu-goes-here"><li Class="booki-section">INTRODUCTION</li><li><a href="/riassence-framework/index">INTRODUCTION</a></li>
+<li Class="booki-section">INSTALLATION</li><li><a href="/riassence-framework/ch003_installation">INSTALLATION</a></li>
+<li><a href="/riassence-framework/ch004_configuration">CONFIGURATION</a></li>
+<li><a href="/riassence-framework/ch005_troubleshooting">TROUBLESHOOTING</a></li>
+<li Class="booki-section">TUTORIAL</li><li><a href="/riassence-framework/ch007_tutorial">TUTORIAL</a></li>
+<li Class="booki-section">PROGRAMMING LANGUAGES</li><li><a href="/riassence-framework/ch009_ruby-basics">RUBY BASICS</a></li>
+<li><a href="/riassence-framework/ch010_javascript-basics">JAVASCRIPT BASICS</a></li>
+<li><a href="/riassence-framework/ch011_yaml-basics">YAML BASICS</a></li>
+<li Class="booki-section">TUTORIALS</li><li><a href="/riassence-framework/ch013_visitor-counter">VISITOR COUNTER</a></li>
+<li Class="booki-section">PLUGINS</li><li><a href="/riassence-framework/ch015_server-plugin-model">SERVER PLUGIN MODEL</a></li>
+<li><a href="/riassence-framework/ch016_programming-plugins">PROGRAMMING PLUGINS</a></li>
+<li Class="booki-section">CLIENT</li><li><a href="/riassence-framework/ch018_client-framework">CLIENT FRAMEWORK</a></li>
+<li><a href="/riassence-framework/ch019_client-themes">CLIENT THEMES</a></li>
+<li Class="booki-section">DATA MODELS</li><li><a href="/riassence-framework/ch021_data-models">DATA MODELS</a></li>
+<li Class="booki-section">SERVLETS</li><li><a href="/riassence-framework/ch023_programming-servlets">PROGRAMMING SERVLETS</a></li>
+<li Class="booki-section">SOAP</li><li><a href="/riassence-framework/ch025_programming-soap">PROGRAMMING SOAP</a></li>
+<li Class="booki-section">USER INTERFACE</li><li><a href="/riassence-framework/ch027_using-gui">USING GUI</a></li>
+<li><a href="/riassence-framework/ch028_user-interface-model">USER INTERFACE MODEL</a></li>
+<li><a href="/riassence-framework/ch029_user-interface-programming">USER INTERFACE PROGRAMMING</a></li>
+<li Class="booki-section">INTEGRATION</li><li><a href="/riassence-framework/ch031_integration-examples">INTEGRATION EXAMPLES</a></li>
+<li Class="booki-section">CREDITS</li><li><a href="/riassence-framework/ch033_credits">CREDITS</a></li>
+</ul>

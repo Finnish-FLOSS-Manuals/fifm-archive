@@ -1,0 +1,38 @@
+<div Class="content-goes-here" id="main-content"><h1>GIMP</h1><h2>Johdanto</h2><div><a href="/gimp/index">Johdanto</a></div><h2>Asennus</h2><div><a href="/gimp/ch003_asennus">Asennus</a></div><h2>Asetukset</h2><div><a href="/gimp/ch005_asetukset">Asetukset</a></div><h2>Aloittelijan oppaat</h2><div><a href="/gimp/ch007_johdatus">Johdatus</a></div><div><a href="/gimp/ch008_kokeiluja">Kokeiluja</a></div><div><a href="/gimp/ch009_uuden-kuvan-tekeminen">Uuden kuvan tekeminen</a></div><div><a href="/gimp/ch010_koon-muuttaminen">Koon muuttaminen</a></div><div><a href="/gimp/ch011_valinnat">Valinnat</a></div><div><a href="/gimp/ch012_toimintamoodit">Toimintamoodit</a></div><div><a href="/gimp/ch013_kuvien-manipulointi">Kuvien manipulointi</a></div><div><a href="/gimp/ch014_reunat">Reunat</a></div><div><a href="/gimp/ch015_kuvateksti">Kuvateksti</a></div><div><a href="/gimp/ch016_kloonaus">Kloonaus</a></div><h2>Kehittyneen käyttäjän oppaat</h2><div><a href="/gimp/ch018_tasot">Tasot</a></div><div><a href="/gimp/ch019_valokuvien-parantaminen">Valokuvien parantaminen</a></div><div><a href="/gimp/ch020_taidetta">Taidetta</a></div><div><a href="/gimp/ch021_sumua">Sumua</a></div><div><a href="/gimp/ch022_etaisyydet">Etäisyydet</a></div><div><a href="/gimp/ch023_iwarp">Iwarp</a></div><div><a href="/gimp/ch024_kanavat">Kanavat</a></div><div><a href="/gimp/ch025_script-fu">Script-fu</a></div><div><a href="/gimp/ch026_lapinakyvyys">Läpinäkyvyys</a></div><div><a href="/gimp/ch027_animaatio">Animaatio</a></div><div><a href="/gimp/ch028_bannerit">Bannerit</a></div><h2>Edenneen käyttäjän oppaat</h2><div><a href="/gimp/ch030_kuvaformaatit">Kuvaformaatit</a></div><div><a href="/gimp/ch031_teoriaa">Teoriaa</a></div><div><a href="/gimp/ch032_pensselit">Pensselit</a></div><div><a href="/gimp/ch033_haaveilua">Haaveilua</a></div><div><a href="/gimp/ch034_avaruusmaisema">Avaruusmaisema</a></div><div><a href="/gimp/ch035_kolmiulotteisuus">Kolmiulotteisuus</a></div><div><a href="/gimp/ch036_konffausta">Konffausta</a></div><div><a href="/gimp/ch037_selektiivinen">Selektiivinen</a></div><div><a href="/gimp/ch038_retusointi">Retusointi</a></div><div><a href="/gimp/ch039_sumentaminen">Sumentaminen</a></div><div><a href="/gimp/ch040_syvays">Syväys</a></div><div><a href="/gimp/ch041_alfakanava">Alfakanava</a></div><h2>Liitteet</h2><div><a href="/gimp/ch043_tekijat">Tekijät</a></div></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/gimp/index">Johdanto</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/gimp/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Asetukset</li><li><a href="/gimp/ch005_asetukset">Asetukset</a></li>
+<li Class="booki-section">Aloittelijan oppaat</li><li><a href="/gimp/ch007_johdatus">Johdatus</a></li>
+<li><a href="/gimp/ch008_kokeiluja">Kokeiluja</a></li>
+<li><a href="/gimp/ch009_uuden-kuvan-tekeminen">Uuden kuvan tekeminen</a></li>
+<li><a href="/gimp/ch010_koon-muuttaminen">Koon muuttaminen</a></li>
+<li><a href="/gimp/ch011_valinnat">Valinnat</a></li>
+<li><a href="/gimp/ch012_toimintamoodit">Toimintamoodit</a></li>
+<li><a href="/gimp/ch013_kuvien-manipulointi">Kuvien manipulointi</a></li>
+<li><a href="/gimp/ch014_reunat">Reunat</a></li>
+<li><a href="/gimp/ch015_kuvateksti">Kuvateksti</a></li>
+<li><a href="/gimp/ch016_kloonaus">Kloonaus</a></li>
+<li Class="booki-section">Kehittyneen käyttäjän oppaat</li><li><a href="/gimp/ch018_tasot">Tasot</a></li>
+<li><a href="/gimp/ch019_valokuvien-parantaminen">Valokuvien parantaminen</a></li>
+<li><a href="/gimp/ch020_taidetta">Taidetta</a></li>
+<li><a href="/gimp/ch021_sumua">Sumua</a></li>
+<li><a href="/gimp/ch022_etaisyydet">Etäisyydet</a></li>
+<li><a href="/gimp/ch023_iwarp">Iwarp</a></li>
+<li><a href="/gimp/ch024_kanavat">Kanavat</a></li>
+<li><a href="/gimp/ch025_script-fu">Script-fu</a></li>
+<li><a href="/gimp/ch026_lapinakyvyys">Läpinäkyvyys</a></li>
+<li><a href="/gimp/ch027_animaatio">Animaatio</a></li>
+<li><a href="/gimp/ch028_bannerit">Bannerit</a></li>
+<li Class="booki-section">Edenneen käyttäjän oppaat</li><li><a href="/gimp/ch030_kuvaformaatit">Kuvaformaatit</a></li>
+<li><a href="/gimp/ch031_teoriaa">Teoriaa</a></li>
+<li><a href="/gimp/ch032_pensselit">Pensselit</a></li>
+<li><a href="/gimp/ch033_haaveilua">Haaveilua</a></li>
+<li><a href="/gimp/ch034_avaruusmaisema">Avaruusmaisema</a></li>
+<li><a href="/gimp/ch035_kolmiulotteisuus">Kolmiulotteisuus</a></li>
+<li><a href="/gimp/ch036_konffausta">Konffausta</a></li>
+<li><a href="/gimp/ch037_selektiivinen">Selektiivinen</a></li>
+<li><a href="/gimp/ch038_retusointi">Retusointi</a></li>
+<li><a href="/gimp/ch039_sumentaminen">Sumentaminen</a></li>
+<li><a href="/gimp/ch040_syvays">Syväys</a></li>
+<li><a href="/gimp/ch041_alfakanava">Alfakanava</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/gimp/ch043_tekijat">Tekijät</a></li>
+</ul>

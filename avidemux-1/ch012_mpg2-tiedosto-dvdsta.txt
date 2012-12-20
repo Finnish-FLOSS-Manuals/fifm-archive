@@ -1,0 +1,46 @@
+<div id="main-content"><h1>Tiedoston uuttaminen DVD:stä</h1>
+<div id="content">
+<p>Tahdot ehkä tehdä tämän, mikäli olet luomassa kokoelma-DVD:tä tai lisäämässä kielitukea DVD-tiedostoon. Sinun täytyy uuttaa MPEG-2-tiedosto DVD:stä käyttääksesi sitä DVD-poltto-ohjelmassa. Jos DVD on kryptattu tämä ei toimi, ja joudut dekryptaamaan DVD:n ensin (emme käsittele tässä DVD-levyjen dekryptausta). </p>
+<p>Jos tahdot tallentaa erilaisen videotiedoston (mp4 tai xvid avi), joudut seuraamaan tämän luvun ensimmäistä osaa ja seuraamaan sen jälkeen muiden lukujen ohjeita.</p>
+<h2>DVD-tiedostosi avaaminen </h2>
+<p>Uuttaaksemme MPEG-2 -tiedoston joudumme tuomaan yhden tai useampia VOB-tiedostoja, jotka sisältävät DVD:n sisällön.</p>
+<p>Nähdäksesi selkeämmin tämän merkityksen, katso DVD:n rakennetta. Kun laitat DVD-levyn tietokoneeseen ja käytät tiedostoselainta sen sisällön selaamiseen, näet<em> VIDEO_TS-</em>hakemiston ja joitain tiedostoja, joilla on erilaisia nimiä. </p>
+<p>Näistä suurista VOB-tiedostoista olemme kiinnostuneita. VOB on lyhenne sanoista Video OBjects (video-oliot), joten nämä tiedostot voivat kuulostaa pelkiltä videotiedostoilta, mutta ne sisältävät myös ääni- ja tekstityssisältöä. Jotta tämä olisi vielä hämmentävämpää, VOB-tiedostot voivat lisäksi sisältää enemmän kuin yhden videotiedoston - näin voi olla esimerkiksi DVD:ssä, jossa voit vaihtaa kuvakulmaa. </p>
+<p>Jotkin VOB-tiedostot sisältävät myös hakemistotietoja. Ensimmäinen tässä esimerkissä näkemämme tiedosto, joka luultavasti sisältää videota, on VTS_01_1.VOB. Testataksesi sisällön voit kokeilla yrittää avata tiedoston esimerkiksi VLC-mediasoittimessa. </p>
+<p>Toinen asia, jonka näemme avatessamme DVD VIDEO-TS-tiedoston on joukko suuria videotiedostoja, jotka ovat saman kokoisia, ja joita seuraavat pienemmän videotiedostot. Tämä on luultavasti pitkä elokuva, sillä DVD:n suurin mahdollinen tiedoston koko on hieman yli 1GB. </p>
+<p>Joskus DVD:llä voi olla kuitenkin useampia elokuvia, jotka on jaettu "näytöksiin". </p>
+<p>Tuodaksesi nämä VOB-tiedostot Avidemuxiin, valitse <strong>File </strong>Avidemuxin ylävalikosta ja valitse <strong>Open</strong>: </p>
+<p><img class="c3" title="avide3_en" src="_booki/avidemux-1/static/Avidemux-MpgTwoFilefromDVD-avide3_en-fi.jpg" alt="avide3_en" width="284" height="208"></p>
+<p>Näet nyt tiedostoselaimen ja sinun täytyy etsiä DVD ja avata VIDEO_TS -hakemisto. </p>
+<p>Nyt joudut etsimään VOB-tiedoston, jonka tahdot uuttaa. Valitse se ja paina <strong>Open</strong>-nappia vasemmassa alanurkassa - valitsemme <strong>VTS__01_0.VOB</strong>-tiedoston, aivan kuin edellisessä esimerkissä. Tämä avaa pienen ikkunan, joka kysyy tahdotko indeksoida tiedoston. </p>
+<p>On hyvä idea indeksoida tiedosto, joten paina <strong>Yes </strong>(itse asiassa Avidemux ei avaa MPEG-tiedostoja, joita ei ole indeksoitu). Jos hakemistossa on enemmän kuin yksi VOB-tiedosto, Avidemux kysyy tahdotko liittää tiedostot yhteen: </p>
+<p><img title="append" src="_booki/avidemux-1/static/Avidemux-MpgTwoFilefromDVD-append_en-fi.png" alt="append" width="366" height="163"></p>
+<p>Voit nyt painaa <strong>Yes</strong>, jos tahdot liittää tiedostot yhteen. Jos tätä ei tapahdu (tai napsautat <strong>No</strong>), voit liittää tiedostot käsin napsauttamalla <strong>File </strong>Avidemuxin yläpalkista ja napsauttamalla <strong>Append</strong>. </p>
+<p><img title="append_1" src="_booki/avidemux-1/static/Avidemux-MpgTwoFilefromDVD-append_1_en-fi.png" alt="append_1" width="246" height="340"></p>
+<p><strong>Append</strong>-komennon käyttäminen antaa sinun valita yhden tai useampia VOB-tiedostoja liitettäväksi yhteen. Tämä lisää tiedostojen sisällön poistamatta ensin avaamaasi tiedostoa. Emme tee tätä kuitenkaan tässä esimerkissä, sen sijaan painamme <strong>No </strong>ja näemme laatikon, joka kertoo meille, että valitsemaamme VOB-tiedostoa ollaan indeksoimassa: </p>
+<p><img title="indexing" src="_booki/avidemux-1/static/Avidemux-MpgTwoFilefromDVD-indexing_en-fi.png" alt="indexing" width="393" height="132"></p>
+<p>Tämä voi viedä jonkin aikaa, riippuen tiedostosi koosta ja koneesi nopeudesta. Kun tämä prosessi on valmis, Avidemux avaa tiedoston, mikä kestää myöskin jonkin aikaa. Kun tämä tapahtuu, näet tällaisen ikkunan: </p>
+<p><img title="opening" src="_booki/avidemux-1/static/Avidemux-MpgTwoFilefromDVD-opening_en-fi.png" alt="opening" width="164" height="113"></p>
+<p>Kun tämä laatikko on lopussa, olet valmis muuttamaan asetukset tallentaaksesi tiedostosi. Jos et tahdo luoda Mpeg2-tiedostoa (joka on yhteensopiva DVD:n kanssa), voit katsoa ohjeita muista kappaleista. </p>
+<p> </p>
+<h2>Asetusten muuttaminen ja Mpeg2-tiedoston tallentaminen </h2>
+<p>Emme tahdo koodata videota ja ääntä uudestaan, sillä ne sopivat jo DVD:lle, mutta tahdomme muuttaa säilön VIDEO-PS -muotoon. Tehdäksemme tämän napsautamme Format <strong>Avidemuxin </strong>etusivulla ja valitsemme MPEG PS -formaatin: </p>
+<p><img title="ps" src="_booki/avidemux-1/static/Avidemux-MpgTwoFilefromDVD-ps_en-fi.png" alt="ps" width="175" height="421"></p>
+<p>Valitse sen jälkeen <strong>Save</strong>: </p>
+<p><img title="save1" src="_booki/avidemux-1/static/Avidemux-MpgTwoFilefromDVD-save1_en-fi.png" alt="save1" width="172" height="67"></p>
+<p>Näet ponnahdusikkunan, jossa on tiedostoselain: </p>
+<p><img title="save3_1" src="_booki/avidemux-1/static/Avidemux-MpgTwoFilefromDVD-save3_1_en-fi.png" alt="save3_1" width="600" height="468"></p>
+<p>Ylimmässä tekstikentässä voit kirjoittaa nimen, jolla tahdot tallentaa tiedoston (katso, että tiedostopääte on <em>.mpg</em>) ja paina <strong>Save </strong>ylläolevan ikkunan oikeassa alanurkassa. Näet palkin, joka kertoo tallennusprosessin edistymisen: </p>
+<p><img title="progress" src="_booki/avidemux-1/static/Avidemux-MpgTwoFilefromDVD-progress_en-fi.png" alt="progress" width="510" height="408"></p>
+<p>Kun prosessi on valmis, et saa mitään palautetta, mutta löydät tiedoston sieltä, minne käskit Avidemuxia tallentamaan sen.</p>
+</div></div><ul Class="menu-goes-here"><li Class="booki-section">JOHDANTO</li><li><a href="/avidemux-1/index">JOHDANTO</a></li>
+<li Class="booki-section">PERUSTEET</li><li><a href="/avidemux-1/ch003_avaa-tiedosto">AVAA TIEDOSTO</a></li>
+<li><a href="/avidemux-1/ch004_leikkaa-tiedosto">LEIKKAA TIEDOSTO</a></li>
+<li><a href="/avidemux-1/ch005_muuta-videon-kokoa">MUUTA VIDEON KOKOA</a></li>
+<li><a href="/avidemux-1/ch006_poista-videon-limitys">POISTA VIDEON LIMITYS</a></li>
+<li Class="booki-section">VIDEOTIEDOSTOJEN LUOMINEN</li><li><a href="/avidemux-1/ch008_luo-mp4-tiedostoja">LUO MP4-TIEDOSTOJA</a></li>
+<li><a href="/avidemux-1/ch009_luo-dv-tiedostoja">LUO DV-TIEDOSTOJA</a></li>
+<li><a href="/avidemux-1/ch010_lisaa-tekstitys-videoon">LISÄÄ TEKSTITYS VIDEOON</a></li>
+<li Class="booki-section">DVD-LEVYT</li><li><a href="/avidemux-1/ch012_mpg2-tiedosto-dvdsta">MPG2-TIEDOSTO DVD:STÄ</a></li>
+<li Class="booki-section">TEKIJÄT</li><li><a href="/avidemux-1/ch014_tekijat">TEKIJÄT</a></li>
+</ul>

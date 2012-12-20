@@ -1,0 +1,131 @@
+<div id="main-content">
+<h1>Somebody Should Set The Title For This Chapter!</h1><p><font size="4">Taustan sumentaminen</font>
+</p>
+<p><font size="3">Usein liian terävä tausta häiritsee itse kuvaa esim. kuvattaessa tiettyä henkilöä. Tässä oppaassa esitämme, miten tausta sumennetaan pitäen kuitenkin halutun henkilön/muun edessä olevan objektin muoto tarkkana. </font>
+</p>
+<p><font size="3">Otetaan seuraava kuva: </font>
+</p>
+<p><img title="tausta" alt="tausta" src="_booki/gimp/static/GIMP-sumentaminen-tausta-fi.jpg" name="grafiikka1" height="401" width="300"><br clear="left"><font size="3">Kuva 1. Ihmettelemässä maailmaa laiturilla</font>
+</p>
+<p><font size="3">Miten tausta sumennetaan? Kuvankäsittelyamatöörille tulee heti ensimmäisenä mieleen se, että rajataan tarkkana pidettävä hahmo, valitaan ylhäältä ”Valitse”=&gt;”Käänteinen”, jolloin valitsemme manipuloitavaksi nimenomaan rajatun alueen <strong>ulkopuolisen</strong> alueen, ja sitten sovelletaan esimerkiksi Gauss-sumennusta. Idea on yksinkertainen, mutta se ei käytännössä toimi kovinkaan hyvin jo siitä syystä, että lassotyökalulla tai ”Valitse muotoja kuvasta”-työkalulla ei yksinkertaisesti useinkaan saa leikattua kuvaa uskottavasti. Leikkauskohdasta tulee myös liian "terävä", ja kokematonkin ihminen näkee että kuvaa on editoitu alkeellisesti. Tämä on aloittelevan kuvamanipulaation harrastajan yleisin virhe: yksinkertainen leikkaus-liimausmenetelmä ei vain yksinkertaisesti toimi käytännössä, jos halutaan korkealaatuisia editointeja.</font>
+</p>
+<p><font size="3">Sen sijaan lähdemme kikkailemaan jälleen tasoilla ja maskeilla- huomaat kyllä eron lopputuloksen paremmuudessa! </font>
+</p>
+<p><font size="3">Avataan ensin kuva GIMP:issä ja hajotetaan se eri kanaviin: ”Kuva”=&gt;”Tila”=&gt;”Hajota”. </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_3f139bea-fi.jpg" name="grafiikka2"><br clear="left"><br><br></p>
+<p><font size="3">Kuva 2. Hajota kanavat-työkalu. Ota ruksi pois ”Hajota tasoihin”-kohdasta, jos siinä on sellainen. </font>
+</p>
+<p><font size="3">Tämä toiminto luo kolme mustavalkokuvaa. Mitä ihmettä ne tarkoittavat? Kukin kuva edustaa mustavalkoisena punaisen, vihreän tai sinisen edustusta kuvassa. Etsimme sellaisen kuvan, jossa edustuksen kontrasti taustaan verrattuna on suurin mahdollinen. Kaikki näyttävät olevan hyviä kuvia, mutta vihreä on yleensä paras (kuten tämänkin valokuvan tapauksessa). Valitsemme sen. Voimme sulkea sinisen ja punaisen kanavan, mutta pidä vihreä kanava ja alkuperäinen värikuva GIMP:issä esillä. </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_m1f96d48a-fi.jpg" name="grafiikka3"><br clear="left"><font size="3">Kuva 3. Vihreä kanava </font>
+</p>
+<p><font size="3">Tämän jälkeen helpottaaksemme työtä rajaamme alueen selkeänä haluamamme hahmon ympärillä. Huom! Tämä ei ole lopullinen rajaus, ole siis suuripiirteinen! Älä jätä mitään osaa hahmosta rajauksen ulkopuolelle, mutta tyhjää tilaa voit kyllä jättää hahmon ympärille. Sen jälkeen valitse ”Valitse”=&gt;”Käänteinen”, ja maalaa maalipurkilla<img alt="pntto" src="http://www.joutsi.com/paletti/maalipontto.jpg"> ulkopuoli mustaksi. Jos jätät ”Valitse”=&gt;”Käänteinen”-toiminnon valitsematta, maalaa maalipurkki valinnan sisäpuolen mustaksi, vaikka painaisitkin hiiren nappia sen ulkopuolella:</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_7c4b9d7e-fi.jpg" name="grafiikka4"><br clear="left"><font size="3">Kuva 4. Rajaus</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_3fffa4de-fi.jpg" name="grafiikka5"><br clear="left"><font size="3">Kuva 5. Rajaus ja maalipurkin käyttö.</font>
+</p>
+<p><font size="3">Sen jälkeen poistamme rajausvälineen valinnalla ”Valitse”=&gt;”Ei mitään”. Tämä vaihe on tärkeä, koska muuten raja-arvon ottaminen, johon seuraavaksi paneudutaan, ei onnistu.</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_m55fa5828-fi.jpg"><br clear="left"><font size="3">Kuva 6. Rajaustyökalu on poistettu käytöstä. </font>
+</p>
+<p><font size="3">Seuraavaksi ota työkalu ”Työkalut”=&gt;”Värityökalut”=&gt;”Raja-arvo”</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_24144f16-fi.jpg" name="grafiikka7"><br clear="left"><font size="3">Kuva 7. Kuva muuttuu täysin mustavalkoiseksi. Muuta raja-arvoa (alhaalla oleva nuolenkärki) kunnes hahmo erottuu selkeästi ympäristöstä.</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_51466260-fi.jpg" name="grafiikka8"><br clear="left"><br><br></p>
+<p><font size="3">Kuva 8. Nyt hahmo erottuu paremmin ympäristöstä</font>
+</p>
+<p><font size="3">Seuraavaksi ota tasotyökalu esiin (”Ikkunat”=&gt;”Tasot”) ja teemme uuden tason (Nappi vasemmassa alakulmassa) seuraavilla asetuksilla: </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_mdbe78ff-fi.jpg" name="grafiikka9"><br clear="left"><font size="3">Kuva 9. uuden tason asetukset</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_3cd49eb1-fi.jpg" name="grafiikka10"><br clear="left"><font size="3">Kuva 10. Lopputulos ”OK”-napin painamisen jälkeen</font>
+</p>
+<p><font size="3">Sitten valitsemme värikuvan, joka sinun piti säilyttää, painamme Ctrl-A (tai valikosta ”Valitse”=&gt;”Kaikki”) ja siirrämme sen Ctrl-C/Ctrl-V-menetelmällä mustavalkokuvan päälle: </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_m78a8beaa-fi.jpg" name="grafiikka11"><br clear="left"><font size="3">Kuva 11. Copy-pasteamisen jälkeen näyttää tasotyökalu tältä</font>
+</p>
+<p><font size="3">Sitten painamme ankkuri-nappia alaoikealta ja tämä ankkuroi liitetyn tason paikalleen:</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_m515531f1-fi.jpg" name="grafiikka12"><br clear="left"><font size="3">Kuva 12. Nyt tasotyökalu näyttää tältä</font>
+</p>
+<p><font size="3">Sitten lähdetään pensselillä maalaamaan ”Tausta”-tasossa hahmon silhuettia: hahmo valkoiseksi, kaikki muu mustaksi. Joudut käyttämään paljon suurennuslasia ja muutamia eri pensseleitä. Tämä on koko työn masokistisin osuus, joka vie paljon aikaa, hermoja ja virvokkeita. Lopputulos näyttää seuraavalta: </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_m7f9511a-fi.jpg" name="grafiikka13"><br clear="left"><font size="3">Kuva 13. Hahmon silhuetti.</font>
+</p>
+<p><font size="3">Tässä vaiheessa sumennamme kuvan: ”Suotimet”=&gt;”Tee epäteräväksi”=&gt;”Gauss-sumennus”. Valitse melko pieni arvo, 5 tai vastaava ja paina ”OK”.</font>
+</p>
+<p><font size="3">Sen jälkeen valitse ”Taso”=&gt;”Värit”=&gt;”Käänteinen”:</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_5904195f-fi.jpg" name="grafiikka14"><br clear="left"><font size="3">Kuva 14. Käänteinen silhuetti</font>
+</p>
+<p><font size="3">Ota jälleen <strong>alkuperäinen</strong> värikuva esille (mutta älä sulje kuvaa 14, tarvitsemme sitä vielä!), sille tasotyökalu ja kahdenna taso (keskellä alhaalla on painike sitä varten). Anna tasolle vaikka nimi ”Sumennettu”: </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_m1e4dca63-fi.jpg" name="grafiikka15"><br clear="left"><font size="3">Kuva 15. Alkuperäisen kuvan tasot</font>
+</p>
+<p><font size="3">Huolehdi että taso ”Sumennettu” on valittu kuvassa 15. Sitten valitse alkuperäisessä kuvassa ”Suotimet”=&gt;”Tee epäteräväksi”=&gt;”Gauss-sumennos”. Se, mikä arvo Gauss-sumennokselle on hyvä on vain kokeiltava itse. Itse käytin arvoa 10, mutta lopputulosta tarkasteltaessa se oli liian suuri. </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_1c898bbe-fi.jpg" name="grafiikka16"><br clear="left"><font size="3">Kuva 16. Sumennettu valokuva </font>
+</p>
+<p><font size="3">Luo sitten ”Sumennettu”-tasolle uusi maski seuraavilla arvoilla:</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_514bffba-fi.jpg" name="grafiikka17"><br clear="left"><font size="3">Kuva 17. Maskin asetukset</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_m27309f7e-fi.jpg" name="grafiikka18"><br clear="left"><font size="3">Kuva 18. ”OK”-napin painamisen jälkeen tasojen pitäisi näyttää tältä</font>
+</p>
+<p><font size="3">Mene sitten mustavalkokuvaan takaisin (kuva 14), valitse kaikki (Ctrl-a) ja copy-pastea tämä toisen kuvan päälle Ctrl-C/Ctrl-V-menetelmällä, mutta varmista ensin että tasot on valittu seuraavasti:</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_m511cea5b-fi.jpg" name="grafiikka20"><br clear="left"><font size="3">Kuva 19. ”Tausta”-taso maskin kanssa valittu. </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_5206b48-fi.jpg" name="grafiikka19"><br clear="left"><font size="3">Kuva 20. Tasot näyttävät nyt tältä</font>
+</p>
+<p><font size="3">Sitten painat ankkurin kuvaa, jolloin liitetty taso ankkuroituu edelliseen: </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_4a8a04cc-fi.jpg" name="grafiikka21"><br clear="left"><font size="3">Kuva 21. Tasot näyttävät nyt tältä</font>
+</p>
+<p><font size="3">Ja lopputulos on halutunlainen: </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-sumentaminen-tausta_html_m650fbb3-fi.jpg" name="grafiikka22"><br clear="left"><font size="3">Kuva 22: Lopputulos. </font>
+</p>
+<p>
+  <br></p>
+</div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/gimp/index">Johdanto</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/gimp/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Asetukset</li><li><a href="/gimp/ch005_asetukset">Asetukset</a></li>
+<li Class="booki-section">Aloittelijan oppaat</li><li><a href="/gimp/ch007_johdatus">Johdatus</a></li>
+<li><a href="/gimp/ch008_kokeiluja">Kokeiluja</a></li>
+<li><a href="/gimp/ch009_uuden-kuvan-tekeminen">Uuden kuvan tekeminen</a></li>
+<li><a href="/gimp/ch010_koon-muuttaminen">Koon muuttaminen</a></li>
+<li><a href="/gimp/ch011_valinnat">Valinnat</a></li>
+<li><a href="/gimp/ch012_toimintamoodit">Toimintamoodit</a></li>
+<li><a href="/gimp/ch013_kuvien-manipulointi">Kuvien manipulointi</a></li>
+<li><a href="/gimp/ch014_reunat">Reunat</a></li>
+<li><a href="/gimp/ch015_kuvateksti">Kuvateksti</a></li>
+<li><a href="/gimp/ch016_kloonaus">Kloonaus</a></li>
+<li Class="booki-section">Kehittyneen käyttäjän oppaat</li><li><a href="/gimp/ch018_tasot">Tasot</a></li>
+<li><a href="/gimp/ch019_valokuvien-parantaminen">Valokuvien parantaminen</a></li>
+<li><a href="/gimp/ch020_taidetta">Taidetta</a></li>
+<li><a href="/gimp/ch021_sumua">Sumua</a></li>
+<li><a href="/gimp/ch022_etaisyydet">Etäisyydet</a></li>
+<li><a href="/gimp/ch023_iwarp">Iwarp</a></li>
+<li><a href="/gimp/ch024_kanavat">Kanavat</a></li>
+<li><a href="/gimp/ch025_script-fu">Script-fu</a></li>
+<li><a href="/gimp/ch026_lapinakyvyys">Läpinäkyvyys</a></li>
+<li><a href="/gimp/ch027_animaatio">Animaatio</a></li>
+<li><a href="/gimp/ch028_bannerit">Bannerit</a></li>
+<li Class="booki-section">Edenneen käyttäjän oppaat</li><li><a href="/gimp/ch030_kuvaformaatit">Kuvaformaatit</a></li>
+<li><a href="/gimp/ch031_teoriaa">Teoriaa</a></li>
+<li><a href="/gimp/ch032_pensselit">Pensselit</a></li>
+<li><a href="/gimp/ch033_haaveilua">Haaveilua</a></li>
+<li><a href="/gimp/ch034_avaruusmaisema">Avaruusmaisema</a></li>
+<li><a href="/gimp/ch035_kolmiulotteisuus">Kolmiulotteisuus</a></li>
+<li><a href="/gimp/ch036_konffausta">Konffausta</a></li>
+<li><a href="/gimp/ch037_selektiivinen">Selektiivinen</a></li>
+<li><a href="/gimp/ch038_retusointi">Retusointi</a></li>
+<li><a href="/gimp/ch039_sumentaminen">Sumentaminen</a></li>
+<li><a href="/gimp/ch040_syvays">Syväys</a></li>
+<li><a href="/gimp/ch041_alfakanava">Alfakanava</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/gimp/ch043_tekijat">Tekijät</a></li>
+</ul>

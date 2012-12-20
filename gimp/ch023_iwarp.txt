@@ -1,0 +1,55 @@
+<div id="main-content">
+<h1>Somebody Should Set The Title For This Chapter!</h1><p><font size="4">Iwarp-kehojen muokkausta</font>
+</p>
+<p>IWarpin kaltaista muokkaustyökalua käytetään usein pilakuvien ja ”humanoidien” tekemiseen. Sen avulla voidaan venytellä ja litistää ihmiskehon eri osia uskottavasti, kuten tehdä isommat lihakset, isompi vatsa ja niin edelleen. Samalla tavalla voidaan supistaa joitakin osia, kuten liian paksua vatsaa tai kasvoja. Itseasiassa useat muotilehdet retusoivat tämänkaltaisella työkalulla malliensa kuvia antaen niille ”viimeisen silauksen”. Toki ihmisen tekeminen kauniimmaksi IWarp-työkalulla on suuri taidonnäyte. Rumemmaksi ja vääristyneemmäksi ihmisen saa toki tällä työkalulla tehtyä kuka tahansa. Ennen kuin menemme itse tunnin asiaan, niin pieni muistutus on vielä tarpeen: tarpeeksi räikeä pilakuva jonka julkaiset toisesta ihmisestä julkisesti voi johtaa kunnianloukkaussyytteeseen. Käsittele siis tätä työkalua vastuullisesti!
+</p>
+<p><span><span>Huomio!</span> </span>Monet ihmiset ovat hämmästelleet IWarp-työkalun hitautta, kun sillä on yritetty muokata digikameralla otettuja kuvia. Syy on se, että tämän toiminnon käyttämä algoritmi on niin monimutkainen, että ison kuvan muokkaamiseen menee aikaa parhaimmillaan useita minuutteja. Kuvan muokkauksen etenemistä voi seurata katsomalla vihreää katkoviivoitusta kuvan alareunassa. On vain kaksi tapaa tämän työkalun käyttämiseen: joko varaat siihen paljon aikaa tai sitten pienennät kuvaa ennen kuin muokkaat sitä IWarpilla.
+</p>
+<p>Otamme ensin jonkun kuvan, vaikka Internetistä. Kuva on esimerkki, älä käytä sitä vaan jotain muuta kuvaa.
+</p>
+<p><img title="gimp4_html_m5f5019a0" alt="gimp4_html_m5f5019a0" src="_booki/gimp/static/GIMP-resized_600x846_gimp4_html_m5f5019a0-fi.jpg" name="grafiikka2" align="left" height="846" width="600"><br clear="left"><font size="3">Kuva 1. Tavallinen kukkakeppi ottamassa makaronilaatikkoa. </font>
+</p>
+<p>Ota käyttöön toiminto ”Suotimet”=&gt;”Vääristykset”=&gt;”IWarp”.
+</p>
+<p><img src="_booki/gimp/static/GIMP-gimp4_html_ffa20e9-fi.jpg" name="grafiikka3" align="left"><br clear="left">Kuva 2. Tällä työkalulla saat kasvatettua ja kutistettua tiettyjä osia kuvasta napsauttelemalla sitä hiiren ykköspainikkeella. Tärkeä arvo on myös ”muodonmuutoksen säde”, jonka on syytä olla pikkutarkemmassa työssä pieni, laajamittaisessa työssä taas suurempi. <span>Huom!</span> Muokkaa kuvaa siis nimenomaan tässä käyttöliittymässä, et saa muokattua kuvaa hiiren painelulla alkuperäisessä ikkunassa. 
+</p>
+<p>Napsauta ”Peru”, jos tulos ei tyydytä ja aloita uudestaan. Muutoin napsauta ”OK”. Pienenä strategisena huomiona ilmoitan, että kannattaa mieluummin tehdä useita pieniä muutoksia ja tallentaa välivaiheet kuin tehdä kaikki työ samanaikaisesti.
+</p> <img src="_booki/gimp/static/GIMP-resized_600x862_gimp4_html_6ef65c40-fi.jpg" name="grafiikka1" align="left" height="862" width="600"><br clear="left"> Kuva 3. Nyt on käyty punttisalilla vähän ahkerammin.
+</div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/gimp/index">Johdanto</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/gimp/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Asetukset</li><li><a href="/gimp/ch005_asetukset">Asetukset</a></li>
+<li Class="booki-section">Aloittelijan oppaat</li><li><a href="/gimp/ch007_johdatus">Johdatus</a></li>
+<li><a href="/gimp/ch008_kokeiluja">Kokeiluja</a></li>
+<li><a href="/gimp/ch009_uuden-kuvan-tekeminen">Uuden kuvan tekeminen</a></li>
+<li><a href="/gimp/ch010_koon-muuttaminen">Koon muuttaminen</a></li>
+<li><a href="/gimp/ch011_valinnat">Valinnat</a></li>
+<li><a href="/gimp/ch012_toimintamoodit">Toimintamoodit</a></li>
+<li><a href="/gimp/ch013_kuvien-manipulointi">Kuvien manipulointi</a></li>
+<li><a href="/gimp/ch014_reunat">Reunat</a></li>
+<li><a href="/gimp/ch015_kuvateksti">Kuvateksti</a></li>
+<li><a href="/gimp/ch016_kloonaus">Kloonaus</a></li>
+<li Class="booki-section">Kehittyneen käyttäjän oppaat</li><li><a href="/gimp/ch018_tasot">Tasot</a></li>
+<li><a href="/gimp/ch019_valokuvien-parantaminen">Valokuvien parantaminen</a></li>
+<li><a href="/gimp/ch020_taidetta">Taidetta</a></li>
+<li><a href="/gimp/ch021_sumua">Sumua</a></li>
+<li><a href="/gimp/ch022_etaisyydet">Etäisyydet</a></li>
+<li><a href="/gimp/ch023_iwarp">Iwarp</a></li>
+<li><a href="/gimp/ch024_kanavat">Kanavat</a></li>
+<li><a href="/gimp/ch025_script-fu">Script-fu</a></li>
+<li><a href="/gimp/ch026_lapinakyvyys">Läpinäkyvyys</a></li>
+<li><a href="/gimp/ch027_animaatio">Animaatio</a></li>
+<li><a href="/gimp/ch028_bannerit">Bannerit</a></li>
+<li Class="booki-section">Edenneen käyttäjän oppaat</li><li><a href="/gimp/ch030_kuvaformaatit">Kuvaformaatit</a></li>
+<li><a href="/gimp/ch031_teoriaa">Teoriaa</a></li>
+<li><a href="/gimp/ch032_pensselit">Pensselit</a></li>
+<li><a href="/gimp/ch033_haaveilua">Haaveilua</a></li>
+<li><a href="/gimp/ch034_avaruusmaisema">Avaruusmaisema</a></li>
+<li><a href="/gimp/ch035_kolmiulotteisuus">Kolmiulotteisuus</a></li>
+<li><a href="/gimp/ch036_konffausta">Konffausta</a></li>
+<li><a href="/gimp/ch037_selektiivinen">Selektiivinen</a></li>
+<li><a href="/gimp/ch038_retusointi">Retusointi</a></li>
+<li><a href="/gimp/ch039_sumentaminen">Sumentaminen</a></li>
+<li><a href="/gimp/ch040_syvays">Syväys</a></li>
+<li><a href="/gimp/ch041_alfakanava">Alfakanava</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/gimp/ch043_tekijat">Tekijät</a></li>
+</ul>

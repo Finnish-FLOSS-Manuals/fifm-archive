@@ -1,0 +1,50 @@
+<html xmlns="http://www.w3.org/1999/xhtml" dir="LTR"><head><title>Dokumentaatio</title><link rel="icon" href="/static/fl2.ico" type="image/x-icon"><link rel="stylesheet" href="/static/templating_template_flossmanuals.css" type="text/css"><script type="text/javascript" src="/static/jquery.js"></script><script type="text/javascript" src="/static/templating_template_flossmanuals.js"></script></head><body>
+<div id="home">
+  <a href="/"><img src="/static/top_read_back.gif" border="0" alt=""></a>
+</div>
+<div id="index">
+  <a href="/rsence/index" id="index-book-title"><div Class="book-title-goes-here">RSence</div></a>
+  <ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/rsence/index">Johdanto</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/rsence/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Perusteet</li><li><a href="/rsence/ch005_alustus">Alustus</a></li>
+<li><a href="/rsence/ch006_tarkastaminen">Tarkastaminen</a></li>
+<li><a href="/rsence/ch007_ajaminen">Ajaminen</a></li>
+<li Class="booki-section">Ohjelmointi</li><li><a href="/rsence/ch009_ohjelmointi">Ohjelmointi</a></li>
+<li><a href="/rsence/ch010_asiakaspuoli">Asiakaspuoli</a></li>
+<li><a href="/rsence/ch011_palvelinpuoli">Palvelinpuoli</a></li>
+<li Class="booki-section">Lähdekoodi</li><li><a href="/rsence/ch013_fiveryaml">fiver.yaml</a></li>
+<li><a href="/rsence/ch014_fiverrb">fiver.rb</a></li>
+<li><a href="/rsence/ch015_valuesyaml">values.yaml</a></li>
+<li><a href="/rsence/ch016_client_pkgsyaml">client_pkgs.yaml</a></li>
+<li><a href="/rsence/ch017_fiverjs">fiver.js</a></li>
+<li><a href="/rsence/ch018_fivercss">fiver.css</a></li>
+<li><a href="/rsence/ch019_fiverhtml">fiver.html</a></li>
+<li Class="booki-section">Dokumentaatio</li><li><a href="/rsence/ch021_dokumentaatio">Dokumentaatio</a></li>
+<li Class="booki-section">Tekijät</li><li><a href="/rsence/ch023_tekijat">Tekijät</a></li>
+</ul></div>
+<!--
+<div id="pdf">
+  <a href="something.pdf"><img class="non" src="/static/makepdf.gif" border="0" alt="" /></a>
+  <a href="something"><img class="non" src="/static/viewprint.gif" border="0" alt="" /></a>
+</div>
+-->
+<div id="main">
+  <div class="navbar">
+    <div class="arrow top left"><a href="#"><img src="/static/lefttext.png" height="20" alt=""></a></div>
+    <div class="arrow top right"><a href="#"><img src="/static/righttext.png" height="20" alt=""></a></div>
+  </div>
+
+  <div class="ds-contentcontainer">
+    <div id="main-content">
+<h1>Dokumentaatio
+</h1>
+<p><a href="http://rsence.org/">RSence.org</a>-sivustolla on dokumentaatio jaettu kahteen suurempaan kokonaisuuteen: asiakaspuolen sekä palvelimen ohjelmointirajapintojen dokumentaatioihin. Näiden lisäksi on vielä osittain keskeneräinen RSencen yleisesittely, jossa käydään läpi sovellutusten perustat.
+  <br></p>
+</div></div>
+
+  <div class="navbar">
+    <div class="arrow bottom left"><a href="#"><img src="/static/lefttext.png" height="20" alt=""></a></div>
+    <div class="arrow bottom right"><a href="#"><img src="/static/righttext.png" height="20" alt=""></a></div>
+  </div>
+</div>
+

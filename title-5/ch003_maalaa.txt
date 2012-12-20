@@ -1,0 +1,33 @@
+<div id="main-content">
+<h1>Maalaa
+</h1>
+<p>Maalaa-työkalun voit valita vasemmalla olevan valikon ensimmäisestä napista: 
+  <br></p>
+<p><img title="ScreenHunter_05_Apr._17_19.47" alt="ScreenHunter_05_Apr._17_19.47" src="_booki/title-5/static/TuxPaint-ScreenHunter_05_Apr-_17_19-47-fi.gif" width="50" height="50"></p>
+<p>
+  </p><p>Tällä työkalulla voit maalata kankaalle erilaisia kuvioita painamalla hiiren nappia kankaan päällä ja vetämällä:
+    <br></p>
+
+<p><img title="ScreenHunter_10_Apr._17_19.49" alt="ScreenHunter_10_Apr._17_19.49" src="_booki/title-5/static/TuxPaint-ScreenHunter_10_Apr-_17_19-49-fi.gif" width="110" height="127"></p>
+<p>
+  </p><p>Oikealta voit vaihtaa siveltimiä. 
+    <br></p>
+
+<p><img title="ScreenHunter_11_Apr._17_19.50" alt="ScreenHunter_11_Apr._17_19.50" src="_booki/title-5/static/TuxPaint-ScreenHunter_11_Apr-_17_19-50-fi.gif" width="99" height="474"></p>
+<p>Yritä valita paksumpi sivellin ja maalata sillä:
+</p>
+<p><img title="ScreenHunter_12_Apr._17_19.52" alt="ScreenHunter_12_Apr._17_19.52" src="_booki/title-5/static/TuxPaint-ScreenHunter_12_Apr-_17_19-52-fi.gif" width="250" height="201"></p>
+<p>
+  </p><p>Alareunan valikosta voit vaihtaa värejä: 
+    <br></p>
+
+<p><img title="ScreenHunter_13_Apr._17_19.53" alt="ScreenHunter_13_Apr._17_19.53" src="_booki/title-5/static/TuxPaint-resized_600x38_ScreenHunter_13_Apr-_17_19-53-fi.gif" width="600" height="38"></p>
+<p>Yritä vaihtaa väri punaiseksi ja piirrä sydän:
+</p>
+<p><img title="ScreenHunter_14_Apr._17_19.54" alt="ScreenHunter_14_Apr._17_19.54" src="_booki/title-5/static/TuxPaint-ScreenHunter_14_Apr-_17_19-54-fi.gif" width="180" height="188"><br></p>
+</div><ul Class="menu-goes-here"><li><a href="/title-5/index">Introduction</a></li>
+<li><a href="/title-5/ch001_ikkuna">Ikkuna</a></li>
+<li><a href="/title-5/ch002_leima">Leima</a></li>
+<li><a href="/title-5/ch003_maalaa">Maalaa</a></li>
+<li><a href="/title-5/ch004_credits">Credits</a></li>
+</ul>

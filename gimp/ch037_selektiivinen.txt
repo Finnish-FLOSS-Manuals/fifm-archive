@@ -1,0 +1,87 @@
+<div id="main-content">
+<h1>Somebody Should Set The Title For This Chapter!</h1><p><font size="4">Selektiivinen värikuva</font>
+</p>
+<p><font size="3">Viime vuosien kuvankäsittelyn ehdottomia kestosuosikkeja ovat mustavalkokuvat, joissa tietyt osat ovat värillisiä. Näitä kutsutaan selektiivisiksi värikuviksi tai selektiivisiksi mustavalkokuviksi, riippuen näkökulmasta. Sellaisen tekeminen GIMP:illä ei ole niitä helpoimpia kuvamanipulaatioita, mutta askel askeleelta tämä luultavasti onnistuu, jos hallitset jo GIMP:in perustoiminnot. Erityisesti korostuvat pensselin käyttö sekä tietysti tasojen ja maskien käyttö.</font>
+</p>
+<p><font size="3">Otetaan seuraava kuva: </font>
+</p>
+<p><img title="kukka" alt="kukka" src="_booki/gimp/static/GIMP-selektiivinen-kukka-fi.jpg" name="grafiikka1" height="300" width="400"><br clear="left"><font size="3">Kuva 1. Sinikelloja</font>
+</p>
+<p><font size="3">avataan se GIMP:issä ja valitse ”Kuva”=&gt;”Kahdenna”. Tämä luo nimensä mukaisesti kaksi kuvaa. Tee toisesta kuvasta mustavalkokuva (”Kuva”=&gt;”Tila”=&gt;”harmaasävy”). Nyt sinulla pitäisi olla <strong>sekä</strong> alkuperäinen kuva <strong>että</strong> mustavalokuva yhtä aikaa auki GIMP:issä. </font>
+</p>
+<p><font size="3">Avaa seuraavaksi värikuvasta tasotyökalu (”Ikkunat”=&gt;”Tasot”).</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-selektiivinen-selektiivinen_html_m16a0ddaf-fi.jpg" name="grafiikka2"><br clear="left"><font size="3">Kuva 2. Tasotyökalu avattuna</font>
+</p>
+<p><font size="3">Tee seuraavaksi uusi taso (kuvassa 2 punaisella merkitty nappi): </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-selektiivinen-selektiivinen_html_23da24b1-fi.jpg" name="grafiikka3"><br clear="left"><font size="3">Kuva 3. Uuden tason ominaisuudet. Asetuksen pitää olla kohdassa ”Läpinäkyvyys”.</font>
+</p>
+<p><font size="3">Voit nimetä (hiiren oikea näppäin tason päällä=&gt;”Muokkaa tason ominaisuuksia”) tason uudestaan, vaikka nimelle ”Mustavalko” (ei välttämätöntä, mutta loogista ja helpottaa työskentelyä).</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-selektiivinen-selektiivinen_html_m14d41376-fi.jpg" name="grafiikka4"><br clear="left"><font size="3">Kuva 4. Nyt sinulla pitäisi olla värikuvassa kaksi tasoa. Pidä huoli että taso ”mustavalko” on valittuna, kuten kuvassa 4. </font>
+</p>
+<p><font size="3">Sitten valitse mustavalkokuvasta koko alue (näppäinyhdistelmällä Ctrl-a) ja siirrä se värivalokuvan päälle Ctrl-c/Ctrl-v-menetelmällä. Valokuva muuttuu mustavalkoiseksi ja tasotyökaluun ilmestyy kolme tasoa:</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-selektiivinen-selektiivinen_html_2d53d092-fi.jpg" name="grafiikka5"><br clear="left"><font size="3">Kuva 5. Kelluva taso liittyy kolmanneksi tasoksi valokuvaan. Tässä vaiheessa on erittäin tärkeää, että kaikki näyttää samalta kuin kuvassa 5: kaikki "silmät" auki, tasot juuri tässä järjestyksessä ja niiden sisältö näyttää samanlaiselta. </font>
+</p>
+<p><font size="3">Ankkuroi kelluva valinta kuvaan (painamalla yksinkertaisesti ankkurin kuvaa, kuva 5). Nyt tasotyökalun pitäisi näyttää seuraavalta: </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-selektiivinen-selektiivinen_html_m5c67cf60-fi.jpg"><br clear="left"><font size="3">Kuva 6. jälleen kaksi tasoa kuvassa ankkuroinnin jälkeen. </font>
+</p>
+<p><font size="3">Seuraavaksi lisätään mustavalkokuvaan tason maski: Paina tason ”mustavalko” päällä hiiren oikeaa näppäintä ja valitse ”Lisää tason maski”</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-selektiivinen-selektiivinen_html_m216b7a94-fi.jpg" name="grafiikka7"><br clear="left"><font size="3">Kuva 7. Tason maski lisätään näillä asetuksilla</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-selektiivinen-selektiivinen_html_100c63b0-fi.jpg" name="grafiikka8"><br clear="left"><font size="3">Kuva 8. tasotyökalun pitäisi näyttää tason maskin lisäämisen jälkeen tältä.</font>
+</p>
+<p><font size="3">Tämän jälkeen otamme GIMP:in peruspaletista pensselin esiin sopivalla paksuudella (Laajoja alueita isolla pensselillä, pikkutarkat alueet pienillä) ja alamme värittää kuvaa. Maalatun alueen pitäisi muuttua värilliseksi! </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-selektiivinen-resized_600x490_selektiivinen_html_7d9ca8d5-fi.jpg" name="grafiikka9" height="490" width="600"><br clear="left"><font size="3">Kuva 9. Lopputulos. Melko huolimaton, pyri parempaan (Suurennuslasi on ehdoton apuväline, muista vaihdella pensseleiden kokoa).</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-selektiivinen-selektiivinen_html_mf87e22-fi.jpg" name="grafiikka10"><br clear="left"><font size="3">Kuva 10. Huomaa tason maskissa olevat ”reiät” kuvan värillisen alueen osalla. </font>
+</p>
+<p><font size="3"><strong>Mitä me oikein äsken teimme?</strong></font>
+</p>
+<p><font size="3">Monella herää varmasti tässä vaiheessä kysymys, että miksi ihmeessä kuva muuttuu maalaamalla värilliseksi. Yksinkertaisesti sen takia, että ne alueet, joita olemme maalanneet ovat ikään kuin ”reikiä” mustavalkomaskissa. Päällä on mustavalkokuva, alla värikuva. Me vain yksinkertaisesti leikkaamme tämän mustavalkokuvan maskista pois tietyt alueet, ja alta paljastuu värikuva. Toivottavasti tämä osittain valottaa lisää sitä, että mitä nämä arvoitukselliset maskit yleensä ovat.</font>
+</p>
+<p><font size="3"><span>Huomio!</span> Tarkkaavaiset ja ajattelevat lukijat ovat joskus todenneet, että tämä sama asia voidaan tehdä helposti myös pikamaskilla. </font>
+</p>
+</div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/gimp/index">Johdanto</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/gimp/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Asetukset</li><li><a href="/gimp/ch005_asetukset">Asetukset</a></li>
+<li Class="booki-section">Aloittelijan oppaat</li><li><a href="/gimp/ch007_johdatus">Johdatus</a></li>
+<li><a href="/gimp/ch008_kokeiluja">Kokeiluja</a></li>
+<li><a href="/gimp/ch009_uuden-kuvan-tekeminen">Uuden kuvan tekeminen</a></li>
+<li><a href="/gimp/ch010_koon-muuttaminen">Koon muuttaminen</a></li>
+<li><a href="/gimp/ch011_valinnat">Valinnat</a></li>
+<li><a href="/gimp/ch012_toimintamoodit">Toimintamoodit</a></li>
+<li><a href="/gimp/ch013_kuvien-manipulointi">Kuvien manipulointi</a></li>
+<li><a href="/gimp/ch014_reunat">Reunat</a></li>
+<li><a href="/gimp/ch015_kuvateksti">Kuvateksti</a></li>
+<li><a href="/gimp/ch016_kloonaus">Kloonaus</a></li>
+<li Class="booki-section">Kehittyneen käyttäjän oppaat</li><li><a href="/gimp/ch018_tasot">Tasot</a></li>
+<li><a href="/gimp/ch019_valokuvien-parantaminen">Valokuvien parantaminen</a></li>
+<li><a href="/gimp/ch020_taidetta">Taidetta</a></li>
+<li><a href="/gimp/ch021_sumua">Sumua</a></li>
+<li><a href="/gimp/ch022_etaisyydet">Etäisyydet</a></li>
+<li><a href="/gimp/ch023_iwarp">Iwarp</a></li>
+<li><a href="/gimp/ch024_kanavat">Kanavat</a></li>
+<li><a href="/gimp/ch025_script-fu">Script-fu</a></li>
+<li><a href="/gimp/ch026_lapinakyvyys">Läpinäkyvyys</a></li>
+<li><a href="/gimp/ch027_animaatio">Animaatio</a></li>
+<li><a href="/gimp/ch028_bannerit">Bannerit</a></li>
+<li Class="booki-section">Edenneen käyttäjän oppaat</li><li><a href="/gimp/ch030_kuvaformaatit">Kuvaformaatit</a></li>
+<li><a href="/gimp/ch031_teoriaa">Teoriaa</a></li>
+<li><a href="/gimp/ch032_pensselit">Pensselit</a></li>
+<li><a href="/gimp/ch033_haaveilua">Haaveilua</a></li>
+<li><a href="/gimp/ch034_avaruusmaisema">Avaruusmaisema</a></li>
+<li><a href="/gimp/ch035_kolmiulotteisuus">Kolmiulotteisuus</a></li>
+<li><a href="/gimp/ch036_konffausta">Konffausta</a></li>
+<li><a href="/gimp/ch037_selektiivinen">Selektiivinen</a></li>
+<li><a href="/gimp/ch038_retusointi">Retusointi</a></li>
+<li><a href="/gimp/ch039_sumentaminen">Sumentaminen</a></li>
+<li><a href="/gimp/ch040_syvays">Syväys</a></li>
+<li><a href="/gimp/ch041_alfakanava">Alfakanava</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/gimp/ch043_tekijat">Tekijät</a></li>
+</ul>

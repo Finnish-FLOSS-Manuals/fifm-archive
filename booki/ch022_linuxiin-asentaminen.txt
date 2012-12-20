@@ -1,0 +1,261 @@
+<div id="main-content"><h1>Bookin asentaminen </h1>
+<p>Useimpien käyttäjien ei tarvitse asentaa Booki-ohjelmistoa. Oman Bookin asentaminen ja tietojen säännöllinen varmuuskopioiminen vaatii paljon työtä. Jos tahdot jakaa työsi maailman kanssa, ei ole mitään hyvää syytä olla käyttämättä yhteistä Booki-sivustoa.</p>
+<p>Jos et tahdo jakaa kirjojasi, voi oman Bookin asentaminen olla järkevää. Jos et pääse verkkoon luotettavasti, voi oman Bookin käyttäminen olla järkevää. XO-tietokoneita käyttävä koulu saa koneet liittymään toisiinsa muttei verkkoon, jolloin oman Bookin asentaminen voi olla hyödyllistä. Itse asensin yhden Bookin kotikoneelle ja toisen toimiston koneelle.</p>
+<p>Päivätöissäni työskentelen sovelluskehyksen parissa ja opetan ihmisiä käyttämään sovelluskehyksiämme. Sovelluskehys on ohjelmalle sama asia kuin kori autolle. Aivan kuin tehdas voi rakentaa monta eri autoa samalla korilla, on myös mahdollista laittaa monta ohjelmaa käyttämään samaa sovelluskehystä. Ihmisten opettaminen käyttämään tätä sovelluskehystä on haaste, toisella puolella maailmaa asuvien ihmisten opettaminen on vielä suurempi haaste. Olemme kirjoittaneet artikkeleita verkkosivulle ja koulutusmateriaalit ovat wikissä, mutta kirjoitettuani kaksi opasta FLOSS Manualsiin päätin, että yhtiöni tarvitsee oikean kirjan.  </p>
+<p>Asensin ohjelman kotiin, koska:</p>
+<ul><li>Tahdoin tehdä asennuksen töissä mahdollisimman nopeasti.</li>
+<li>Tahdon jossain vaiheessa kirjoittaa kirjan, jota en jaa maailmalle. Julkaistuani ensimmäisen FLOSS Manuals -käyttöoppaani Lulussa omakustanteena tunsin rehellisesti, että olisi helpompaa käyttää Bookia tämän kirjan taittamiseen, kuin taittaa se Open Officella tai MS Wordilla.</li>
+</ul><p>Jos sinulla on samanlaisia tavoitteita kuin minulla, voimme nyt asentaa oman Bookimme! </p>
+<h2>Ohjelman hankkiminen </h2>
+<p>Tarvitset suhteellisen uuden version Linuxista asentaaksesi Bookin. Booki ei toimi Windowsissa tai Macissa. Et tarvitse sen ajamiseen erityisen tehokasta tietokonetta. Kotona käyttämäni kone oli IBM NetVista, jonka ostin netistä noin sadalla dollarilla. Töissä käyttämäni kone oli hylätty pöytäkone, joka oli vielä vanhempi. En suosittele tämän ohjelman asentamista XO-läppärille, mutta mikä tahansa viime vuosina tehty pöytäkone kelpaa hyvin. </p>
+<p>Käytin Linuxin jakelua Fedora 13 näihin Booki-asennuksiin, mutta en suosittele sitä. Fedoraa käytetään XO-läppäreissä, koska kirjoitan ohjelmia tuolle alustalle, käytän sitä myös pöytäkoneissani. Fedoran huono puoli on se, että aina päivittäessäni uuteen Fedoran versioon, olen joutunut varmuuskopioimaan kaikki tietoni ja asentamaan sen alusta asti kokonaan uudestaan. Muuten Linuxin eri versiot ovat suunnilleen samanlaisia. Jos suosittelisin Linuxia Bookia varten, suosittelemani vaihtoehdot olisivat järjestyksessä: </p>
+<ul><li>Mikä tahansa Linux sinulla onkin käytössä. </li>
+<li>Ubuntu. Jos et ole koskaan käyttänyt Linuxia, Ubuntu on helpoin vaihtoehto, minulla on ollut Ubuntusta hyviä kokemuksia. </li>
+</ul><p>Loput näistä ohjeista olettavat, että sinulla on Linux asennettuna ja olet tottunut sen käyttöön. Linuxin käyttäminen on toisen kirjan aihe, joten jos et ole koskaan käyttänyt Linuxia, voi olla hyvä idea hankkia joku auttamaan sinua. </p>
+<p>Usein Linuxin asennusohjelma kysyy tahdotko asentaa sen verkkopalvelimeksi, käytätkö sitä ohjelmointiin, vai tahdotko käyttää toimistosovelluksia. Jos vastaat "Kyllä" kaikkiin kolmeen kysymykseen, säästät hieman aikaa. </p>
+<p>Bookissa on itse asiassa kaksi osaa, tarvitset molempia: </p>
+<ul><li>Booki itsessään.</li>
+<li>OBJAVI 2, jolla luodaan PDF ja ePub -tiedostoja kirjastasi. </li>
+</ul><p>Useimpien ohjelmien asentaminen Linuxiin ei ole vaikeampaa kuin ruudun rastiminen <strong>Lisää/poista sovellus</strong> -ikkunassa, mutta kun ohjelma on vielä kehitettävänä, joudut hankkimaan lähdekoodin ja asentamaan ohjelman sillä. Molempien Bookin osien lähdekoodi on Git-ohjelmistosäilössä, joten joudut asentamaan Gitin. Kun olet tehnyt näin, voit luoda kotihakemistoosi <em>src</em>-hakemiston ja ajamaan nämä komennot siitä hakemistosta: </p>
+<pre>git clone git://booki-dev.flossmanuals.net/git/booki.git
+git clone git://repo.or.cz/objavi2.git
+</pre>
+<p>Tämä luo kaksi hakemistoa <em>src</em>-hakemiston alle: <em>booki</em> ja <em>objavi2</em>, joissa on näiden ohjelmien lähdekoodi. </p>
+<p>Ennen kuin voit jatkaa, joudut tarkastamaan Bookin <em>README.txt</em> -tiedoston ja Objavin <em>INSTALL</em>-tiedoston, jotta näet mitä muita ohjelmia joudut asentamaan. Booki tarvitsee seuraavat ohjelmat: </p>
+<ul><li>django</li>
+<li>apache2 </li>
+<li>python-simplejson</li>
+<li>sqlite</li>
+<li>redis</li>
+</ul><p>Jos olet onnekas, uusin <em>redis</em> on mukana pakettina Linux-versiossasi. Fedoran käyttäjät eivät vielä ole niin onnekkaita. He joutuvat lataamaan uusimman lähdekoodin osoitteesta <a href="http://code.google.com/p/redis/">http://code.google.com/p/redis/</a> ja kääntämään sen käyttäen <em>Makefile</em>-ohjelmaa perinteiseen tapaan:</p>
+<pre>make
+sudo make install
+</pre>
+<p>Jos asensit sen paketista jakeluversiossasi, sinun tulisi katsoa palveluita nähdäksesi, että se on päällä ja toimii. Jos käänsit sen lähdekoodista, joudut käynnistämään sen näin: </p>
+<pre>sudo redis-server &amp;
+</pre>
+<p>Objavin riippuvuuslista on:</p>
+<ul><li>lxml</li>
+<li>pdfedit (4.1+)</li>
+<li>xvfb</li>
+<li>fontconfig</li>
+<li>pdftk</li>
+<li>psutils</li>
+<li>poppler-utils or xpdf-utils</li>
+<li>wkhtmltopdf</li>
+<li>open office 3</li>
+<li>some fonts </li>
+</ul><p>Saat kaiken jakeluversiosi paketeista, paitsi ohjelman <em>wkhtmltopdf</em>. Sen joudut lataamaan osoitteesta <a href="http://code.google.com/p/wkhtmltopdf/">http://code.google.com/p/wkhtmltopdf/.</a> Sinun kannattaa ottaa valmiiksi käännetty binääritiedosto ja kopioida se hakemistoon<em> /usr/local/bin</em> käyttäjänä <em>root</em>. </p>
+<p>Kun asennat Linuxin, sinun pitäisi saada kirjasimet osana perusasennusta, mutta voi olla hyvä idea asentaa niitä lisää. Fedorassa <strong>Lisää/poista sovellus</strong> -ohjelmassa on kohta <strong>Kirjasimet</strong>, jossa on yli sata erilaista vapaata kirjasintyyppiä asennettavaksi. Jos käytät vain roomalaisia kirjaimia, voit asentaa vain latinalaiset kirjasimet. </p>
+<div id="PageBreak" title="Page Break"> </div>
+<p> </p>
+<h2>SELinuxin ottaminen pois käytöstä </h2>
+<p>Fedora 12 ja myöhemmät käyttää ohjelmaa <strong>SELinux</strong>. Sen tehtävä on estää <em>Apache</em>-verkkopalvelinta ja muita ohjelmia tekemästä sellaisia asioita, joita niiden ei pitäisi tehdä. Ilman <em>SELinuxia Linux</em> on melko turvallinen. Verkkopalvelin toimii käyttäjänä (Fedoran tapauksessa käyttäjän nimi on <em>apache</em>) ja se saa tehdä vain ne asiat, joita käyttäjä saa tehdä. Henkilökohtaisessa tai yrityksen verkossa tämä on yleensä tarpeeksi.  </p>
+<p><em>SELinux</em> tarjoaa ylimääräisen turvallisuuskerroksen. Ohjelmien oletetaan tekevän tiettyjä asioita. Jos ohjelma tekee jotain, mitä <em>SELinux</em> ei odota, <em>SELinux</em> lopettaa sen. Tämä ylimääräinen suojakerros vaikeuttaa pahantahtoisen ohjelmoijan yrityksiä hajottaa järjestelmä. Ennemmin tai myöhemmin vihamielinen ohjelmoija joutuu tekemään jotain, mitä <em>SELinux</em> ei odota. Hänet pysäytetään ja hänen toimintonsa kirjataan lokiin. </p>
+<p>Niin suositeltavaa kuin tämä onkin, jos sinulla on ohjelma, joka tekee muutamia epätavallisia asioita, <em>SELinux</em> on todellinen haaste. <em>Objavi</em> tekee asioita, joita <em>SELinux</em> ei odota. Olisi kova homma saada <em>SELinux</em> suvaitsemaan kaikkia <em>Objavin</em> todennäköisiä toimenpiteitä, ja jos ajat sitä yksityisessä verkossa, ei tästä ole paljonkaan apua. Poistamme <em>SELinuxin</em> käytöstä muokkaamalla tiedostoa <em>/etc/selinux/config</em> käyttäjänä <em>root</em>. Tiedoston pitäisi näyttää tältä: </p>
+<pre> # This file controls the state of SELinux on the system.
+# SELINUX= can take one of these three values:
+#	enforcing - SELinux security policy is enforced.
+#	permissive - SELinux prints warnings instead of enforcing.
+#	disabled - No SELinux policy is loaded.
+<strong>SELINUX=disabled</strong>
+# SELINUXTYPE= can take one of these two values:
+#	targeted - Targeted processes are protected,
+#	mls - Multi Level Security protection.
+SELINUXTYPE=targeted </pre>
+<p>Vaihda muuttujan <em>SELINUX</em> arvoksi <em>disabled</em>, tallenna tiedosto ja käynnistä tietokoneesi uudelleen. </p>
+<h2>Bookin ja Objavin asetukset </h2>
+<p>Jos olet koskaan asentanut mitään <em>Pythonilla</em> ohjelmoitua <em>Linuxiin</em>, olet tutustunut ohjelmaan <em>setup.py</em>, joka kopioi Python-koodin oikealle paikalleen järjestelmässä. Lopulta sekä <em>Booki</em> että <em>Objavi</em> sisältävät tämän ohjelman, mutta koska niitä kehitetään yhä, ei sitä ole vielä tarjolla. Ajamme ohjelmat toistaiseksi kotihakemistostamme. </p>
+<p>Bookin asetustiedosto on<em> booki/lib/booki/settings.py</em>. On olemassa tiedosto, joka on <em>settings.py.original</em>, ja joka sinun täytyy kopioida tiedostoksi nimeltä <em>settings.py</em>. Joudut muuttamaan tätä tiedostoa muutamasta kohdasta. Ensimmäinen kohta on <em>doc root</em>: </p>
+<pre>STATIC_DOC_ROOT = '/home/jim/src/booki/site_media'
+</pre>
+<p>Tämä osoittaa<em> site_media</em> -hakemistoon Bookin lähdekoodissa, jonka sait <em>Gitistä</em>. Sinun täytyy varmistaa, että tällä hakemistolla on käyttäjän apache (tai mitä käyttäjänimeä <em>Apache</em> käyttääkin <em>Linux</em>-jakeluversiossasi) ryhmäomistajuus ja että ryhmän annetaan lukea ja luoda tiedostoja tässä hakemistossa. Seuraavaksi sinun täytyy asettaa joistain URL-osoitteita: </p>
+<pre># use this objavi server
+OBJAVI_URL = "http://127.0.0.1/objavi.cgi"
+ESPRI_URL = "http://127.0.0.1/espri.cgi"
+TWIKI_GATEWAY_URL = "http://127.0.0.1/booki-twiki-gateway.cgi"
+
+#the name of the booki server (comment out to use os.environ['HTTP_HOST'])
+THIS_BOOKI_SERVER = '127.0.0.1:8000'
+</pre>
+<p>IP-osoite <em>127.0.0.1 </em>on oman koneesi (<em>localhost</em>) osoite. On todennäköistä, että tahdot muuttaa tämän osoitteen koneesi IP-osoitteeksi verkossa, jotta voit käyttää Bookia verkossa. Voit tietysti käyttää DNS-nimeä IP-osoitteen sijasta. </p>
+<p>Huomaa, että Booki toimii portissa <em>8000</em>. Nyt täytyy asettaa virtuaalipalvelimet sekä Bookille että Objaville. Jos voit antaa jokaiselle oman IP-osoitteen tai DNS-nimen, ei ole mitään syytä, mikset voisi ajaa porttia <em>80</em> tavallisen verkkosovelluksen tapaan. Jos kaikkien ohjelmien täytyy käyttää samaa IP-osoitetta, voit erottaa virtuaalipalvelimesi toisistaan käyttäen jokaisen porttinumeroa. Huomaa, että Objavin täytyy toimia portissa <em>80</em>, mutta Booki voi käyttää mitä tahansa porttia. Numerossa <em>8000</em> ei ole mitään maagista. Se täytyy vain olla portti, jota mikään muu ei käytä. Toimistolla käytän porttia <em>86</em>.</p>
+<p>Seuraavaksi teemme tietokannan asetukset: </p>
+<pre>DATABASE_ENGINE = 'sqlite3'
+# DATABASE_NAME = 'booki'             # Or path to database file if using sqlite3.
+<strong>DATABASE_NAME = '/home/jim/booki/booki.db'</strong>             # Or path to database file if using sqlite3.
+DATABASE_USER = ''             # Not used with sqlite3.
+DATABASE_PASSWORD = ''         # Not used with sqlite3.
+DATABASE_HOST = 'localhost'             # Set to empty string for localhost. Not used with sqlite3.
+DATABASE_PORT = ''             # Set to empty string for default. Not used with sqlite3.
+</pre>
+<p>Booki voi käyttää tietokantoja <em>Sqlite3</em> tai <em>Postgres</em>. Jos tahdot nikkaroida koodia, voit saada sen käyttämään melkein mitä tahansa tietokantaa. <em>Sqlite3</em> on helpoin ottaa käyttöön ja riittää hyvin Bookille pienessä yksityisessä verkossa. Sinun täytyy muuttaa ainoastaan kohtaa <em>DATABASE_NAME</em>, joka laittaa tietokannan hakemistoon, jota <em>Apache</em> voi kirjoittaa ja lukea. Ei ole tarvetta luoda tietokantatiedostoa. <em>Booki</em> luo sen itse.</p>
+<p>Aja tämä komento komentoriviltä omalla käyttäjätunnukseltasi:</p>
+<pre>export PYTHONPATH=$PYTHONPATH:/home/jim/booki/lib
+</pre>
+<p>jossa <em>/home/jim</em> on oma kotihakemistosi. Siirry sen jälkeen hakemistoon <em>booki/lib/booki</em> ja aja tämä komento:</p>
+<pre>./manage.py syncdb
+</pre>
+<p>Tämä luo taulut tietokantaasi. Nyt voit ajaa Bookin ja katsoa sen toimintaa. Aja tämä komento omalla käyttäjänimelläsi: </p>
+<pre>./manage.py runserver
+</pre>
+<p>Kun tämä on ajossa, sinun pitäisi voida mennä verkkoselaimellasi osoitteeseen <a href="http://127.0.0.1:8000/" target="_top">http://127.0.0.1:8000</a> ja nähdä Booki toiminnassa.Voit myös mennä osoitteeseen <a href="http://127.0.0.1:8000/admin" target="_top">http://127.0.0.1:8000/admin</a> tehdäksesi järjestelmänvalvojan asetukset. Lisäksi sinun täytyy lisätä lisenssi. </p>
+<p>Voit tahtoessasi leikkiä Bookilla, mutta tämä ei ole pätevä tapa ajaa Bookia. Sinun täytyy ajaa sitä virtuaalipalvelimella <em>Apachessa</em>. <em>manage.py</em> tukee vain yhtä käyttäjää kerrallaan, joten se on hyvä ainoastaan tarkastettaessa, että kaikki on asennettu kunnolla. Kun olet katsellut Bookia, voit tappaa prosessin <em>manage.py</em> painamalla näppäimiä <em>Ctrl-C</em>päätteessä, jossa käynnistit sen. </p>
+<p>Seuraavaksi meidän täytyy tehdä Objavin asetukset. Objavilla on oma asetustiedostonsa, <em>objavi2/objavi/config.py</em>. Sinun täytyy muuttaa joitain asetuksia tässä tiedostossa, luoda joitain uusia hakemistoja, sekä antaa apache-ryhmälle oikeudet lukea ja kirjoittaa hakemistoihin. Ensimmäinen tehtävä muutos on tämä: </p>
+<pre>WKHTMLTOPDF = '/usr/local/bin/wkhtmltopdf'
+</pre>
+<p>Kun latasit ohjelman <em>wkhtmltopdf</em> binääritiedoston, sillä saattoi olla esimerkiksi nimi wkhtmltopdf-static tai jotain muuta. Muuta kohdan <em>WKHTMLTOPDF</em> arvo mihin tahansa nimeen, joka sillä on kohdassa <em>/usr/local/bin</em>.  </p>
+<p>Suurin muutos on lisätä tieto kohtaan <em>SERVER_DEFAULTS</em>. Ensimmäinen lisäys kohtaan <em>'127.0.0.1:8000</em>' on oma uusi tietoni. Käytä koneesi oikeaa IP-osoitetta, jos aiot käyttää sitä verkon yli. </p>
+<pre>SERVER_DEFAULTS = {
+    '<strong>127.0.0.1:8000</strong>': {
+        <strong>'css-book': '/static/simmons.css',</strong>
+        'css-web': '/static/en.flossmanuals.net-web.css',
+        'css-newspaper': '/static/en.flossmanuals.net-newspaper.css',
+        'css-openoffice': '/static/en.flossmanuals.net-openoffice.css',
+        'lang': 'en',
+        'dir': 'LTR',
+        'toc-encoding': None,
+        <strong>'display': True,</strong>
+        'interface': 'Booki',
+        'toc_header': 'Table of Contents',
+        },
+    'booki.flossmanuals.net': {
+        'css-book': '/static/en.flossmanuals.net.css',
+        'css-web': '/static/en.flossmanuals.net-web.css',
+        'css-newspaper': '/static/en.flossmanuals.net-newspaper.css',
+        'css-openoffice': '/static/en.flossmanuals.net-openoffice.css',
+        'lang': 'en',
+        'dir': 'LTR',
+        'toc-encoding': None,
+        <strong>'display': False,</strong>
+        'interface': 'Booki',
+        'toc_header': 'Table of Contents',
+        },
+}
+</pre>
+<p>Tekemäni muutokset on <span>lihavoitu</span>. Käytän omaa tyylitiedostoani luodessani PDF-tiedostot kirjoista, ehkä tahdot myös tehdä niin. Osoitan, että tahdon näyttää palvelimen Objavin palvelinlistassa, enkä tahdo näyttää muita kohtia. Näet syyn hetken päästä.</p>
+<p>Voit luoda joitain hakemistoja polun<em> objavi2/htdocs</em> alle ja varmistaa, että apache-ryhmä voi lukea ja kirjoittaa niihin: </p>
+<ul><li>books</li>
+<li>booki-books</li>
+<li>progress</li>
+<li>tmp</li>
+</ul><p>Lisäksi sinun täytyy varmistaa, että apache-ryhmä voi kirjoittaa hakemistoo <em>static</em>, joka on jo kohdassa <em>objavi2/htdocs</em>. Lopulta sinun täytyy laittaa <em>log</em>-hakemisto kohtaan <em>objavi2</em> ja varmistaa, että <em>Apache</em> voi luoda tiedostoja myös sinne. </p>
+<h2>Apachen virtuaalipalvelinten asetukset </h2>
+<p>Yksinkertaisin tapa saada <em>Booki</em> ja <em>Objavi 2</em> toimimaan <em>Apache</em>-verkkopalvelimen alla on pystyttää virtuaalipalvelimia. Itse muokkasin <em>root</em>-käyttäjänä tiedostoa<em> /etc/httpd/conf/httpd.conf </em>ohjelmalla <em>gedit</em>. On myös mahdollista laittaa <em>Apache</em> lataamaan automaattisesti muita asetustiedostoja kuin <em>httpd.conf</em>. Sitä en vaivautunut miettimään. Tiedoston <em>httpd.conf</em> loppuun laittamani kohdat näyttävät tälle: </p>
+<pre>Listen 8000
+
+&lt;VirtualHost *:8000&gt;
+	# ServerName sugarlabs.simmons
+	ServerAdmin nicestep@gmail.com
+
+	DocumentRoot /home/jim/src/booki
+
+	&lt;Directory /usr/share/pyshared/django/contrib/admin/media/&gt;
+	Order allow,deny
+	Allow from all
+	&lt;/Directory&gt;
+
+	&lt;Location "/"&gt;
+
+	    SetHandler python-program
+	    PythonHandler django.core.handlers.modpython
+	    SetEnv DJANGO_SETTINGS_MODULE booki.settings
+	    PythonDebug On
+	    PythonPath "['/home/jim/src/booki/lib'] + sys.path"
+
+	&lt;/Location&gt;
+
+	&lt;Location "/favicon.ico"&gt;
+	    SetHandler None
+	&lt;/Location&gt;
+        &lt;Location "/media"&gt;
+            SetHandler None
+        &lt;/Location&gt;
+
+	Alias /favicon.ico /home/jim/src/booki/favicon.ico
+	Alias /media/ /usr/share/pyshared/django/contrib/admin/media/
+
+	ErrorLog /var/log/apache2/booki-error.log
+
+	# Possible values include: debug, info, notice, warn, error, crit,
+	# alert, emerg.
+	LogLevel warn
+
+	CustomLog /var/log/apache2/booki-access.log combined
+	ServerSignature On
+
+&lt;/VirtualHost&gt;
+
+&lt;VirtualHost *:80&gt;
+	ServerAdmin nicestep@gmail.com
+	#XXX set server name
+	#ServerName objavi.halo.gen.nz
+	# limit MEM to 800 million bytes
+	RLimitMEM 800000000
+
+        #Sometimes it takes a while. Wait.
+        TimeOut 600
+
+	DocumentRoot /home/jim/src/objavi2/htdocs
+	&lt;Directory /&gt;
+		Options FollowSymLinks
+		AllowOverride None
+	&lt;/Directory&gt;
+	&lt;Directory /home/jim/olpc/objavi2/&gt;
+		Options +All +ExecCGI
+		AllowOverride None
+		Order allow,deny
+		Allow from all
+		AddHandler cgi-script .cgi
+                # Remove output filters in case mod_deflate is being used.
+                RemoveOutputFilter .cgi
+	&lt;/Directory&gt;
+
+        DirectoryIndex index.html objavi.cgi
+	ErrorLog /var/log/apache2/objavi-error.log
+
+	# Possible values include: debug, info, notice, warn, error, crit,
+	# alert, emerg.
+	LogLevel warn
+
+	CustomLog /var/log/apache2/objavi-access.log combined
+	#ScriptLog /tmp/objavi-cgi.log
+
+&lt;/VirtualHost&gt;
+</pre>
+<p>Virtuaalipalvelin on tapa saada <em>Apache</em> toimimaan kuin joukko verkkopalvelimia. Meillä on yksi virtuaalipalvelin <em>Bookille</em> ja toinen <em>Objaville</em>. Kun asennat virtuaalipalvelimen, tarvitset jonkin tavan, jolla <em>Apache</em> saa selville mitä palvelinta tarvitaan annetulle pyynnölle. Voit tehdä tämän antamalla palvelimellesi enemmän kuin yhden IP-osoitteen, useamman kuin yhden DNS-nimen, sekä minun tapauksessani enemmän kuin yhden portin. <em>Listen</em>-ohje tiedoston alussa kertoo, että kuuntelemme porttia <em>8000</em> tavallisen HTTP-portin <em>80</em> lisäksi. Kun pyyntö tulee porttiin <em>8000</em>, se menee Bookiin, ja kun se tulee porttiin <em>80</em>, se menee <em>Objaviin</em>. Edelleenkin <em>Objavin</em> täytyy toimia portissa <em>80</em>.</p>
+<p>Bookia varten käytämme Apachen lisäosaa <em>mod_python</em>, joten tarkasta sen olevan asennettu. </p>
+<div id="PageBreak" title="Page Break"> </div>
+<h2>Objavin käyttö </h2>
+<p> </p>
+<p>Jos olet tehnyt kaiken oikein, sinun pitäisi voida mennä osoitteeseen <a href="http://127.0.0.1:8000/" target="_top">http://127.0.0.1:8000</a> ja nähdä <em>Booki</em> toiminnassa. <em>Objavin</em> pitäisi näkyä osoitteessa <a href="http://127.0.0.1/" target="_top">http://127.0.0.1</a>.  </p>
+<p><em>Objavi</em> ajetaan <em>Bookin</em> vientivälilehdestä muokatessasi kirjaa. Jos tahdot luoda PDF ja ePub -tiedostoja, sinun ei ehkä koskaan tarvitse katsoa tätä sivua. Yhtä asiaa et voi tehdä Bookin vientisivulta, se on ulostulo muodossa <em>Templated HTML</em>. Voit tehdä sen Objavissa valitsemalla <strong>Templated HTML</strong> kohdassa <strong>Document Type</strong>.</p>
+<p><em>Templated HTML</em> ei ole e-kirja, mutta se on hyvä mainita. Booki eroaa muista wikeistä, kuten <em>Media Wikistä</em> (Wikipedian käyttämä alusta) siten, että normaalissa Wikissä kuka tahansa voi muokata dokumenttia, muokkaus on heti muiden Wikin lukijoiden nähtävillä. Normaalilla staattisella verkkosivulla on helppoa vahtia kuka pääsee muokkaamaan sisältöä, mutta tämä hallinta merkitsee sitä, että sisällön päivittäminen vaatii enemmän työtä. Bookin uutena ideana on staattisen verkkosivun luominen wikistä. Wikiä käyttävät kirjan kirjoittajat, mutta sitä ei näe kirjan yleisö. Kun kirjoittajilla on jotain julkaistavaa, he luovat <em>Objavilla</em> staattisen verkkosivun ja kopioivat sen julkiselle verkkopalvelimelle.</p>
+<p>Oletusarvoisesti <em>HTML</em> näyttää FLOSS Manualsin verkkosivulta. Koska se luodaan käyttäen templaatteja, voit helposti lisätä omat tyylitiedostosi, yrityksesi logot ja vastaavia asioita, jotta saat luodun tiedoston näyttämään siltä kuin haluat. </p>
+<p>Sinun kannattaa ehdottomasti harkita templaattiin perustuvan <em>HTML</em>-version tekemistä kirjasta, jos sen sisältöä päivitetään usein. Tämä versio kirjasta voi sen jälkeen täydentää e-kirjaa. Vakaa sisältö on e-kirjassa ja uusimmat pienet päivitykset ja korjaukset ovat verkkosivulla. </p></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/booki/index">Mikä on Booki</a></li>
+<li><a href="/booki/ch002_mihin-bookia-voi-kayttaa">Mihin Bookia voi käyttää</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/booki/ch004_bookiin-paaseminen">Bookiin pääseminen</a></li>
+<li><a href="/booki/ch005_kayttajatunnuksen-luominen">Käyttäjätunnuksen luominen</a></li>
+<li><a href="/booki/ch006_asetukseni">Asetukseni</a></li>
+<li><a href="/booki/ch007_kirjan-luominen">Kirjan luominen</a></li>
+<li Class="booki-section">Kirjojen muokkaaminen</li><li><a href="/booki/ch009_lukujen-luominen">Lukujen luominen</a></li>
+<li><a href="/booki/ch010_lukujen-muokkaus">Lukujen muokkaus</a></li>
+<li><a href="/booki/ch011_sisallysluettelo">Sisällysluettelo</a></li>
+<li><a href="/booki/ch012_kuvien-lisaaminen">Kuvien lisääminen</a></li>
+<li Class="booki-section">Muiden kanssa työskentely</li><li><a href="/booki/ch014_ryhman-luominen">Ryhmän luominen</a></li>
+<li><a href="/booki/ch015_ryhmaan-liittyminen">Ryhmään liittyminen</a></li>
+<li><a href="/booki/ch016_kirjan-lisaaminen-ryhmaan">Kirjan lisääminen ryhmään</a></li>
+<li><a href="/booki/ch017_viestinta">Viestintä</a></li>
+<li Class="booki-section">Kehittynyt käyttö</li><li><a href="/booki/ch019_kirjan-tuominen">Kirjan tuominen</a></li>
+<li><a href="/booki/ch020_vieminen">Vieminen</a></li>
+<li Class="booki-section">Asentaminen</li><li><a href="/booki/ch022_linuxiin-asentaminen">Linuxiin asentaminen</a></li>
+<li Class="booki-section">Ulkoasun muokkaaminen</li><li><a href="/booki/ch024_kirjojen-css-muotoilu">Kirjojen CSS-muotoilu</a></li>
+<li><a href="/booki/ch025_lisaa-css-suunnittelua">Lisää CSS-suunnittelua</a></li>
+<li Class="booki-section">Teknologia</li><li><a href="/booki/ch027_osallistuminen">Osallistuminen</a></li>
+<li><a href="/booki/ch028_ydinosat">Ydinosat</a></li>
+<li><a href="/booki/ch029_teknologiat">Teknologiat</a></li>
+<li><a href="/booki/ch030_ominaisuudet">Ominaisuudet</a></li>
+<li><a href="/booki/ch031_virheraportointi">Virheraportointi</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/booki/ch033_oppaasta">Oppaasta</a></li>
+<li><a href="/booki/ch034_lisenssi">Lisenssi</a></li>
+</ul>

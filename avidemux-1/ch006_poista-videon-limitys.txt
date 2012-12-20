@@ -1,0 +1,31 @@
+<div id="main-content"><h1>Limityksen poistaminen </h1>
+<div id="content">
+<p>Prosessoidessasi videotiedostoa tahdot ehkä lisätä limityksen poistavan suodattimen. Tämä on sopivaa, mikäli sinulla on DV-kameralta otettu video, joka on edelleenkin limitetty. Jos luomme DVD:n, jota ei näytetä tavallisella televisiolla, voimme nähdä limityksen, joka näyttää oudoilta vaakasuorilta viivoilta videossa.</p>
+<p>Jos et tunne limityksen vaikutuksia, näet ne alla olevassa kuvankaappauksessa (ne näkyvät selkeimmin vasemmassa yläosassa olevan miehen kasvoissa).</p>
+<p><img class="c1" title="avide11_en" src="_booki/avidemux-1/static/Avidemux-DeinterlacingVideo-avide11_en-fi.jpg" alt="avide11_en" width="530" height="474"></p>
+<p>Voimme poistaa tämän harmillisen erikoistehosteen lisäämällä limityksen poistavan suodattimen. </p>
+<p>Tehdäksesi tämän napsauta <strong>Filters </strong>kohdassa <strong>Video</strong>. </p>
+<p><img title="filter" src="_booki/avidemux-1/static/Avidemux-DeinterlacingVideo-filter_en-fi.png" alt="filter" width="329" height="246"></p>
+<p>Tämän jälkeen voit napsauttaa <strong>Interlace</strong>-välilehteä ja valita kohdan <strong>yadif</strong>. </p>
+<p><img title="avide12_1" src="_booki/avidemux-1/static/Avidemux-DeinterlacingVideo-avide12_1_en-fi.jpg" alt="avide12_1" width="508" height="196"></p>
+<p>Sen jälkeen voit napsauttaa <strong>+</strong>-merkkiä ikkunan pohjalla: </p>
+<p><img title="plus" src="_booki/avidemux-1/static/Avidemux-DeinterlacingVideo-plus_en-fi.png" alt="plus" width="507" height="467"></p>
+<p>Näet tämän kaltaisen ponnahdusikkunan: </p>
+<p><img class="c2" src="_booki/avidemux-1/static/Avidemux-DeinterlacingVideo-avide13_en-fi.jpg" alt="default" width="308" height="157"></p>
+<p>Napsauta <strong>OK </strong>käyttääksesi näkyvillä olevia oletusarvoisia asetuksia, jolloin oikealla pitäisi näkyä <strong>yadif</strong>: </p>
+<p><img title="filters" src="_booki/avidemux-1/static/Avidemux-DeinterlacingVideo-filters_en-fi.png" alt="filters" width="600" height="359"></p>
+<p>On tärkeää, että limityksen poistava suodatin on ensimmäinen lisätty suodatin. </p>
+<p>Napsauta lopuksi <strong>Close </strong>ruudun oikeassa alakulmassa: </p>
+<p>­<img title="close" src="_booki/avidemux-1/static/Avidemux-DeinterlacingVideo-close_en-fi.png" alt="close" width="581" height="193"></p>
+<p>Kun tallennat tiedoston, suodatin tekee työnsä ja poistaa limityksen videosta. </p>
+</div></div><ul Class="menu-goes-here"><li Class="booki-section">JOHDANTO</li><li><a href="/avidemux-1/index">JOHDANTO</a></li>
+<li Class="booki-section">PERUSTEET</li><li><a href="/avidemux-1/ch003_avaa-tiedosto">AVAA TIEDOSTO</a></li>
+<li><a href="/avidemux-1/ch004_leikkaa-tiedosto">LEIKKAA TIEDOSTO</a></li>
+<li><a href="/avidemux-1/ch005_muuta-videon-kokoa">MUUTA VIDEON KOKOA</a></li>
+<li><a href="/avidemux-1/ch006_poista-videon-limitys">POISTA VIDEON LIMITYS</a></li>
+<li Class="booki-section">VIDEOTIEDOSTOJEN LUOMINEN</li><li><a href="/avidemux-1/ch008_luo-mp4-tiedostoja">LUO MP4-TIEDOSTOJA</a></li>
+<li><a href="/avidemux-1/ch009_luo-dv-tiedostoja">LUO DV-TIEDOSTOJA</a></li>
+<li><a href="/avidemux-1/ch010_lisaa-tekstitys-videoon">LISÄÄ TEKSTITYS VIDEOON</a></li>
+<li Class="booki-section">DVD-LEVYT</li><li><a href="/avidemux-1/ch012_mpg2-tiedosto-dvdsta">MPG2-TIEDOSTO DVD:STÄ</a></li>
+<li Class="booki-section">TEKIJÄT</li><li><a href="/avidemux-1/ch014_tekijat">TEKIJÄT</a></li>
+</ul>

@@ -1,0 +1,9 @@
+<div Class="content-goes-here" id="main-content"><h1>Wikimedia Commons</h1><h2>Johdanto</h2><div><a href="/wikimedia-commons/index">Johdanto</a></div><h2>Aloittaminen</h2><div><a href="/wikimedia-commons/ch003_mediawiki-ohjelmasta">MediaWiki-ohjelmasta</a></div><div><a href="/wikimedia-commons/ch004_kirjaudu-sisaanluo-tunnus">Kirjaudu sisään/luo tunnus</a></div><div><a href="/wikimedia-commons/ch005_tiedoston-lataaminen">Tiedoston lataaminen</a></div><div><a href="/wikimedia-commons/ch006_lisenssin-valitseminen">Lisenssin valitseminen</a></div><div><a href="/wikimedia-commons/ch007_kuvan-lisaaminen-sivulle">Kuvan lisääminen sivulle</a></div><h2>Tiedostomuodot</h2><div><a href="/wikimedia-commons/ch009_svg">SVG</a></div><h2>Tekijät</h2><div><a href="/wikimedia-commons/ch011_tekijat">Tekijät</a></div></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/wikimedia-commons/index">Johdanto</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/wikimedia-commons/ch003_mediawiki-ohjelmasta">MediaWiki-ohjelmasta</a></li>
+<li><a href="/wikimedia-commons/ch004_kirjaudu-sisaanluo-tunnus">Kirjaudu sisään/luo tunnus</a></li>
+<li><a href="/wikimedia-commons/ch005_tiedoston-lataaminen">Tiedoston lataaminen</a></li>
+<li><a href="/wikimedia-commons/ch006_lisenssin-valitseminen">Lisenssin valitseminen</a></li>
+<li><a href="/wikimedia-commons/ch007_kuvan-lisaaminen-sivulle">Kuvan lisääminen sivulle</a></li>
+<li Class="booki-section">Tiedostomuodot</li><li><a href="/wikimedia-commons/ch009_svg">SVG</a></li>
+<li Class="booki-section">Tekijät</li><li><a href="/wikimedia-commons/ch011_tekijat">Tekijät</a></li>
+</ul>

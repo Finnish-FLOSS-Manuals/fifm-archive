@@ -1,0 +1,101 @@
+<div id="main-content">
+<h1>Somebody Should Set The Title For This Chapter!</h1><p><font size="4">Alfakanava</font>
+</p>
+<p><font size="3">Alphakanava tai alfakanava on eräs kuvankäsittelyn oudoimmista asioista jo arvoituksellisen nimensäkin perusteella. Itse asia ei ole vaikea, jos katsotaan mitä valikkoja ja nappeja siinä täytyy valita, mutta ymmärtääkseen alfakanavan perusidean täytyy olla melko paljon tietoa kuvankäsittelyn teoriasta, ainakin vähintään perustiedot siitä mitä tasot ja maskit ovat. Myös <em>soveltaminen</em> on erittäin vaikeaa. Jotkut sanovat, että alfakanavaa voi käyttää mm. manipuloidessa kuvaa siten, että sitä katsotaan ikään kuin paksun värillisen lasin läpi. Itsekin olen keksinyt tähän oppaaseen ainakin jonkinmoisen esimerkin.</font>
+</p>
+<p><font size="3">Alfakanava on työkalu, jolla taso saadaan <em>läpinäkyväksi</em>. Meillä on jo ollut jo harjoituksia tasoista ja niiden maskeista. maskien perusidea on päällä olevan läpinäkymättömän tason gradientaalinen eli vähittäinen häivyttäminen tai sitten ”raaka tason puhkominen” esimerkiksi pensseli- työkalulla. Alfakanava on kuin tämä maski, mutta sen sijaan että se käyttäisi jotain geometrista muotoa määrittääkseen miten päällä oleva taso häivytetään, se häivyttää jokaisen pikselin ainoastaan siihen katsoen, että miten ”lähellä” sen väri on alfakanavaan valittua väriä. Jos sen väri on täysin erilainen määrättyyn väriin verrattuna, niin alfakanava ei häivytä pikseliä juuri lainkaan. Jos väri on täsmälleen sama alfakanavaan verrattuna, niin alfakanava häivyttää kyseisen pikselin täysin. Jos pikseli on joku välimuoto, niin sitä häivytetään sen verran, miten ”kaukana” sen pikselin värisävy on valitusta väristä.</font>
+</p>
+<p><font size="3"><strong>Mitä häivytyksestä sitten on hyötyä?</strong></font>
+</p>
+<p><font size="3">Häivytyksestä on yleensä sama hyöty kuin maskienkin tapauksessa, alla oleva taso (joka toivottavasti on olemassa) näkyy siitä läpi. Jos on tarpeeksi taiteellinen kuvankäsittelijä, pystyy tämän avulla luomaan mielenkiintoisia, taiteellisia ja uskottavia efektejä. Avataan seuraava kuva GIMP-tekstinkäsittelyohjelmassa: </font>
+</p>
+<p><img title="alfa" alt="alfa" src="_booki/gimp/static/GIMP-alfa-alfa-fi.jpg" name="grafiikka1" align="left" height="299" width="400"><br clear="left"><font size="3">Kuva 1. Hieno maisemakuva Keuruulta</font>
+</p>
+<p><font size="3">Avataan sitten valikko ”Ikkunat”=&gt;”Tasot”:</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-alfa-alfa_html_m1e4419c3-fi.jpg" name="grafiikka2" align="left"><br clear="left"><font size="3">Kuva 2. Tavallinen kuva, yksi taso. </font>
+</p>
+<p><font size="3">Valitaan taustaväriksi tummanpunainen. </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-alfa-alfa_html_1e8553b5-fi.jpg" name="grafiikka3"><br clear="left"><font size="3">Kuva 3. Taustaväriksi valittu punainen</font>
+</p>
+<p><font size="3">Sitten tehdään uusi taso (kuvan 2 käyttöliittymässä painetaan vasemmassa alanurkassa olevaa nappulaa):</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-alfa-alfa_html_57c82251-fi.jpg" name="grafiikka4"><br clear="left"><font size="3">Kuva 4. Uuden tason asetukset. Huomaa, että ”taustan täyttötapa” on ”taustaväri”, eli juuri valitsemamme punainen väri. Klikkaa ”OK”. </font>
+</p>
+<p><font size="3">Sulje tämän jälkeen punaisen tason silmä</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-alfa-alfa_html_1b747745-fi.jpg" name="grafiikka5"><br clear="left"><font size="3">Kuva 5. Näköala palautuu alkuperäiseksi. </font>
+</p>
+<p><font size="3">Tämän jälkeen valitset tipettityökalulla (dropper) jonkun sävyn taivaasta. Itse valitsin sävyn, jonka heksadesimaalikoodi on e2f9ff, eli melko vaaleansininen.</font>
+</p>
+<p><font size="3"><span>Huomio!</span> Pidä huoli että "tausta"-taso on valittuna, aivan kuten kuvassa 5. Jos olet valinnut "Uusi taso"-tason, niin dropperi poimii aina vain punaisen värisävyn kuvasta- tietysti, koska silloin on valittuna kokonaan punainen väritaso. </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-alfa-alfa_html_1d86abe2-fi.jpg" name="grafiikka6"><br clear="left"><font size="3">Kuva 6. eräs väri taivaasta valittu edustaväriksi.</font>
+</p>
+<p><font size="3">Paina tämän jälkeen kuvan 5 käyttöliittymässä ”tausta”-tason kohdalla oikeaa hiiren nappi ja valitse ”lisää alfakanava”. Mitään näkyvä ei tapahdu. Sen vuoksi, että ensin alfakanavaan täytyy lisätä väri, johon tason pikseleitä verrataan jotta päätettäisiin, kuinka läpinäkyvä se on. Tämä operaatio tehdään valikosta ”Taso”=&gt;”Läpinäkyvyys”=&gt;”Väri-&gt;alpha”: </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-alfa-alfa_html_m2d5ffbce-fi.jpg" name="grafiik ka7&gt;&lt;br clear="></p>
+<p><font size="3">Kuva 7. Väri-&gt;Alpha-käyttöliittymä</font>
+</p>
+<p><font size="3">Paina suorakulmiota ”Väristä:”-tekstin oikealla puolella:</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-alfa-alfa_html_m34c2da55-fi.jpg" name="grafiikka8"><br clear="left"><font size="3">Kuva 8. valitse väri, jonka haluat alphakanavan vertailukohteeksi. Esimerkiksi itse laitoin kohtaan ”HTML-merkintä” heksadesimaalikoodin e2f9ff, jonka olin selvittänyt dropperin avulla (Huom! jos olet kiinnostunut kotisivujen teosta, nämä samat koodit pätevät täsmälleen samoin myös siinä työssä). Sitten vain painat ”OK”.</font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-alfa-alfa_html_3a6a59e0-fi.jpg" name="grafiikka9"><br clear="left"><font size="3">Kuva 9. Tämä kuva näyttää mitkä värit ovat eniten läpinäkyviä. Sitten vain painat ”OK”.</font>
+</p>
+<p><font size="3">Sitten vain laitat punaisen tason peiton esimerkiksi arvoon ”28,0” (ja avaat tason silmän) ja voit tallentaa kuvan. </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-alfa-alfa_html_48b6d83b-fi.jpg" name="grafiikka10"><br clear="left"><font size="3">Kuva 10. Tasojen asetukset alfakanavan säätöjen jälkeen. </font>
+</p>
+<p><font size="3">Katso kuvaa vaikka selaimella sen jälkeen kun olet tallentanut sen .jpg-muodossa (tulokset eivät näy kuvankäsittelyohjelmassa suoraan): </font>
+</p>
+<p><img src="_booki/gimp/static/GIMP-alfa-alfa2-fi.jpg" name="grafiikka11"><br clear="left"><font size="3">Kuva 11. Kaikki vaaleansinistä värisävyä lähellä olevat värisävyt alfakanava on tehnyt osittain läpinäkyviksi ja vaaleansiniset värisävyt lähes kokonaan läpinäkyviksi, ja punainen taso värjää ne punaiseksi. Voisihan tämän kuvan laittaa vaikka oppikirjaan "tältä näyttäisi, jos aurinko muuttuisi punaiseksi jättiläiseksi":) Hyvä! Alla oleva teksti on pelkkää lisätietoa, lue jos kiinnostaa mutta kuvan 11 kaltainen lopputulos kelpaa koulutyöksi.</font>
+</p>
+<p><font size="3">Tasot toisinpäin!</font>
+</p>
+<p><font size="3">Kuten varmasti tarkkaavaiset lukijat ovat huomanneet, niin tasot ovat kuvassa 10 "väärin päin". Ensin on punainen kalvo, sitten valokuva jossa alfakanavalla on napsittu tiettyjä pikseleitä pois. Olen havainnut että tällä tavalla hyödyntäen jpg-kuvien kyvyttömyyttä ilmaista osittain läpinäkyviä pikseleitä saadaan vähemmän silmiä ärsyttävä versio. Toinen, perinteisempi versio tehdä tämä työ on laittaa tasot järjestykseen: ensin "Tausta", sitten "Uusi taso". Eli ensin avaat uuden kuvan, värjäät sen punaiseksi, ja sen päälle avaat tasona "Tiedosto"=&gt;"Avaa tasona" tämä toinen kuva. </font>
+</p>
+<p><font size="3"><img alt="alfa3" src="_booki/gimp/static/GIMP-alfa-alfa3-fi.jpg"></font>
+</p>
+<p><font size="3">Kuva 12. Tässä perinteisempi versio alfakanavan hyödyntämisestä.
+  <br></font>
+</p>
+</div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/gimp/index">Johdanto</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/gimp/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Asetukset</li><li><a href="/gimp/ch005_asetukset">Asetukset</a></li>
+<li Class="booki-section">Aloittelijan oppaat</li><li><a href="/gimp/ch007_johdatus">Johdatus</a></li>
+<li><a href="/gimp/ch008_kokeiluja">Kokeiluja</a></li>
+<li><a href="/gimp/ch009_uuden-kuvan-tekeminen">Uuden kuvan tekeminen</a></li>
+<li><a href="/gimp/ch010_koon-muuttaminen">Koon muuttaminen</a></li>
+<li><a href="/gimp/ch011_valinnat">Valinnat</a></li>
+<li><a href="/gimp/ch012_toimintamoodit">Toimintamoodit</a></li>
+<li><a href="/gimp/ch013_kuvien-manipulointi">Kuvien manipulointi</a></li>
+<li><a href="/gimp/ch014_reunat">Reunat</a></li>
+<li><a href="/gimp/ch015_kuvateksti">Kuvateksti</a></li>
+<li><a href="/gimp/ch016_kloonaus">Kloonaus</a></li>
+<li Class="booki-section">Kehittyneen käyttäjän oppaat</li><li><a href="/gimp/ch018_tasot">Tasot</a></li>
+<li><a href="/gimp/ch019_valokuvien-parantaminen">Valokuvien parantaminen</a></li>
+<li><a href="/gimp/ch020_taidetta">Taidetta</a></li>
+<li><a href="/gimp/ch021_sumua">Sumua</a></li>
+<li><a href="/gimp/ch022_etaisyydet">Etäisyydet</a></li>
+<li><a href="/gimp/ch023_iwarp">Iwarp</a></li>
+<li><a href="/gimp/ch024_kanavat">Kanavat</a></li>
+<li><a href="/gimp/ch025_script-fu">Script-fu</a></li>
+<li><a href="/gimp/ch026_lapinakyvyys">Läpinäkyvyys</a></li>
+<li><a href="/gimp/ch027_animaatio">Animaatio</a></li>
+<li><a href="/gimp/ch028_bannerit">Bannerit</a></li>
+<li Class="booki-section">Edenneen käyttäjän oppaat</li><li><a href="/gimp/ch030_kuvaformaatit">Kuvaformaatit</a></li>
+<li><a href="/gimp/ch031_teoriaa">Teoriaa</a></li>
+<li><a href="/gimp/ch032_pensselit">Pensselit</a></li>
+<li><a href="/gimp/ch033_haaveilua">Haaveilua</a></li>
+<li><a href="/gimp/ch034_avaruusmaisema">Avaruusmaisema</a></li>
+<li><a href="/gimp/ch035_kolmiulotteisuus">Kolmiulotteisuus</a></li>
+<li><a href="/gimp/ch036_konffausta">Konffausta</a></li>
+<li><a href="/gimp/ch037_selektiivinen">Selektiivinen</a></li>
+<li><a href="/gimp/ch038_retusointi">Retusointi</a></li>
+<li><a href="/gimp/ch039_sumentaminen">Sumentaminen</a></li>
+<li><a href="/gimp/ch040_syvays">Syväys</a></li>
+<li><a href="/gimp/ch041_alfakanava">Alfakanava</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/gimp/ch043_tekijat">Tekijät</a></li>
+</ul>

@@ -1,0 +1,31 @@
+<html dir="None"><body><div id="main-content"><div>
+<div id="main-content">
+<h1>Icecastin käynnistys (Windows)</h1>
+<p>Käynnistääksesi Icecastin voit tuplanapsauttaa työpöydälläsi olevaa kätevää ikonia:</p>
+<p><img title="icon2_en" src="../../../icecast/_booki/icecast/static/Icecast-StartingWindows-icon2_en-fi.jpg" alt="icon2_en" width="61" height="76"></p>
+<p>Näkyviin tulee tällainen ikkuna:</p>
+<p><img title="started_en" src="../../../icecast/_booki/icecast/static/Icecast-StartingWindows-started_en-fi.jpg" alt="started_en" width="497" height="467"></p>
+<p> </p>
+<p>Käynnistääksesi Icecastin voit yksinkertaisesti painaa <strong>Start Server</strong> -nappia:</p>
+<p><img title="startserver_en" src="../../../icecast/_booki/icecast/static/Icecast-StartingWindows-startserver_en-fi.jpg" alt="startserver_en" width="94" height="33"></p>
+<p>Icecastin pitäisi käynnistyä ja näyttää tältä:</p>
+<p><img title="running_en" src="../../../icecast/_booki/icecast/static/Icecast-StartingWindows-running_en-fi.jpg" alt="running_en" width="497" height="467"><br><br>Jos tahdot kokeilla streamausta uudella Icecast-palvelimellasi, voit ajaa streamin koodaajaa samalla koneella. Jos tahdot tehdä näin, lataa ja asenna M3W streamikoodaaja (<a href="http://www.informatik.fh-muenchen.de/%7Eruckert/m3w/" target="_blank">http://www.informatik.fh-muenchen.de/~ruckert/m3w/</a>).</p>
+<p> </p>
+</div>
+<div id="main-content">
+<p> </p>
+<div id="content">
+<h1><a name="Paths_and_Logfiles"></a> </h1>
+</div>
+</div>
+</div></div><ul Class="menu-goes-here"><li Class="booki-section">Icecast</li><li><a href="/icecast-opas/index">Icecast</a></li>
+<li Class="booki-section">Streamaus</li><li><a href="/icecast-opas/ch003_mita-streamaus-on">Mitä streamaus on? </a></li>
+<li Class="booki-section">Asennus</li><li><a href="/icecast-opas/ch005_asennus-linuxiin">Asennus Linuxiin</a></li>
+<li><a href="/icecast-opas/ch006_asennus-windowsiin">Asennus Windowsiin</a></li>
+<li Class="booki-section">Käyttö</li><li><a href="/icecast-opas/ch008_kaynnistaminen-linuxissa">Käynnistäminen Linuxissa</a></li>
+<li><a href="/icecast-opas/ch009_kaynnistaminen-windowsissa">Käynnistäminen Windowsissa</a></li>
+<li><a href="/icecast-opas/ch010_lokitiedostot">Lokitiedostot</a></li>
+<li><a href="/icecast-opas/ch011_icecastin-konfigurointi">Icecastin konfigurointi</a></li>
+<li><a href="/icecast-opas/ch012_kayttajatilien-luominen">Käyttäjätilien luominen</a></li>
+<li Class="booki-section">Lisenssi</li><li><a href="/icecast-opas/ch014_lisenssi">Lisenssi</a></li>
+</ul>

@@ -1,0 +1,36 @@
+<div id="main-content"><h1>Ryhmän luominen</h1>
+<p>Voit perustaa oman ryhmän, mikäli mikään olemassaolevista ryhmistä ei sovi tarkoituksiisi. </p>
+<ol><li>Napsauta valikossa linkkiä <strong>Ryhmäni</strong>. Kun sivu latautuu, näet että sivun alaosassa on otsikko <strong>Luo uusi ryhmä</strong>.</li>
+<li>Tekstilaatikkoon <span style="font-weight: bold;">Ryhmän nimi</span> voit kirjoittaa ryhmäsi nimen. Laatikkoon <strong>Mistä tässä ryhmässä on kyse</strong> tulee lyhyt esittely ryhmästäsi. Varmista, että olet kirjoittanut kaiken oikein, sillä nykyisellään Booki ei anna sinun muuttaa asetuksia ryhmän luomisen jälkeen.</li>
+<li>Napsauta lopuksi nappia <strong>Luo uusi ryhmä</strong> sivun alaosassa. Uusi ryhmäsi lisätään sivulle <span style="font-weight: bold;">Ryhmäni</span> ja voit napsauttaa sitä päästäksesi ryhmän sivulle.</li>
+</ol><p align="center"><img src="_booki/booki/static/luouusiryhma.png" alt=""></p>
+<div id="PageBreak" title="Page Break"> </div>
+<h2>Käyttötapaus</h2>
+<p>Olet ala-asteen opettaja ja tahdot oppilaidesi tekevän yhdessä kirjan, joka kuvaa heidän tutkimuksensa tuloksia. Toivot, että lopullista kirjaa voisi käyttää opetusmateriaalina tuleville luokille. Varmistaaksesi, että ainoastaan luokkalaiset ovat kirjan muokkaajia, päätät luoda ryhmän, jota luokka käyttää projektiin.</p>
+<p>Kirjaudut Bookiin ja napsautat linkkiä <strong>Ryhmäni</strong>. Kirjoitat kohtaan <strong>Ryhmän nimi</strong> "Neljännen luokan luokkaprojekti" ja kohtaan <strong>Mistä tässä ryhmässä on kyse </strong>tekstin "Koulun neljännen luokan oppilaiden kouluprojekti".  Napsautettuasi <strong>Luo uusi ryhmä</strong> näet, että ryhmä on nyt lisätty ryhmälistaasi. Napsauta lopulta ryhmän nimeä "Neljännen luokan luokkaprojekti" ja pääset ryhmän sivulle. </p></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/booki/index">Mikä on Booki</a></li>
+<li><a href="/booki/ch002_mihin-bookia-voi-kayttaa">Mihin Bookia voi käyttää</a></li>
+<li Class="booki-section">Aloittaminen</li><li><a href="/booki/ch004_bookiin-paaseminen">Bookiin pääseminen</a></li>
+<li><a href="/booki/ch005_kayttajatunnuksen-luominen">Käyttäjätunnuksen luominen</a></li>
+<li><a href="/booki/ch006_asetukseni">Asetukseni</a></li>
+<li><a href="/booki/ch007_kirjan-luominen">Kirjan luominen</a></li>
+<li Class="booki-section">Kirjojen muokkaaminen</li><li><a href="/booki/ch009_lukujen-luominen">Lukujen luominen</a></li>
+<li><a href="/booki/ch010_lukujen-muokkaus">Lukujen muokkaus</a></li>
+<li><a href="/booki/ch011_sisallysluettelo">Sisällysluettelo</a></li>
+<li><a href="/booki/ch012_kuvien-lisaaminen">Kuvien lisääminen</a></li>
+<li Class="booki-section">Muiden kanssa työskentely</li><li><a href="/booki/ch014_ryhman-luominen">Ryhmän luominen</a></li>
+<li><a href="/booki/ch015_ryhmaan-liittyminen">Ryhmään liittyminen</a></li>
+<li><a href="/booki/ch016_kirjan-lisaaminen-ryhmaan">Kirjan lisääminen ryhmään</a></li>
+<li><a href="/booki/ch017_viestinta">Viestintä</a></li>
+<li Class="booki-section">Kehittynyt käyttö</li><li><a href="/booki/ch019_kirjan-tuominen">Kirjan tuominen</a></li>
+<li><a href="/booki/ch020_vieminen">Vieminen</a></li>
+<li Class="booki-section">Asentaminen</li><li><a href="/booki/ch022_linuxiin-asentaminen">Linuxiin asentaminen</a></li>
+<li Class="booki-section">Ulkoasun muokkaaminen</li><li><a href="/booki/ch024_kirjojen-css-muotoilu">Kirjojen CSS-muotoilu</a></li>
+<li><a href="/booki/ch025_lisaa-css-suunnittelua">Lisää CSS-suunnittelua</a></li>
+<li Class="booki-section">Teknologia</li><li><a href="/booki/ch027_osallistuminen">Osallistuminen</a></li>
+<li><a href="/booki/ch028_ydinosat">Ydinosat</a></li>
+<li><a href="/booki/ch029_teknologiat">Teknologiat</a></li>
+<li><a href="/booki/ch030_ominaisuudet">Ominaisuudet</a></li>
+<li><a href="/booki/ch031_virheraportointi">Virheraportointi</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/booki/ch033_oppaasta">Oppaasta</a></li>
+<li><a href="/booki/ch034_lisenssi">Lisenssi</a></li>
+</ul>

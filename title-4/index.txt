@@ -1,0 +1,15 @@
+<div id="main-content">
+<h1>Johdanto
+</h1>
+<p>Pencil on kaksiulotteinen animaatio-ohjelma, joka toimii Mac, Windows, Linux ja BSD -käyttöjärjestelmissä.
+</p>
+<p> Pencil käyttää ainutlaatuista bittikartta/vektorikäyttöliittymää, joka luo yksinkertaista kaksiulotteista grafiikkaa ja animaatiota.
+</p>
+<p>Pencil on kirjoitettu C++ -kielellä ja perustuu QT:hen. Ohjelma on lisensoitu GNU General Public Licensen mukaan. Se oli alunperin Patrick Corrierin luoma yksinkertainen testiohjelma, jonka Pascal Naidon laajensi nykyiseksi ohjelmaksi.
+</p>
+<p>Pencilin kotisivut ovat osoitteessa <a href="http://www.pencil-animation.org/">http://www.pencil-animation.org/</a>
+  <br></p>
+</div><ul Class="menu-goes-here"><li><a href="/title-4/index">Introduction</a></li>
+<li><a href="/title-4/ch001_asennuswindows">AsennusWindows</a></li>
+<li><a href="/title-4/ch002_credits">Credits</a></li>
+</ul>

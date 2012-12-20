@@ -1,0 +1,93 @@
+<div id="main-content">
+<h1>Somebody Should Set The Title For This Chapter!</h1><p align="left"><font size="4">Etäisyyksien ja kulmien mittaaminen, muotojen ja polkujen valitseminen </font>
+</p>
+<p align="left">Huomio: Tämän oppaan seuraaminen edellyttää sitä, että osaat käyttää GIMP:in kloonaustyökalua<img title="kloonaus" alt="kloonaus" src="_booki/gimp/static/GIMP-kloonaus-fi.jpg" height="24" width="27"> ja valittujen alueiden kopioimista ja liittämistä (Ctrl-C=&gt;Ctrl-V) sujuvasti.
+</p>
+<p align="left">Ladataan GIMP:iin seuraava kuva:
+</p>
+<p><img src="_booki/gimp/static/GIMP-auto-fi.jpg" name="grafiikka1"><br clear="left"> Kuva 1. Asfalttitietä autosta käsin
+</p>
+<p>Valitaan ensin käsittelemistämme työkaluista helpoin, "Mittaa etäisyyksiä ja kulmia":
+  <br></p>
+<p><img src="_booki/gimp/static/GIMP-gtyokalut_html_228d6984-fi.jpg" name="Grafiikka2"><br> Kuva 2. Työkalu "mittaa etäisyyksiä ja kulmia" valittuna
+</p>
+<p>Kuten työkalun nimikin kertoo, tämä mittaa kahden pisteen välisiä etäisyyksiä ja kulmia. Napsauta hiiren ykköspainike pohjaan alkupisteessä ja siirry sitten hiiren painike pohjassa loppupisteeseen:
+</p>
+<p><img src="_booki/gimp/static/GIMP-gtyokalut_html_59b77e8d-fi.jpg" name="grafiikka2"><br clear="left"> Kuva 3. Valkoisessa alapalkissa näkyy astemittauksen tiedot: etäisyys pikseleinä (103,5 pikseliä Pythagoraan lauseen mukaan) ja alku- ja loppupisteen suoran muodostama kulma vaakasuoraan verrattuna mitattu (41,08 astetta).
+</p>
+<p>Mitä hyötyä tästä työkalusta on? Tavallisia valokuvia harvoin mitataan näin tarkasti. Tämä onkin tarkoitettu enemmän kaavioiden mittaamista varten. Voidaan kuitenkin hyvällä omallatunnolla sanoa, että GIMP:iä ei ole ensisijaisesti tarkoitettukaan CAD-suunnitteluun tai vastaavaan toimintaan, joten tähän työkaluun ei normaalissa käytössä useinkaan törmää. Kuitenkin on hyvä ottaa tässä esille, mitä se tekee, ettei sitä jää ihmettelemään.
+</p>
+<p><strong>"valitse muotoja kuvasta"-työkalu</strong>
+</p>
+<p>Tämä työkalu on monille sen sijaan erittäin tärkeä. Usein kun valitsemme hirttonuora- painikkeella vapaamuotoisia alueita, törmäämme ongelmaan, jossa alueiden valitseminen on hyvin hankalaa ja epätarkkaa. Käsi vapisee eikä kärsivällisyyttä riitä monimutkaisen objektin rajaamiseen. Tämän työkalun ansiosta voidaan useimmiten tätä prosessia nopeuttaa. Toiminto on työkaluikkunassa saksien kuvana:
+</p>
+<p><img title="gtyokalut_html_m527be1b7" alt="gtyokalut_html_m527be1b7" src="_booki/gimp/static/GIMP-gtyokalut_html_m527be1b7-fi.jpg" name="Grafiikka4" height="307" width="296"><br> Kuva 4. "valitse muotoja kuvasta"-työkalu valittuna
+</p>
+<p>Oletetaan sitten että haluamme valita kuvassa 3 olevan liikennemerkin. Hirttonuora-työkalulla tähän menee ikä ja terveys. Sen sijaan valitsemme tämän työkalun ja napsautamme hiiren ykköspainikkeella yksittäisiä pisteitä järjestyksessä liikennemerkin ympärillä siten, että viimeiseksi painetaan lähtöpistettä (suurenna ensin kuvaa hiukan suurennuslasilla):
+</p>
+<p><img src="_booki/gimp/static/GIMP-gtyokalut_html_55250bb-fi.jpg" name="grafiikka3"><br clear="left"> Kuva 5. Liikennemerkin muoto valittuna. Ei aivan matemaattisen tarkka, mutta varmasti tarkempi (ja nopeampi) kuin käsivaralla pikaisesti tehty rajaus.
+</p>
+<p>Sitten painetaan hiiren vasenta nappia valitsemamme muodon sisällä. <span>Huom!</span> Jos tämä ei onnistu, niin todennäköisesti vika on siinä että valitsemamme polku ei ole sulkeutuva (eli viimeinen piste on eri kuin lähtöpiste). Korjaa vika laittamalla viimeinen piste täsmälleen samaan paikkaan kuin ensimmäinenkin. Toinen yleinen virhe on, että pisteitä otetaan liian harvasti. Toinen huomion arvoinen seikka on, että tämä työkalu ei toimi jos tasoja on useita. Yhdistä ensin tasot tasotyökalulla (Ctrl+L) ja yritä uudestaan!
+</p>
+<p><img src="_booki/gimp/static/GIMP-gtyokalut_html_39100be1-fi.jpg" name="grafiikka4"><br clear="left"> Kuva 6. Liikennemerkin muoto rajattu
+</p>
+<p>Sitten yritämme vaikka kopioida tämän saman puun vasemmalle (Huomio: muista raahata tämän kuvan kopio "Siirrä tasoja ja valintoja"-työkalulla<img alt="siirto" src="http://www.joutsi.com/paletti/siirto.jpg">):
+  <br><br><br></p>
+<p><img src="_booki/gimp/static/GIMP-gtyokalut_html_5f5eb283-fi.jpg" name="Grafiikka8"><br> Kuva 7. "Siirrä tasoja ja valintoja"-työkalu valittuna
+</p>
+<p>
+  <br><br></p>
+<p><img src="_booki/gimp/static/GIMP-gtyokalut_html_24bc2ead-fi.jpg" name="grafiikka5"><br clear="left"> Kuva 8. Liikennemerkki kopioituna toisen viereen.
+</p>
+<p>Kuva on jo nyt melko hyvä, mutta jos oma kuvasi on hiukan epätäydellinen, voit parantaa sitä esimerkiksi kloonaustyökalulla.
+  <br><br></p>
+<p><strong>"Luo ja muokkaa polkuja"-työkalu</strong>
+</p>
+<p>Tutustumme vielä pikaisesti tähän työkaluun, joka saadaan GIMP:in työkaluikkunasta seuraavalla painikkeella:
+</p>
+<p><img src="_booki/gimp/static/GIMP-gtyokalut_html_m427f9336-fi.jpg" name="Grafiikka10"><br> Kuva 10. "Luo ja muokkaa polkuja"-työkalu valittuna
+</p>
+<p>Tämän avulla voidaan luoda sekä suoria että käyriä, joilla rajataan tietty alue. Suorien luominen onnistuu pelkästään pisteitä näppäilemällä, ja suoria saadaan taivutettua pitämällä pisteen kohdalla hiiren näppäintä pohjassa ja liikuttamalla hiirtä näytöllä. Ammattilaispiireissä tätä kutsutaan myös <span>Bezier</span>-käyrän piirtämiseksi. Periaate on se, että tällä työkalulla saadaan teoriassa vaikka kuinka monimutkainen käyrä piirrettyä yksiselitteisesti pisteiden ja suorien avulla. Käytännössä tämä on tietysti hyvin vaikeaa ja itse minun täytyy rehellisesti myöntää etten keksi yhtään käyttökelpoista esimerkkiä missä Bezier-käyrän piirtämistä voidaan hyödyntää. Vinkkejä toki otetaan vastaan, jos joku keksii jotain! Tutustu tämän työkalun logiikkaan ja luo seuraavankaltainen alue:
+</p>
+<p><img src="_booki/gimp/static/GIMP-gtyokalut_html_m37b209f6-fi.jpg" name="grafiikka6"><br clear="left"> Kuva 11. Monimutkainen polku
+</p>
+<p>Tämän alueen saa valittua napsauttamalla sen keskellä hiiren ykköspainiketta, jonka jälkeen se voidaan esim. kopioida ja liittää uuteen kuvaan.
+</p>
+</div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/gimp/index">Johdanto</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/gimp/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Asetukset</li><li><a href="/gimp/ch005_asetukset">Asetukset</a></li>
+<li Class="booki-section">Aloittelijan oppaat</li><li><a href="/gimp/ch007_johdatus">Johdatus</a></li>
+<li><a href="/gimp/ch008_kokeiluja">Kokeiluja</a></li>
+<li><a href="/gimp/ch009_uuden-kuvan-tekeminen">Uuden kuvan tekeminen</a></li>
+<li><a href="/gimp/ch010_koon-muuttaminen">Koon muuttaminen</a></li>
+<li><a href="/gimp/ch011_valinnat">Valinnat</a></li>
+<li><a href="/gimp/ch012_toimintamoodit">Toimintamoodit</a></li>
+<li><a href="/gimp/ch013_kuvien-manipulointi">Kuvien manipulointi</a></li>
+<li><a href="/gimp/ch014_reunat">Reunat</a></li>
+<li><a href="/gimp/ch015_kuvateksti">Kuvateksti</a></li>
+<li><a href="/gimp/ch016_kloonaus">Kloonaus</a></li>
+<li Class="booki-section">Kehittyneen käyttäjän oppaat</li><li><a href="/gimp/ch018_tasot">Tasot</a></li>
+<li><a href="/gimp/ch019_valokuvien-parantaminen">Valokuvien parantaminen</a></li>
+<li><a href="/gimp/ch020_taidetta">Taidetta</a></li>
+<li><a href="/gimp/ch021_sumua">Sumua</a></li>
+<li><a href="/gimp/ch022_etaisyydet">Etäisyydet</a></li>
+<li><a href="/gimp/ch023_iwarp">Iwarp</a></li>
+<li><a href="/gimp/ch024_kanavat">Kanavat</a></li>
+<li><a href="/gimp/ch025_script-fu">Script-fu</a></li>
+<li><a href="/gimp/ch026_lapinakyvyys">Läpinäkyvyys</a></li>
+<li><a href="/gimp/ch027_animaatio">Animaatio</a></li>
+<li><a href="/gimp/ch028_bannerit">Bannerit</a></li>
+<li Class="booki-section">Edenneen käyttäjän oppaat</li><li><a href="/gimp/ch030_kuvaformaatit">Kuvaformaatit</a></li>
+<li><a href="/gimp/ch031_teoriaa">Teoriaa</a></li>
+<li><a href="/gimp/ch032_pensselit">Pensselit</a></li>
+<li><a href="/gimp/ch033_haaveilua">Haaveilua</a></li>
+<li><a href="/gimp/ch034_avaruusmaisema">Avaruusmaisema</a></li>
+<li><a href="/gimp/ch035_kolmiulotteisuus">Kolmiulotteisuus</a></li>
+<li><a href="/gimp/ch036_konffausta">Konffausta</a></li>
+<li><a href="/gimp/ch037_selektiivinen">Selektiivinen</a></li>
+<li><a href="/gimp/ch038_retusointi">Retusointi</a></li>
+<li><a href="/gimp/ch039_sumentaminen">Sumentaminen</a></li>
+<li><a href="/gimp/ch040_syvays">Syväys</a></li>
+<li><a href="/gimp/ch041_alfakanava">Alfakanava</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/gimp/ch043_tekijat">Tekijät</a></li>
+</ul>

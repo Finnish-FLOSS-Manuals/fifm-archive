@@ -1,0 +1,79 @@
+<div id="main-content">
+<h1><font size="4">Valokuvien parantaminen GIMP:illä</font>
+</h1>
+<p>Tässä luvussa käsittelemme todellista GIMP:in hyötykäyttöä: valokuvien parantamista. Monella meistä on kokemusta siitä, että valokuvat epäonnistuvat, pääosin siitä syystä että valokuva on liian sumea tai tumma. Kuvankäsittelyohjelma voi auttaa aavistuksen verran, mutta ihmeisiin sekään ei pysty. Ainoa keino parantaa merkittävästi kehnon kuvan laatua on ottaa uusi kuva. Elokuvissa esitetyt kuvankäsittelytemput, joista muutaman kymmenen pikselin kokoisesta pään valokuvasta saa sitä parantamalla aivan selkeän ihmisen näköiskuvan, kannattaa unohtaa.
+</p>
+<p><strong>Muistellaanpa jo opittuja keinoja</strong>
+</p>
+<p>Tähän saakka olemme oppineet jo muutamia keinoja editoida valokuvaa paremmiksi. Eräs oppaani käsittelee mm. <strong>punasilmäisyyden poistoa</strong>, myös <strong>kloonaustyökalu</strong> on hyvä jos esimerkiksi kasvoista halutaan saada pois häiritseviä luomia, näppylöitä tai muokata muita epäsäännöllisyyksiä piiloon. Sinun tulisi osata myös <strong>kuvien korjaus pikselitasolla</strong>, vaikka tämä onkin suorastaan masokistinen tapa editoida kuvia, mutta joskus ainoa mahdollinen. Myös <span>kontrastin tai kirkkauden määrää</span> (”Taso”=&gt;”Värit”=&gt;”Kirkkauden ja kontrastin säätö”) säätelemällä jotkut kuvat voivat muuttua paremmiksi. Joskus jopa kuvan <span>sumennus</span>voi- paradoksaalista kylläkin- auttaa (Esim. "Suotimet"=&gt;"tee epäteräväksi"=&gt;"Gauss-sumennus"). Yleensä ei kannata sumenta koko kuvaa, vaan vain osa siitä. Jos joku kuvan osa erottuu rumalla kontrastilla, pieni sumennus voi tehdä sen pehmeämmäksi. 
+</p>
+<p><strong>Valokuvien terävöitys</strong>
+</p>
+<p>Valokuvien terävöittäminen on eräs yleisimmistä valokuvien muokkausmetodeista. Se perustuu yksinkertaisesti siihen, että kuvassa jokainen pikseli värjätään samalla värillä kuin sen vieressä oleva pikseli, jos pikseleiden väriero ei ylitä kynnysarvoa. Tällä algoritmilla mm. sotkuiset rajat tulevat selvemmiksi. Otetaanpa pari valokuvaa:
+</p>
+<p><img title="maisema" alt="maisema" src="_booki/gimp/static/GIMP-ValokuvienParantaminen-maisema-fi.jpg" name="grafiikka1" height="299" width="400"><br> Kuva 1. Sumuinen aamuhämärä Keurusselällä. 
+</p>
+<p>Avataan kuva GIMP:illä:
+</p>
+<p><img src="_booki/gimp/static/GIMP-ValokuvienParantaminen-gimp7_html_6ffff8d6-fi.jpg" name="grafiikka3"><br> Kuva 2. Maisema avattu GIMP-ohjelmalla
+</p>
+<p>Kokeillaan toimintoa ”Suotimet”=&gt;”Paranna”=&gt;”Unsharp Mask”, joka on yleisin käytetty terävöittämistoiminto:
+</p>
+<p><img title="gimp7_html_4c820889" alt="gimp7_html_4c820889" src="_booki/gimp/static/GIMP-ValokuvienParantaminen-gimp7_html_4c820889-fi.jpg" name="grafiikka4" height="403" width="299"><br> Kuva 3. Unsharp Maskin säätöjä. Liika säätö tekee kuvan epärealistiseksi, liian vähäinen jättää muutokset liian vähäisiksi. Koeta löytää aina terävöittämisessä ”Kultainen keskitie”. 
+</p>
+<p>"Säde" tarkoittaa säädöissä sitä, että kuinka montaa pikseliä kunkin kohteena olevan pikselin ympärillä terävöitetään. "Määrä" tarkoittaa itse terävöittämisen määrää. "kynnysarvo" tarkoittaa sitä, että mikä pitää olla kahden pisteen värien ero, jotta tietty pikseli värjätään samalla värillä kuin sen vieressäkin oleva.
+</p>
+<p>Painetaan ”OK”, jonka jälkeen tulos on seuraava:
+</p>
+<p><img title="gimp7_html_1b72024e" alt="gimp7_html_1b72024e" src="_booki/gimp/static/GIMP-ValokuvienParantaminen-gimp7_html_1b72024e-fi.jpg" name="grafiikka5" height="433" width="546"><br> Kuva 4. Muokattu kuva.
+</p>
+<p>Kuten huomaamme, Unsharp mask on huomattavasti vähentänyt sumuisuuden määrää. Tämä toiminto voi olla hyödyksi joskus kun haluamme erottaa sumun keskeltä epäselviä kappaleita. Muutenkin kuvan äärilaidat erottuvat hyvin, toisaalta taas oikealla puolella terävöittäminen on ollut liiallista ja kuvasta on osittain tullut epärealistisen oloinen. 
+</p>
+<p>Otamme seuraavaksi toisen hyvin yleisen terävöittämistoiminnon: ”Suotimet”=&gt;”Paranna”=&gt;”Terävöinti":
+</p>
+<p><img src="_booki/gimp/static/GIMP-ValokuvienParantaminen-palo1-fi.jpg" name="grafiikka2"><br> Kuva 5. Palomies
+</p>
+<p><img src="_booki/gimp/static/GIMP-ValokuvienParantaminen-gimp7_html_m52e297ca-fi.jpg" name="grafiikka6"><br> Kuva 6. Terävöinnin määrää voit säädellä tässä käyttöliittymässä. Huomaa, että tässä "laiskan miehen terävöittämistoiminnossa" on vain yksi säätö, terävöinnin voimakkuus. "Unsharp Mask" on paljon monipuolisempi, mutta toisaalta sen arvoja täytyy itse säädellä ja kokeilla. Tämä toiminto toimii nopeasti ja helposti, mutta tietenkään lopputulos ei ole aina toivottu. 
+</p>
+<p><img src="_booki/gimp/static/GIMP-ValokuvienParantaminen-gimp7_html_1906e821-fi.jpg" name="grafiikka7"><br> Kuva 7. Parannettu palomiehen kuva.
+</p>
+<p>Kuvassahan on paljon muutakin vikaa, mm. punaisia silmiä ja kaksoisleukaa voisi hiukan editoida mutta jääköön toiseen kertaan...:)
+</p>
+</div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/gimp/index">Johdanto</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/gimp/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Asetukset</li><li><a href="/gimp/ch005_asetukset">Asetukset</a></li>
+<li Class="booki-section">Aloittelijan oppaat</li><li><a href="/gimp/ch007_johdatus">Johdatus</a></li>
+<li><a href="/gimp/ch008_kokeiluja">Kokeiluja</a></li>
+<li><a href="/gimp/ch009_uuden-kuvan-tekeminen">Uuden kuvan tekeminen</a></li>
+<li><a href="/gimp/ch010_koon-muuttaminen">Koon muuttaminen</a></li>
+<li><a href="/gimp/ch011_valinnat">Valinnat</a></li>
+<li><a href="/gimp/ch012_toimintamoodit">Toimintamoodit</a></li>
+<li><a href="/gimp/ch013_kuvien-manipulointi">Kuvien manipulointi</a></li>
+<li><a href="/gimp/ch014_reunat">Reunat</a></li>
+<li><a href="/gimp/ch015_kuvateksti">Kuvateksti</a></li>
+<li><a href="/gimp/ch016_kloonaus">Kloonaus</a></li>
+<li Class="booki-section">Kehittyneen käyttäjän oppaat</li><li><a href="/gimp/ch018_tasot">Tasot</a></li>
+<li><a href="/gimp/ch019_valokuvien-parantaminen">Valokuvien parantaminen</a></li>
+<li><a href="/gimp/ch020_taidetta">Taidetta</a></li>
+<li><a href="/gimp/ch021_sumua">Sumua</a></li>
+<li><a href="/gimp/ch022_etaisyydet">Etäisyydet</a></li>
+<li><a href="/gimp/ch023_iwarp">Iwarp</a></li>
+<li><a href="/gimp/ch024_kanavat">Kanavat</a></li>
+<li><a href="/gimp/ch025_script-fu">Script-fu</a></li>
+<li><a href="/gimp/ch026_lapinakyvyys">Läpinäkyvyys</a></li>
+<li><a href="/gimp/ch027_animaatio">Animaatio</a></li>
+<li><a href="/gimp/ch028_bannerit">Bannerit</a></li>
+<li Class="booki-section">Edenneen käyttäjän oppaat</li><li><a href="/gimp/ch030_kuvaformaatit">Kuvaformaatit</a></li>
+<li><a href="/gimp/ch031_teoriaa">Teoriaa</a></li>
+<li><a href="/gimp/ch032_pensselit">Pensselit</a></li>
+<li><a href="/gimp/ch033_haaveilua">Haaveilua</a></li>
+<li><a href="/gimp/ch034_avaruusmaisema">Avaruusmaisema</a></li>
+<li><a href="/gimp/ch035_kolmiulotteisuus">Kolmiulotteisuus</a></li>
+<li><a href="/gimp/ch036_konffausta">Konffausta</a></li>
+<li><a href="/gimp/ch037_selektiivinen">Selektiivinen</a></li>
+<li><a href="/gimp/ch038_retusointi">Retusointi</a></li>
+<li><a href="/gimp/ch039_sumentaminen">Sumentaminen</a></li>
+<li><a href="/gimp/ch040_syvays">Syväys</a></li>
+<li><a href="/gimp/ch041_alfakanava">Alfakanava</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/gimp/ch043_tekijat">Tekijät</a></li>
+</ul>

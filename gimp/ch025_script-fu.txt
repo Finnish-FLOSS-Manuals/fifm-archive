@@ -1,0 +1,99 @@
+<div id="main-content">
+<h1><font size="4">Script-fu ja taustakuvat</font>
+  <br></h1>
+<p>Harva meistä on hyvä kuvankäsittelijä, se vaatii vuosien harjoittelua ja senkin jälkeen on vain todettava, että joistakin ei vain ole sille alalle. Toisaalta valtaosa kuvankäsittelystä mitä työelämässä tarvitaan ei juurikaan ole vaikeampaa kuin tässä oppaassani esitetyt asiat. Taidokasta kuvankäsittelyä tarvitaan lähinnä taiteilijoiden, tietokokonepelien graafikkojen, demo (usein musiikilla höystetty grafiikka-ja animaatioesitys) harrastelijoiden yms. piirissä.
+</p>
+<p>Niille "tumpeloille", joilla ei ole olemassa sen laajempaa kuvankäsittelytaitoa, on GIMP:issä olemassa raskas algoritmivarasto, "Script-fu". Script-fu:n toiminnot ovat pikemminkin algoritmivarastoja kuin yksittäisiä algoritmeja, ja se näkyy myöskin algoritmin suorittamisajassa- nopeimmaltakin koneelta menee parhaimmillaan useampi kymmenen sekuntia kuvan muokkaamiseen. Otamme esimerkiksi (kuvaikkunassa) toiminnon "Script-Fu"=&gt;"Koristeelliset"=&gt;"Vanha valokuva":
+  <br></p>
+<p><img title="script_html_m11af138d" alt="script_html_m11af138d" src="_booki/gimp/static/GIMP-script-script_html_m11af138d-fi.jpg" name="Grafiikka1" align="left" border="0" height="443" width="353"><br clear="left">Kuva 1. Alkuperäinen valokuva
+</p>
+<p><img src="_booki/gimp/static/GIMP-script-script_html_m5683bf91-fi.jpg" name="Grafiikka2" align="left" border="0" height="398" width="303"><br clear="left">Kuva 2. Muokattu valokuva
+</p>
+<p>Tämä säästää valtavasti aikaa. Valokuva saadaan toki vanhan näköiseksi yhdistelemällä sopivasti eri suotimia ja algoritmeja, mutta tämä vaatii aikaa, vaivaa ja asiantuntemusta- Script-fu tekee kaiken kerralla! Taitava ohjelmoija pystyy myös itse tekemään omia Script-fu-esimerkkejä, mutta se on jo ammattilaistason kuvankäsittelyä. Meille tavallisille kuvankäsittelijöille riittää se, että osaamme käyttää jo muiden ihmisten valmiiksi tekemiä toimintoja. Script-fu-toimintoja on kuitenkin ikävän vähän, mutta kyllä näistäkin on jotain hyötyä.
+</p>
+<p>Kokeile itse valitsemiisi valokuviin myös seuraavia toimintoja:
+</p>
+<p>"Script-Fu"=&gt;"Alchemy"=&gt;"Kangas"
+</p>
+<p>"Script-Fu"=&gt;"Alchemy"=&gt;"Kudos"
+</p>
+<p>"Script-Fu"=&gt;"Alchemy"=&gt;"Predator"
+</p>
+<p>"Script-Fu"=&gt;"Koristeelliset"=&gt;"Häivytä reuna" (teimme eräässä aiemmassa oppaassa suurella vaivalla samankaltaisen kuvamanipulaation-tällä se onnistuu yhdessä painikkeen painalluksella!)
+</p>
+<p>"Script-Fu"=&gt;"Koristeelliset"=&gt;"Lisää reunus"
+</p>
+<p>"Script-Fu"=&gt;"Koristeelliset"=&gt;"Kahvitahra"
+</p>
+<p>"Script-Fu"=&gt;"Koristeelliset"=&gt;"Pyöristä reunat"
+</p>
+<p><strong>Spirograafi</strong>
+</p>
+<p>Script-Fu:lla pystyy tekemään myös erilaisia säännöllisiä geometrisia kuvioita. Ota uusi kuva esiin ("Tiedosto"=&gt;"Uusi") ja kokeile "Script-Fu"=&gt;"Luo"=&gt;"Spirograafi"-toimintoa:
+  <br></p>
+<p><img src="_booki/gimp/static/GIMP-script-script_html_8c400a-fi.jpg" name="Grafiikka3" align="left" border="0" height="669" width="546"><br clear="left"> Kuva 3. Esimerkki säännöllisestä kuviosta
+</p>
+<p>Pyyhi edellinen kuva pois "Muokkaa"=&gt;"Kumoa"-toiminnolla ja piirrä uusi, erilainen kuvio säätelemällä spirograafi-toiminnon valikkoja:
+  <br></p>
+<p><img src="_booki/gimp/static/GIMP-script-script_html_3cfe239f-fi.jpg" name="Grafiikka4" align="left" border="0" height="565" width="390"><br clear="left"> Kuva 4. Spirograafi-valikko. Kokeile eri tyyppejä, muotoja, työkaluja, siveltimiä, värimetodeja, värejä ja väriliukuja.
+</p>
+<p><strong>Taustakuvat</strong>
+</p>
+<p>Kokeillaan seuraavaksi GIMP:in taustakuvia. Itse asia on hyvin helppo, mutta GIMP sisältää niin hyvän taustakuvavaraston että jokaisen graafikon, kotisivun tekijän yms. kannattaa pitää se mielessä.
+</p>
+<p>Tee uusi kuva työkaluikkunan valikosta "Tiedosto"=&gt;"Uusi".
+</p>
+<p>Kaksoisnapsauta hiiren ykköspainikkeella työkaluikkunaa kohdalta "käytössä oleva kuvio"
+</p>
+<p><img src="_booki/gimp/static/GIMP-script-script_html_m648f65c9-fi.jpg" name="Grafiikka5" align="left" border="0" height="435" width="296"><br clear="left"> Kuva 5. Käytössä oleva kuvio-toiminnon sijainti paletilla. Kuvassa on ympyröity myös hirttonuora, jota tarvitsemme myös tässä harjoituksessa.
+</p>
+<p>Toiminto avaa uuden ikkunan
+</p>
+<p><img src="_booki/gimp/static/GIMP-script-script_html_2e69c477-fi.jpg" name="Grafiikka9" align="left" border="0" height="334" width="258"><br clear="left"> Kuva 6. Kaikenlaisia taustakuvamalleja vaativampaankin makuun
+</p>
+<p>Josta taustakuvan saa valittua raahaamalla sen hiiren ykköspainike pohjassa kuvaan:
+</p>
+<p><img src="_booki/gimp/static/GIMP-script-script_html_m1154c413-fi.jpg" name="Grafiikka7" align="left" border="0" height="440" width="419"><br clear="left"> Kuva 7. Hyvin aito puun muoto.
+</p>
+<p>Jos raahaat taustakuvan valitun alueen sisään, kuten vaikka hirttonuoralla, ympyrä-tai nelikulmiovalinnalla, niin taustakuvalla täyttyy vain tämän alueen sisäpuoli. Kokeile tätäkin!
+</p>
+<p><img src="_booki/gimp/static/GIMP-script-script_html_m29a13f2f-fi.jpg" name="Grafiikka8" align="left" border="0" height="440" width="419"><br clear="left"> Kuva 8: Useita taustakuvia valittujen alueiden sisällä.
+</p>
+</div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/gimp/index">Johdanto</a></li>
+<li Class="booki-section">Asennus</li><li><a href="/gimp/ch003_asennus">Asennus</a></li>
+<li Class="booki-section">Asetukset</li><li><a href="/gimp/ch005_asetukset">Asetukset</a></li>
+<li Class="booki-section">Aloittelijan oppaat</li><li><a href="/gimp/ch007_johdatus">Johdatus</a></li>
+<li><a href="/gimp/ch008_kokeiluja">Kokeiluja</a></li>
+<li><a href="/gimp/ch009_uuden-kuvan-tekeminen">Uuden kuvan tekeminen</a></li>
+<li><a href="/gimp/ch010_koon-muuttaminen">Koon muuttaminen</a></li>
+<li><a href="/gimp/ch011_valinnat">Valinnat</a></li>
+<li><a href="/gimp/ch012_toimintamoodit">Toimintamoodit</a></li>
+<li><a href="/gimp/ch013_kuvien-manipulointi">Kuvien manipulointi</a></li>
+<li><a href="/gimp/ch014_reunat">Reunat</a></li>
+<li><a href="/gimp/ch015_kuvateksti">Kuvateksti</a></li>
+<li><a href="/gimp/ch016_kloonaus">Kloonaus</a></li>
+<li Class="booki-section">Kehittyneen käyttäjän oppaat</li><li><a href="/gimp/ch018_tasot">Tasot</a></li>
+<li><a href="/gimp/ch019_valokuvien-parantaminen">Valokuvien parantaminen</a></li>
+<li><a href="/gimp/ch020_taidetta">Taidetta</a></li>
+<li><a href="/gimp/ch021_sumua">Sumua</a></li>
+<li><a href="/gimp/ch022_etaisyydet">Etäisyydet</a></li>
+<li><a href="/gimp/ch023_iwarp">Iwarp</a></li>
+<li><a href="/gimp/ch024_kanavat">Kanavat</a></li>
+<li><a href="/gimp/ch025_script-fu">Script-fu</a></li>
+<li><a href="/gimp/ch026_lapinakyvyys">Läpinäkyvyys</a></li>
+<li><a href="/gimp/ch027_animaatio">Animaatio</a></li>
+<li><a href="/gimp/ch028_bannerit">Bannerit</a></li>
+<li Class="booki-section">Edenneen käyttäjän oppaat</li><li><a href="/gimp/ch030_kuvaformaatit">Kuvaformaatit</a></li>
+<li><a href="/gimp/ch031_teoriaa">Teoriaa</a></li>
+<li><a href="/gimp/ch032_pensselit">Pensselit</a></li>
+<li><a href="/gimp/ch033_haaveilua">Haaveilua</a></li>
+<li><a href="/gimp/ch034_avaruusmaisema">Avaruusmaisema</a></li>
+<li><a href="/gimp/ch035_kolmiulotteisuus">Kolmiulotteisuus</a></li>
+<li><a href="/gimp/ch036_konffausta">Konffausta</a></li>
+<li><a href="/gimp/ch037_selektiivinen">Selektiivinen</a></li>
+<li><a href="/gimp/ch038_retusointi">Retusointi</a></li>
+<li><a href="/gimp/ch039_sumentaminen">Sumentaminen</a></li>
+<li><a href="/gimp/ch040_syvays">Syväys</a></li>
+<li><a href="/gimp/ch041_alfakanava">Alfakanava</a></li>
+<li Class="booki-section">Liitteet</li><li><a href="/gimp/ch043_tekijat">Tekijät</a></li>
+</ul>
