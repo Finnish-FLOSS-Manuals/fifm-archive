@@ -10,7 +10,7 @@
 <p>Vaikka mikään työkalu ei voi tarjota täydellistä suojaa kaikkia turvallisuus- ja yksityisyysuhkia vastaan, voivat tässä luvussa kuvatut Firefoxin laajennukset vähentää huomattavasti haavoittuvuutta ja parantaa mahdollisuuksia pysyä anonyyminä. </p>
 <h2>HTTPS Everywhere</h2>
 <p>HTTP on jossain määrin turvaton, koska viestintä lähetetään salaamattomana tekstinä. Monet verkkosivut tarjoavat jonkin verran tukea salaukselle HTTPS-protokollan avulla, mutta tekevät siitä vaikeasti käytettävän. Esimerkiksi sivu voi käyttää normaalisti HTTP-yhteyttä vaikka HTTPS olisi tarjolla, tai ne voivat täyttää salatut sivut linkeillä, jotka vievät takaisin salaamattomalle sivulle. HTTPS Everywhere -lisäosa korjaa nämä ongelmat kirjoittamalla uudestaan kaikki sivujen pyynnöt HTTPS-muotoon. Vaikka laajennuksen nimi on kirjaimellisesti "HTTPS kaikkialla", se käyttää HTTPS-protokollaa vain sivuilla, jotka ovat lisänneet tuen HTTPS-protokollalle. Se ei voi tarjota turvallista yhteyttä sivulle, joka ei tarjoa HTTPS-yhteyttä. </p>
-<p><img src="http://fi.flossmanuals.net/kirjoita/internet-tietoturvan-perusteet/_draft/_v/1.0/static/HTTPS-Schema.jpg" alt="HTTPS-kaavio" width="600" height="285"> </p>
+<p><img src="_booki/internet-tietoturvan-perusteet/static/HTTPS.jpg" alt="" width="600" height="284"> </p>
 <p>Huomaa, että joillain näistä sivuista on paljon sisältöä, kuten kuvia tai kuvakkeita, jotka tulevat kolmannen osapuolen sivuilta, joita ei voi tavoittaa HTTPS-yhteyden kautta. Jos selaimessa oleva lukkokuvake on hajalla tai siinä on huutomerkki, voit olla edelleenkin haavoittuvainen joidenkin vastustajien käyttämiä aktiivisia hyökkäyksiä tai liikenneanalyysiä ajatellen. Kuitenkin selaamiseesi seuraaminen muuttuu paljon työläämmäksi. </p>
 <p>Jotkin verkkosivut (kuten Gmail) tarjoavat automaattisesti HTTPS-tuen, mutta käyttäen HTTPS Everywhere -lisäosaa olet myös turvassa SSL-salauksen purkamiseen pyrkiviltä hyökkäyksiltä, joissa hyökkääjä piilottaa sivujen HTTPS-version koneeltasi, jos yrität ensin käyttää HTTP-versiota. </p>
 <p>Lisätietoa löydät osoitteesta: <a href="https://www.eff.org/https-everywhere">https://www.eff.org/https-everywhere</a>.</p>
@@ -39,7 +39,7 @@
 <p>Jos ylläpidät verkkosivua ja tuet HTTPS-yhteyttä, olisi hyvä tapa ilmoittaa sivusi viralliseen HTTPS Everywhere-julkaisuun.</p>
 <h2>Adblock Plus</h2>
 <p>Adblock Plus (<a href="http://www.adblockplus.org">http://www.adblockplus.org</a>) on pääasiallisesti tarkoitettu mainosten poistamiseen verkkosivuilta. Mutta sillä voidaan myös poistaa muuta sisältöä, joka voi seurata sinua. Uusimpien uhkien poistamiseen Adblock Plus käyttää vapaaehtoisten ylläpitämiä mustia listoja.</p>
-<p><span class="Apple-style-span" style="font-family: Arial, verdana, sans-serif; font-size: 14px; font-weight: bold;">Lisätietoa nörteille: kuinka Adblock Plus blokkaa osoitteita? </span></p>
+<p>Lisätietoa nörteille: kuinka Adblock Plus blokkaa osoitteita? </p>
 <p><img src="http://fi.flossmanuals.net/kirjoita/internet-tietoturvan-perusteet/_draft/_v/1.0/static/Pictogram_Information.png" alt="Huomaa!" width="128" height="128" align="left">Tässä tapauksessa varsinaisen työn tekee Gecko, moottori, jonka avulla Firefox, Thunderbird ja muut sovellukset toimivat. Sen avulla voidaan toteuttaa "sisältösääntöjä." Sisältösääntö on vain JavaScript (tai C++)-olio, jota kutsutaan aina, kun selaimen täytyy ladata jotain. Sen jälkeen se voi katsoa osoitetta, joka pitäisi ladata, ja muita tietoja, sekä päättää voidaanko ne sallia. On olemassa joukko sisäänrakennettuja sisältösääntöjä (joiden avulla määritellään, mitä sivuja estetään altaamasta kuvia Firefoxiin tai SeaMonkeyhin). Lisäosa voi rekisteröidä sääntöjä. Adblock Plus -lisäosan täytyy vain rekisteröidä sisältösääntö, jolloin sovelluksen logiikka päättää mitkä osoitteet estetään. Suodattimien asetukset tehdään käyttöliittymän koodin avulla. </p>
 <h3>Adblock Plus -lisäosan käyttö</h3>
 <p>Kun olet asentanut Firefoxin:</p>
@@ -88,7 +88,6 @@
 <h2>Muita turvallisuuttasi parantavia lisäosia </h2>
 <p>Alla on lista lisäosista, joita ei käsitellä tässä kirjassa, mutta joista voi olla apua lisäsuojan saamisessa. </p>
 <p style="text-align: justify;"><img src="http://fi.flossmanuals.net/kirjoita/internet-tietoturvan-perusteet/_draft/_v/1.0/static/flagfox.png" alt="Flagfox" width="32" height="32" align="left"><strong>Flagfox</strong> - laittaa sijaintipalkkiin tiedon, joka kertoo missä maassa palvelin sijaitsee. https://addons.mozilla.org/en-US/firefox/addon/flagfox/</p>
-<p style="text-align: justify;"> </p>
 <p><strong><img src="http://fi.flossmanuals.net/kirjoita/internet-tietoturvan-perusteet/_draft/_v/1.0/static/betterprivacy.png" alt="BetterPrivacy" width="32" height="32" align="left">BetterPrivacy</strong> - hallinnoi "evästeitä", joilla sinua tarkkaillaan, kun käyt verkkosivuilla. Evästeet ovat pieniä selaimeesi tallennettavia tiedonjyviä. Mainostajat voivat käyttää niitä tarkkailemaan millaisilla sivuilla käyt. https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/</p>
 <p><strong><img src="http://fi.flossmanuals.net/kirjoita/internet-tietoturvan-perusteet/_draft/_v/1.0/static/GoogleSharing.png" alt="GoogleSharing" width="32" height="32" align="left">GoogleSharing</strong> - Jos pelkäät Googlen tietävän selaushistoriasi, tämä lisäosa auttaa sinua estämään sen. https://addons.mozilla.org/en-us/firefox/addon/googlesharing/</p></div><ul Class="menu-goes-here"><li Class="booki-section">Johdanto</li><li><a href="/internet-tietoturvan-perusteet/index">Johdanto</a></li>
 <li><a href="/internet-tietoturvan-perusteet/ch002_why-use-a-manual-on-internet-security">Miksi käyttää internet-tietoturvaopasta?</a></li>
@@ -109,7 +108,7 @@
 <li><a href="/internet-tietoturvan-perusteet/ch021_protecting-your-internet-passwords">Internet-salasanojen suojaaminen</a></li>
 <li><a href="/internet-tietoturvan-perusteet/ch022_extending-firefox">Firefoxin laajentaminen</a></li>
 <li><a href="/internet-tietoturvan-perusteet/ch023_proxy-setting-and-foxyproxy">Välityspalvelimet ja FoxyProxy</a></li>
-<li Class="booki-section">TOR</li><li><a href="/internet-tietoturvan-perusteet/ch025_using-tor">Torin käyttö</a></li>
+<li Class="booki-section">The Onion Router</li><li><a href="/internet-tietoturvan-perusteet/ch025_using-tor">TOR-opas</a></li>
 <li Class="booki-section">Sähköpostin tietoturvan perusteet</li><li><a href="/internet-tietoturvan-perusteet/ch027_introduction-to-e-mail-safety">Johdanto sähköpostin tietoturvaan</a></li>
 <li><a href="/internet-tietoturvan-perusteet/ch028_start-using-thunderbird-mail">Thunderbird-sähköpostin käyttö</a></li>
 <li><a href="/internet-tietoturvan-perusteet/ch029_setting-up-secure-connections">Salattujen yhteyksien luominen</a></li>
